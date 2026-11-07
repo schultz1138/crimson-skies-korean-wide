@@ -1,0 +1,136 @@
+# Crimson Skies Korean & Widescreen Patch
+
+[한국어](README.md) | **English**
+
+An unofficial community patch for **Crimson Skies: High Road to Revenge**:
+native bottom-screen Korean subtitles, widescreen resolutions, HUD alignment,
+and a fix that preserves AA at 4K.
+
+**[Download 0.11.0 beta 1](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.11.0-beta.1)** ·
+[Build from source](docs/REPRODUCING.en.md) ·
+[Contribute another language](docs/LOCALIZATION.en.md)
+
+> Supports the exact **Windows x64 packaged build 2608.3123.1.0**.
+> You must provide your own game. Full campaign playthrough verification is
+> still incomplete, so the patch is released as a beta.
+
+## Features
+
+- Built-in bottom-screen Korean radio and in-engine cinematic subtitles, with line breaks.
+- Movie and credits subtitle data, plus CS Korean Sans derived from Noto Sans CJK KR Bold.
+- Eleven internal render resolutions, from 640×480 to 3840×2160, with automatic 4:3/16:9 selection.
+- Alignment fixes for the radar map, rocket count, enemy health bars, and pause-menu objective box.
+- Preservation of the selected AA option at 4K.
+- SHA-256 input verification, installation-before backups, resume/recovery, and restoration.
+
+Resolution choices control **internal rendering**. The final presentation follows
+the game window and monitor; selecting 4K on a 1080p display downscales the result.
+
+## Install or restore
+
+1. Download **`CrimsonSkies-KO-Wide-0.11.0-beta.1.zip`** from the release page.
+   GitHub's automatically generated `Source code` archives are not installers.
+2. Save your progress, close the game and the launcher containing the Play button,
+   and extract the entire ZIP.
+3. Run `KoreanWidePatchInstaller.exe`, select the game folder or its `Content`
+   folder, check its state, and install the integrated patch.
+4. Launch the game normally and select **한국어 (Korean)** as the game language.
+   No separate subtitle program or system-wide font installation is required.
+
+The current installer UI is Korean:
+
+| Button | Meaning |
+| --- | --- |
+| 폴더 선택 | Select folder |
+| 상태 검사 | Check installation state |
+| 통합 패치 설치 | Install integrated patch |
+| 설치 전 상태로 복구 | Restore the state before this version was installed |
+
+Supported starting states are the exact stock files or the public Korean beta
+`0.10.0-beta.1`. Unknown mixtures, other builds and unrelated modifications are
+rejected. Installation/recovery recommends about 2GB of combined extra free space
+on the game and backup drives. Per-user backups are stored under
+`%LOCALAPPDATA%\CrimsonSkiesKoreanPatch\Backups`.
+
+Restoration returns to the **installation-before state**: stock if installed from
+stock, or the older Korean beta if upgraded from that beta. Keep older installers
+and their backups if you also want to undo the older patch. Save files are not
+read or changed. An already-matching installation without this installer's own
+backup cannot acquire a stock restore history merely by running it again.
+
+## Complete source build
+
+The public pipeline builds the game targets from authored text, timing tables,
+font configuration, assembly and PE generators. Previously released VCDIFFs and
+finished DLLs are not reconstruction inputs.
+
+| Location | Purpose |
+| --- | --- |
+| `pipeline/assets/` | Extract owned inputs; edit subtitle/UI data; rasterize fonts; rebuild Data0000/Data0005 |
+| `pipeline/assets/localization/` | Editable Korean text, timing and semantic database edit recipes |
+| `pipeline/native/` | Radio AOT, bottom captions, HUD, resolutions, GPU/4K AA and PE generation |
+| `source/` | Complete C# installer/recovery source |
+| `pipeline/package_release.py` | Generate six deltas, compile the installer and reproduce the release ZIP |
+| `pipeline/requirements-win-cp312.txt` | Hash-locked Windows x64 / CPython3.12 dependencies |
+| `licenses/` | Font, installer, xdelta and bundled dependency notices |
+
+After preparing the environment in the [English build guide](docs/REPRODUCING.en.md):
+
+```powershell
+.\.venv\Scripts\python.exe pipeline\build.py --input-content D:\CrimsonSkies-original\Content --dependencies .deps --out D:\CrimsonSkies-build-001
+```
+
+Use an unmodified owned input copy and a new, separate output directory.
+`--game-only` skips installer/ZIP packaging; it still enforces the canonical
+Korean output hashes. It is not a custom-language mode.
+
+The immutable `source-v0.11.0-beta.1-r1` snapshot is the original verified source
+release. The `source-v0.11.0-beta.1-r2` snapshot adds English documentation and
+localization guidance with the same build inputs. Download the named source ZIP
+from the release page or clone this repository. `hooks/` contains earlier
+reference listings; the complete authoring pipeline is in `pipeline/`.
+
+## Other languages and contributions
+
+Translations, subtitle timing reviews, font coverage work, reproducible bug
+reports and code improvements are welcome. See [CONTRIBUTING.en.md](CONTRIBUTING.en.md)
+and the [localization porting guide](docs/LOCALIZATION.en.md).
+
+The current release contains **Korean subtitles**. Its runtime and release recipe
+are tied to the Korean resource slot and canonical Korean hashes. The source can
+serve as a starting point for a language port, but adding another language requires
+reviewed data/font changes and a separately versioned build. A runtime language
+selector or a `--language` build option has not been implemented.
+
+## Verification and known limits
+
+The installer passed 191 independent controls and two full-size stock/older-beta
+install→restore roundtrips. Source reconstruction reproduced the five final game
+files, source-built older-beta Native, three fonts, six deltas, installer and all
+28 release members. The complete installer ZIP is byte-identical to the accepted
+beta. See the [independent source-reproduction record](docs/source-reproduction.json).
+
+Tutorial subtitles, the Sea Haven boss cinematic and a subsequent mission, HUD
+alignment, and final 4K/4x MSAA gameplay received user confirmation. Remaining limits:
+
+- Every scene through the ending has not been verified in actual play.
+- Four short foreign-language shouts still need their exact original wording identified.
+- The final 4K report did not record the exact mission or play duration.
+- Physical 4K-monitor presentation and long sessions across different PCs need further testing.
+- The source audit used Python-level access tracing, source review and pinned tools;
+  it was not an OS security sandbox or a trace of every native-library I/O operation.
+
+Installer ZIP SHA-256:
+
+```text
+a53382986c5e78aa189a8936249d9771bed7d357019e31c8b219c904f304dc42
+```
+
+## Licensing
+
+The installer and directly authored source are [MIT-licensed](LICENSE).
+The converted fonts use SIL OFL 1.1; xdelta3 3.2.2 and its bundled dependencies
+retain their own licenses. Read [FONT-NOTICE.txt](FONT-NOTICE.txt),
+[THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt), and `licenses/` before redistributing.
+The MIT license does not grant rights to the original game, audio, video or trademarks.
+This project is not affiliated with Microsoft or the original developers.

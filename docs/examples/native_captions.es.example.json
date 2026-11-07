@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "entries": [
+    {
+      "basename": "ax_act_bravery_001_soloho.wav",
+      "audio": "AX_Act_Bravery_001_SOLOHO.wav",
+      "duration": 13.417097505668934,
+      "parts": [
+        {
+          "key": "KR_CINE_AX_ACT_BRAVERY_001_SOLOHO",
+          "text": "Soloho: Esta es la prueba de valor.",
+          "offset": 0
+        },
+        {
+          "key": "KR_CINE_AX_ACT_BRAVERY_001_SOLOHO_2",
+          "text": "Soloho: Atrae el dirigible Bandit al cañón.",
+          "offset": 2.4
+        },
+        {
+          "key": "KR_CINE_AX_ACT_BRAVERY_001_SOLOHO_3",
+          "text": "Soloho: Luego derríbalo con el cañón antiaéreo.",
+          "offset": 5.0
+        },
+        {
+          "key": "KR_CINE_AX_ACT_BRAVERY_001_SOLOHO_4",
+          "text": "Soloho: Pero hay una condición.",
+          "offset": 7.9
+        },
+        {
+          "key": "KR_CINE_AX_ACT_BRAVERY_001_SOLOHO_5",
+          "text": "Soloho: El avión que usarás como señuelo\nno llevará armas.",
+          "offset": 9.9
+        }
+      ]
+    }
+  ]
+}

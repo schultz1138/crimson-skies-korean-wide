@@ -1,5 +1,7 @@
 # Crimson Skies 한국어·와이드스크린 통합 패치
 
+**한국어** | [English](README.en.md)
+
 **Crimson Skies: High Road to Revenge**의 하단 한국어 자막, 4:3·16:9 해상도 선택,
 HUD 보정과 4K AA 수정을 묶은 비공식 커뮤니티 패치입니다.
 
@@ -37,7 +39,7 @@ HUD 보정과 4K AA 수정을 묶은 비공식 커뮤니티 패치입니다.
 ## 공개 소스와 전체 재현 빌드
 
 **[소스 재현 가이드](docs/REPRODUCING.ko.md)** · [독립 재현 결과](docs/source-reproduction.json) ·
-[재현용 소스 스냅샷](https://github.com/schultz1138/crimson-skies-korean-wide/tree/source-v0.11.0-beta.1-r1)
+[재현용 소스 스냅샷](https://github.com/schultz1138/crimson-skies-korean-wide/tree/source-v0.11.0-beta.1-r2)
 
 - `pipeline/assets/`: 읽을 수 있는 번역·타이밍·글꼴 설정, 원본 추출과 Data0000·Data0005 생성
 - `pipeline/native/`: 무전 자막 AOT·UI/HUD·해상도·GPU·4K AA 코드 및 PE 생성
@@ -62,7 +64,7 @@ Windows x64 / Python3.12 환경에서 가이드의 의존성을 준비한 뒤 �
 
 `hooks/`에는 이전 공개 시점의 핵심 후크 참고 목록도 남아 있습니다. 실제 전체
 생성 파이프라인은 `pipeline/`을 사용하세요. 기존 `v0.11.0-beta.1` 태그는 보존하며,
-전체 재현 소스는 `source-v0.11.0-beta.1-r1` 스냅샷 또는 릴리즈의 별도 소스 ZIP을 받으세요.
+전체 재현 소스는 `source-v0.11.0-beta.1-r2` 스냅샷 또는 릴리즈의 별도 소스 ZIP을 받으세요.
 
 ## 검증과 알려진 범위
 
@@ -84,6 +86,13 @@ a53382986c5e78aa189a8936249d9771bed7d357019e31c8b219c904f304dc42
 
 재현 가능한 자막 누락·오탈자·HUD 문제 제보와 설치기 개선 PR을 환영합니다.
 [CONTRIBUTING.md](CONTRIBUTING.md)를 참고하세요.
+
+## 다른 언어 자막 기여
+
+[영어 기여 안내](CONTRIBUTING.en.md)와 [언어 포팅 가이드](docs/LOCALIZATION.en.md)에
+번역·타이밍·글꼴 수정 위치와 예제를 정리했습니다. 현재 빌드는 한국어 리소스 슬롯과
+기존 출력 해시에 고정되어 있어, 새 언어는 리소스·글꼴·버전/검증값을 함께 정리한
+별도 포팅이 필요합니다. 자동 언어 프로필이나 추가 언어 선택 UI는 구현되어 있지 않습니다.
 
 ## 라이선스
 

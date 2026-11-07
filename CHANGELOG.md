@@ -1,5 +1,12 @@
 # Changelog
 
+## Documentation r2 — 2026-11-07
+
+- English README, source-build and contribution guides with Korean/English navigation
+- Other-language subtitle porting guide covering source locations, timing, font coverage and versioned validation
+- Illustrative Spanish caption entry; no new runtime locale or language-loader feature
+- Same verified pipeline/installer source inputs and accepted beta artifacts
+
 ## Source pipeline r1 — 2026-11-07
 
 - 자막·글꼴·Native/GPU/메뉴 및 배포 ZIP의 전체 소스 생성 파이프라인 공개
