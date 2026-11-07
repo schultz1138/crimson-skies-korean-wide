@@ -1,5 +1,13 @@
 # Crimson Skies 한국어·와이드스크린 통합 패치
 
+## 0.12.2 알파 1: 프로필 백업·삭제·복원
+
+**[0.12.2 알파 다운로드](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.12.2-alpha.1)** · [프로필 관리자 안내](docs/PROFILE_MANAGER.ko.md)
+
+런처에서 선택한 프로필만 ZIP으로 백업하고, 백업 검증·확인 후 삭제하거나 백업 ZIP에서 복원할 수 있습니다. 기존 프로필은 덮어쓰지 않으며 다른 프로필과 공유 타이틀 데이터를 검증합니다. 중단 작업 복구도 포함합니다. Windows x64 **2608.3123.1.0**과 백업의 원래 계정·저장소 환경을 지원합니다.
+
+자막 언어팩을 적용하려면 **0.11.0 베타 1 기반 패치를 먼저 설치**하세요. 기존 0.12 사용자는 게임과 Play 창을 닫고 새 ZIP을 별도 폴더에 풀어 사용할 수 있습니다. 기존 언어팩 카탈로그와 복구 식별자는 유지됩니다. [512개 합성 검증 및 별도 저장 공급자 시험 기록](docs/profile-manager-verification.json) · [공개 테스트 실행 안내](multilingual/tests/profile_manager/README.md).
+
 **한국어** | [English](README.en.md)
 
 **Crimson Skies: High Road to Revenge**의 하단 한국어 자막, 4:3·16:9 해상도 선택,

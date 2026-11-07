@@ -7,7 +7,10 @@ explicit bundle allowlist is distributable. Nothing is installed or launched.
 from pathlib import Path
 import argparse,hashlib,importlib.util,json,os,shutil,stat,struct,subprocess,sys,zipfile
 sys.dont_write_bytecode=True
+# Runtime catalog/receipt identity is immutable for existing0.12 installations.
 RELEASE='CrimsonSkies-Multilingual-0.12.0-alpha.1'
+DISTRIBUTION='CrimsonSkies-Multilingual-0.12.2-alpha.1'
+PROFILE_DOCS=['docs/PROFILE_MANAGER.en.md','docs/PROFILE_MANAGER.ko.md']
 TOOL_SHA='732980d52f9220dc81817ccdd0c295eadce8a0048a24c2a771a73f791ac824e9'
 FONT_SHA='26d0c6748500a0444844280b308f5b62c7ae92ac6c6ac88148e502dd211eb52a'
 MANIFEST_SHA='f80c775038edd5673fee39362d5e82e607353ceb0ee59bfeea2776172ba4251e'
@@ -19,7 +22,7 @@ FOUNDATION={NATIVE:'45c2c716da6c01f0937ce922dbfe2de89a3a9dfb163578757cfc5c5cc7e6
  'VGPUDX12.dll':'f4d7784a007919a1e397405340855ac539c76f4abccfc6ecf8edebb2ed9835aa',
  'EmuMenu/Assets/TitleMenuData.json':'200b609e7b279c25814fb42ed1dd1cdcd6f3203b670dc3b05749a6ee26686265'}
 LICENSES=['BLAKE3-LICENSE-Apache.txt','FONT-NOTICE.txt','Installer-MIT.txt','OFL-NotoSansCJK.txt','THIRD-PARTY-NOTICES.txt','xdelta-LICENSE.txt','XZ-COPYING.txt','XZ-LICENSE-0BSD.txt']
-CS=['MultilingualCore.cs','MenuAndSettings.cs','MultilingualUi.cs']
+CS=['MultilingualCore.cs','MenuAndSettings.cs','MultilingualUi.cs','ProfileManagerUi.cs','ProfileManagerBackend.cs','ProfileStore.cs','ProfileBackup.cs','ProfileOperations.cs','ProfileTombstone.cs','ProfileRestoreImage.cs','ProfileRestoreOperations.cs']
 ENGLISH={'ko-KR':'Korean (baseline)','en-US':'English (partial starter)','es-ES':'Spanish (5-part sample)'}
 DELTA_NAMES=['native.vcdiff','data0000.vcdiff','data0005.vcdiff']
 MAX_DELTA=16*1024*1024
@@ -107,14 +110,14 @@ def compile_launcher(repo,stage,private,catalog_sha,skip,csc=None):
  for i,name in enumerate(CS):
   source=repo/'multilingual/launcher'/name;require(source.is_file(),'Launcher source not ready: '+name);source_hashes[name]=digest(source);destination=compiler/('s'+str(i)+'.cs');shutil.copyfile(source,destination);require(digest(destination)==source_hashes[name],'Launcher source changed while copying');short.append(destination.name)
  output=compiler/'MultilingualLauncher.exe';require(len(str(output))<250,'Use a shorter --out path for the legacy Windows C# compiler')
- command=[csc,'/nologo','/codepage:65001','/target:winexe','/optimize+','/r:System.Windows.Forms.dll','/r:System.Drawing.dll','/r:System.Web.Extensions.dll','/r:System.Xml.dll','/r:System.Core.dll','/out:MultilingualLauncher.exe',*short,pin.name]
+ command=[csc,'/nologo','/codepage:65001','/target:winexe','/optimize+','/r:System.Windows.Forms.dll','/r:System.Drawing.dll','/r:System.Web.Extensions.dll','/r:System.Xml.dll','/r:System.Core.dll','/r:System.IO.Compression.dll','/r:System.IO.Compression.FileSystem.dll','/r:System.Security.dll','/out:MultilingualLauncher.exe',*short,pin.name]
  execute('compile-owned-launcher',command,private/'logs/launcher.log',300,compiler)
  seed=hashlib.sha256((catalog_sha+''.join(k+v for k,v in sorted(source_hashes.items()))).encode('ascii')).hexdigest();identity=normalize_launcher(output,repo,seed)
  shutil.copyfile(output,stage/output.name)
  return dict(compiled=True,distributable=True,compilerSha256=digest(csc),sourceHashes=source_hashes,catalogSha256=catalog_sha,identity=identity)
 
 def bundle_readme():
- return RELEASE+'\n\nRequires the installed CrimsonSkies-KO-Wide-0.11.0-beta.1 foundation (all five exact target files). This add-on does not upgrade stock games.\n\nSave your progress and close both the game and the original Play window. Open MultilingualLauncher.exe, select the game folder and a language pack, click Check, then Apply & open. The tool applies the matching Native/Data0000/Data0005 set and opens the original Play window. It never closes the game for you.\n\nRestore returns to the canonical 0.11 Korean foundation, NOT to the stock game. Existing backups made by the old 0.11 installer are kept; use that installer for its original stock recovery workflow. Before using a rebuilt catalog or adding a new language bundle, use the old exact launcher to Restore 0.11 first. Keep the old bundle and its backups.\n\nEnglish and Spanish are explicitly partial examples. Missing entries fall back to Korean (ko-KR). Original audio and timing are unchanged.\n\nEnglish guide: https://github.com/schultz1138/crimson-skies-korean-wide/blob/main/docs/MULTILINGUAL.en.md\nKorean guide: https://github.com/schultz1138/crimson-skies-korean-wide/blob/main/docs/MULTILINGUAL.ko.md New languages are built from declarative source packs.\n\nThis bundle contains forward deltas, a pinned xdelta tool and the owned patch launcher. It contains no original/complete game DLLs, Data volumes, fonts or movies.\n'
+ return DISTRIBUTION+'\n\nRequires the installed CrimsonSkies-KO-Wide-0.11.0-beta.1 foundation (all five exact target files). This add-on does not upgrade stock games.\n\nSave your progress and close both the game and the original Play window. Open MultilingualLauncher.exe, select the game folder and a language pack, click Check, then Apply & open. The tool applies the matching Native/Data0000/Data0005 set and opens the original Play window. It never closes the game for you.\n\nRestore returns to the canonical 0.11 Korean foundation, NOT to the stock game. Existing backups made by the old 0.11 installer are kept; use that installer for its original stock recovery workflow. Before using a rebuilt catalog or adding a new language bundle, use the old exact launcher to Restore 0.11 first. Keep the old bundle and its backups.\n\nEnglish and Spanish are explicitly partial examples. Missing entries fall back to Korean (ko-KR). Original audio and timing are unchanged.\n\nEnglish guide: https://github.com/schultz1138/crimson-skies-korean-wide/blob/main/docs/MULTILINGUAL.en.md\nKorean guide: https://github.com/schultz1138/crimson-skies-korean-wide/blob/main/docs/MULTILINGUAL.ko.md New languages are built from declarative source packs.\n\nProfile Manager: close the game and original Play window, click Profiles, refresh, and select one profile. Back up selected creates a verified ZIP. Backup + delete asks for the selected name and removes its local profile/progress only after a verified backup. Other profiles are revalidated. If interrupted, use the explicit Recover button before opening the game. Restore ZIP first inspects a selected manager backup, displays the source profile and destination, and requires a default-No confirmation. An existing profile or identity/name conflict is refused without overwrite. The original account and exact save-store context must match; the ZIP file itself may be moved. Other profiles are preserved and revalidated. Restore ZIP is separate from Recover, which only handles interrupted manager transactions. Keep the backup ZIP and recovery records. See docs/PROFILE_MANAGER.en.md or docs/PROFILE_MANAGER.ko.md. This version supports only packaged x64 build2608.3123.1.0 and the validated experimental WGS format; unsupported metadata fails closed. No Microsoft SDK is required to use the tool.\n\nThis bundle contains forward deltas, a pinned xdelta tool and the owned patch launcher. It contains no original/complete game DLLs, Data volumes, fonts or movies.\n'
 
 def finish_distribution(stage,output,allowed,summary,skip_launcher):
  actual={p.relative_to(stage).as_posix()for p in stage.rglob('*')if p.is_file()};require(actual==allowed-{'CHECKSUMS.sha256'},'Unexpected or missing public bundle members: '+str(actual^(allowed-{'CHECKSUMS.sha256'})))
@@ -123,10 +126,10 @@ def finish_distribution(stage,output,allowed,summary,skip_launcher):
  inventory=[dict(path=n,bytes=(stage/n).stat().st_size,sha256=digest(stage/n))for n in sorted(allowed)]
  archive=None
  if not skip_launcher:
-  archive=output/(RELEASE+'.zip')
+  archive=output/(DISTRIBUTION+'.zip')
   with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9)as zipped:
    for n in sorted(allowed):
-    info=zipfile.ZipInfo(RELEASE+'/'+n,(2026,11,7,0,0,0));info.compress_type=zipfile.ZIP_DEFLATED;info.create_system=3;info.external_attr=(stat.S_IFREG|0o644)<<16;zipped.writestr(info,(stage/n).read_bytes(),compress_type=zipfile.ZIP_DEFLATED,compresslevel=9)
+    info=zipfile.ZipInfo(DISTRIBUTION+'/'+n,(2026,11,7,0,0,0));info.compress_type=zipfile.ZIP_DEFLATED;info.create_system=3;info.external_attr=(stat.S_IFREG|0o644)<<16;zipped.writestr(info,(stage/n).read_bytes(),compress_type=zipfile.ZIP_DEFLATED,compresslevel=9)
   archive.with_suffix(archive.suffix+'.sha256').write_text(digest(archive)+'  '+archive.name+'\n','ascii')
  return archive,inventory
 
@@ -152,7 +155,7 @@ def bundle_build(original,dependencies,output,repo,pack_root=None,skip_launcher=
  execute('source-build-canonical0.11',[sys.executable,'-B',pipeline/'build.py','--input-content',original,'--dependencies',dependencies,'--out',canonical,'--game-only'],logs/'canonical.log')
  base=canonical/'generated-content'
  for name,pin in FOUNDATION.items():require(digest(base/name)==pin,'Source-built0.11 foundation differs: '+name)
- stage=output/('staging-only'if skip_launcher else'bundle')/RELEASE;stage.mkdir(parents=True);(stage/'tools').mkdir();shutil.copyfile(tool,stage/'tools/xdelta3.exe')
+ stage=output/('staging-only'if skip_launcher else'bundle')/DISTRIBUTION;stage.mkdir(parents=True);(stage/'tools').mkdir();shutil.copyfile(tool,stage/'tools/xdelta3.exe')
  catalog=dict(schema=1,releaseId=RELEASE,tool=dict(path='tools/xdelta3.exe',sha256=TOOL_SHA),packs=[]);private_reports=[];allowed={'tools/xdelta3.exe','catalog.json','CHECKSUMS.sha256','README.txt','build-summary.json','LICENSE'}
  allowed.add('STAGING-NOT-DISTRIBUTABLE.txt'if skip_launcher else'MultilingualLauncher.exe')
  decode=private/'decode';decode.mkdir()
@@ -183,13 +186,16 @@ def bundle_build(original,dependencies,output,repo,pack_root=None,skip_launcher=
  for name in LICENSES:
   source=repo/'licenses'/name;require(source.is_file(),'Required upstream notice missing: '+name);dest=stage/'licenses'/name;dest.parent.mkdir(exist_ok=True);shutil.copyfile(source,dest);allowed.add('licenses/'+name)
  shutil.copyfile(repo/'LICENSE',stage/'LICENSE')
+ for name in PROFILE_DOCS:
+  destination=stage/name;destination.parent.mkdir(exist_ok=True);shutil.copyfile(repo/name,destination);allowed.add(name)
  (stage/'README.txt').write_text(bundle_readme(),'utf8')
  for name,pin in before.items():require(digest(original/name)==pin,'An original source file changed during the build')
  require(digest(tool)==TOOL_SHA,'Tool changed during the build')
  summary=dict(schema=1,releaseId=RELEASE,distributable=not skip_launcher,catalogSha256=catalog_sha,foundationRequired=FOUNDATION,sourceBuiltFoundation=True,publishedDeltasUsedAsInputs=False,gameOrSettingsModified=False,originalFiveInputsUnchanged=True,packCount=len(entries),deltaCount=sum(bool(f['delta'])for p in catalog['packs']for f in p['files']),launcher=launcher)
+ summary['distributionId']=DISTRIBUTION
  write(stage/'build-summary.json',summary)
  archive,inventory=finish_distribution(stage,output,allowed,summary,skip_launcher)
- result=dict(schema=1,status='PASS'if not skip_launcher else'STAGING_ONLY',releaseId=RELEASE,distributable=not skip_launcher,bundle=str(stage),archive=None if archive is None else dict(path=str(archive),bytes=archive.stat().st_size,sha256=digest(archive)),catalogSha256=catalog_sha,summary=summary,inventory=inventory,privatePackOutputs=private_reports)
+ result=dict(schema=1,status='PASS'if not skip_launcher else'STAGING_ONLY',releaseId=RELEASE,distributionId=DISTRIBUTION,distributable=not skip_launcher,bundle=str(stage),archive=None if archive is None else dict(path=str(archive),bytes=archive.stat().st_size,sha256=digest(archive)),catalogSha256=catalog_sha,summary=summary,inventory=inventory,privatePackOutputs=private_reports)
  write(output/'build-report.json',result);return result
 
 def repackage_verified(previous,repo,output,csc=None):
@@ -215,7 +221,7 @@ def repackage_verified(previous,repo,output,csc=None):
    require(f['path']==FILES[i],'Prior game file order/path differs')
    if f['delta']is not None:require(f['delta']=='patches/'+id+'-'+DELTA_NAMES[i],'Prior delta path is not the compiled flat allowlist');expected.add(f['delta'])
  require('ko-KR'in ids,'Canonical Korean pack missing')
- inventory={x['path']:x for x in prior['inventory']};require(set(inventory)==expected,'Prior public inventory is not the complete fixed allowlist')
+ inventory={x['path']:x for x in prior['inventory']};prior_docs=set(inventory)&set(PROFILE_DOCS);require(not prior_docs or prior_docs==set(PROFILE_DOCS),'Prior profile documentation set is incomplete');expected.update(prior_docs);require(set(inventory)==expected,'Prior public inventory is not the complete fixed allowlist')
  actual={x.relative_to(source).as_posix()for x in source.rglob('*')if x.is_file()};require(actual==expected,'Unexpected prior bundle files')
  for name,record in inventory.items():
   path=(source/name).resolve();require(path.is_relative_to(source)and path.stat().st_size==record['bytes']and digest(path)==record['sha256'],'Prior bundle hash/size changed: '+name)
@@ -224,12 +230,15 @@ def repackage_verified(previous,repo,output,csc=None):
  for pack in catalog['packs']:
   content=previous/'work/packs'/pack['id']/'Content'
   for f in pack['files']:require((content/f['path']).stat().st_size==f['bytes']and digest(content/f['path'])==f['sha256'],'Private source-built variant target is missing/changed')
- output.mkdir(parents=True);private=output/'work';private.mkdir();stage=output/'bundle'/RELEASE;stage.mkdir(parents=True)
+ output.mkdir(parents=True);private=output/'work';private.mkdir();stage=output/'bundle'/DISTRIBUTION;stage.mkdir(parents=True)
  for name in sorted(expected-{'MultilingualLauncher.exe','CHECKSUMS.sha256','build-summary.json','README.txt'}):
   target=stage/name;target.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(source/name,target)
  # Re-read current notices like the full source path, never copy arbitrary files.
  for name in LICENSES:shutil.copyfile(repo/'licenses'/name,stage/'licenses'/name)
- shutil.copyfile(repo/'LICENSE',stage/'LICENSE');(stage/'README.txt').write_text(bundle_readme(),'utf8')
+ shutil.copyfile(repo/'LICENSE',stage/'LICENSE');expected.update(PROFILE_DOCS)
+ for name in PROFILE_DOCS:
+  target=stage/name;target.parent.mkdir(exist_ok=True);shutil.copyfile(repo/name,target)
+ (stage/'README.txt').write_text(bundle_readme(),'utf8')
  decode=private/'decode';decode.mkdir();tool=stage/'tools/xdelta3.exe';require(digest(tool)==TOOL_SHA,'Wrong pinned delta tool')
  for pack in catalog['packs']:
   for i,f in enumerate(pack['files']):
@@ -238,9 +247,9 @@ def repackage_verified(previous,repo,output,csc=None):
    reconstructed=decode/(pack['id']+'-'+str(i)+'.bin');execute('reverify-'+pack['id']+'-'+str(i),[tool,'-d','-D','-R','-s',base/f['path'],stage/f['delta'],reconstructed],private/'logs'/('decode-'+pack['id']+'-'+str(i)+'.log'),300)
    require(reconstructed.stat().st_size==f['bytes']and digest(reconstructed)==f['sha256'],'Prior delta no longer reconstructs its exact source-built target')
  require(digest(stage/'catalog.json')==prior['catalogSha256'],'Packaging-only mode cannot change the catalog')
- launcher=compile_launcher(repo,stage,private,prior['catalogSha256'],False,csc);summary=dict(prior['summary']);summary['launcher']=launcher;write(stage/'build-summary.json',summary)
+ launcher=compile_launcher(repo,stage,private,prior['catalogSha256'],False,csc);summary=dict(prior['summary']);summary['launcher']=launcher;summary['distributionId']=DISTRIBUTION;write(stage/'build-summary.json',summary)
  archive,members=finish_distribution(stage,output,expected,summary,False)
- result=dict(schema=1,status='PASS',releaseId=RELEASE,distributable=True,bundle=str(stage),archive=dict(path=str(archive),bytes=archive.stat().st_size,sha256=digest(archive)),catalogSha256=prior['catalogSha256'],summary=summary,inventory=members,privatePackOutputs=prior['privatePackOutputs'],packagingOnlyRebuild=True,sourceBuildReportSha256=digest(previous/'build-report.json'),sourceCatalogByteExact=True,gameTargetsRebuilt=False,verifiedPrivateSourceBuild=str(previous))
+ result=dict(schema=1,status='PASS',releaseId=RELEASE,distributionId=DISTRIBUTION,distributable=True,bundle=str(stage),archive=dict(path=str(archive),bytes=archive.stat().st_size,sha256=digest(archive)),catalogSha256=prior['catalogSha256'],summary=summary,inventory=members,privatePackOutputs=prior['privatePackOutputs'],packagingOnlyRebuild=True,sourceBuildReportSha256=digest(previous/'build-report.json'),sourceCatalogByteExact=True,gameTargetsRebuilt=False,verifiedPrivateSourceBuild=str(previous))
  write(output/'build-report.json',result);return result
 
 if __name__=='__main__':

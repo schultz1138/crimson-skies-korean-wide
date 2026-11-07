@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "releaseTag": "v0.12.2-alpha.1",
+  "status": "PASS",
+  "syntheticAssertions": 512,
+  "cohorts": [
+    {
+      "name": "store",
+      "assertions": 105
+    },
+    {
+      "name": "backup",
+      "assertions": 38
+    },
+    {
+      "name": "operations",
+      "assertions": 60
+    },
+    {
+      "name": "adversarial",
+      "assertions": 49
+    },
+    {
+      "name": "restore",
+      "assertions": 40
+    },
+    {
+      "name": "restore-recovery",
+      "assertions": 33
+    },
+    {
+      "name": "cross-version",
+      "assertions": 3
+    },
+    {
+      "name": "ui",
+      "assertions": 53
+    },
+    {
+      "name": "restore-ui",
+      "assertions": 116
+    },
+    {
+      "name": "launch-guard",
+      "assertions": 13
+    }
+  ],
+  "productionSourceSha256": {
+    "ProfileStore.cs": "2c9c6847ba4b8241c406cd505388a425d82cc422ce41e49be5836001d1de70a1",
+    "ProfileBackup.cs": "c70aa47ec485dc46cbc560acf5ea9d426d3be25ec988901c4c68768dcb65477a",
+    "ProfileTombstone.cs": "812d6b7655b137d54fdda949ead60721bd146ca1457b5e171a467fc7833e1914",
+    "ProfileOperations.cs": "cfba85a0bc84ca5fc44cd84fc75860f65de4f028a9462205a3b689846e637068",
+    "ProfileRestoreImage.cs": "de95cc33149edb28a583eb0d8fc095a6d506744a7e268b2616883585ac39ac7a",
+    "ProfileRestoreOperations.cs": "30855580ab1a6d45a89fb6c9ebc05f756d8e8f1e5cb74ff0b9dd483471171314",
+    "ProfileManagerBackend.cs": "a5dad2e06a38c9691c8e3269d59bf6cd61b35d03cea115acc8f4707e0c07166a",
+    "ProfileManagerUi.cs": "6ddd3fa5f7d49156c3cb4fd1475f15280198de9b60a894099d75d1f4c7e87bc1",
+    "MultilingualUi.cs": "3d2b9b78c4d3b21d8fb9f820ba0079f01344d563c79b71422f363df9f45e923f",
+    "MultilingualCore.cs": "3aae05cfe9d1476cad288120e4270a36ca783079df4f74ebe6f49275a5d8fcb2",
+    "MenuAndSettings.cs": "3a94b239ada31bb8329a7f95bdb7a90187954a855ec29a1101f96598688f6d72"
+  },
+  "publicTests": "multilingual/tests/profile_manager/README.md",
+  "providerObservations": "docs/profile-restore-runtime-protocol.json",
+  "runtimeZip": {
+    "file": "CrimsonSkies-Multilingual-0.12.2-alpha.1.zip",
+    "bytes": 295965,
+    "sha256": "2df31bec74a03b386ed520af037085fe67924c36290261a02c525ee578b4bb48"
+  },
+  "launcherSha256": "4aeb14c6c2729375d390caeee4aa5a254c80ba7602c28389792c6812dccbec05",
+  "catalogSha256": "4ecfe12614a761a09c6c09dc5b930b60e80fbdaf5426e587cdfd7213cefe8a86",
+  "repeatedLauncherAndPackageByteExact": true,
+  "existingGamePayloadsUnchanged": true,
+  "scope": "Synthetic native-profile fixtures plus separate real provider tests using a non-game auxiliary in one account/store; no restored user-profile gameplay claim.",
+  "excluded": [
+    "original game files",
+    "user saves/backups and account IDs",
+    "Microsoft SDK tools",
+    "private runtime exports and disassembly"
+  ]
+}

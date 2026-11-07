@@ -1,5 +1,8 @@
 # Subtitle language packs — 0.12 alpha
 
+> The 0.12.2 alpha release adds selected backup-ZIP restoration to [Profile Manager](PROFILE_MANAGER.en.md), refusing existing-profile conflicts. Its distribution version changes, while the 0.12.0 catalog bytes/recovery namespace remain compatible. Historical verification hashes in `multilingual-verification.json` describe the original 0.12 release.
+
+
 [한국어](MULTILINGUAL.ko.md) | **English** · [README](../README.en.md)
 
 This alpha adds declarative translation packs and a language selector in an owned
@@ -10,7 +13,7 @@ The original `0.11.0-beta.1` Korean/widescreen release and its reproducible sour
 pipeline are unchanged. This add-on requires that exact installed foundation and
 Windows packaged x64 game build **2608.3123.1.0**.
 
-[Download the 0.12 alpha add-on](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.12.0-alpha.1).
+[Download the 0.12 alpha add-on](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.12.2-alpha.1).
 
 ## Included languages
 
@@ -28,7 +31,7 @@ The launcher shows the translated/total counts before applying a pack.
 
 1. Install [0.11.0 beta 1](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.11.0-beta.1)
    if the exact five foundation files are not already installed.
-2. Extract the entire `CrimsonSkies-Multilingual-0.12.0-alpha.1.zip` to a writable
+2. Extract the entire `CrimsonSkies-Multilingual-0.12.2-alpha.1.zip` to a writable
    local folder. Keep its catalog, patches, tools and notices together.
 3. Save your progress and close both the game and its original Play window.
 4. Run `MultilingualLauncher.exe`, select the game folder or `Content`, then
@@ -81,8 +84,8 @@ previously released patches or finished game DLLs as reconstruction inputs.
 
 | Output below `--out` | Use |
 | --- | --- |
-| `CrimsonSkies-Multilingual-0.12.0-alpha.1.zip` | Distributable add-on |
-| `bundle/CrimsonSkies-Multilingual-0.12.0-alpha.1/` | Same public payload unpacked |
+| `CrimsonSkies-Multilingual-0.12.2-alpha.1.zip` | Distributable add-on |
+| `bundle/CrimsonSkies-Multilingual-0.12.2-alpha.1/` | Same public payload unpacked |
 | `build-report.json` | File identities and build result; may contain private absolute paths |
 | `work/` | Private original-dependent full targets, extracted context, logs and intermediate files |
 

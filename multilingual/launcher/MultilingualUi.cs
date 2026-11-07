@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 using System.Web.Script.Serialization;
 using System.Windows.Forms;
 
-[assembly: AssemblyVersion("0.12.0.1")]
-[assembly: AssemblyFileVersion("0.12.0.1")]
+[assembly: AssemblyVersion("0.12.2.1")]
+[assembly: AssemblyFileVersion("0.12.2.1")]
 [assembly: AssemblyTitle("Crimson Skies Subtitle Language Packs")]
 
 namespace CrimsonSkiesMultilingual
@@ -37,12 +37,13 @@ namespace CrimsonSkiesMultilingual
         readonly Button apply = new Button();
         readonly Button play = new Button();
         readonly Button restore = new Button();
+        readonly Button profiles = new Button();
         readonly PackEngine engine;
         bool busy;
 
         public LanguageForm()
         {
-            Text = "Crimson Skies 자막 언어팩 / Subtitle Languages — Alpha";
+            Text = "Crimson Skies 자막·프로필 관리 / Subtitles & Profiles — 0.12.2 Alpha";
             Width = 960; Height = 620; MinimumSize = new Size(850, 560);
             StartPosition = FormStartPosition.CenterScreen;
             var layout = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 1, RowCount = 7, Padding = new Padding(12) };
@@ -76,7 +77,8 @@ namespace CrimsonSkiesMultilingual
             apply.Text = "언어 적용 / Apply"; apply.Width = 155;
             play.Text = "적용 후 실행 / Apply && open"; play.Width = 220;
             restore.Text = "0.11 복구 / Restore 0.11"; restore.Width = 205;
-            foreach (Button button in new[] { check, apply, play, restore }) { button.Height = 34; buttons.Controls.Add(button); }
+            profiles.Text = "프로필 관리 / Profiles"; profiles.Width = 205;
+            foreach (Button button in new[] { check, apply, play, restore, profiles }) { button.Height = 34; buttons.Controls.Add(button); }
             layout.Controls.Add(buttons, 0, 4);
             output.Dock = DockStyle.Fill; output.Multiline = true; output.ReadOnly = true;
             output.ScrollBars = ScrollBars.Both; output.WordWrap = false; layout.Controls.Add(output, 0, 5);
@@ -93,6 +95,7 @@ namespace CrimsonSkiesMultilingual
             apply.Click += async delegate { await Run("--activate", false); };
             play.Click += async delegate { await Run("--activate", true); };
             restore.Click += async delegate { await Run("--restore", false); };
+            profiles.Click += delegate { OpenProfiles(); };
             FormClosing += delegate(object sender, FormClosingEventArgs args) { if (busy) args.Cancel = true; };
         }
 
@@ -134,6 +137,19 @@ namespace CrimsonSkiesMultilingual
             if (InvokeRequired) { BeginInvoke((Action)(delegate { AppendLog(message); })); return; }
             output.AppendText(message + Environment.NewLine);
         }
+        void OpenProfiles()
+        {
+            if (busy) return;
+            string selectedRoot = root.Text;
+            busy = true;
+            foreach (Control control in new Control[] { root, choices, browse, check, apply, play, restore, profiles }) control.Enabled = false;
+            try { ProfileManagerUi.Open(this, selectedRoot); }
+            finally
+            {
+                busy = false;
+                foreach (Control control in new Control[] { root, choices, browse, check, apply, play, restore, profiles }) control.Enabled = true;
+            }
+        }
         async Task Run(string mode, bool open)
         {
             if (busy) return;
@@ -141,9 +157,11 @@ namespace CrimsonSkiesMultilingual
             if (choice == null) return;
             string selectedRoot = root.Text, selectedId = choice.Pack.id;
             busy = true;
-            foreach (Control control in new Control[] { root, choices, browse, check, apply, play, restore }) control.Enabled = false;
+            foreach (Control control in new Control[] { root, choices, browse, check, apply, play, restore, profiles }) control.Enabled = false;
             try
             {
+                var launchGuard = ProfileManagerUi.BeforeGameLaunch;
+                if (open && launchGuard != null) await launchGuard(selectedRoot);
                 await Task.Run(delegate { engine.Run(mode, selectedRoot, selectedId, open); });
                 if (mode == "--activate") SavePreferences(selectedRoot, selectedId);
             }
@@ -151,7 +169,7 @@ namespace CrimsonSkiesMultilingual
             finally
             {
                 busy = false;
-                foreach (Control control in new Control[] { root, choices, browse, check, apply, play, restore }) control.Enabled = true;
+                foreach (Control control in new Control[] { root, choices, browse, check, apply, play, restore, profiles }) control.Enabled = true;
             }
         }
     }
@@ -161,6 +179,7 @@ namespace CrimsonSkiesMultilingual
         [STAThread]
         public static int Main(string[] args)
         {
+            ProfileManagerServices.Configure();
             if (args.Length == 0)
             {
                 Application.EnableVisualStyles(); Application.SetCompatibleTextRenderingDefault(false);
@@ -183,6 +202,8 @@ namespace CrimsonSkiesMultilingual
                 }
                 if (mode == null || selectedRoot == null || (mode == "--activate" && id == null) || (open && mode != "--activate"))
                     throw new ArgumentException("Specify a mode/root and a pack ID for activation; --open applies only to activation.");
+                var launchGuard = ProfileManagerUi.BeforeGameLaunch;
+                if (open && launchGuard != null) launchGuard(selectedRoot).GetAwaiter().GetResult();
                 new PackEngine(AppDomain.CurrentDomain.BaseDirectory, Console.WriteLine).Run(mode, selectedRoot, id, open);
                 return 0;
             }

@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "supportedPackageVersion": "2608.3123.1.0",
+  "indexFormat": 14,
+  "testTarget": "owned disposable non-game auxiliary container",
+  "existingNativeProfiles": 3,
+  "existingActiveBlobs": 9,
+  "creationAcknowledgedByActualGameProvider": true,
+  "syncedCreationState": 1,
+  "selectedTombstoneState": 3,
+  "selectedPhysicalFolderRemovedFromLiveStore": true,
+  "officialReaderExcludesDeletedAuxiliary": true,
+  "subsequentGameProviderConsumedTombstone": true,
+  "auxiliaryIndexRecordAbsentAfterSync": true,
+  "existingLogicalBlobSizesAndSha256Unchanged": true,
+  "existingUserProfilesDeleted": 0,
+  "sdkRuntimeRequiredByProduct": false,
+  "scope": "One observed local account/store and exact supported Windows game build; no general claim for arbitrary WGS versions. Private SDK binaries, exports, account IDs and save data are excluded from distributions."
+}

@@ -1,5 +1,13 @@
 # Crimson Skies Korean & Widescreen Patch
 
+## 0.12.2 alpha 1: profile backup, deletion and restoration
+
+**[Download 0.12.2 alpha](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.12.2-alpha.1)** · [Profile Manager guide](docs/PROFILE_MANAGER.en.md)
+
+Back up one selected profile to ZIP, delete it after backup verification and confirmation, or restore a missing profile from its backup. Existing profiles are never overwritten; other profiles and shared title data are verified. Interrupted-operation recovery is included. Supports Windows x64 **2608.3123.1.0** and the backup's original account/save-store context.
+
+Subtitle language packs require the installed **0.11.0 beta 1 foundation**. Existing 0.12 users can close the game and Play window and extract this bundle into a new folder. The language catalog and recovery identity remain unchanged. [512 synthetic assertions and separate provider observations](docs/profile-manager-verification.json) · [Run the public tests](multilingual/tests/profile_manager/README.md).
+
 [한국어](README.md) | **English**
 
 An unofficial community patch for **Crimson Skies: High Road to Revenge**:

@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "supportedPackageVersion": "2608.3123.1.0",
+  "indexVersion": 14,
+  "metadataVersion": 4,
+  "scope": "One observed account/store; owned non-game auxiliary with two small payloads. This is storage-provider evidence, not a restored user-profile gameplay test.",
+  "absentRestore": {
+    "newContainerState": 5,
+    "newStorageGuid": true,
+    "pendingBlobMetadata": "zero remote GUID, fresh local GUID",
+    "officialReaderPayloadExact": true,
+    "actualGameProviderNormalizedToSyncedState1": true
+  },
+  "retainedTombstoneRestore": {
+    "oldState": 3,
+    "newState": 2,
+    "currentStorageGuidAndEtagPreserved": true,
+    "nextMetadataRevision": true,
+    "changedPayloadsReadBackExactly": true,
+    "actualGameProviderNormalizedToSyncedState1": true
+  },
+  "otherLocalIndexRecordsByteExactBeforeProviderSync": true,
+  "allPreexistingActiveLogicalPayloadsUnchanged": true,
+  "preexistingDeletionMarkersHandledByNormalProviderSync": true,
+  "ownedAuxiliaryAbsentAfterCleanupSync": true,
+  "userProfilesDeletedOrRestoredByTest": 0,
+  "productionUi": {
+    "existing0121BackupInspected": true,
+    "confirmationDefaultNoObserved": true,
+    "cancelledWithoutRestoringUserProfile": true,
+    "existingProfileOverwriteRefused": true
+  },
+  "sdkRequiredByProduct": false,
+  "privateSdkBinariesExportsAndSaveDataIncluded": false
+}

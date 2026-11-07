@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.12.2-alpha.1 — 2026-11-08
+
+- Selected-profile ZIP backups and confirmation-gated deletion; other profiles and shared title data remain intact
+- Restore missing profiles from verified backups, with read-only preview, same-account/store binding and no overwrite option
+- Recover interrupted delete/restore transactions, including recognized 0.12.1 pending deletes; preserve concurrent provider updates
+- Keep the 0.12.0 catalog/receipt identity and existing game/language payloads; package as a separate 0.12.2 launcher bundle
+- 512 self-contained Windows/NTFS assertions, separate owned-auxiliary provider round trips and byte-identical repeated launcher/package builds
+- Bilingual usage/build guidance and public profile-manager tests; no game files, user saves or Microsoft SDK utilities distributed
+
 ## 0.12.0-alpha.1 — 2026-11-07
 
 - Declarative JSON language packs, automatic locale discovery and Korean fallback

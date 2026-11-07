@@ -1,5 +1,8 @@
 # 자막 언어팩 — 0.12 알파
 
+> 0.12.2 알파 릴리즈는 [프로필 관리자](PROFILE_MANAGER.ko.md)에 선택 백업 ZIP 복원을 추가하며, 같은 프로필이 있으면 중단합니다. 배포 버전만 바꾸고 0.12.0 카탈로그 바이트·복구 공간은 유지합니다. `multilingual-verification.json`의 기존 해시는 원래 0.12 릴리즈 검증 기록입니다.
+
+
 **한국어** | [English](MULTILINGUAL.en.md) · [README](../README.md)
 
 번역 JSON을 추가하고 패치 런처에서 자막 언어를 고르는 구조입니다. 게임을 닫은
@@ -9,7 +12,7 @@
 기존 `0.11.0-beta.1` 한글·와이드 통합판과 재현 빌드 경로는 그대로 유지됩니다.
 이번 추가 기능은 그 통합판이 설치된 **Windows 패키지 x64 2608.3123.1.0**용입니다.
 
-[0.12 알파 추가 기능 다운로드](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.12.0-alpha.1)
+[0.12 알파 추가 기능 다운로드](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.12.2-alpha.1)
 
 ## 포함된 언어
 
@@ -26,7 +29,7 @@
 ## 사용 방법
 
 1. 기존 통합판이 없다면 [0.11.0 베타 1](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.11.0-beta.1)을 먼저 설치합니다.
-2. `CrimsonSkies-Multilingual-0.12.0-alpha.1.zip` 전체를 쓰기 가능한 로컬 폴더에
+2. `CrimsonSkies-Multilingual-0.12.2-alpha.1.zip` 전체를 쓰기 가능한 로컬 폴더에
    풉니다. 카탈로그·패치·도구·고지 파일을 함께 두세요.
 3. 진행 상황을 저장하고 게임과 기존 ‘플레이’ 창을 모두 닫습니다.
 4. `MultilingualLauncher.exe`를 열고 게임 폴더 또는 `Content`를 지정한 뒤
@@ -75,8 +78,8 @@ ID를 `-locale ko-KR`로 연결합니다. 게임 내장 영어 로케일을 직�
 
 | `--out` 아래 경로 | 용도 |
 | --- | --- |
-| `CrimsonSkies-Multilingual-0.12.0-alpha.1.zip` | 배포 가능한 추가 기능 |
-| `bundle/CrimsonSkies-Multilingual-0.12.0-alpha.1/` | 동일한 배포 파일 폴더 |
+| `CrimsonSkies-Multilingual-0.12.2-alpha.1.zip` | 배포 가능한 추가 기능 |
+| `bundle/CrimsonSkies-Multilingual-0.12.2-alpha.1/` | 동일한 배포 파일 폴더 |
 | `build-report.json` | 빌드 결과와 파일 해시; 개인 절대 경로가 포함될 수 있음 |
 | `work/` | 원본에 의존하는 전체 게임 파일·문맥·중간 파일·로그; 비공개 유지 |
 
