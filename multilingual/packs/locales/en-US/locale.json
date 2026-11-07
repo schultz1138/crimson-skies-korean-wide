@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "id": "en-US",
+  "displayName": "English (partial starter)",
+  "version": "0.12.0-alpha.1",
+  "base": "ko-KR",
+  "status": "partial",
+  "overlays": [
+    "translations.json"
+  ],
+  "font": {
+    "source": "noto-cjk-kr-bold-2.004",
+    "extraCodepoints": []
+  }
+}

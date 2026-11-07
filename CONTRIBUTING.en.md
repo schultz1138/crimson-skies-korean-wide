@@ -33,7 +33,7 @@ listings; it is not the complete authoring entry point.
 
 ## Translate into another language
 
-Start with the [localization porting guide](docs/LOCALIZATION.en.md). Describe the
+Start with the [0.12 language-pack guide](docs/MULTILINGUAL.en.md). Describe the
 target language, script, intended resource slot and scope: campaign radio,
 tutorial, cinematics, UI and/or credits. Partial translation drafts are useful
 when their coverage and untranslated entries are explicit.
@@ -41,12 +41,14 @@ when their coverage and untranslated entries are explicit.
 Preserve audio identities and lookup keys. Submit readable UTF-8 translation
 data and record timing/font changes. For review, a separate language-labelled
 draft is preferable to silently overwriting the canonical Korean corpus.
-Such draft files are not automatically loaded by the current build.
+The multilingual builder automatically discovers declarative packs below
+`multilingual/packs/locales`, resolves missing entries to Korean, checks glyphs
+and packages the launcher choices. Include the pack source and actual coverage;
+do not submit full generated game files.
 
-The current code has no generic `--language` profile loader or extra runtime
-language selector. A buildable port also needs coordinated font/resource,
-code-generation and release-recipe changes. Complex shaping and right-to-left
-scripts need additional renderer investigation and testing.
+The immutable 0.11 pipeline still enforces its canonical Korean hashes. Use the
+separate `multilingual/build.py` entry point for language variants. Complex
+shaping and right-to-left scripts need additional renderer work and testing.
 
 Keep upstream copyright and license notices with redistributed derived fonts
 or dependencies. Do not commit original game assets or completed game DLLs.

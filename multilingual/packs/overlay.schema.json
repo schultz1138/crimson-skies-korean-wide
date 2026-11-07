@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "overlay.schema.json",
+  "title": "Text-only localization overlay",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "nativeCaptions",
+    "strings"
+  ],
+  "properties": {
+    "schema": {
+      "const": 1
+    },
+    "nativeCaptions": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 255
+      }
+    },
+    "strings": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 255,
+        "pattern": "^[^\"\\\\\\r\\n]+$"
+      }
+    }
+  }
+}

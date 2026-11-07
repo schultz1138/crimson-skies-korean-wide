@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "status": "FROZEN",
+  "sourceFile": {
+    "path": "native_variant.py",
+    "sha256": "d2fdd5468f1aa71a09fb44f6f828879e63f2cea1f14e7d9c36a41ce390849b2f"
+  },
+  "expectedNativeOutputs": [
+    {
+      "id": "ko-KR",
+      "bytes": 42328576,
+      "sha256": "45c2c716da6c01f0937ce922dbfe2de89a3a9dfb163578757cfc5c5cc7e65f44"
+    },
+    {
+      "id": "en-US",
+      "bytes": 42564096,
+      "sha256": "64c63b289f41ffa21000787446a54b1c3a32a1f0766e609b24c264e24df694f8"
+    },
+    {
+      "id": "es-ES",
+      "bytes": 42564096,
+      "sha256": "5652b1f327c2106d430a9095301d270b5390ee4e3c4d85604fdb5896a54b9f35"
+    }
+  ],
+  "verification": "../../docs/multilingual-verification.json",
+  "behavior": {
+    "identityForUnchangedText": true,
+    "changedDataSection": ".cslang",
+    "newExecutableBytes": 0,
+    "maximumAppendedLanguageBytes": 2097152,
+    "originalAudioAndTimingPreserved": true,
+    "requiresCoherentDataFiles": true
+  }
+}

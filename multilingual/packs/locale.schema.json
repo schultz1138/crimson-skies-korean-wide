@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "locale.schema.json",
+  "title": "Crimson Skies declarative source locale pack",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "id",
+    "displayName",
+    "version",
+    "base",
+    "status",
+    "overlays",
+    "font"
+  ],
+  "properties": {
+    "schema": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]{2,3}(?:-[A-Z][a-z]{3})?(?:-[A-Z]{2}|-[0-9]{3})?$"
+    },
+    "displayName": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(?:-[a-z0-9.]+)?$"
+    },
+    "base": {
+      "const": "ko-KR"
+    },
+    "status": {
+      "enum": [
+        "baseline",
+        "partial",
+        "complete"
+      ]
+    },
+    "overlays": {
+      "type": "array",
+      "maxItems": 8,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "font": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source",
+        "extraCodepoints"
+      ],
+      "properties": {
+        "source": {
+          "const": "noto-cjk-kr-bold-2.004"
+        },
+        "extraCodepoints": {
+          "type": "array",
+          "maxItems": 4096,
+          "uniqueItems": true,
+          "items": {
+            "type": "integer",
+            "minimum": 32,
+            "maximum": 65535
+          }
+        }
+      }
+    }
+  }
+}

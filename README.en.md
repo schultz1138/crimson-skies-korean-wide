@@ -8,7 +8,11 @@ and a fix that preserves AA at 4K.
 
 **[Download 0.11.0 beta 1](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.11.0-beta.1)** ·
 [Build from source](docs/REPRODUCING.en.md) ·
-[Contribute another language](docs/LOCALIZATION.en.md)
+[Contribute another language](docs/MULTILINGUAL.en.md)
+
+New: [0.12 multilingual alpha](docs/MULTILINGUAL.en.md), a separately versioned
+add-on with declarative language packs and launcher selection. English/Spanish
+are partial contributor examples.
 
 > Supports the exact **Windows x64 packaged build 2608.3123.1.0**.
 > You must provide your own game. Full campaign playthrough verification is
@@ -99,8 +103,12 @@ and the [localization porting guide](docs/LOCALIZATION.en.md).
 The current release contains **Korean subtitles**. Its runtime and release recipe
 are tied to the Korean resource slot and canonical Korean hashes. The source can
 serve as a starting point for a language port, but adding another language requires
-reviewed data/font changes and a separately versioned build. A runtime language
-selector or a `--language` build option has not been implemented.
+reviewed data/font changes and a separately versioned build. Those limits describe the immutable 0.11 release.
+
+The new [0.12 multilingual alpha](docs/MULTILINGUAL.en.md) adds declarative pack
+discovery and a patch-launcher language selector on top of that foundation.
+It includes Korean plus explicitly partial English/Spanish examples.
+The existing 0.11 build remains unchanged.
 
 ## Verification and known limits
 

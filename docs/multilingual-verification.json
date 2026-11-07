@@ -1,0 +1,173 @@
+{
+  "schema": 1,
+  "releaseId": "CrimsonSkies-Multilingual-0.12.0-alpha.1",
+  "status": "PASS_AUTOMATED_AND_LAUNCH_SMOKE",
+  "independentOfflineVerification": {
+    "schema": "multilingual-independent-verification-summary-v1",
+    "status": "PASS",
+    "releaseId": "CrimsonSkies-Multilingual-0.12.0-alpha.1",
+    "baseRequired": "CrimsonSkies-KO-Wide-0.11.0-beta.1",
+    "architecture": "Owned patch launcher selects and transactionally applies a coherent data-only caption variant with game and original launcher stopped, then opens the original Play launcher. No watcher, proxy or original managed-DLL modification.",
+    "testedSourceSha256": {
+      "MultilingualCore.cs": "3aae05cfe9d1476cad288120e4270a36ca783079df4f74ebe6f49275a5d8fcb2",
+      "MenuAndSettings.cs": "3a94b239ada31bb8329a7f95bdb7a90187954a855ec29a1101f96598688f6d72",
+      "MultilingualUi.cs": "7be4d0f55e3b8df356615ead2532b5dda75eba01143e64228c023e635ff47369",
+      "compile.py": "e37f4481c6524d7327364ef11907de3a885119df51ea4414f8f680edaddf6014",
+      "validation.py": "0288bc73127c644bdc108b43a2967436777bc143008a51310de6bffd10d5e698",
+      "native_variant.py": "d2fdd5468f1aa71a09fb44f6f828879e63f2cea1f14e7d9c36a41ce390849b2f"
+    },
+    "outcomesByLayer": {
+      "strictPackSchemaTextAndFormatting": 60,
+      "sourceBuiltPackAndSerializedAssetChecks": 30,
+      "actualNativeMachineContractChecks": 55,
+      "semanticRejectAndNewLocaleChecks": 13,
+      "actualCompiledMenuSettingsHelperChecks": 50,
+      "actualTransactionRecoveryFixtureChecks": 124,
+      "actualNtfsJunctionBoundaryChecks": 4
+    },
+    "countingNote": "Separate layers are reported independently. Machine execution count is not added to contract outcome counts. Partial transaction masks deduplicate unchanged Data0000.",
+    "actualMachineExecution": {
+      "executions": 5584,
+      "fullCorpusLookups": 5415,
+      "locales": [
+        "ko-KR",
+        "en-US",
+        "es-ES"
+      ],
+      "additionalUnpublishedLocale": "de-DE",
+      "translatedAndKoFallbackParts": true,
+      "negativeNanExpiryAndIndexBounds": true,
+      "highGuestStackAndOutputAddresses": true,
+      "outputCanariesAndNonvolatileGprStackPreservation": true,
+      "tutorialFormatterExactAndUnmatchedText": true,
+      "oldNativeBytesConfinedToPeMetadataAndFourRipDisplacements": true,
+      "newNativeExecutableBytes": 0
+    },
+    "actualPackOutputs": {
+      "canonicalKoNativeData0Data5ByteExactTo011": true,
+      "englishNativeExplicitParts": 1,
+      "spanishNativeExplicitParts": 5,
+      "otherPartsUseExactKoreanFallback": true,
+      "newSpanishAccentsPresentInActualRadioBmf": true,
+      "protectedSixCreditsBackplatesExact": true,
+      "originalUiMissingGlyphRejected": true,
+      "newLocaleFromOneJsonOverlayNoSourceEdits": {
+        "id": "de-DE",
+        "published": false,
+        "translatedParts": 1,
+        "glyphAutomaticallyAdded": "U+00FC",
+        "actualEmittedPartServiceExecuted": true
+      },
+      "all1805AudioAnd1901TimedPartIdentitiesPreserved": true
+    },
+    "launcherAndTransactionEvidence": {
+      "stableIdOptionsAndForcedKoResourceCarrier": true,
+      "dynamicOptionsSentinel": "cs-subtitle-pack-v1",
+      "originalPositionalSystemLabelBypass": "Original source CIL gate plus helper assertion; coordinator physical UI smoke is separate.",
+      "currentAaAudioScalingAndUnrelatedSettingsPreserved": true,
+      "selectiveRestoreAndConcurrentRollback": true,
+      "bothGameAndOriginalLauncherStoppedGuards": true,
+      "launchStartFailureRestoresFoundationOrPreviousActivePack": true,
+      "immutableFoundationBackups": true,
+      "distinctPartialStateChecks": 64,
+      "partialStateDimensions": "8 distinct changed-file vectors × 2 settings states × 2 receipt states × resume/restore",
+      "forgedUnrelatedSettingsJournalSnapshotRejected": true,
+      "unknownMixedUnownedAndTamperedInputsRefused": true,
+      "catalogUpgradeRequiresOldOwningRestoreAndSeparatesBackups": true,
+      "sourceUnchangedDuringFinal124CaseRun": true,
+      "portableFixtureSources": [
+        "run_core_fixtures.py",
+        "CoreFixtureRunner.cs"
+      ],
+      "fixtureClamps": [
+        "synthetic foundation/host identity hashes and lengths",
+        "synthetic menu foundation hash",
+        "all settings/backup paths",
+        "process inventory and original-launch callback",
+        "fault injection",
+        "short backup resolver retaining root/release/catalog separation"
+      ],
+      "fixtureDeltaTool": "Real pinned official xdelta3, not a decode stub"
+    },
+    "finalBundle": {
+      "sha256": "4b5123bbc469988aac580397c0230e7a4c666cd97fd0036c32dc9a4f372f930a",
+      "bytes": 241996,
+      "members": 22,
+      "catalogSha256": "4ecfe12614a761a09c6c09dc5b930b60e80fbdaf5426e587cdfd7213cefe8a86",
+      "launcherSha256": "af095694103c5a8bf94d64e9e86abef30456ad2c5c9f429d11a118de2d5814c8",
+      "catalogPinAndTestedSourceHashesVerified": true,
+      "actualForwardDeltaDecodes": 4,
+      "allReconstructedTargetsMatchIndependentSourceBuiltVariants": true,
+      "licenseFilesByteExact": 9,
+      "noFullGameFilesPrivatePathsCachesOrUnexpectedExecutables": true
+    },
+    "evidenceSha256": {
+      "pack-validation-results.json": "fe85dc26835d5740af56ab6ea9a44ed45510ce9dfe6ce58ae9209117eed4a7c6",
+      "pack-compiler-results.json": "f107748067b1e1cea9b678d9b22fc0d0d2f7f839f6c1d88e06c9508658b6b7fa",
+      "native-execution-results.json": "7d9d63d5be3b729ae2a0ffa9e8fd45ffaf18dd8855599ceb1f687f345d4c2a86",
+      "pack-semantics-results.json": "80f7d78a20a77853cb81cb95b97f0f408bd4c867505a83eda4b4d583b8fefd5e",
+      "menu-settings-results.json": "03ba9b9038e0f676562bcc33b39efaff823e4d0ca4402123e0eaa243c7781aac",
+      "core3/results.json": "d3ae7997ce00aa3de4bbb7cddf076534a4239107ffe3d9833557e2307076f44c",
+      "reparse-results.json": "e507b88fec1f25c49378a931d4350229b9b00d1a1473df7b25ae685a68abe333",
+      "final-bundle-audit.json": "699c80726817c61b2b9fe44496f1bf37f9e406bb2d2a9c01d33f7f03b3b895e6"
+    },
+    "scopeLimits": [
+      "This agent accessed no installed game, real user settings, running game process or original launcher.",
+      "Transactions use synthetic Content files with explicit fixture seams; actual full-size apply/open/restore and physical UI checks are recorded separately by the coordinator.",
+      "Native machine-code tests use synthetic Unicorn memory, not the game renderer, Bink player or audio lifecycle.",
+      "English and Spanish are partial examples, not complete translations. German is a one-part unpublished QA extension fixture.",
+      "Physical subtitle/glyph rendering, complete campaign localization and end-to-ending gameplay are not established by these offline checks."
+    ]
+  },
+  "sourceBuild": {
+    "canonical011PipelineInputsByteUnchanged": 76,
+    "stockToCanonicalAndAllThreeVariants": "PASS full source build, followed by launcher-only correction/repackage",
+    "freshForwardDeltaDecodes": 4,
+    "finalBuilderSha256": "4bb264dfed5b14dc35a2e68e71cace3e1e938c6f227472bbb9ff37fb43c15b5a",
+    "canonicalAndVariantGenerationAstUnchangedAfterPackagingCorrection": true,
+    "twoIndependentFinalLauncherCompilationsByteExact": true,
+    "twoFinalPackagingRunsByteExact": true,
+    "finalArchiveSha256": "4b5123bbc469988aac580397c0230e7a4c666cd97fd0036c32dc9a4f372f930a",
+    "identityNormalization": {
+      "coffTimestamp": true,
+      "moduleMvid": true,
+      "compilerOwnedPrivateImplementationTypeGuid": true,
+      "ilAndOtherMetadataByteExact": true
+    }
+  },
+  "coordinatorProductionTrial": {
+    "schema": 1,
+    "status": "PASS",
+    "bundleSha256": "4b5123bbc469988aac580397c0230e7a4c666cd97fd0036c32dc9a4f372f930a",
+    "launcherSha256": "af095694103c5a8bf94d64e9e86abef30456ad2c5c9f429d11a118de2d5814c8",
+    "actualProductionExeUnmodified": true,
+    "fullSizeSequence": [
+      "0.11 foundation",
+      "en-US + original Play window",
+      "es-ES",
+      "ko-KR",
+      "Restore 0.11"
+    ],
+    "allVariantTargetsVerified": true,
+    "originalPackagedMenuObserved": true,
+    "originalVisibleGameLanguage": "en-US",
+    "originalSettingsContextVerified": true,
+    "observedResolution": "1920x1080",
+    "observedAA": "off",
+    "launchArgumentCarrier": "-locale ko-KR",
+    "gameBoot": "Xbox boot and attract intro/video with Korean fallback subtitles observed; no saved mission loaded",
+    "actualEnglishRadioOrSpanishPlayback": "NOT_TESTED",
+    "completeCampaign": "NOT_TESTED",
+    "allEightTrackedGameHostFilesRestoredByteExact": true,
+    "settingsRestoredByteExact": true,
+    "unpackagedSettingsCreated": false,
+    "localUnicodePackagePathRoundtrip": "PASS",
+    "finalReleaseGuiReadOnlyCheck": "PASS; restored foundation reported; no activation performed"
+  },
+  "knownLimits": [
+    "English and Spanish are partial contributor examples, with Korean fallback.",
+    "The new English radio/tutorial cues and Spanish glyphs have not been reviewed in actual mission playback.",
+    "Boot/intro observations and synthetic native execution do not establish full campaign correctness.",
+    "The original 0.11 full ending-to-ending playthrough remains incomplete."
+  ]
+}

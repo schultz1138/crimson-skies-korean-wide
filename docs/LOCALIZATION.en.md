@@ -3,7 +3,13 @@
 [English README](../README.en.md) · [Build guide](REPRODUCING.en.md) ·
 [Contributing](../CONTRIBUTING.en.md)
 
-The published beta is a Korean patch. The source provides a starting point for
+For new language contributions, use the [0.12 language-pack workflow](MULTILINGUAL.en.md).
+It provides declarative overlays, automatic discovery, generated font coverage
+and selection through the owned patch launcher. The rest of this document records
+the lower-level **0.11 porting approach** and source locations; its limitations
+refer to that immutable release.
+
+The published 0.11 beta is a Korean patch. The source provides a starting point for
 another-language port, but the current build is not a general language-pack
 loader. There is no `--language` switch, automatic locale discovery, SRT importer
 or newly added runtime language selector.

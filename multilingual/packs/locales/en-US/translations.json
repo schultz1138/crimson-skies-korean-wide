@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "nativeCaptions": {
+    "KR_CINE_AX_ACT_BRAVERY_001_SOLOHO": "Soloho: This is the test of courage."
+  },
+  "strings": {
+    "Continue": "Continue",
+    "Quit": "Quit",
+    "Music": "Music",
+    "Sound_Effects": "Sound Effects",
+    "KR_SH_TUT_001": "Betty: Nathan, the Cajuns hid Pandora on the island ahead. Follow me.",
+    "KR_SH_TUT_002": "Betty: Almost there. Check your machine guns for any jams.",
+    "KR_SH_TUT_003": "Betty: Shoot a few of the big balloons in front of you.",
+    "I_miss_you_already.": "I miss you already.",
+    "KR_CREDITS_ROLE_001": "Project Director"
+  }
+}

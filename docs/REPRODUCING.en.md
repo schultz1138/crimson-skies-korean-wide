@@ -7,6 +7,10 @@ font settings and code generators. It then creates six new differential patches
 and the installer ZIP. It does not obtain its results by decoding the previously
 published patches or copying finished target DLLs.
 
+For the separately versioned multilingual add-on, prepare the same dependencies
+and follow [MULTILINGUAL.en.md](MULTILINGUAL.en.md). This page continues to
+reproduce the exact accepted 0.11 release.
+
 ## Required inputs
 
 - Windows x64 and **CPython3.12 x64**, with the hash-locked Windows wheels.

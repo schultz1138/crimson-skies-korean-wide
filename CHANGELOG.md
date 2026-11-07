@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.12.0-alpha.1 — 2026-11-07
+
+- Declarative JSON language packs, automatic locale discovery and Korean fallback
+- Korean baseline plus explicitly partial English/Spanish contributor examples
+- Source-generated glyph coverage, data volumes and read-only native text variants
+- Bilingual patch launcher: select/apply a pack, then open the original Play window
+- Recoverable four-file switches and selective game-language preference restoration
+- Separate add-on for the accepted 0.11 foundation; old releases/build inputs unchanged
+
 ## Documentation r2 — 2026-11-07
 
 - English README, source-build and contribution guides with Korean/English navigation
