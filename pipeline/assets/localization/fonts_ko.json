@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "member": "ca/res/fonts_ko.db",
+  "sourceSha256": "bca274a1a10c5269a5e198fc4645db69e64246ba91ca035c7b87e33b0dd1cc22",
+  "targetSha256": "f4ddc7cbfda06d930425a1a43019aaa0ae716c561762e89e0b671eb77bf600d4",
+  "stripDescriptions": false,
+  "appendStrings": [
+    "kradio19.bmf"
+  ],
+  "appendLocalNames": [],
+  "propertyEdits": [
+    {
+      "index": 18,
+      "property": {
+        "name": "filename",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 0,
+          "text": "kradio19.bmf"
+        }
+      }
+    }
+  ],
+  "newNodes": [],
+  "nodePlacement": "sortedRoot"
+}

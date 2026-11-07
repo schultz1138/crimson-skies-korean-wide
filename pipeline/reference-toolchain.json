@@ -1,0 +1,63 @@
+{
+  "referencePython": "3.12.14",
+  "referencePythonCompiler": "MSC v.1944 AMD64",
+  "referenceZlib": "1.3.2",
+  "referenceFrameworkCscVersion": "14.8.10001.0",
+  "installerIdentity": {
+    "timestamp": 1793987854,
+    "mvidHex": "72e46705c9ea94439d89703d9b907d3c",
+    "targetSha256": "14a7bc17ac4440aede259cbb7d2a91028836508d99159e24c67a2dae2de4ce24"
+  },
+  "frameworkFiles": [
+    {
+      "name": "csc.exe",
+      "bytes": 2569576,
+      "sha256": "eca02e6b15cde93009a59a3d129d5a77fb5008f2e1cf62cf573b6737c747ecc3"
+    },
+    {
+      "name": "csc.rsp",
+      "bytes": 1329,
+      "sha256": "e2021640c1f8ad500549fc89cd53bc4c2f0fa13fee9034714142d93c5d554042"
+    },
+    {
+      "name": "csc.exe.config",
+      "bytes": 182,
+      "sha256": "2d4610ade011e530d817dd3ba4fc787e5dc0c2297cc520c30a643b8fb13f9093"
+    },
+    {
+      "name": "mscorlib.dll",
+      "bytes": 5495096,
+      "sha256": "94715f6991e2b9dc7481532c05aa99e74a5fff4ee147be541bca27f99e003fc7"
+    },
+    {
+      "name": "System.dll",
+      "bytes": 3561272,
+      "sha256": "09787b4f38f4f020c6b8a3894146085d4df7b8ae337577ed42d9acf1419660e8"
+    },
+    {
+      "name": "System.Core.dll",
+      "bytes": 1540408,
+      "sha256": "d1bafee1a4dd7e7bd9adf6859e7b1b654d1b4e0d031a38795e33ba040508c09d"
+    },
+    {
+      "name": "System.Windows.Forms.dll",
+      "bytes": 5992288,
+      "sha256": "ce60e5fecf60f3f394988ca439084296ca099711d90a1e179fdaf4fb2d74ee50"
+    },
+    {
+      "name": "System.Drawing.dll",
+      "bytes": 588640,
+      "sha256": "182431d774d5b55f4c4eeda285fd61db39f49349e3673235bd9b3d5fbe865434"
+    },
+    {
+      "name": "System.Web.Extensions.dll",
+      "bytes": 1832288,
+      "sha256": "6f2545e5ba378f6836ea0fed1067d089181e27dbd3c81e9db418c8bb32e6af51"
+    },
+    {
+      "name": "System.Xml.dll",
+      "bytes": 2634552,
+      "sha256": "fd5bac1dbe02bc0e91eabdbaefb102f44c1a391269b856d97c39cef9851cb983"
+    }
+  ]
+}

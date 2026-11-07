@@ -34,23 +34,35 @@ HUD 보정과 4K AA 수정을 묶은 비공식 커뮤니티 패치입니다.
 복구는 **이 버전을 설치하기 직전 상태**로 돌아갑니다. 이전 한글 베타에서
 업그레이드했다면 복구 대상도 이전 베타입니다. [자세한 안내](읽어주세요.txt)를 확인하세요.
 
-## 공개 소스와 빌드
+## 공개 소스와 전체 재현 빌드
 
-- `source/`: 릴리즈 설치·복구 도구의 C# 전체 소스와 빌드 명령
-- `hooks/`: 최종 HUD 후크의 어셈블리 참고 목록, 전체 화면 상자 정책,
-  4K AA 버퍼 예산 헬퍼의 독립 코드 생성기
-- `patches/`, `manifest.json`: 검증된 정방향 VCDIFF 6개와 입력·출력 해시
+**[소스 재현 가이드](docs/REPRODUCING.ko.md)** · [독립 재현 결과](docs/source-reproduction.json) ·
+[재현용 소스 스냅샷](https://github.com/schultz1138/crimson-skies-korean-wide/tree/source-v0.11.0-beta.1-r1)
+
+- `pipeline/assets/`: 읽을 수 있는 번역·타이밍·글꼴 설정, 원본 추출과 Data0000·Data0005 생성
+- `pipeline/native/`: 무전 자막 AOT·UI/HUD·해상도·GPU·4K AA 코드 및 PE 생성
+- `source/`: 설치·복구 도구의 C# 전체 소스
+- `pipeline/package_release.py`: 새 결과에서 차분 6개·설치기·28개 파일의 배포 ZIP 재생성
+- `pipeline/requirements-win-cp312.txt`: Windows x64 / CPython3.12 의존성 휠 버전·해시 고정
 - `licenses/`: 글꼴·xdelta·정적 의존 라이브러리와 설치기 라이선스
 
-Windows .NET Framework의 C# 컴파일러로 `./build.ps1`을 실행하면 설치기를
-빌드할 수 있습니다. 실행에 필요한 `tools/xdelta3.exe`는 같은 버전의 설치용
-릴리즈 ZIP에서 가져오세요. 소스 빌드는 설치기만 만들며 게임·설정을 변경하지 않습니다.
-원본 게임 파일과 완성 DLL은 이 저장소에 포함하지 않습니다.
+빌드 입력은 소유한 정확한 원본 게임 5개, 고정 Noto와 명시한 개발 도구입니다.
+공개된 VCDIFF나 완성 DLL을 빌드 입력으로 쓰지 않습니다. 기존 무전 한글 베타의
+중간 Native도 소스에서 생성해서 업그레이드용 차분을 다시 만듭니다.
 
-이 저장소는 현재 **설치기 소스·핵심 후크 참고 소스·차분 배포**를 공개합니다.
-자막 편집·글꼴 생성·전체 PE 재패킹을 한 번에 수행하는 개발 파이프라인은
-포함하지 않습니다. 후크 참고 목록을 그대로 조립해서 완성 게임 DLL을 만들 수는 없습니다.
-설치용 완성본은 검증된 릴리즈 차분을 사용하세요.
+Windows x64 / Python3.12 환경에서 가이드의 의존성을 준비한 뒤 실행합니다:
+
+```powershell
+.\.venv\Scripts\python.exe pipeline\build.py --input-content D:\CrimsonSkies-original\Content --dependencies .deps --out D:\CrimsonSkies-build-001
+```
+
+기본 빌드는 최종 게임 파일 5개, 차분 6개, 설치기와 최종 ZIP을 기존 릴리즈 해시와
+대조합니다. `--game-only`는 게임 파일 생성·검증까지만 수행합니다.
+참조 컴파일러·FreeType·압축기와 메타데이터 정규화 범위는 가이드에 명시했습니다.
+
+`hooks/`에는 이전 공개 시점의 핵심 후크 참고 목록도 남아 있습니다. 실제 전체
+생성 파이프라인은 `pipeline/`을 사용하세요. 기존 `v0.11.0-beta.1` 태그는 보존하며,
+전체 재현 소스는 `source-v0.11.0-beta.1-r1` 스냅샷 또는 릴리즈의 별도 소스 ZIP을 받으세요.
 
 ## 검증과 알려진 범위
 

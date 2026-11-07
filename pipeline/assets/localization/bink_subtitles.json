@@ -1,0 +1,6409 @@
+{
+  "schema": 1,
+  "member": "ca/res/bink_subtitles.db",
+  "sourceSha256": "5475048e71e64a393da369583aaf6d808f85ad57c9725c540415442fa720b391",
+  "targetSha256": "9399e34b996115eba7e51fb78ce442f32120a858b3872d0f93c74de890afc624",
+  "stripDescriptions": false,
+  "appendStrings": [
+    "FullEndCredits.bik_Font",
+    "kcredits19.bmf",
+    "FullEndCredits.bik_Subtitle0",
+    "KR_CREDITS_BG_001",
+    "FullEndCredits.bik_Subtitle1",
+    "KR_CREDITS_BG_002",
+    "FullEndCredits.bik_Subtitle2",
+    "KR_CREDITS_BG_003",
+    "FullEndCredits.bik_Subtitle3",
+    "KR_CREDITS_BG_004",
+    "FullEndCredits.bik_Subtitle4",
+    "KR_CREDITS_BG_005",
+    "FullEndCredits.bik_Subtitle5",
+    "KR_CREDITS_BG_006",
+    "FullEndCredits.bik_Subtitle6",
+    "KR_CREDITS_ROLE_001",
+    "FullEndCredits.bik_Subtitle7",
+    "KR_CREDITS_ROLE_002_003",
+    "FullEndCredits.bik_Subtitle8",
+    "KR_CREDITS_ROLE_004_005",
+    "FullEndCredits.bik_Subtitle9",
+    "KR_CREDITS_ROLE_006",
+    "FullEndCredits.bik_Subtitle10",
+    "KR_CREDITS_ROLE_007_008",
+    "FullEndCredits.bik_Subtitle11",
+    "KR_CREDITS_ROLE_009_010",
+    "FullEndCredits.bik_Subtitle12",
+    "KR_CREDITS_ROLE_011_012",
+    "FullEndCredits.bik_Subtitle13",
+    "KR_CREDITS_ROLE_013",
+    "FullEndCredits.bik_Subtitle14",
+    "KR_CREDITS_ROLE_014",
+    "FullEndCredits.bik_Subtitle15",
+    "KR_CREDITS_ROLE_015_016",
+    "FullEndCredits.bik_Subtitle16",
+    "KR_CREDITS_ROLE_017_018",
+    "FullEndCredits.bik_Subtitle17",
+    "KR_CREDITS_ROLE_019_020",
+    "FullEndCredits.bik_Subtitle18",
+    "KR_CREDITS_ROLE_021_022",
+    "FullEndCredits.bik_Subtitle19",
+    "KR_CREDITS_ROLE_023",
+    "FullEndCredits.bik_Subtitle20",
+    "KR_CREDITS_ROLE_024",
+    "FullEndCredits.bik_Subtitle21",
+    "KR_CREDITS_ROLE_025",
+    "FullEndCredits.bik_Subtitle22",
+    "KR_CREDITS_ROLE_026",
+    "FullEndCredits.bik_Subtitle23",
+    "KR_CREDITS_ROLE_027",
+    "FullEndCredits.bik_Subtitle24",
+    "KR_CREDITS_ROLE_028",
+    "FullEndCredits.bik_Subtitle25",
+    "KR_CREDITS_ROLE_029",
+    "FullEndCredits.bik_Subtitle26",
+    "KR_CREDITS_ROLE_030",
+    "FullEndCredits.bik_Subtitle27",
+    "KR_CREDITS_ROLE_031",
+    "FullEndCredits.bik_Subtitle28",
+    "KR_CREDITS_ROLE_032",
+    "FullEndCredits.bik_Subtitle29",
+    "KR_CREDITS_ROLE_033",
+    "FullEndCredits.bik_Subtitle30",
+    "KR_CREDITS_ROLE_034",
+    "FullEndCredits.bik_Subtitle31",
+    "KR_CREDITS_ROLE_035",
+    "FullEndCredits.bik_Subtitle32",
+    "KR_CREDITS_ROLE_036",
+    "FullEndCredits.bik_Subtitle33",
+    "KR_CREDITS_ROLE_037",
+    "FullEndCredits.bik_Subtitle34",
+    "KR_CREDITS_ROLE_038_039",
+    "FullEndCredits.bik_Subtitle35",
+    "KR_CREDITS_ROLE_040",
+    "FullEndCredits.bik_Subtitle36",
+    "KR_CREDITS_ROLE_041",
+    "FullEndCredits.bik_Subtitle37",
+    "KR_CREDITS_ROLE_042",
+    "FullEndCredits.bik_Subtitle38",
+    "KR_CREDITS_ROLE_043",
+    "FullEndCredits.bik_Subtitle39",
+    "KR_CREDITS_ROLE_044",
+    "FullEndCredits.bik_Subtitle40",
+    "KR_CREDITS_ROLE_045",
+    "FullEndCredits.bik_Subtitle41",
+    "KR_CREDITS_ROLE_046",
+    "FullEndCredits.bik_Subtitle42",
+    "KR_CREDITS_ROLE_047",
+    "FullEndCredits.bik_Subtitle43",
+    "KR_CREDITS_ROLE_046_048",
+    "FullEndCredits.bik_Subtitle44",
+    "KR_CREDITS_ROLE_049_050",
+    "FullEndCredits.bik_Subtitle45",
+    "KR_CREDITS_ROLE_051_052",
+    "FullEndCredits.bik_Subtitle46",
+    "KR_CREDITS_ROLE_053_054",
+    "FullEndCredits.bik_Subtitle47",
+    "KR_CREDITS_ROLE_055",
+    "FullEndCredits.bik_Subtitle48",
+    "KR_CREDITS_ROLE_046_056",
+    "FullEndCredits.bik_Subtitle49",
+    "KR_CREDITS_ROLE_057_058",
+    "FullEndCredits.bik_Subtitle50",
+    "KR_CREDITS_ROLE_059_060",
+    "FullEndCredits.bik_Subtitle51",
+    "KR_CREDITS_ROLE_061_062",
+    "FullEndCredits.bik_Subtitle52",
+    "KR_CREDITS_ROLE_046_063",
+    "FullEndCredits.bik_Subtitle53",
+    "KR_CREDITS_ROLE_064_065",
+    "FullEndCredits.bik_Subtitle54",
+    "KR_CREDITS_ROLE_066",
+    "FullEndCredits.bik_Subtitle55",
+    "KR_CREDITS_ROLE_067",
+    "FullEndCredits.bik_Subtitle56",
+    "KR_CREDITS_ROLE_068",
+    "FullEndCredits.bik_Subtitle57",
+    "KR_CREDITS_ROLE_069",
+    "FullEndCredits.bik_Subtitle58",
+    "KR_CREDITS_ROLE_070",
+    "FullEndCredits.bik_Subtitle59",
+    "KR_CREDITS_ROLE_071",
+    "FullEndCredits.bik_Subtitle60",
+    "KR_CREDITS_ROLE_070_072",
+    "FullEndCredits.bik_Subtitle61",
+    "KR_CREDITS_ROLE_073",
+    "FullEndCredits.bik_Subtitle62",
+    "KR_CREDITS_ROLE_070_R02",
+    "FullEndCredits.bik_Subtitle63",
+    "KR_CREDITS_ROLE_074_075",
+    "FullEndCredits.bik_Subtitle64",
+    "KR_CREDITS_ROLE_076",
+    "FullEndCredits.bik_Subtitle65",
+    "KR_CREDITS_ROLE_077",
+    "FullEndCredits.bik_Subtitle66",
+    "KR_CREDITS_ROLE_078",
+    "FullEndCredits.bik_Subtitle67",
+    "KR_CREDITS_ROLE_079",
+    "FullEndCredits.bik_Subtitle68",
+    "KR_CREDITS_ROLE_080",
+    "FullEndCredits.bik_Subtitle69",
+    "KR_CREDITS_ROLE_081",
+    "FullEndCredits.bik_Subtitle70",
+    "KR_CREDITS_ROLE_082_083",
+    "FullEndCredits.bik_Subtitle71",
+    "KR_CREDITS_ROLE_084",
+    "FullEndCredits.bik_Subtitle72",
+    "KR_CREDITS_ROLE_085",
+    "FullEndCredits.bik_Subtitle73",
+    "KR_CREDITS_ROLE_086",
+    "FullEndCredits.bik_Subtitle74",
+    "KR_CREDITS_ROLE_087",
+    "FullEndCredits.bik_Subtitle75",
+    "KR_CREDITS_ROLE_088",
+    "FullEndCredits.bik_Subtitle76",
+    "KR_CREDITS_ROLE_089",
+    "FullEndCredits.bik_Subtitle77",
+    "KR_CREDITS_ROLE_090_A",
+    "FullEndCredits.bik_Subtitle78",
+    "KR_CREDITS_ROLE_090_B",
+    "FullEndCredits.bik_Subtitle79",
+    "KR_CREDITS_ROLE_091",
+    "",
+    "",
+    "",
+    "kstory19.bmf",
+    "",
+    "",
+    ""
+  ],
+  "appendLocalNames": [
+    {
+      "kind": "added",
+      "index": 0,
+      "text": "FullEndCredits.bik_Font"
+    },
+    {
+      "kind": "added",
+      "index": 2,
+      "text": "FullEndCredits.bik_Subtitle0"
+    },
+    {
+      "kind": "added",
+      "index": 4,
+      "text": "FullEndCredits.bik_Subtitle1"
+    },
+    {
+      "kind": "added",
+      "index": 6,
+      "text": "FullEndCredits.bik_Subtitle2"
+    },
+    {
+      "kind": "added",
+      "index": 8,
+      "text": "FullEndCredits.bik_Subtitle3"
+    },
+    {
+      "kind": "added",
+      "index": 10,
+      "text": "FullEndCredits.bik_Subtitle4"
+    },
+    {
+      "kind": "added",
+      "index": 12,
+      "text": "FullEndCredits.bik_Subtitle5"
+    },
+    {
+      "kind": "added",
+      "index": 14,
+      "text": "FullEndCredits.bik_Subtitle6"
+    },
+    {
+      "kind": "added",
+      "index": 16,
+      "text": "FullEndCredits.bik_Subtitle7"
+    },
+    {
+      "kind": "added",
+      "index": 18,
+      "text": "FullEndCredits.bik_Subtitle8"
+    },
+    {
+      "kind": "added",
+      "index": 20,
+      "text": "FullEndCredits.bik_Subtitle9"
+    },
+    {
+      "kind": "added",
+      "index": 22,
+      "text": "FullEndCredits.bik_Subtitle10"
+    },
+    {
+      "kind": "added",
+      "index": 24,
+      "text": "FullEndCredits.bik_Subtitle11"
+    },
+    {
+      "kind": "added",
+      "index": 26,
+      "text": "FullEndCredits.bik_Subtitle12"
+    },
+    {
+      "kind": "added",
+      "index": 28,
+      "text": "FullEndCredits.bik_Subtitle13"
+    },
+    {
+      "kind": "added",
+      "index": 30,
+      "text": "FullEndCredits.bik_Subtitle14"
+    },
+    {
+      "kind": "added",
+      "index": 32,
+      "text": "FullEndCredits.bik_Subtitle15"
+    },
+    {
+      "kind": "added",
+      "index": 34,
+      "text": "FullEndCredits.bik_Subtitle16"
+    },
+    {
+      "kind": "added",
+      "index": 36,
+      "text": "FullEndCredits.bik_Subtitle17"
+    },
+    {
+      "kind": "added",
+      "index": 38,
+      "text": "FullEndCredits.bik_Subtitle18"
+    },
+    {
+      "kind": "added",
+      "index": 40,
+      "text": "FullEndCredits.bik_Subtitle19"
+    },
+    {
+      "kind": "added",
+      "index": 42,
+      "text": "FullEndCredits.bik_Subtitle20"
+    },
+    {
+      "kind": "added",
+      "index": 44,
+      "text": "FullEndCredits.bik_Subtitle21"
+    },
+    {
+      "kind": "added",
+      "index": 46,
+      "text": "FullEndCredits.bik_Subtitle22"
+    },
+    {
+      "kind": "added",
+      "index": 48,
+      "text": "FullEndCredits.bik_Subtitle23"
+    },
+    {
+      "kind": "added",
+      "index": 50,
+      "text": "FullEndCredits.bik_Subtitle24"
+    },
+    {
+      "kind": "added",
+      "index": 52,
+      "text": "FullEndCredits.bik_Subtitle25"
+    },
+    {
+      "kind": "added",
+      "index": 54,
+      "text": "FullEndCredits.bik_Subtitle26"
+    },
+    {
+      "kind": "added",
+      "index": 56,
+      "text": "FullEndCredits.bik_Subtitle27"
+    },
+    {
+      "kind": "added",
+      "index": 58,
+      "text": "FullEndCredits.bik_Subtitle28"
+    },
+    {
+      "kind": "added",
+      "index": 60,
+      "text": "FullEndCredits.bik_Subtitle29"
+    },
+    {
+      "kind": "added",
+      "index": 62,
+      "text": "FullEndCredits.bik_Subtitle30"
+    },
+    {
+      "kind": "added",
+      "index": 64,
+      "text": "FullEndCredits.bik_Subtitle31"
+    },
+    {
+      "kind": "added",
+      "index": 66,
+      "text": "FullEndCredits.bik_Subtitle32"
+    },
+    {
+      "kind": "added",
+      "index": 68,
+      "text": "FullEndCredits.bik_Subtitle33"
+    },
+    {
+      "kind": "added",
+      "index": 70,
+      "text": "FullEndCredits.bik_Subtitle34"
+    },
+    {
+      "kind": "added",
+      "index": 72,
+      "text": "FullEndCredits.bik_Subtitle35"
+    },
+    {
+      "kind": "added",
+      "index": 74,
+      "text": "FullEndCredits.bik_Subtitle36"
+    },
+    {
+      "kind": "added",
+      "index": 76,
+      "text": "FullEndCredits.bik_Subtitle37"
+    },
+    {
+      "kind": "added",
+      "index": 78,
+      "text": "FullEndCredits.bik_Subtitle38"
+    },
+    {
+      "kind": "added",
+      "index": 80,
+      "text": "FullEndCredits.bik_Subtitle39"
+    },
+    {
+      "kind": "added",
+      "index": 82,
+      "text": "FullEndCredits.bik_Subtitle40"
+    },
+    {
+      "kind": "added",
+      "index": 84,
+      "text": "FullEndCredits.bik_Subtitle41"
+    },
+    {
+      "kind": "added",
+      "index": 86,
+      "text": "FullEndCredits.bik_Subtitle42"
+    },
+    {
+      "kind": "added",
+      "index": 88,
+      "text": "FullEndCredits.bik_Subtitle43"
+    },
+    {
+      "kind": "added",
+      "index": 90,
+      "text": "FullEndCredits.bik_Subtitle44"
+    },
+    {
+      "kind": "added",
+      "index": 92,
+      "text": "FullEndCredits.bik_Subtitle45"
+    },
+    {
+      "kind": "added",
+      "index": 94,
+      "text": "FullEndCredits.bik_Subtitle46"
+    },
+    {
+      "kind": "added",
+      "index": 96,
+      "text": "FullEndCredits.bik_Subtitle47"
+    },
+    {
+      "kind": "added",
+      "index": 98,
+      "text": "FullEndCredits.bik_Subtitle48"
+    },
+    {
+      "kind": "added",
+      "index": 100,
+      "text": "FullEndCredits.bik_Subtitle49"
+    },
+    {
+      "kind": "added",
+      "index": 102,
+      "text": "FullEndCredits.bik_Subtitle50"
+    },
+    {
+      "kind": "added",
+      "index": 104,
+      "text": "FullEndCredits.bik_Subtitle51"
+    },
+    {
+      "kind": "added",
+      "index": 106,
+      "text": "FullEndCredits.bik_Subtitle52"
+    },
+    {
+      "kind": "added",
+      "index": 108,
+      "text": "FullEndCredits.bik_Subtitle53"
+    },
+    {
+      "kind": "added",
+      "index": 110,
+      "text": "FullEndCredits.bik_Subtitle54"
+    },
+    {
+      "kind": "added",
+      "index": 112,
+      "text": "FullEndCredits.bik_Subtitle55"
+    },
+    {
+      "kind": "added",
+      "index": 114,
+      "text": "FullEndCredits.bik_Subtitle56"
+    },
+    {
+      "kind": "added",
+      "index": 116,
+      "text": "FullEndCredits.bik_Subtitle57"
+    },
+    {
+      "kind": "added",
+      "index": 118,
+      "text": "FullEndCredits.bik_Subtitle58"
+    },
+    {
+      "kind": "added",
+      "index": 120,
+      "text": "FullEndCredits.bik_Subtitle59"
+    },
+    {
+      "kind": "added",
+      "index": 122,
+      "text": "FullEndCredits.bik_Subtitle60"
+    },
+    {
+      "kind": "added",
+      "index": 124,
+      "text": "FullEndCredits.bik_Subtitle61"
+    },
+    {
+      "kind": "added",
+      "index": 126,
+      "text": "FullEndCredits.bik_Subtitle62"
+    },
+    {
+      "kind": "added",
+      "index": 128,
+      "text": "FullEndCredits.bik_Subtitle63"
+    },
+    {
+      "kind": "added",
+      "index": 130,
+      "text": "FullEndCredits.bik_Subtitle64"
+    },
+    {
+      "kind": "added",
+      "index": 132,
+      "text": "FullEndCredits.bik_Subtitle65"
+    },
+    {
+      "kind": "added",
+      "index": 134,
+      "text": "FullEndCredits.bik_Subtitle66"
+    },
+    {
+      "kind": "added",
+      "index": 136,
+      "text": "FullEndCredits.bik_Subtitle67"
+    },
+    {
+      "kind": "added",
+      "index": 138,
+      "text": "FullEndCredits.bik_Subtitle68"
+    },
+    {
+      "kind": "added",
+      "index": 140,
+      "text": "FullEndCredits.bik_Subtitle69"
+    },
+    {
+      "kind": "added",
+      "index": 142,
+      "text": "FullEndCredits.bik_Subtitle70"
+    },
+    {
+      "kind": "added",
+      "index": 144,
+      "text": "FullEndCredits.bik_Subtitle71"
+    },
+    {
+      "kind": "added",
+      "index": 146,
+      "text": "FullEndCredits.bik_Subtitle72"
+    },
+    {
+      "kind": "added",
+      "index": 148,
+      "text": "FullEndCredits.bik_Subtitle73"
+    },
+    {
+      "kind": "added",
+      "index": 150,
+      "text": "FullEndCredits.bik_Subtitle74"
+    },
+    {
+      "kind": "added",
+      "index": 152,
+      "text": "FullEndCredits.bik_Subtitle75"
+    },
+    {
+      "kind": "added",
+      "index": 154,
+      "text": "FullEndCredits.bik_Subtitle76"
+    },
+    {
+      "kind": "added",
+      "index": 156,
+      "text": "FullEndCredits.bik_Subtitle77"
+    },
+    {
+      "kind": "added",
+      "index": 158,
+      "text": "FullEndCredits.bik_Subtitle78"
+    },
+    {
+      "kind": "added",
+      "index": 160,
+      "text": "FullEndCredits.bik_Subtitle79"
+    }
+  ],
+  "propertyEdits": [
+    {
+      "index": 4177,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 4308,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 4669,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 5140,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 5171,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 5242,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 5463,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 5554,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 5625,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 5806,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 5967,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 6058,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 6089,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 6350,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 6791,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 6832,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 6883,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 6944,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7005,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7076,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7097,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7118,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7139,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7160,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7181,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7202,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7223,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7244,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7265,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7286,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7307,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7328,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7349,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7370,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7391,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7412,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7433,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7454,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7475,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7516,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7557,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7598,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7639,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7680,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7721,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7762,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7803,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7844,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7885,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7926,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 7967,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 8008,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 8049,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 8090,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 8131,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 8172,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    },
+    {
+      "index": 8213,
+      "property": {
+        "name": "Font",
+        "kind": "string",
+        "value": {
+          "kind": "added",
+          "index": 165,
+          "text": "kstory19.bmf"
+        }
+      }
+    }
+  ],
+  "newNodes": [
+    {
+      "name": "FullEndCredits.bik_Font",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Font",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "kcredits19.bmf"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle0",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 6301
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 22
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 410
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "KR_CREDITS_BG_001"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle1",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 6301
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 328
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 410
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 5,
+            "text": "KR_CREDITS_BG_002"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle2",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 6301
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 22
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 429
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 7,
+            "text": "KR_CREDITS_BG_003"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle3",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 6301
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 328
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 429
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 9,
+            "text": "KR_CREDITS_BG_004"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle4",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 6301
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 22
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 448
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 11,
+            "text": "KR_CREDITS_BG_005"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle5",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 6301
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 328
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 448
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 13,
+            "text": "KR_CREDITS_BG_006"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle6",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 451
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 266
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 95
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 15,
+            "text": "KR_CREDITS_ROLE_001"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle7",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 170
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 162
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 110
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 17,
+            "text": "KR_CREDITS_ROLE_002_003"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle8",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 215
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 214
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 169
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 19,
+            "text": "KR_CREDITS_ROLE_004_005"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle9",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 254
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 181
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 214
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 21,
+            "text": "KR_CREDITS_ROLE_006"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle10",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 299
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 152
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 253
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 23,
+            "text": "KR_CREDITS_ROLE_007_008"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle11",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 352
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 186
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 298
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 25,
+            "text": "KR_CREDITS_ROLE_009_010"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle12",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 397
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 197
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 351
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 27,
+            "text": "KR_CREDITS_ROLE_011_012"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle13",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 447
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 254
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 396
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 29,
+            "text": "KR_CREDITS_ROLE_013"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle14",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 693
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 266
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 450
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 31,
+            "text": "KR_CREDITS_ROLE_014"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle15",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 536
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 133
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 465
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 33,
+            "text": "KR_CREDITS_ROLE_015_016"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle16",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 588
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 206
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 535
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 35,
+            "text": "KR_CREDITS_ROLE_017_018"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle17",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 640
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 203
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 587
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 37,
+            "text": "KR_CREDITS_ROLE_019_020"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle18",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 693
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 206
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 639
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 39,
+            "text": "KR_CREDITS_ROLE_021_022"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle19",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 1101
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 303
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 692
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 41,
+            "text": "KR_CREDITS_ROLE_023"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle20",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 1188
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 233
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 1100
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 43,
+            "text": "KR_CREDITS_ROLE_024"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle21",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 1261
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 303
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 1187
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 45,
+            "text": "KR_CREDITS_ROLE_025"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle22",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 1319
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 267
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 1260
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 47,
+            "text": "KR_CREDITS_ROLE_026"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle23",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 1523
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 286
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 1318
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 49,
+            "text": "KR_CREDITS_ROLE_027"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle24",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 1641
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 303
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 1522
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 51,
+            "text": "KR_CREDITS_ROLE_028"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle25",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 1698
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 1640
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 53,
+            "text": "KR_CREDITS_ROLE_029"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle26",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 2406
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 294
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 1697
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 55,
+            "text": "KR_CREDITS_ROLE_030"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle27",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 2246
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 242
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 2050
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 57,
+            "text": "KR_CREDITS_ROLE_031"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle28",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 2406
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 288
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 2245
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 59,
+            "text": "KR_CREDITS_ROLE_032"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle29",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 2508
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 209
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 2405
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 61,
+            "text": "KR_CREDITS_ROLE_033"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle30",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 2508
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 152
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 2420
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 63,
+            "text": "KR_CREDITS_ROLE_034"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle31",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 2646
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 235
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 2507
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 65,
+            "text": "KR_CREDITS_ROLE_035"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle32",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 2863
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 243
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 2645
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 67,
+            "text": "KR_CREDITS_ROLE_036"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle33",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 2988
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 266
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 2862
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 69,
+            "text": "KR_CREDITS_ROLE_037"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle34",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 2938
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 186
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 2880
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 71,
+            "text": "KR_CREDITS_ROLE_038_039"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle35",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 2988
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 266
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 2937
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 73,
+            "text": "KR_CREDITS_ROLE_040"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle36",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 3059
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 260
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 2987
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 75,
+            "text": "KR_CREDITS_ROLE_041"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle37",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 3208
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 274
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3058
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 77,
+            "text": "KR_CREDITS_ROLE_042"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle38",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 3116
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 303
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3078
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 79,
+            "text": "KR_CREDITS_ROLE_043"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle39",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 3151
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 303
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3115
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 81,
+            "text": "KR_CREDITS_ROLE_044"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle40",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 3208
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 266
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3150
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 83,
+            "text": "KR_CREDITS_ROLE_045"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle41",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 3315
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 294
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3207
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 85,
+            "text": "KR_CREDITS_ROLE_046"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle42",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 3315
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 243
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3224
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 87,
+            "text": "KR_CREDITS_ROLE_047"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle43",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 3535
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 254
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3314
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 89,
+            "text": "KR_CREDITS_ROLE_046_048"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle44",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 3391
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 197
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3330
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 91,
+            "text": "KR_CREDITS_ROLE_049_050"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle45",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 3441
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 227
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3390
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 93,
+            "text": "KR_CREDITS_ROLE_051_052"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle46",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 3493
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 206
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3440
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 95,
+            "text": "KR_CREDITS_ROLE_053_054"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle47",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 3535
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 303
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3492
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 97,
+            "text": "KR_CREDITS_ROLE_055"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle48",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 3729
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 263
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3534
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 99,
+            "text": "KR_CREDITS_ROLE_046_056"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle49",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 3610
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 197
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3551
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 101,
+            "text": "KR_CREDITS_ROLE_057_058"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle50",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 3662
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 260
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3609
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 103,
+            "text": "KR_CREDITS_ROLE_059_060"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle51",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 3729
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 240
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3661
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 105,
+            "text": "KR_CREDITS_ROLE_061_062"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle52",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 3851
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 263
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3728
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 107,
+            "text": "KR_CREDITS_ROLE_046_063"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle53",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 3851
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 223
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3750
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 109,
+            "text": "KR_CREDITS_ROLE_064_065"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle54",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 3965
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 294
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3850
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 111,
+            "text": "KR_CREDITS_ROLE_066"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle55",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 3896
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 274
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3865
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 113,
+            "text": "KR_CREDITS_ROLE_067"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle56",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 3926
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 303
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3895
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 115,
+            "text": "KR_CREDITS_ROLE_068"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle57",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 3965
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 303
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3925
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 117,
+            "text": "KR_CREDITS_ROLE_069"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle58",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 4027
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 303
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3964
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 119,
+            "text": "KR_CREDITS_ROLE_070"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle59",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 4027
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 303
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 3978
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 121,
+            "text": "KR_CREDITS_ROLE_071"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle60",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 4446
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 269
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 4026
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 123,
+            "text": "KR_CREDITS_ROLE_070_072"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle61",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 4179
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 191
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 4088
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 125,
+            "text": "KR_CREDITS_ROLE_073"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle62",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 4549
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 303
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 4445
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 127,
+            "text": "KR_CREDITS_ROLE_070_R02"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle63",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 4505
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 180
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 4448
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 129,
+            "text": "KR_CREDITS_ROLE_074_075"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle64",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 4549
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 283
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 4504
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 131,
+            "text": "KR_CREDITS_ROLE_076"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle65",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 5251
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 237
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 4548
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 133,
+            "text": "KR_CREDITS_ROLE_077"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle66",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 4612
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 209
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 4578
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 135,
+            "text": "KR_CREDITS_ROLE_078"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle67",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 4642
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 303
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 4611
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 137,
+            "text": "KR_CREDITS_ROLE_079"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle68",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 4672
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 286
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 4641
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 139,
+            "text": "KR_CREDITS_ROLE_080"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle69",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 4702
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 286
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 4671
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 141,
+            "text": "KR_CREDITS_ROLE_081"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle70",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 4748
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 214
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 4701
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 143,
+            "text": "KR_CREDITS_ROLE_082_083"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle71",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 4801
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 257
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 4747
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 145,
+            "text": "KR_CREDITS_ROLE_084"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle72",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 5251
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 286
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 4800
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 147,
+            "text": "KR_CREDITS_ROLE_085"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle73",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 5358
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 243
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 5250
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 149,
+            "text": "KR_CREDITS_ROLE_086"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle74",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 5465
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 260
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 5357
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 151,
+            "text": "KR_CREDITS_ROLE_087"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle75",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 5768
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 252
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 5464
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 153,
+            "text": "KR_CREDITS_ROLE_088"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle76",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 5996
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 280
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 5767
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 155,
+            "text": "KR_CREDITS_ROLE_089"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle77",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 6126
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 172
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 5995
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 157,
+            "text": "KR_CREDITS_ROLE_090_A"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle78",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 6126
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 213
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 442
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 5995
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 159,
+            "text": "KR_CREDITS_ROLE_090_B"
+          }
+        }
+      ]
+    },
+    {
+      "name": "FullEndCredits.bik_Subtitle79",
+      "root": "_KO",
+      "properties": [
+        {
+          "name": "Alpha",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Blue",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "End",
+          "kind": "integer",
+          "value": 6261
+        },
+        {
+          "name": "Green",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "PosX",
+          "kind": "integer",
+          "value": 263
+        },
+        {
+          "name": "PosY",
+          "kind": "integer",
+          "value": 420
+        },
+        {
+          "name": "Red",
+          "kind": "integer",
+          "value": 255
+        },
+        {
+          "name": "Start",
+          "kind": "integer",
+          "value": 6125
+        },
+        {
+          "name": "SubtitleType",
+          "kind": "string",
+          "value": {
+            "kind": "originalProperty",
+            "index": 9,
+            "text": "Bink"
+          }
+        },
+        {
+          "name": "Text",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 161,
+            "text": "KR_CREDITS_ROLE_091"
+          }
+        }
+      ]
+    }
+  ],
+  "nodePlacement": "sortedRoot"
+}

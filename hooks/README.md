@@ -24,3 +24,5 @@ The release GPU SHA-256 is
 Scope: exact packaged build2608.3123.1.0. Pointer numeric guards do not prove arbitrary
 memory is mapped. These helpers rely on the validated source-owned call sites.
 Installer QA does not substitute for graphics/ABI/runtime validation of new hooks.
+
+The complete, source-built PE authoring chain is now available in ../pipeline/native; see ../docs/REPRODUCING.ko.md for the full source-to-release build.

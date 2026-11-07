@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "member": "ca/res/pandoraplaneupgrade_screen.db",
+  "sourceSha256": "d77e9c51e70e8cec60fc4f414dc0c7898734d2e9225f7c47d55608b6b80b477d",
+  "targetSha256": "22888c0ef49ca1080436ba5c3208afd0cacc2ff59a67e503bd9f0ee9aa77f5d4",
+  "stripDescriptions": false,
+  "appendStrings": [],
+  "appendLocalNames": [],
+  "propertyEdits": [
+    {
+      "index": 227,
+      "property": {
+        "name": "Type",
+        "kind": "string",
+        "value": {
+          "kind": "originalProperty",
+          "index": 109,
+          "text": "text"
+        }
+      }
+    }
+  ],
+  "newNodes": [],
+  "nodePlacement": "sortedRoot"
+}

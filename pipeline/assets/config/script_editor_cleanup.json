@@ -1,0 +1,256 @@
+{
+  "schema": 1,
+  "operation": "Remove safe editor-only Desc string-pool bytes; preserve all runtime properties.",
+  "scripts": [
+    {
+      "member": "ca/res/ax_act_banditos.sdb",
+      "sourceSha256": "bdf7b48ec8a35c81538df4bb16ea6c1b1ea802faa1bef321d0ea6d6860dd9fee",
+      "targetSha256": "a2bc7da2a8c988b4442cf7945aab7e812ed51667e5aee30fcbe9ab2499acc179"
+    },
+    {
+      "member": "ca/res/ax_act_bountyhunting.sdb",
+      "sourceSha256": "6102a1995e416ac02242619d90204ddb4b187abcab00c7053422ec008ead25c9",
+      "targetSha256": "f30211e493e5a6094c782c5231dda647a9f91cdab2b15ce46f322523381673bb"
+    },
+    {
+      "member": "ca/res/ax_act_bravery.sdb",
+      "sourceSha256": "1717915bd82881dfda898d0a6e8668762c10e5def0084769a7b591fa40d74916",
+      "targetSha256": "6a772bc91803a1c6a83f67111e1b5ed6de54bf37710df4655357537b37e980f4"
+    },
+    {
+      "member": "ca/res/ax_act_defendtown.sdb",
+      "sourceSha256": "d2399cf129d587f22dcf774439fd5f989c9c5d14d3aaceb887ab128eba497684",
+      "targetSha256": "a0dfea3a96eae22d51093e303636ec109d18b3f3be686bbce9f93776347dd478"
+    },
+    {
+      "member": "ca/res/ax_act_defendzep.sdb",
+      "sourceSha256": "647966be051be777293e09541bce51873f3fb79eb53c42facd1073dc7b3c4251",
+      "targetSha256": "e18936bf8010ef806c6a1119a33c7e7c388e8ca0c42916fd26b25ecc50d8fd9d"
+    },
+    {
+      "member": "ca/res/ax_act_delivery.sdb",
+      "sourceSha256": "94b723350c459d8b59c9a4688aa2a1143a1fec3c0015dbf620e034a7145b104d",
+      "targetSha256": "d1e7680e8e7f03f1d49734240cbcb600e115de877783699d253080d685ead36e"
+    },
+    {
+      "member": "ca/res/ax_act_marksmanship.sdb",
+      "sourceSha256": "fa0c65e55b99986491aef95a2d47083c5df84777a6ce1eebdf0bcdfa52472642",
+      "targetSha256": "506277a4fb6e4eadbefd8ddd6d63f25b6983429b3e3d0d3476339ebfafd3bbf3"
+    },
+    {
+      "member": "ca/res/ax_act_race.sdb",
+      "sourceSha256": "7a0b905e7659c2b125145bf438c43e8897d455cee10ad03712508ae65f1b6dd4",
+      "targetSha256": "722229c58ec02c8459acacd94c5cf6ffbd0e96639c7f94676b6b956629b40dce"
+    },
+    {
+      "member": "ca/res/ax_act_skill.sdb",
+      "sourceSha256": "d304618a56f5f13112e91d9e664a9813318839432238d9fcffdde0e7c59ab3d7",
+      "targetSha256": "5774a5b90cb7d8dddc43bddc9b3e4083379415e7e122d2097cb57ebe4f4010e7"
+    },
+    {
+      "member": "ca/res/ax_boss.sdb",
+      "sourceSha256": "29e754a1a33239cce5f2889f61f651f721861551f745964d7409ab7cdfbade7e",
+      "targetSha256": "a5ad0da0ceef19e84361d34bac2bc8770d77caf0c9c94fdef48f35187ab02a26"
+    },
+    {
+      "member": "ca/res/ax_maria.sdb",
+      "sourceSha256": "40b5d8f147d2c2bb2f179fb843ddc38da609c9dbf55cc6da1fba0cad2fd90344",
+      "targetSha256": "e551077c9f216f9ecd2ee664238a42b65bd90553663870c5958cef1d7b50e0a5"
+    },
+    {
+      "member": "ca/res/ax_navajo.sdb",
+      "sourceSha256": "728be8041897c52c786691e4efd6fbdf48210cae032fcaa169dfc661b3e037dd",
+      "targetSha256": "558c2d6aba7d523ba0f41238bd6fa2e343719445d846bc40ddbbec920983ca13"
+    },
+    {
+      "member": "ca/res/ax_scouting.sdb",
+      "sourceSha256": "a2f69838fb2124024a081d549e2f0c63ed0b751e18b48dcaf5d3383e8ecbbc3b",
+      "targetSha256": "f191e8f87a7046e1abd6bdb4bbc148d35366a6c5664437da1acf30c5845abdd3"
+    },
+    {
+      "member": "ca/res/ax_scouting2.sdb",
+      "sourceSha256": "d6aa1e6f3f3a3fc8b26e85bac3849297310b6d0f1bbd5ebf8223e6c7680ae54e",
+      "targetSha256": "9eac34584760f860552b52ed3d838a1db7aea29bc20f8488c14086101c04b2a9"
+    },
+    {
+      "member": "ca/res/ch_act_aagun02.sdb",
+      "sourceSha256": "a393bbc1dd15c73ba1f8496c623063dc05ba5f03891d472b3c02bef88b0333d6",
+      "targetSha256": "e3ac1eb070e26bedefa9d38523597d872f7972a0e5819a75564ad1ba5d799ad4"
+    },
+    {
+      "member": "ca/res/ch_act_cab_help.sdb",
+      "sourceSha256": "4850aae89e89c09ea8ca94221e8c9cd8eabd4bea1b01483d940ea62eb032faf2",
+      "targetSha256": "087d3b9c3ee3a8832c949f3ae28f67b2dbb1558aa31f3e57f20bbf6a92e60859"
+    },
+    {
+      "member": "ca/res/ch_act_destroy_skulls01.sdb",
+      "sourceSha256": "4a5ea4de3df7f1de4f865b8b31ac1303aafe9ffc9243a77cc686047ad73ae53e",
+      "targetSha256": "329e280acb4d73eb9be059197179b2da634ced584ae3a50362358ce2cf8be114"
+    },
+    {
+      "member": "ca/res/ch_act_hunt1.sdb",
+      "sourceSha256": "ac8470200dc1e3a097f742c9fe719fa537f78c6c3984b4c160e25c3785d9eeba",
+      "targetSha256": "44225c5dc9948b038779c01aa21a5e10f76e71685faeef88604daf0d618921d0"
+    },
+    {
+      "member": "ca/res/ch_act_informant.sdb",
+      "sourceSha256": "d5fcd691be05f2e9d8e0166101872f8376da138d6ca78af5be346aeeec0e97c0",
+      "targetSha256": "e6837c3236805c78b39e8af6b40dc080d496bd5f0df449535b8585e7036a4f7f"
+    },
+    {
+      "member": "ca/res/ch_act_race01.sdb",
+      "sourceSha256": "98eb87beb8b69dff3b722988801ae46e8de6db0fb931a1a7b0c62cb3f1565e90",
+      "targetSha256": "d9df29e876961786f86dacd82c20aa850b22e13c1564f0568cdf4280afd7d34f"
+    },
+    {
+      "member": "ca/res/ch_act_steal.sdb",
+      "sourceSha256": "c54ccbd866b47bc800ec8fa7388180eb749f3bd45f680744a30792201112c58e",
+      "targetSha256": "9421c57af48c00d0af24c2948efa47db1fc1e1ede2e4b9f3f374e31082301f57"
+    },
+    {
+      "member": "ca/res/ch_boss.sdb",
+      "sourceSha256": "cfd2a6eb06c36f3a61e2b0bb569007b2c4e151979fe804ddca1db8bb69cd45d2",
+      "targetSha256": "a89d579bc892b1a1bec2af120e15957de76da850f27cc60ee34b91666f0d9cb8"
+    },
+    {
+      "member": "ca/res/ch_escape.sdb",
+      "sourceSha256": "3e15cbb85d3cfd85e2df7638a9a242caec97d1f911a157776306d49c2bc7d8a5",
+      "targetSha256": "5e45e1f88959cc4cc4b00256cbcefb14a65951adeab2dec7deb94f06f558a84d"
+    },
+    {
+      "member": "ca/res/ch_rescue_betty.sdb",
+      "sourceSha256": "5b9a16b38c6d2f1000734fb5d79dd0e6cfe49cbc8f0a0208c1eea87c523be570",
+      "targetSha256": "74bd0049a7c3e7d7eaebb4c5596c9fbca7ed72dcb50a18ca365800c1337c0689"
+    },
+    {
+      "member": "ca/res/ch_scouting02.sdb",
+      "sourceSha256": "8ab04b5d18cf69da85c73a9725e5938801675b26383cbc8d62df3052876a964f",
+      "targetSha256": "42107ded8244cd39dfd1ef29ace1b2b270f754d64a3770aab352ef3f278e899d"
+    },
+    {
+      "member": "ca/res/ch_warehouse.sdb",
+      "sourceSha256": "ed3e7b842247397eb24c8f69761e0f642d410bdfc78688ee008ec995a0801074",
+      "targetSha256": "088b92faee5751afe6a4c58937dc5a6467df7d238b5d3fcd29d49cc98fc91ac9"
+    },
+    {
+      "member": "ca/res/final_boss.sdb",
+      "sourceSha256": "d407233f72ee17a0d6f9a1708d5a01db51e1293f4ef9e4521a491fadca26a151",
+      "targetSha256": "6fff58dce92077066309c7ef970b9bb3af6ff560fdc8771e098710d600c60b00"
+    },
+    {
+      "member": "ca/res/lc_act_dsbaseattack.sdb",
+      "sourceSha256": "129b2533fdf9321eda25d325a67d72c1ef7a46d43426c2c139ad820ccce6e45e",
+      "targetSha256": "be4360796865a1000e2bc46ed345a867707a269ac16cdb955b06ebd19c819199"
+    },
+    {
+      "member": "ca/res/lc_act_fueldepot.sdb",
+      "sourceSha256": "7cfdb26b1631ac0e9e1759779ab41c02fedeedaa3294dc56afc2cdade184f9c4",
+      "targetSha256": "b66db623085c45cf9605698f76e525ac7ac28a018c0f20387c70ab98faa8b63b"
+    },
+    {
+      "member": "ca/res/lc_act_hunt1.sdb",
+      "sourceSha256": "3ba5d80fb9839dab1979078c938292bb3053ed88f28122821bb22c7d8fb0422b",
+      "targetSha256": "46e434622c73dbc374a4da45fce7de9aa7683f481da7408d55b5b8ac3ebde21d"
+    },
+    {
+      "member": "ca/res/lc_act_pandoradefend.sdb",
+      "sourceSha256": "15dfa4159b81f7bd0974bbe4bca7d874981cd0187226a6f7cca8a1906deb317e",
+      "targetSha256": "ef3c5603d6890b2a64bf14d777e9077cc1293c49bc483e6cb57e5060a33b57ca"
+    },
+    {
+      "member": "ca/res/lc_act_race1.sdb",
+      "sourceSha256": "74bb60594a5f3d74c78383e411014d1bcc569a5032b9d063c4daaaa071dfa48d",
+      "targetSha256": "e9dc9e237dc8ef95c32608c73b9845c71d532e654c6c1076419d08a0c8edc8ca"
+    },
+    {
+      "member": "ca/res/lc_act_shooting1.sdb",
+      "sourceSha256": "828b83b9adb850bf327dc69d809dde27d854696272b58f4a0bf330d2129864b8",
+      "targetSha256": "f248ceaf03e459d38393a466fdc5b043ae13a16620b23a396cd630cea1e8c933"
+    },
+    {
+      "member": "ca/res/lc_act_stratoliner.sdb",
+      "sourceSha256": "2c7aaf442c51ec3c447d93e6be57d27384c5507784b629be9fc54db152ff5ad5",
+      "targetSha256": "a125d00dbb716e5e906d184b5476114429ac51a9e652ba664dc9f2ec193254b9"
+    },
+    {
+      "member": "ca/res/lc_act_switches.sdb",
+      "sourceSha256": "899df2d8cfc25e3b2588ce142f1d814177955cec30fc06232112147221f22853",
+      "targetSha256": "3a2ef35e061cdbdd3f72f79a386daaeb2e381e5ef111dafa93df57ffc83dba09"
+    },
+    {
+      "member": "ca/res/lc_gauntlet.sdb",
+      "sourceSha256": "ca9c7e25050287d2976d0f53106e850bd20b968e47d93280dd43e83b5f62202f",
+      "targetSha256": "f50d7d50445983b70c08e3d440d51363131015159de1515c009c54556de50a59"
+    },
+    {
+      "member": "ca/res/lc_gauntlet2.sdb",
+      "sourceSha256": "12fd10bdea2af3c391591fa3c27796bf6bf10ac7356be902d2fd6736dd314434",
+      "targetSha256": "5df3a89ad61365a53b5579bdb356a8f62042b3069312ac753b0a9862e507ee80"
+    },
+    {
+      "member": "ca/res/lc_scouting.sdb",
+      "sourceSha256": "31c8387d0ac1454849abba98ddec4eb396bd17b45d6db04e94b61e7a874728ef",
+      "targetSha256": "77817166c6d7589af2178669ed7281ff5eb6319709322a2657cd892caa568287"
+    },
+    {
+      "member": "ca/res/lc_scouting2.sdb",
+      "sourceSha256": "dce661d5fad3d0bf938c0d530ecfc437eb4d23e6717b2f404667d98850b46835",
+      "targetSha256": "3d1fd7fe5de9cea68c8282a503d9d5ee60e36ad813310fccf50da47754f59b99"
+    },
+    {
+      "member": "ca/res/sh_act_aagun01.sdb",
+      "sourceSha256": "db4343da3fc04f17eabb5dc607fa252c4c8340905cf0452373e3f5915189843b",
+      "targetSha256": "f12db18b1f181c6878dc079888c0245e545fca68d0b16143c390b5cf7d9aeecb"
+    },
+    {
+      "member": "ca/res/sh_act_aagun02.sdb",
+      "sourceSha256": "053f3acfdb7b2b1aa6512fcbfea733e38ba4e5f49d8b0d80a8941f44eba1d6c5",
+      "targetSha256": "7ebc197d59d0f451500d9228df289c86c074e868750280e50e92e785f8a22bb5"
+    },
+    {
+      "member": "ca/res/sh_act_boatattack01.sdb",
+      "sourceSha256": "1d911950ac384f2aa3ddb62ac3a2fb69f4ec309436dab842e627ebb0131b86ff",
+      "targetSha256": "6db33c22acfc4fded1f136b1702388941f50617fc71b4d4e0f711cf93005f637"
+    },
+    {
+      "member": "ca/res/sh_act_informant.sdb",
+      "sourceSha256": "33cd1ee90c1cfe3489f6ef86dedb63782435943a3e5e8c9970a6dcf6d6be8f9c",
+      "targetSha256": "f5a8c4dd47432742a66bb2c45e2ee2da5f1cfcab095cdf1dd13e17e29f08588e"
+    },
+    {
+      "member": "ca/res/sh_act_race02.sdb",
+      "sourceSha256": "969743d5681c413ab31107c07d6bb0c07c0bced37c69b100e5b7b1268a3a76bd",
+      "targetSha256": "c23750e440cdbad60afd88f2cf7affb01e727df20b6e156437665761725a9948"
+    },
+    {
+      "member": "ca/res/sh_act_rescue01.sdb",
+      "sourceSha256": "7e93d8ac522ca8909ef44001435f121f3fdcb33fb3ee4c0ebddf6975b9b7f19d",
+      "targetSha256": "bb384c4cec128d7fef6768c1c2ef954f1242c6c7e7e19d273149d9fb1130ea7d"
+    },
+    {
+      "member": "ca/res/sh_act_rescue02.sdb",
+      "sourceSha256": "28381b642b8e2b3e33dede946bc8c80293e6ce372d238cde8a98f569114722a2",
+      "targetSha256": "07257fb111ca0014938df88df70f9f7a54fbcb9dc157120c2fd1ab2d192de08d"
+    },
+    {
+      "member": "ca/res/sh_boss.sdb",
+      "sourceSha256": "f9046bfc7dd4c592cb9f730b66fb9e8cbd6bdeba01dc77a672d5cff04c990ed5",
+      "targetSha256": "7d83a32651222d72e684a54b77efb21cf8652b046c2e5a80b4f83dee2bc9b9f6"
+    },
+    {
+      "member": "ca/res/sh_scouting.sdb",
+      "sourceSha256": "f4a96a8838245a0845287a2822eb717ea753540f02703f0d5823ccd42976ecd1",
+      "targetSha256": "9f6fb6362938e801a027015a347ba62b082840201b1e21b2644a03e1f5d76fd8"
+    },
+    {
+      "member": "ca/res/sh_seacave.sdb",
+      "sourceSha256": "15649301f1a4359f7aa650527e98019137dbaff0f1d705c3f0daa2e34e11689c",
+      "targetSha256": "322a5d000a2545500551ab5c3c2a174608a97d026da032ca6acb0ed821702eb0"
+    },
+    {
+      "member": "ca/res/sh_seaplane.sdb",
+      "sourceSha256": "7de02cc52687fad1d37895667d9618e7f11439a45fd49b1890ed21287993217a",
+      "targetSha256": "5ee7ad277e8ef3f59386cb88294ba6a846bd8bdca8d376e94117ed5754640019"
+    }
+  ]
+}

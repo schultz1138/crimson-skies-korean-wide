@@ -1,0 +1,2747 @@
+{
+  "schema": 1,
+  "member": "ca/res/sh_tutorial.sdb",
+  "sourceSha256": "8838dd3f46bd64f14aa6453d8ad487a3cb23e67b0b7a870ce66753fb2fefe18c",
+  "targetSha256": "24ee16ad3a1e4ff9927f35fc89ebf048a752e4876b85320abdbf8656094037b1",
+  "stripDescriptions": true,
+  "appendStrings": [
+    "UserMsg",
+    "All",
+    "KR_SH_TUT_018",
+    "ClearFlag",
+    "KR_TUT_P971",
+    "KR_TUT_P1418",
+    "KR_TUT_P1419",
+    "KR_SH_TUT_027",
+    "KR_SH_TUT_004",
+    "KR_SH_TUT_020",
+    "KR_SH_TUT_021",
+    "KR_SH_TUT_031",
+    "KR_SH_TUT_030",
+    "KR_SH_TUT_019",
+    "KR_SH_TUT_001",
+    "KR_SH_TUT_002",
+    "StartTimer",
+    "KR_TUT_T970",
+    "SetFlag",
+    "KR_SH_TUT_005",
+    "KR_SH_TUT_006",
+    "KR_SH_TUT_032",
+    "KR_SH_TUT_010",
+    "KR_SH_TUT_011",
+    "KR_SH_TUT_007",
+    "KR_SH_TUT_034",
+    "KR_SH_TUT_008",
+    "KR_SH_TUT_009",
+    "KR_SH_TUT_037",
+    "KR_SH_TUT_038",
+    "KR_SH_TUT_039",
+    "KR_SH_TUT_040",
+    "KR_SH_TUT_041",
+    "KR_SH_TUT_042",
+    "KR_SH_TUT_043",
+    "KR_SH_TUT_044",
+    "KR_SH_TUT_045",
+    "KR_SH_TUT_012",
+    "KR_SH_TUT_013",
+    "KR_TUT_T1416",
+    "KR_SH_TUT_016",
+    "KR_SH_TUT_017",
+    "KR_SH_TUT_028",
+    "KR_SH_TUT_029",
+    "KR_SH_TUT_022",
+    "KR_SH_TUT_023",
+    "KR_SH_TUT_024",
+    "KR_SH_TUT_025",
+    "KR_SH_TUT_026",
+    "",
+    "KR_TUT_SUBTITLES",
+    "FlagIsSet",
+    "And",
+    "Elapsed",
+    "KR_SH_TUT_003",
+    "KR_SH_TUT_014",
+    "KR_SH_TUT_015"
+  ],
+  "appendLocalNames": [],
+  "propertyEdits": [],
+  "newNodes": [
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 2,
+            "text": "KR_SH_TUT_018"
+          }
+        }
+      ],
+      "afterOriginal": 771
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 4,
+            "text": "KR_TUT_P971"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 785
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 5,
+            "text": "KR_TUT_P1418"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 785
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 6,
+            "text": "KR_TUT_P1419"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 785
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 7,
+            "text": "KR_SH_TUT_027"
+          }
+        }
+      ],
+      "afterOriginal": 785
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 4,
+            "text": "KR_TUT_P971"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 793
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 5,
+            "text": "KR_TUT_P1418"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 793
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 6,
+            "text": "KR_TUT_P1419"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 793
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 8,
+            "text": "KR_SH_TUT_004"
+          }
+        }
+      ],
+      "afterOriginal": 793
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 9,
+            "text": "KR_SH_TUT_020"
+          }
+        }
+      ],
+      "afterOriginal": 810
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 10,
+            "text": "KR_SH_TUT_021"
+          }
+        }
+      ],
+      "afterOriginal": 820
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 11,
+            "text": "KR_SH_TUT_031"
+          }
+        }
+      ],
+      "afterOriginal": 837
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 4,
+            "text": "KR_TUT_P971"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 884
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 5,
+            "text": "KR_TUT_P1418"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 884
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 6,
+            "text": "KR_TUT_P1419"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 884
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 12,
+            "text": "KR_SH_TUT_030"
+          }
+        }
+      ],
+      "afterOriginal": 884
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 13,
+            "text": "KR_SH_TUT_019"
+          }
+        }
+      ],
+      "afterOriginal": 901
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 14,
+            "text": "KR_SH_TUT_001"
+          }
+        }
+      ],
+      "afterOriginal": 941
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 4,
+            "text": "KR_TUT_P971"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 970
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 5,
+            "text": "KR_TUT_P1418"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 970
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 6,
+            "text": "KR_TUT_P1419"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 970
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 15,
+            "text": "KR_SH_TUT_002"
+          }
+        }
+      ],
+      "afterOriginal": 970
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Timer",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 17,
+            "text": "KR_TUT_T970"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 16,
+            "text": "StartTimer"
+          }
+        }
+      ],
+      "afterOriginal": 970
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 4,
+            "text": "KR_TUT_P971"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 18,
+            "text": "SetFlag"
+          }
+        }
+      ],
+      "afterOriginal": 970
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 19,
+            "text": "KR_SH_TUT_005"
+          }
+        }
+      ],
+      "afterOriginal": 1010
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 4,
+            "text": "KR_TUT_P971"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 1041
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 5,
+            "text": "KR_TUT_P1418"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 1041
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 6,
+            "text": "KR_TUT_P1419"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 1041
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 20,
+            "text": "KR_SH_TUT_006"
+          }
+        }
+      ],
+      "afterOriginal": 1041
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 21,
+            "text": "KR_SH_TUT_032"
+          }
+        }
+      ],
+      "afterOriginal": 1070
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 4,
+            "text": "KR_TUT_P971"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 1093
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 5,
+            "text": "KR_TUT_P1418"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 1093
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 6,
+            "text": "KR_TUT_P1419"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 1093
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 22,
+            "text": "KR_SH_TUT_010"
+          }
+        }
+      ],
+      "afterOriginal": 1093
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 23,
+            "text": "KR_SH_TUT_011"
+          }
+        }
+      ],
+      "afterOriginal": 1138
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 4,
+            "text": "KR_TUT_P971"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 1165
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 5,
+            "text": "KR_TUT_P1418"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 1165
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 6,
+            "text": "KR_TUT_P1419"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 1165
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 24,
+            "text": "KR_SH_TUT_007"
+          }
+        }
+      ],
+      "afterOriginal": 1165
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 25,
+            "text": "KR_SH_TUT_034"
+          }
+        }
+      ],
+      "afterOriginal": 1201
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 26,
+            "text": "KR_SH_TUT_008"
+          }
+        }
+      ],
+      "afterOriginal": 1207
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 23,
+            "text": "KR_SH_TUT_011"
+          }
+        }
+      ],
+      "afterOriginal": 1226
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 27,
+            "text": "KR_SH_TUT_009"
+          }
+        }
+      ],
+      "afterOriginal": 1240
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 23,
+            "text": "KR_SH_TUT_011"
+          }
+        }
+      ],
+      "afterOriginal": 1247
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 26,
+            "text": "KR_SH_TUT_008"
+          }
+        }
+      ],
+      "afterOriginal": 1264
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 28,
+            "text": "KR_SH_TUT_037"
+          }
+        }
+      ],
+      "afterOriginal": 1273
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 29,
+            "text": "KR_SH_TUT_038"
+          }
+        }
+      ],
+      "afterOriginal": 1281
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 30,
+            "text": "KR_SH_TUT_039"
+          }
+        }
+      ],
+      "afterOriginal": 1294
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 31,
+            "text": "KR_SH_TUT_040"
+          }
+        }
+      ],
+      "afterOriginal": 1307
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 32,
+            "text": "KR_SH_TUT_041"
+          }
+        }
+      ],
+      "afterOriginal": 1315
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 33,
+            "text": "KR_SH_TUT_042"
+          }
+        }
+      ],
+      "afterOriginal": 1323
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 34,
+            "text": "KR_SH_TUT_043"
+          }
+        }
+      ],
+      "afterOriginal": 1332
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 35,
+            "text": "KR_SH_TUT_044"
+          }
+        }
+      ],
+      "afterOriginal": 1340
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 36,
+            "text": "KR_SH_TUT_045"
+          }
+        }
+      ],
+      "afterOriginal": 1348
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 4,
+            "text": "KR_TUT_P971"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 1361
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 5,
+            "text": "KR_TUT_P1418"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 1361
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 6,
+            "text": "KR_TUT_P1419"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 1361
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 37,
+            "text": "KR_SH_TUT_012"
+          }
+        }
+      ],
+      "afterOriginal": 1361
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 38,
+            "text": "KR_SH_TUT_013"
+          }
+        }
+      ],
+      "afterOriginal": 1416
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Timer",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 39,
+            "text": "KR_TUT_T1416"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 16,
+            "text": "StartTimer"
+          }
+        }
+      ],
+      "afterOriginal": 1416
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 5,
+            "text": "KR_TUT_P1418"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 18,
+            "text": "SetFlag"
+          }
+        }
+      ],
+      "afterOriginal": 1416
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 6,
+            "text": "KR_TUT_P1419"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 18,
+            "text": "SetFlag"
+          }
+        }
+      ],
+      "afterOriginal": 1416
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 40,
+            "text": "KR_SH_TUT_016"
+          }
+        }
+      ],
+      "afterOriginal": 1444
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 41,
+            "text": "KR_SH_TUT_017"
+          }
+        }
+      ],
+      "afterOriginal": 1458
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 42,
+            "text": "KR_SH_TUT_028"
+          }
+        }
+      ],
+      "afterOriginal": 1473
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 43,
+            "text": "KR_SH_TUT_029"
+          }
+        }
+      ],
+      "afterOriginal": 1493
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 44,
+            "text": "KR_SH_TUT_022"
+          }
+        }
+      ],
+      "afterOriginal": 1541
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 45,
+            "text": "KR_SH_TUT_023"
+          }
+        }
+      ],
+      "afterOriginal": 1543
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 46,
+            "text": "KR_SH_TUT_024"
+          }
+        }
+      ],
+      "afterOriginal": 1545
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 47,
+            "text": "KR_SH_TUT_025"
+          }
+        }
+      ],
+      "afterOriginal": 1547
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 48,
+            "text": "KR_SH_TUT_026"
+          }
+        }
+      ],
+      "afterOriginal": 1570
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 48,
+            "text": "KR_SH_TUT_026"
+          }
+        }
+      ],
+      "afterOriginal": 1580
+    },
+    {
+      "name": "Objective",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "ActiveFlag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 49,
+            "text": ""
+          }
+        },
+        {
+          "name": "ID",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 50,
+            "text": "KR_TUT_SUBTITLES"
+          }
+        },
+        {
+          "name": "Persist",
+          "kind": "integer",
+          "value": 1
+        }
+      ],
+      "afterOriginal": 1602
+    },
+    {
+      "name": "Trigger",
+      "root": "Objectives",
+      "properties": [],
+      "afterOriginal": 1602
+    },
+    {
+      "name": "Condition",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 4,
+            "text": "KR_TUT_P971"
+          }
+        },
+        {
+          "name": "Group",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "Operator",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 52,
+            "text": "And"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 51,
+            "text": "FlagIsSet"
+          }
+        }
+      ],
+      "afterOriginal": 1602
+    },
+    {
+      "name": "Condition",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Amount",
+          "kind": "float",
+          "value": 4.006187438964844
+        },
+        {
+          "name": "Group",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "Operator",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 52,
+            "text": "And"
+          }
+        },
+        {
+          "name": "Quantity",
+          "kind": "integer",
+          "value": 2
+        },
+        {
+          "name": "Timer",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 17,
+            "text": "KR_TUT_T970"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 53,
+            "text": "Elapsed"
+          }
+        }
+      ],
+      "afterOriginal": 1602
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 54,
+            "text": "KR_SH_TUT_003"
+          }
+        }
+      ],
+      "afterOriginal": 1602
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 4,
+            "text": "KR_TUT_P971"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 1602
+    },
+    {
+      "name": "Trigger",
+      "root": "Objectives",
+      "properties": [],
+      "afterOriginal": 1602
+    },
+    {
+      "name": "Condition",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 5,
+            "text": "KR_TUT_P1418"
+          }
+        },
+        {
+          "name": "Group",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "Operator",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 52,
+            "text": "And"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 51,
+            "text": "FlagIsSet"
+          }
+        }
+      ],
+      "afterOriginal": 1602
+    },
+    {
+      "name": "Condition",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Amount",
+          "kind": "float",
+          "value": 4.202624797821045
+        },
+        {
+          "name": "Group",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "Operator",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 52,
+            "text": "And"
+          }
+        },
+        {
+          "name": "Quantity",
+          "kind": "integer",
+          "value": 2
+        },
+        {
+          "name": "Timer",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 39,
+            "text": "KR_TUT_T1416"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 53,
+            "text": "Elapsed"
+          }
+        }
+      ],
+      "afterOriginal": 1602
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 55,
+            "text": "KR_SH_TUT_014"
+          }
+        }
+      ],
+      "afterOriginal": 1602
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 5,
+            "text": "KR_TUT_P1418"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 1602
+    },
+    {
+      "name": "Trigger",
+      "root": "Objectives",
+      "properties": [],
+      "afterOriginal": 1602
+    },
+    {
+      "name": "Condition",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 6,
+            "text": "KR_TUT_P1419"
+          }
+        },
+        {
+          "name": "Group",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "Operator",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 52,
+            "text": "And"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 51,
+            "text": "FlagIsSet"
+          }
+        }
+      ],
+      "afterOriginal": 1602
+    },
+    {
+      "name": "Condition",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Amount",
+          "kind": "float",
+          "value": 7.515437602996826
+        },
+        {
+          "name": "Group",
+          "kind": "integer",
+          "value": 0
+        },
+        {
+          "name": "Operator",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 52,
+            "text": "And"
+          }
+        },
+        {
+          "name": "Quantity",
+          "kind": "integer",
+          "value": 2
+        },
+        {
+          "name": "Timer",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 39,
+            "text": "KR_TUT_T1416"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 53,
+            "text": "Elapsed"
+          }
+        }
+      ],
+      "afterOriginal": 1602
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Player",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 1,
+            "text": "All"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 0,
+            "text": "UserMsg"
+          }
+        },
+        {
+          "name": "UserMsg",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 56,
+            "text": "KR_SH_TUT_015"
+          }
+        }
+      ],
+      "afterOriginal": 1602
+    },
+    {
+      "name": "Action",
+      "root": "Objectives",
+      "properties": [
+        {
+          "name": "Flag",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 6,
+            "text": "KR_TUT_P1419"
+          }
+        },
+        {
+          "name": "Type",
+          "kind": "string",
+          "value": {
+            "kind": "added",
+            "index": 3,
+            "text": "ClearFlag"
+          }
+        }
+      ],
+      "afterOriginal": 1602
+    }
+  ],
+  "nodePlacement": "afterOriginal"
+}

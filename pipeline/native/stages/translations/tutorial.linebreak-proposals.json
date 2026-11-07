@@ -1,0 +1,1093 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-03",
+  "status": "Reviewed offline layout proposals; not applied or visually verified",
+  "source_dictionary": {
+    "path": "translations/tutorial.glyph-safe.json",
+    "sha256": "d852a1496aab6aeb9429dc8ce7f5806e97d20aa9db959d90cccd59a44b2355a1",
+    "referenced_audio_count": 42,
+    "unique_text_count": 41,
+    "per_string_hashes": "SHA256 of exact source_text bytes in stated encoding, with no BOM and no NUL terminator"
+  },
+  "font_measurement": {
+    "kind": "Static native BMF advance sum, not a Unicode character-count approximation",
+    "font_member": "ca/res/art/fonts/gillsans16normal_KO.bmf",
+    "font_sha256": "8eadc27707711bdf85d71a8d23e7459311c5c0bd19a27e37724660295abac3ef",
+    "fonts_archive_sha256": "6805bf02945caf6483c4671d8898ec011c4c71929f6635368c1f5a9f89ab2938",
+    "glyph_advance_byte_offset": 2,
+    "hangul_advance_native_px": 14,
+    "ascii_space_advance_native_px": 5,
+    "punctuation_examples_advance_native_px": 4,
+    "inter_character_spacing_assumed_px": 0,
+    "evidence": [
+      "Original native width loop0x1cc229..0x1cc298 adds glyphRecord+2 for every UTF16 character and font+0x20 between characters.",
+      "BMF loader0x1cc4cf..0x1cc5a8 zeroes the font object and does not assign nonzero font+0x20; resource load0x9504a..0x950e3 does not change it.",
+      "Native Font7 uses gillsans16normal.bmf, with Korean locale candidate gillsans16normal_KO.bmf."
+    ],
+    "limitations": [
+      "The current live font handle, tracking and viewport have not been read in this subtask. Metrics are source-font measurements under default zero tracking.",
+      "Actual outline/shadow extents, display scaling, forced LF support and line vertical spacing require runtime verification."
+    ]
+  },
+  "policy": {
+    "index_base": 0,
+    "index_units": "UTF16 code units in exact source_text",
+    "allowed_change": "Replace the one indicated existing ASCII space with a single LF; null index means no change",
+    "nominal_viewport_width_native_px": 640,
+    "existing_native_auto_wrap_width_px": 560,
+    "preferred_max_line_width_native_px": 448,
+    "two_line_threshold_source_width_native_px": 360,
+    "minimum_split_line_width_native_px": 120,
+    "minimum_line_width_ratio": 0.55,
+    "selection": "Manual semantic review among ASCII-space boundaries. Sentence/clause endings preferred; proper names and Korean auxiliary verb phrases kept together. Threshold360 uses a conservative text length for flight readability, with448 as the safe70%-viewport cap rather than a mandate to fill a long line.",
+    "speaker": "Retain original speaker prefix on line1 only",
+    "translation_wording_changed": false,
+    "new_printable_glyphs_added": false
+  },
+  "summary": {
+    "entries": 42,
+    "one_line": 30,
+    "two_line": 12,
+    "source_max_width_native_px": 514,
+    "proposed_max_line_width_native_px": 351,
+    "minimum_two_line_ratio": 0.5769
+  },
+  "entries": [
+    {
+      "key": "KR_SH_TUT_001",
+      "audio": "SH_Tutorial_001_BETTY.wav",
+      "node_indices": [
+        941
+      ],
+      "source_text": "베티: 네이슨, 알아보니 케이준들이 저 앞의 섬에 판도라를 감춘 거래요. 따라와요.",
+      "source_utf16_code_units": 46,
+      "source_utf16le_sha256": "0e947694ba11bdce4847e8d7794c8f952368f835bcf4fce284435ac3d0e365fb",
+      "source_utf8_sha256": "b44e76021f14ed7908c53f1964ae4b0e5b4babfa9813652e192932702ea81106",
+      "source_width_native_px": 514,
+      "break_index_utf16": 19,
+      "replaced_character": "U+0020",
+      "replacement_character": "U+000A",
+      "lines": [
+        "베티: 네이슨, 알아보니 케이준들이",
+        "저 앞의 섬에 판도라를 감춘 거래요. 따라와요."
+      ],
+      "proposed_text": "베티: 네이슨, 알아보니 케이준들이\n저 앞의 섬에 판도라를 감춘 거래요. 따라와요.",
+      "line_widths_native_px": [
+        219,
+        290
+      ],
+      "line_width_ratio": 0.7552,
+      "reason": "Subject phrase boundary before the location and predicate; speaker and addressed name stay on line1."
+    },
+    {
+      "key": "KR_SH_TUT_002",
+      "audio": "SH_Tutorial_002_BETTY.wav",
+      "node_indices": [
+        970
+      ],
+      "source_text": "베티: 거의 다 왔어요. 기관총이 걸리지 않는지 점검해 봐요.",
+      "source_utf16_code_units": 34,
+      "source_utf16le_sha256": "cf6360da90de8bdd30f3b3e70d7d8f59170acbd3a3bb821ade442cfb9307c82c",
+      "source_utf8_sha256": "71e1d5d5b2f2ac07ebf8bb20787bfc21684191177e7227ce93b341687170af34",
+      "source_width_native_px": 374,
+      "break_index_utf16": 13,
+      "replaced_character": "U+0020",
+      "replacement_character": "U+000A",
+      "lines": [
+        "베티: 거의 다 왔어요.",
+        "기관총이 걸리지 않는지 점검해 봐요."
+      ],
+      "proposed_text": "베티: 거의 다 왔어요.\n기관총이 걸리지 않는지 점검해 봐요.",
+      "line_widths_native_px": [
+        135,
+        234
+      ],
+      "line_width_ratio": 0.5769,
+      "reason": "Sentence boundary between arrival and gun-check instruction."
+    },
+    {
+      "key": "KR_SH_TUT_003",
+      "audio": "SH_Tutorial_003_BETTY.wav",
+      "node_indices": [
+        971
+      ],
+      "source_text": "베티: 저 기상 관측용 풍선들을 쏘면서 연습해 봐요.",
+      "source_utf16_code_units": 29,
+      "source_utf16le_sha256": "50996e39d3796297bae7996a4cdf3b8966dbf879dd760cda4d6da129a67d0049",
+      "source_utf8_sha256": "ba8f82fc4a2ed12c9c1ff4ac32cf7abc7954bede6ea78c128f5ef7664c3ccc7d",
+      "source_width_native_px": 323,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 저 기상 관측용 풍선들을 쏘면서 연습해 봐요."
+      ],
+      "proposed_text": "베티: 저 기상 관측용 풍선들을 쏘면서 연습해 봐요.",
+      "line_widths_native_px": [
+        323
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_004",
+      "audio": "SH_Tutorial_004_BETTY.wav",
+      "node_indices": [
+        793
+      ],
+      "source_text": "베티: 기관총을 시험해 보라는 거지, 나를 쏘라는 게 아니에요!",
+      "source_utf16_code_units": 35,
+      "source_utf16le_sha256": "a138df4fd3e7083a55914085a018d259162b14066cf8e25cd0a4f649612647a1",
+      "source_utf8_sha256": "d3a92263c9778e3a5df8cc5932931c5900f8753e40be20b38e36eee10853cca1",
+      "source_width_native_px": 388,
+      "break_index_utf16": 20,
+      "replaced_character": "U+0020",
+      "replacement_character": "U+000A",
+      "lines": [
+        "베티: 기관총을 시험해 보라는 거지,",
+        "나를 쏘라는 게 아니에요!"
+      ],
+      "proposed_text": "베티: 기관총을 시험해 보라는 거지,\n나를 쏘라는 게 아니에요!",
+      "line_widths_native_px": [
+        224,
+        159
+      ],
+      "line_width_ratio": 0.7098,
+      "reason": "Comma/clause boundary between intended test and warning."
+    },
+    {
+      "key": "KR_SH_TUT_005",
+      "audio": "SH_Tutorial_005_BETTY.wav",
+      "node_indices": [
+        1010
+      ],
+      "source_text": "베티: 잘 쏘네요. 제대로 작동하는 것 같아요.",
+      "source_utf16_code_units": 26,
+      "source_utf16le_sha256": "9d6949b7b86ab943368f8293c3196d8a33238911d4ae36034bfd5aafff854b32",
+      "source_utf8_sha256": "787c3e8a787dab7c2c27e92f23f0b6d91889c8b0f1ec47f50a97453fddc3977d",
+      "source_width_native_px": 280,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 잘 쏘네요. 제대로 작동하는 것 같아요."
+      ],
+      "proposed_text": "베티: 잘 쏘네요. 제대로 작동하는 것 같아요.",
+      "line_widths_native_px": [
+        280
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_006",
+      "audio": "SH_Tutorial_006_BETTY.wav",
+      "node_indices": [
+        1041
+      ],
+      "source_text": "베티: 2번 무기도 사용해 봐요. 저 버려진 포탑들을 쏘면서 연습해요.",
+      "source_utf16_code_units": 39,
+      "source_utf16le_sha256": "3b8d07319b6ad7f8e1d6a06c2bcdf3d58103a2c589f09cee40cfef5b07c2468a",
+      "source_utf8_sha256": "8d052bd6185acd51db77a2de1b69a920867635e36c68271baf58758a6c3da7d0",
+      "source_width_native_px": 430,
+      "break_index_utf16": 18,
+      "replaced_character": "U+0020",
+      "replacement_character": "U+000A",
+      "lines": [
+        "베티: 2번 무기도 사용해 봐요.",
+        "저 버려진 포탑들을 쏘면서 연습해요."
+      ],
+      "proposed_text": "베티: 2번 무기도 사용해 봐요.\n저 버려진 포탑들을 쏘면서 연습해요.",
+      "line_widths_native_px": [
+        191,
+        234
+      ],
+      "line_width_ratio": 0.8162,
+      "reason": "Sentence boundary between weapon test and practice targets."
+    },
+    {
+      "key": "KR_SH_TUT_007",
+      "audio": "SH_Tutorial_007_BETTY.wav",
+      "node_indices": [
+        1165
+      ],
+      "source_text": "베티: 기체 조종 성능도 시험해 봐요. 임멜만 기동을 해 보세요.",
+      "source_utf16_code_units": 36,
+      "source_utf16le_sha256": "bc00460a05633b95fe6b80679d1ff3b0c10974d0e7fef7b29f28db873cc6f937",
+      "source_utf8_sha256": "f9c8db60cbea89b33274c10e89d9c71d66d18952e550e8a331181a9cb4e06e71",
+      "source_width_native_px": 393,
+      "break_index_utf16": 21,
+      "replaced_character": "U+0020",
+      "replacement_character": "U+000A",
+      "lines": [
+        "베티: 기체 조종 성능도 시험해 봐요.",
+        "임멜만 기동을 해 보세요."
+      ],
+      "proposed_text": "베티: 기체 조종 성능도 시험해 봐요.\n임멜만 기동을 해 보세요.",
+      "line_widths_native_px": [
+        229,
+        159
+      ],
+      "line_width_ratio": 0.6943,
+      "reason": "Sentence boundary between handling test and named maneuver."
+    },
+    {
+      "key": "KR_SH_TUT_008",
+      "audio": "SH_Tutorial_008_BETTY.wav",
+      "node_indices": [
+        1207,
+        1264
+      ],
+      "source_text": "베티: 다른 기동도 몇 번 더 해 봐요. 확실히 점검해야죠.",
+      "source_utf16_code_units": 33,
+      "source_utf16le_sha256": "92426d2a3eddd240e182945ee0f6cdbc22758ccd3a342aac36c957ccb8a8fabd",
+      "source_utf8_sha256": "10e6b3d692560ee35526d7e7c00ebf7980c6a3810d380c1008f8f64ecafd4516",
+      "source_width_native_px": 351,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 다른 기동도 몇 번 더 해 봐요. 확실히 점검해야죠."
+      ],
+      "proposed_text": "베티: 다른 기동도 몇 번 더 해 봐요. 확실히 점검해야죠.",
+      "line_widths_native_px": [
+        351
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_009",
+      "audio": "SH_Tutorial_009_BETTY.wav",
+      "node_indices": [
+        1240
+      ],
+      "source_text": "베티: 다 했으면 이쪽으로 와요. 계속 가죠.",
+      "source_utf16_code_units": 25,
+      "source_utf16le_sha256": "b14b5f3444c9f9a12f088531b6a18052db9a9f8a693cdcf30e3b809cd6a742cb",
+      "source_utf8_sha256": "1a2b98a490bf19b076b6a09d96ae9439eba55cf51b15b32c4823cafa8ff34f45",
+      "source_width_native_px": 266,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 다 했으면 이쪽으로 와요. 계속 가죠."
+      ],
+      "proposed_text": "베티: 다 했으면 이쪽으로 와요. 계속 가죠.",
+      "line_widths_native_px": [
+        266
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_010",
+      "audio": "SH_Tutorial_010_BETTY.wav",
+      "node_indices": [
+        1093
+      ],
+      "source_text": "베티: 박사님이 브레이크를 조정해 줬어요. 한번 시험해 봐요.",
+      "source_utf16_code_units": 34,
+      "source_utf16le_sha256": "a31e71e588c3a09b8118e0e570b3ba7cec199b84491922042e5829ab81ac548a",
+      "source_utf8_sha256": "cd6b768e3c73a33dedb2392c7c228c6a3d6d672be49d8f7fd91e8d250b9185ce",
+      "source_width_native_px": 383,
+      "break_index_utf16": 14,
+      "replaced_character": "U+0020",
+      "replacement_character": "U+000A",
+      "lines": [
+        "베티: 박사님이 브레이크를",
+        "조정해 줬어요. 한번 시험해 봐요."
+      ],
+      "proposed_text": "베티: 박사님이 브레이크를\n조정해 줬어요. 한번 시험해 봐요.",
+      "line_widths_native_px": [
+        168,
+        210
+      ],
+      "line_width_ratio": 0.8,
+      "reason": "Object phrase boundary; balances the lines without separating the auxiliary phrase 조정해 줬어요 or leaving a short final sentence alone."
+    },
+    {
+      "key": "KR_SH_TUT_011",
+      "audio": "SH_Tutorial_011_BETTY.wav",
+      "node_indices": [
+        1138,
+        1226,
+        1247
+      ],
+      "source_text": "베티: 좋아요!",
+      "source_utf16_code_units": 8,
+      "source_utf16le_sha256": "fed02cd683d58e6341cb5725734efd7b67c4f2b92764f6bf75e53e17ce03988d",
+      "source_utf8_sha256": "a8763969595e5f637a458d3afd17337159e76789b4b8801bdf31465423dd7410",
+      "source_width_native_px": 83,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 좋아요!"
+      ],
+      "proposed_text": "베티: 좋아요!",
+      "line_widths_native_px": [
+        83
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_012",
+      "audio": "SH_Tutorial_012_BETTY.wav",
+      "node_indices": [
+        1361
+      ],
+      "source_text": "베티: 이제 서둘러야겠어요. 부스터를 사용해요!",
+      "source_utf16_code_units": 26,
+      "source_utf16le_sha256": "ed4f857d3254d1be1d0b525aeaaea2f26b9983224e3aceb4423ea772598e9259",
+      "source_utf8_sha256": "7125cf60c389f6920e09d0806bdd84e2fece6f1f78d7f065363e8e5e31e7389b",
+      "source_width_native_px": 298,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 이제 서둘러야겠어요. 부스터를 사용해요!"
+      ],
+      "proposed_text": "베티: 이제 서둘러야겠어요. 부스터를 사용해요!",
+      "line_widths_native_px": [
+        298
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_013",
+      "audio": "SH_Tutorial_013_BETTY.wav",
+      "node_indices": [
+        1416
+      ],
+      "source_text": "베티: 저기 우리 비행선이에요. 조심해요. 케이준 기체들이 순찰 중이에요.",
+      "source_utf16_code_units": 41,
+      "source_utf16le_sha256": "fb9b69f7e253abefe26a19c18f567beb2bba15ccf944a4a8c17884af86e3dc0e",
+      "source_utf8_sha256": "3e61ad6b11442559fbe56e25f6c05859dcd57d67798f7febb82cefc958f2fdb2",
+      "source_width_native_px": 462,
+      "break_index_utf16": 23,
+      "replaced_character": "U+0020",
+      "replacement_character": "U+000A",
+      "lines": [
+        "베티: 저기 우리 비행선이에요. 조심해요.",
+        "케이준 기체들이 순찰 중이에요."
+      ],
+      "proposed_text": "베티: 저기 우리 비행선이에요. 조심해요.\n케이준 기체들이 순찰 중이에요.",
+      "line_widths_native_px": [
+        256,
+        201
+      ],
+      "line_width_ratio": 0.7852,
+      "reason": "Sentence boundary after warning; enemy patrol information stays together on line2."
+    },
+    {
+      "key": "KR_SH_TUT_014",
+      "audio": "SH_Tutorial_014_NATHAN.wav",
+      "node_indices": [
+        1418
+      ],
+      "source_text": "네이슨: 문제없어. 빨리 해치우자. 날 따라와.",
+      "source_utf16_code_units": 26,
+      "source_utf16le_sha256": "eb42373135d35a898f5551325c62bf23d2f4988421aedff813d3a281fd84ac91",
+      "source_utf8_sha256": "0aa6c8b959bc97ba96a3f8f9922573d5348cc40746a7920e785d5f7e0c90fb0d",
+      "source_width_native_px": 279,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "네이슨: 문제없어. 빨리 해치우자. 날 따라와."
+      ],
+      "proposed_text": "네이슨: 문제없어. 빨리 해치우자. 날 따라와.",
+      "line_widths_native_px": [
+        279
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_015",
+      "audio": "SH_Tutorial_015_BETTY.wav",
+      "node_indices": [
+        1419
+      ],
+      "source_text": "베티: 좋아요, 대장. 그래야죠!",
+      "source_utf16_code_units": 18,
+      "source_utf16le_sha256": "6dad34373a4d0b19747f04b3d6e159f8f13883638b232f0c39e501be0fa0b42c",
+      "source_utf8_sha256": "daddea94554e1f0dc6ff6c07e66150c41fff4f1c97dc07f6a00dc70f51920848",
+      "source_width_native_px": 185,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 좋아요, 대장. 그래야죠!"
+      ],
+      "proposed_text": "베티: 좋아요, 대장. 그래야죠!",
+      "line_widths_native_px": [
+        185
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_016",
+      "audio": "SH_Tutorial_016_CAJUN.wav",
+      "node_indices": [
+        1444
+      ],
+      "source_text": "케이준: 오호! 포춘 헌터스 놈들이 비행선을 되찾으러 왔군!",
+      "source_utf16_code_units": 33,
+      "source_utf16le_sha256": "bcb19821bf7695ca556a896e32b127e810ab4ee46d3f4b95e42717aa12ce8644",
+      "source_utf8_sha256": "64a745bd4b1cf2c1180cc40617e50e7cbfb47a830f22d8c9abb285571c2a3a5b",
+      "source_width_native_px": 369,
+      "break_index_utf16": 19,
+      "replaced_character": "U+0020",
+      "replacement_character": "U+000A",
+      "lines": [
+        "케이준: 오호! 포춘 헌터스 놈들이",
+        "비행선을 되찾으러 왔군!"
+      ],
+      "proposed_text": "케이준: 오호! 포춘 헌터스 놈들이\n비행선을 되찾으러 왔군!",
+      "line_widths_native_px": [
+        210,
+        154
+      ],
+      "line_width_ratio": 0.7333,
+      "reason": "Complete subject phrase boundary; 포춘 헌터스 remains together."
+    },
+    {
+      "key": "KR_SH_TUT_017",
+      "audio": "SH_Tutorial_017_BETTY.wav",
+      "node_indices": [
+        1458
+      ],
+      "source_text": "베티: 뭘 기다려요? 놈들을 해치워요!",
+      "source_utf16_code_units": 21,
+      "source_utf16le_sha256": "052ffe37c73554fdd87d689475f984cd96333b53dd8623462dab2d4fcf12e9db",
+      "source_utf8_sha256": "5af3bc1f0a79f754bb985fbbed42df75335ea6c6e6a7f56117b386b6026942ef",
+      "source_width_native_px": 233,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 뭘 기다려요? 놈들을 해치워요!"
+      ],
+      "proposed_text": "베티: 뭘 기다려요? 놈들을 해치워요!",
+      "line_widths_native_px": [
+        233
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_018",
+      "audio": "SH_Tutorial_018_BETTY.wav",
+      "node_indices": [
+        771
+      ],
+      "source_text": "베티: 미안해요, 대장!",
+      "source_utf16_code_units": 13,
+      "source_utf16le_sha256": "ab105a873e968f70f9656dd1ed53829eb2e682f5e51bcf7210bf8f74b306d744",
+      "source_utf8_sha256": "6a67ee906b5c4c9890dca76fad01bf00ff499c38c08f4c74a546dfe7fba6de03",
+      "source_width_native_px": 134,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 미안해요, 대장!"
+      ],
+      "proposed_text": "베티: 미안해요, 대장!",
+      "line_widths_native_px": [
+        134
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_019",
+      "audio": "SH_Tutorial_019_BETTY.wav",
+      "node_indices": [
+        901
+      ],
+      "source_text": "베티: 어디 가요? 판도라를 되찾아야죠!",
+      "source_utf16_code_units": 22,
+      "source_utf16le_sha256": "3abea7d685bbc4fe25e600fce2ce5e4df8b4f48131b7c6aa65f3dc931970e46c",
+      "source_utf8_sha256": "477053617b1eea914c9136a039e52211e07883df66ad95085a6b54dbac7f755a",
+      "source_width_native_px": 247,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 어디 가요? 판도라를 되찾아야죠!"
+      ],
+      "proposed_text": "베티: 어디 가요? 판도라를 되찾아야죠!",
+      "line_widths_native_px": [
+        247
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_020",
+      "audio": "SH_Tutorial_020_BETTY.wav",
+      "node_indices": [
+        810
+      ],
+      "source_text": "베티: 조심해요! 판도라를 망가뜨리지 말아요!",
+      "source_utf16_code_units": 25,
+      "source_utf16le_sha256": "c6ca275ecca5017092208b81fbc623fdf121096446c7e3a8f78d71eb5a32df80",
+      "source_utf8_sha256": "857eae7e88543a649620333caa3f5769379014692b3290a92ef121964d26501c",
+      "source_width_native_px": 284,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 조심해요! 판도라를 망가뜨리지 말아요!"
+      ],
+      "proposed_text": "베티: 조심해요! 판도라를 망가뜨리지 말아요!",
+      "line_widths_native_px": [
+        284
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_021",
+      "audio": "SH_Tutorial_021_BETTY.wav",
+      "node_indices": [
+        820
+      ],
+      "source_text": "베티: 지금 뭐 하는 거예요? 우리 비행선을 망가뜨리지 말아요!",
+      "source_utf16_code_units": 35,
+      "source_utf16le_sha256": "fa32019a4136780887e6f36e939a7b6edf6358bbfcc51c16ecf5ee1a2ccfea7f",
+      "source_utf8_sha256": "8f82487a19ef33005ce10a00d83e777e9e6996ced7bc416d528daa38d4c4a7b9",
+      "source_width_native_px": 393,
+      "break_index_utf16": 16,
+      "replaced_character": "U+0020",
+      "replacement_character": "U+000A",
+      "lines": [
+        "베티: 지금 뭐 하는 거예요?",
+        "우리 비행선을 망가뜨리지 말아요!"
+      ],
+      "proposed_text": "베티: 지금 뭐 하는 거예요?\n우리 비행선을 망가뜨리지 말아요!",
+      "line_widths_native_px": [
+        173,
+        215
+      ],
+      "line_width_ratio": 0.8047,
+      "reason": "Question boundary before warning."
+    },
+    {
+      "key": "KR_SH_TUT_022",
+      "audio": "SH_Tutorial_022_BETTY.wav",
+      "node_indices": [
+        1541
+      ],
+      "source_text": "베티: 좋아요, 이 정도면 충분하겠어요.",
+      "source_utf16_code_units": 22,
+      "source_utf16le_sha256": "27f1ab8869d63082b7213401b3a3d42ef3f0bb8cb46188ca0e125650d4309ed2",
+      "source_utf8_sha256": "87a7409b003dbbd1e0cd28d52b1994d6d2cfb521270daa9e49bea266919694ed",
+      "source_width_native_px": 242,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 좋아요, 이 정도면 충분하겠어요."
+      ],
+      "proposed_text": "베티: 좋아요, 이 정도면 충분하겠어요.",
+      "line_widths_native_px": [
+        242
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_023",
+      "audio": "SH_Tutorial_023_NATHAN.wav",
+      "node_indices": [
+        1543
+      ],
+      "source_text": "네이슨: 판도라에 올라타자.",
+      "source_utf16_code_units": 15,
+      "source_utf16le_sha256": "b352c4b2f3ad902660c5861381fcdfab4a6cf458197b95f1916b758eb6417161",
+      "source_utf8_sha256": "a89b25dd35340214006ace7906b50bc6362f41ec57106e4a05ddf9ecde6920f9",
+      "source_width_native_px": 172,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "네이슨: 판도라에 올라타자."
+      ],
+      "proposed_text": "네이슨: 판도라에 올라타자.",
+      "line_widths_native_px": [
+        172
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_024",
+      "audio": "SH_Tutorial_024_BETTY.wav",
+      "node_indices": [
+        1545
+      ],
+      "source_text": "베티: 누가 조종하죠? 빅 존이 필요해요.",
+      "source_utf16_code_units": 23,
+      "source_utf16le_sha256": "9ca307c406bde24ee5e17fe0bb2287ac3119364cc0b419de91f6345afc1d5eef",
+      "source_utf8_sha256": "4a074ad5e293e0fa78fb5e8de2f22073d8b7626910f4351b3dc1160177a39396",
+      "source_width_native_px": 252,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 누가 조종하죠? 빅 존이 필요해요."
+      ],
+      "proposed_text": "베티: 누가 조종하죠? 빅 존이 필요해요.",
+      "line_widths_native_px": [
+        252
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_025",
+      "audio": "SH_Tutorial_025_NATHAN.wav",
+      "node_indices": [
+        1547
+      ],
+      "source_text": "네이슨: 어젯밤 카드판 도중에 가 버렸어. 찾을 때까진 내가 어떻게든 해 봐야지.",
+      "source_utf16_code_units": 45,
+      "source_utf16le_sha256": "2c8ec8d40b433ae802268166625bb29efc586d401846bc31a1ee044153baa87e",
+      "source_utf8_sha256": "3164728a266cbfc44bf4a3a2efc7c5f5fae26a7335f21ecdd672ada229f747b3",
+      "source_width_native_px": 501,
+      "break_index_utf16": 23,
+      "replaced_character": "U+0020",
+      "replacement_character": "U+000A",
+      "lines": [
+        "네이슨: 어젯밤 카드판 도중에 가 버렸어.",
+        "찾을 때까진 내가 어떻게든 해 봐야지."
+      ],
+      "proposed_text": "네이슨: 어젯밤 카드판 도중에 가 버렸어.\n찾을 때까진 내가 어떻게든 해 봐야지.",
+      "line_widths_native_px": [
+        257,
+        239
+      ],
+      "line_width_ratio": 0.93,
+      "reason": "Sentence boundary between departure and temporary plan."
+    },
+    {
+      "key": "KR_SH_TUT_026",
+      "audio": "SH_Tutorial_026_BETTY.wav",
+      "node_indices": [
+        1570,
+        1580
+      ],
+      "source_text": "베티: 네이슨, 판도라에 올라타려던 거 아니었어요?",
+      "source_utf16_code_units": 28,
+      "source_utf16le_sha256": "ac2a2568805dc5d00c6aa28628174bab10d701f9d34cb45362cfa9c4073adf1e",
+      "source_utf8_sha256": "cb3a67d7a5ac688429512edf391ce23522b21e9924074dd297fe1864468ef351",
+      "source_width_native_px": 322,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 네이슨, 판도라에 올라타려던 거 아니었어요?"
+      ],
+      "proposed_text": "베티: 네이슨, 판도라에 올라타려던 거 아니었어요?",
+      "line_widths_native_px": [
+        322
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_027",
+      "audio": "SH_Tutorial_027_BETTY.wav",
+      "node_indices": [
+        785
+      ],
+      "source_text": "베티: 뭐 하러 나한테 쏘는 거예요!",
+      "source_utf16_code_units": 20,
+      "source_utf16le_sha256": "fa7747510d5214aca950368256703ed9d8f07edfdd021c3262b604056e6452da",
+      "source_utf8_sha256": "54e0e0d84eb90e85512ade8335694489105b60a20fa14d3124523183166dfcbd",
+      "source_width_native_px": 215,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 뭐 하러 나한테 쏘는 거예요!"
+      ],
+      "proposed_text": "베티: 뭐 하러 나한테 쏘는 거예요!",
+      "line_widths_native_px": [
+        215
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_028",
+      "audio": "SH_Tutorial_028_BETTY.wav",
+      "node_indices": [
+        1473
+      ],
+      "source_text": "베티: 조심해요, 네이슨! 증원군이 와요!",
+      "source_utf16_code_units": 23,
+      "source_utf16le_sha256": "a634367fd745e8c5581098484896c77dfdfbc4ce3f0ded21646a7a4c99152ea4",
+      "source_utf8_sha256": "d3e80f5fa09dcc16f39a8262e665f17e5eb76d87aea3337091aa63b47da77e82",
+      "source_width_native_px": 246,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 조심해요, 네이슨! 증원군이 와요!"
+      ],
+      "proposed_text": "베티: 조심해요, 네이슨! 증원군이 와요!",
+      "line_widths_native_px": [
+        246
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_029",
+      "audio": "SH_Tutorial_029_BETTY.wav",
+      "node_indices": [
+        1493
+      ],
+      "source_text": "베티: 네이슨, 비행선에 올라탈 수 있게 저 대공포를 처리해 줘요.",
+      "source_utf16_code_units": 37,
+      "source_utf16le_sha256": "a98c87873e9dddfefed14f9b1044f5c36072220f4eb27f1ef6f4812b41f2c79a",
+      "source_utf8_sha256": "02b8c70b5fa4da3797868d6efe1db3a414444be8cadac1b625b71d10728fe0fc",
+      "source_width_native_px": 407,
+      "break_index_utf16": 22,
+      "replaced_character": "U+0020",
+      "replacement_character": "U+000A",
+      "lines": [
+        "베티: 네이슨, 비행선에 올라탈 수 있게",
+        "저 대공포를 처리해 줘요."
+      ],
+      "proposed_text": "베티: 네이슨, 비행선에 올라탈 수 있게\n저 대공포를 처리해 줘요.",
+      "line_widths_native_px": [
+        243,
+        159
+      ],
+      "line_width_ratio": 0.6543,
+      "reason": "Purpose clause boundary after 올라탈 수 있게; attack instruction stays together."
+    },
+    {
+      "key": "KR_SH_TUT_030",
+      "audio": "SH_Tutorial_030_BETTY.wav",
+      "node_indices": [
+        884
+      ],
+      "source_text": "베티: 서둘러 가고 싶은가 보네요!",
+      "source_utf16_code_units": 19,
+      "source_utf16le_sha256": "c8dc26c3e7f9b48dbe82fee5e049fa6060c4505ef474c4d7cd15c05d5f087eaa",
+      "source_utf8_sha256": "9c3233a0b9033bc150c95ee6cfc476653f5b614ed8e3f472b662d682f2a3492c",
+      "source_width_native_px": 210,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 서둘러 가고 싶은가 보네요!"
+      ],
+      "proposed_text": "베티: 서둘러 가고 싶은가 보네요!",
+      "line_widths_native_px": [
+        210
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_031",
+      "audio": "SH_Tutorial_031_BETTY.wav",
+      "node_indices": [
+        837
+      ],
+      "source_text": "베티: 게이지가 부족할 땐 특수 비행 기술을 조심해서 사용해요.",
+      "source_utf16_code_units": 35,
+      "source_utf16le_sha256": "5ddbbde59821b5ee89e4d0ce02ac483ce45844fcbc65961e56a3796762c4281b",
+      "source_utf8_sha256": "04b2831904094675c60b48b16a2982e3ba6045de4e57b9fadf9b19e0a4ad0c6b",
+      "source_width_native_px": 398,
+      "break_index_utf16": 14,
+      "replaced_character": "U+0020",
+      "replacement_character": "U+000A",
+      "lines": [
+        "베티: 게이지가 부족할 땐",
+        "특수 비행 기술을 조심해서 사용해요."
+      ],
+      "proposed_text": "베티: 게이지가 부족할 땐\n특수 비행 기술을 조심해서 사용해요.",
+      "line_widths_native_px": [
+        159,
+        234
+      ],
+      "line_width_ratio": 0.6795,
+      "reason": "Condition clause boundary after 부족할 땐; the maneuver phrase stays together."
+    },
+    {
+      "key": "KR_SH_TUT_032",
+      "audio": "SH_Tutorial_032_BETTY.wav",
+      "node_indices": [
+        1070
+      ],
+      "source_text": "베티: 잘했어요.",
+      "source_utf16_code_units": 9,
+      "source_utf16le_sha256": "c41f5de7913916d54be580db3a07db211f4e0855468340f777c7114847eabfde",
+      "source_utf8_sha256": "43d88d4ad8f7bebb28af5b5255c144988ed60b0a21cbf7c66e13351953aa6596",
+      "source_width_native_px": 97,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 잘했어요."
+      ],
+      "proposed_text": "베티: 잘했어요.",
+      "line_widths_native_px": [
+        97
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_034",
+      "audio": "SH_Tutorial_034_BETTY.wav",
+      "node_indices": [
+        1201
+      ],
+      "source_text": "베티: 잘했어요.",
+      "source_utf16_code_units": 9,
+      "source_utf16le_sha256": "c41f5de7913916d54be580db3a07db211f4e0855468340f777c7114847eabfde",
+      "source_utf8_sha256": "43d88d4ad8f7bebb28af5b5255c144988ed60b0a21cbf7c66e13351953aa6596",
+      "source_width_native_px": 97,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 잘했어요."
+      ],
+      "proposed_text": "베티: 잘했어요.",
+      "line_widths_native_px": [
+        97
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_037",
+      "audio": "SH_Tutorial_037_BETTY.wav",
+      "node_indices": [
+        1273
+      ],
+      "source_text": "베티: 그건 스플릿 에스예요.",
+      "source_utf16_code_units": 16,
+      "source_utf16le_sha256": "ffa92fea6d0c8424a0c3c131e24a77545de2da30525db7294a57bc3e08c6524e",
+      "source_utf8_sha256": "76ffc6f8a580c5345791d72f10492c5241f97e0a9baa089d3de8b59869d4100d",
+      "source_width_native_px": 177,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 그건 스플릿 에스예요."
+      ],
+      "proposed_text": "베티: 그건 스플릿 에스예요.",
+      "line_widths_native_px": [
+        177
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_038",
+      "audio": "SH_Tutorial_038_BETTY.wav",
+      "node_indices": [
+        1281
+      ],
+      "source_text": "베티: 그건 스냅 턴이에요.",
+      "source_utf16_code_units": 15,
+      "source_utf16le_sha256": "a1832172fcb4d767edaca07d78af2df747520851ac71b2ffe9671195a8084b08",
+      "source_utf8_sha256": "06edfe4182e428486ed71a3add8a756cf4213e454d6de442924e3d7cb7f579fa",
+      "source_width_native_px": 163,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 그건 스냅 턴이에요."
+      ],
+      "proposed_text": "베티: 그건 스냅 턴이에요.",
+      "line_widths_native_px": [
+        163
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_039",
+      "audio": "SH_Tutorial_039_BETTY.wav",
+      "node_indices": [
+        1294
+      ],
+      "source_text": "베티: 그건 배럴 롤이에요.",
+      "source_utf16_code_units": 15,
+      "source_utf16le_sha256": "055b066b6b96b4ad4ed573261c507bf1ab501548f29b2abd188528046700e760",
+      "source_utf8_sha256": "46784ba97aa4dd1dfb19fe29dae96b2d6b1d3ba9ac496fc5658727806df20064",
+      "source_width_native_px": 163,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 그건 배럴 롤이에요."
+      ],
+      "proposed_text": "베티: 그건 배럴 롤이에요.",
+      "line_widths_native_px": [
+        163
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_040",
+      "audio": "SH_Tutorial_040_BETTY.wav",
+      "node_indices": [
+        1307
+      ],
+      "source_text": "베티: 그건 스냅 롤이에요.",
+      "source_utf16_code_units": 15,
+      "source_utf16le_sha256": "ae346e7f10ae86dbbb202795645df9325d4161e35dad063063ab6fdeefb4785a",
+      "source_utf8_sha256": "32c9d18d079a179631e5b2b2758449dd5a79b210d3d389a25630dd2cc12219d4",
+      "source_width_native_px": 163,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 그건 스냅 롤이에요."
+      ],
+      "proposed_text": "베티: 그건 스냅 롤이에요.",
+      "line_widths_native_px": [
+        163
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_041",
+      "audio": "SH_Tutorial_041_BETTY.wav",
+      "node_indices": [
+        1315
+      ],
+      "source_text": "베티: 그건 하이스피드 요요예요.",
+      "source_utf16_code_units": 18,
+      "source_utf16le_sha256": "b27183de454fcda6040e4a46d88fdfa0e4bd2b3b35213c3fcb3e3b5d3a8b4133",
+      "source_utf8_sha256": "de9e794723577822a0bd3c13378555db3a0896b9f06a3c579d2d84cc3628a133",
+      "source_width_native_px": 205,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 그건 하이스피드 요요예요."
+      ],
+      "proposed_text": "베티: 그건 하이스피드 요요예요.",
+      "line_widths_native_px": [
+        205
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_042",
+      "audio": "SH_Tutorial_042_BETTY.wav",
+      "node_indices": [
+        1323
+      ],
+      "source_text": "베티: 그건 임멜만이에요.",
+      "source_utf16_code_units": 14,
+      "source_utf16le_sha256": "56535c8d1648a8c0c88acdb269499e26f6191ab1d92d813e8fbf78200e10dcb3",
+      "source_utf8_sha256": "9c004ddc913563e46e4db4a158ca8edb2fe4327c50f9c75bb3fad67533dae5ae",
+      "source_width_native_px": 158,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 그건 임멜만이에요."
+      ],
+      "proposed_text": "베티: 그건 임멜만이에요.",
+      "line_widths_native_px": [
+        158
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_043",
+      "audio": "SH_Tutorial_043_BETTY.wav",
+      "node_indices": [
+        1332
+      ],
+      "source_text": "베티: 그건 스톨이에요.",
+      "source_utf16_code_units": 13,
+      "source_utf16le_sha256": "fa90874d43c432c7b282ad9b8c9b624e6221c38fcab1f84fc0048ee6f62d78aa",
+      "source_utf8_sha256": "ce332466f3f323be4ca7ecf44a72ac397013aa4961f2a3926d5ec2bc3ebe5815",
+      "source_width_native_px": 144,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 그건 스톨이에요."
+      ],
+      "proposed_text": "베티: 그건 스톨이에요.",
+      "line_widths_native_px": [
+        144
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_044",
+      "audio": "SH_Tutorial_044_BETTY.wav",
+      "node_indices": [
+        1340
+      ],
+      "source_text": "베티: 그건 파워 클라임이에요.",
+      "source_utf16_code_units": 17,
+      "source_utf16le_sha256": "e2aaf44e46623d11a07e410b8c06b8c42e10a77969583b2d51e3d78df8707240",
+      "source_utf8_sha256": "2171d366d69cf7da9ce29cb764de29a5960ec6baf44652691320db75e77b87df",
+      "source_width_native_px": 191,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 그건 파워 클라임이에요."
+      ],
+      "proposed_text": "베티: 그건 파워 클라임이에요.",
+      "line_widths_native_px": [
+        191
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    },
+    {
+      "key": "KR_SH_TUT_045",
+      "audio": "SH_Tutorial_045_BETTY.wav",
+      "node_indices": [
+        1348
+      ],
+      "source_text": "베티: 그건 백 스톨 루프예요.",
+      "source_utf16_code_units": 17,
+      "source_utf16le_sha256": "ee182a274a7082a15a6027d471eacd3810a7c3dee897dd9843942a908ea36fe8",
+      "source_utf8_sha256": "4544ab7779313cd451f12912ce47a65fec5d741375634f428535a1fe9f9a441b",
+      "source_width_native_px": 182,
+      "break_index_utf16": null,
+      "replaced_character": null,
+      "replacement_character": null,
+      "lines": [
+        "베티: 그건 백 스톨 루프예요."
+      ],
+      "proposed_text": "베티: 그건 백 스톨 루프예요.",
+      "line_widths_native_px": [
+        182
+      ],
+      "line_width_ratio": 1,
+      "reason": "Keep a short or medium caption on one line; the existing speaker prefix remains attached to its dialogue."
+    }
+  ]
+}

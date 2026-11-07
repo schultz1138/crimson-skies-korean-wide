@@ -1,0 +1,26 @@
+{
+  "platform": "win_amd64",
+  "pythonAbi": "cp312",
+  "wheels": [
+    {
+      "filename": "capstone-5.0.9-py3-none-win_amd64.whl",
+      "sha256": "732cedbbb56d42e723f14d7af6387f1454194a820b4b96b56d1e53f865ef85d0"
+    },
+    {
+      "filename": "fonttools-4.68.0-cp312-cp312-win_amd64.whl",
+      "sha256": "fedc183bdbc3fdbfbdca26e0e04566d089cbb404712509a4e824608e9304cc77"
+    },
+    {
+      "filename": "keystone_engine-0.9.2-py2.py3-none-win_amd64.whl",
+      "sha256": "c91db1ff16d9d094e00d1827107d1b4afd5e63ce19b491a0140e660635000e8b"
+    },
+    {
+      "filename": "pefile-2024.8.26-py3-none-any.whl",
+      "sha256": "76f8b485dcd3b1bb8166f1128d395fa3d87af26360c2358fb75b80019b957c6f"
+    },
+    {
+      "filename": "pillow-13.0.0-cp312-cp312-win_amd64.whl",
+      "sha256": "ff3fe9eb621fbb9db4c4be33ab946f6bac5f98ab50ca8d3260503653656c961b"
+    }
+  ]
+}
