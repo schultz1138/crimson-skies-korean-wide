@@ -1,0 +1,15 @@
+# Build products and private game inputs
+*.exe
+*.dll
+*.pdb
+*.zip
+*.bak
+*.log
+*.bin
+__pycache__/
+private/
+fixtures/
+backups/
+Settings.ini
+Data[0-9]*
+appxmanifest.xml

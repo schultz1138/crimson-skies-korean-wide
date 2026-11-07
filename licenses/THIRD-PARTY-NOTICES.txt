@@ -1,0 +1,21 @@
+Bundled components
+
+xdelta3 3.2.2, Copyright 2016 Joshua MacDonald; Apache License2.0.
+Unmodified official Windows x86-64 release binary:
+https://github.com/jmacd/xdelta/releases/tag/v3.2.2
+https://github.com/jmacd/xdelta
+License: licenses/xdelta-LICENSE.txt
+Binary SHA-256: 732980d52f9220dc81817ccdd0c295eadce8a0048a24c2a771a73f791ac824e9
+
+The official xdelta3 release statically links liblzma (XZ Utils) and BLAKE3.
+The v3.2.2 source CMake pins XZ v5.8.3 and BLAKE3 1.8.5.
+XZ Utils: Copyright (C) The XZ Utils authors and contributors; liblzma0BSD.
+https://github.com/tukaani-project/xz/tree/v5.8.3
+Licenses: licenses/XZ-COPYING.txt and licenses/XZ-LICENSE-0BSD.txt
+BLAKE3: Copyright 2019 Jack O'Connor and Samuel Neves; Apache License2.0 chosen.
+https://github.com/BLAKE3-team/BLAKE3/tree/1.8.5
+License: licenses/BLAKE3-LICENSE-Apache.txt
+
+CS Korean Sans / Noto: see FONT-NOTICE.txt and licenses/OFL-NotoSansCJK.txt.
+Installer source code: MIT; see licenses/Installer-MIT.txt.
+Installer license does not relicense the game, its assets or third-party fonts.

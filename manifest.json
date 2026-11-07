@@ -1,0 +1,210 @@
+{
+  "schema": 2,
+  "releaseId": "CrimsonSkies-KO-Wide-0.11.0-beta.1",
+  "tool": {
+    "path": "tools/xdelta3.exe",
+    "version": "3.2.2",
+    "sha256": "732980d52f9220dc81817ccdd0c295eadce8a0048a24c2a771a73f791ac824e9"
+  },
+  "files": [
+    {
+      "path": "xefu_2ae70168_ceb51ba7_9b9c95a0_541622e1_d1689465.dll",
+      "targetBytes": 42328576,
+      "targetSha256": "45c2c716da6c01f0937ce922dbfe2de89a3a9dfb163578757cfc5c5cc7e65f44",
+      "sources": [
+        {
+          "sourceBytes": 41881088,
+          "sourceSha256": "d49d36bd5e6beb6bcc2198dd92d1d3c9116fa0b6584b0291e0a581e28faed86d",
+          "delta": "patches/native-stock.vcdiff",
+          "deltaBytes": 89143,
+          "deltaSha256": "7294c3023e919eb6b6728f951163956b4aceec7a0e81d6c6ad51e34b4108c00d"
+        },
+        {
+          "sourceBytes": 42250752,
+          "sourceSha256": "cfb9d6558ff0035494af8866d72cccb0e369d2c6a1549825a699f7249154c650",
+          "delta": "patches/native-ko-beta1.vcdiff",
+          "deltaBytes": 6233,
+          "deltaSha256": "363cdb9702ebe843fad81aad534c2ceb6b7d43099d066ebf752d03b2fbde8c8d"
+        }
+      ]
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0000",
+      "targetBytes": 170459136,
+      "targetSha256": "91f96697337e6717dcdfaa99eb321196c3521da33295e77e54fb6777c92ed487",
+      "sources": [
+        {
+          "sourceBytes": 170459136,
+          "sourceSha256": "ecbaddb51756283208012ee6da904c50f96c8cbc73c55ea5a56fdab5304f3c7d",
+          "delta": "patches/game-directory.vcdiff",
+          "deltaBytes": 598,
+          "deltaSha256": "2a849bc04a52e066aaeb71eec70b82069a623ebb7b1c4503a7aa492e32a8322f"
+        }
+      ]
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0005",
+      "targetBytes": 170459136,
+      "targetSha256": "68317f440ba24f74a832346f9ddf400f6a3076a743cd8e80b67be62aa5484e31",
+      "sources": [
+        {
+          "sourceBytes": 170459136,
+          "sourceSha256": "2d1a1d974179abd5b0feaf444e486d1c6b4e29e7ff13afa120c4881700323069",
+          "delta": "patches/korean-assets.vcdiff",
+          "deltaBytes": 240549,
+          "deltaSha256": "6a638623bea01a270cc4fdc999d94a93d67e1f826c85bee628e8eb6a66f30a0e"
+        }
+      ]
+    },
+    {
+      "path": "VGPUDX12.dll",
+      "targetBytes": 6393856,
+      "targetSha256": "f4d7784a007919a1e397405340855ac539c76f4abccfc6ecf8edebb2ed9835aa",
+      "sources": [
+        {
+          "sourceBytes": 6232576,
+          "sourceSha256": "8306b4c06b100cae18f91dccd0468c2210cca11a02d928025de59bd827610247",
+          "delta": "patches/gpu-stock.vcdiff",
+          "deltaBytes": 3745,
+          "deltaSha256": "0cff7e0fded625353d0c892cc13d4c5a0fe9f1a176cb6c383bb77240eb7a7228"
+        }
+      ]
+    },
+    {
+      "path": "EmuMenu/Assets/TitleMenuData.json",
+      "targetBytes": 2200,
+      "targetSha256": "200b609e7b279c25814fb42ed1dd1cdcd6f3203b670dc3b05749a6ee26686265",
+      "sources": [
+        {
+          "sourceBytes": 816,
+          "sourceSha256": "82cf420a22fd50455e04b92879e7c3137ef085ab9a2c373640b11897dfd12096",
+          "delta": "patches/menu-stock.vcdiff",
+          "deltaBytes": 701,
+          "deltaSha256": "0bc1601e28a18b3ee5db3ed93d73829023a21c5365c8c37051ce441dbecec070"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "id": "stock",
+      "label": "정확한 지원 빌드 원본",
+      "sha256": [
+        "d49d36bd5e6beb6bcc2198dd92d1d3c9116fa0b6584b0291e0a581e28faed86d",
+        "ecbaddb51756283208012ee6da904c50f96c8cbc73c55ea5a56fdab5304f3c7d",
+        "2d1a1d974179abd5b0feaf444e486d1c6b4e29e7ff13afa120c4881700323069",
+        "8306b4c06b100cae18f91dccd0468c2210cca11a02d928025de59bd827610247",
+        "82cf420a22fd50455e04b92879e7c3137ef085ab9a2c373640b11897dfd12096"
+      ]
+    },
+    {
+      "id": "ko-beta-0.10.0-beta.1",
+      "label": "한글 베타 0.10.0-beta.1",
+      "sha256": [
+        "cfb9d6558ff0035494af8866d72cccb0e369d2c6a1549825a699f7249154c650",
+        "91f96697337e6717dcdfaa99eb321196c3521da33295e77e54fb6777c92ed487",
+        "68317f440ba24f74a832346f9ddf400f6a3076a743cd8e80b67be62aa5484e31",
+        "8306b4c06b100cae18f91dccd0468c2210cca11a02d928025de59bd827610247",
+        "82cf420a22fd50455e04b92879e7c3137ef085ab9a2c373640b11897dfd12096"
+      ]
+    }
+  ],
+  "status": "beta",
+  "version": "0.11.0-beta.1",
+  "releaseDate": "2026-11-07",
+  "title": "Crimson Skies 한국어·와이드스크린 통합 패치",
+  "supportedBuild": "2608.3123.1.0",
+  "supportedPackage": {
+    "name": "Xbox360BackwardCompatibil.PrimaryCrimsonSkiesHighR",
+    "version": "2608.3123.1.0",
+    "architecture": "x64",
+    "publisher": "CN=92ADE8CC-2A9A-4DF3-9BAF-18AF498CAA12"
+  },
+  "platform": "Windows x64 packaged build; exact package identity and the five file hashes are required",
+  "font": {
+    "family": "CS Korean Sans",
+    "upstream": "Noto Sans CJK KR Bold 2.004",
+    "upstreamSha256": "26d0c6748500a0444844280b308f5b62c7ae92ac6c6ac88148e502dd211eb52a",
+    "license": "SIL Open Font License 1.1",
+    "notices": [
+      "FONT-NOTICE.txt",
+      "licenses/OFL-NotoSansCJK.txt"
+    ],
+    "systemFontInstallationRequired": false
+  },
+  "included": {
+    "uniqueRadioAndCinematicAudio": 1847,
+    "radioCaptionParts": 1943,
+    "originalMovieCaptionCues": 395,
+    "creditsTextCues": 74,
+    "nativeBottomCaptions": true,
+    "externalCaptionProgramRequired": false,
+    "aspectFollowsResolution": true,
+    "supportedAspects": [
+      "4:3",
+      "16:9"
+    ],
+    "renderResolutions": [
+      [
+        640,
+        480
+      ],
+      [
+        800,
+        600
+      ],
+      [
+        1024,
+        768
+      ],
+      [
+        1280,
+        720
+      ],
+      [
+        1280,
+        960
+      ],
+      [
+        1600,
+        900
+      ],
+      [
+        1920,
+        1080
+      ],
+      [
+        1920,
+        1440
+      ],
+      [
+        2560,
+        1440
+      ],
+      [
+        2560,
+        1920
+      ],
+      [
+        3840,
+        2160
+      ]
+    ],
+    "fourKAaPolicy": "Preserve the selected AA option; increase only the measured 4K+AA shadow-pool budget"
+  },
+  "backupSemantics": "Restore the verified installation-before profile: stock or Korean beta 0.10.0-beta.1",
+  "originalFilesBundled": false,
+  "originalBackupsCreatedOnlyOnUserComputer": true,
+  "savesModified": false,
+  "qa": {
+    "targetNativeAndGpuMatchAcceptedAlpha10": true,
+    "allForwardDeltasDecodeByteExact": true,
+    "controlledFourKWithAaBootVerified": true,
+    "userReportedFourKWithAaPlayNormal": true,
+    "exactFinalPlayMissionReported": false,
+    "fullEndingPlaybackVerified": false,
+    "physicalFourKDisplayVerified": false,
+    "unresolvedForeignShoutCaptions": 4,
+    "finalInstallerResultsDocument": "검증 결과.txt"
+  }
+}

@@ -1,0 +1,20 @@
+CS Korean Sans — converted bitmap font
+
+Copyright © 2014-2021 Adobe (http://www.adobe.com/).
+Upstream: Noto Sans CJK KR Bold, Version 2.004.
+License: SIL Open Font License, Version 1.1 (licenses/OFL-NotoSansCJK.txt).
+https://github.com/notofonts/noto-cjk
+Pinned source: f8d157532fbfaeda587e826d4cd5b21a49186f7c/Sans/OTF/Korean/NotoSansCJKkr-Bold.otf
+Source SHA-256: 26d0c6748500a0444844280b308f5b62c7ae92ac6c6ac88148e502dd211eb52a
+
+Modifications: renamed derived face CS Korean Sans; rasterized at17px via
+FreeType/Pillow; converted to native TN/BMF v2 with2-bit antialiasing;
+subset to existing character sets with exact original advances/19px cells.
+Narrow Latin/symbol rasters fit their existing cells. Hangul is not resized.
+The credits rectangle is a programmatically generated opaque UI shape.
+All text glyphs, including Latin and symbols, were newly rendered from Noto.
+No Microsoft Malgun Gothic glyph record is used in these three new fonts.
+The runtime resource filenames remain compatible game IDs, not a claim that
+this modified conversion is an unmodified upstream Noto font.
+The converted font software remains under OFL1.1. This notice and OFL must
+accompany redistribution. The original source OTF need not be installed.
