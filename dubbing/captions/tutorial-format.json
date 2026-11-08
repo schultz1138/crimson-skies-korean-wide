@@ -1,0 +1,256 @@
+{
+  "entries": [
+    {
+      "key": "KR_SH_TUT_001",
+      "source_text": "베티: 네이슨, 알아보니 케이준들이 저 앞의 섬에 판도라를 감춘 거래요. 따라와요.",
+      "source_utf16le_sha256": "0e947694ba11bdce4847e8d7794c8f952368f835bcf4fce284435ac3d0e365fb",
+      "break_index_utf16": 19
+    },
+    {
+      "key": "KR_SH_TUT_002",
+      "source_text": "베티: 거의 다 왔어요. 기관총이 걸리지 않는지 점검해 봐요.",
+      "source_utf16le_sha256": "cf6360da90de8bdd30f3b3e70d7d8f59170acbd3a3bb821ade442cfb9307c82c",
+      "break_index_utf16": 13
+    },
+    {
+      "key": "KR_SH_TUT_003",
+      "source_text": "베티: 저 관측 풍선을 쏴 봐요.",
+      "source_utf16le_sha256": "e0cea87297ee8401dbb80539a06b9adca2fef2d8c59d1a0913a24de197cb5bbb",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_004",
+      "source_text": "베티: 기관총을 시험해 보라는 거지, 나를 쏘라는 게 아니에요!",
+      "source_utf16le_sha256": "a138df4fd3e7083a55914085a018d259162b14066cf8e25cd0a4f649612647a1",
+      "break_index_utf16": 20
+    },
+    {
+      "key": "KR_SH_TUT_005",
+      "source_text": "베티: 잘 쏘네요. 총도 멀쩡해요.",
+      "source_utf16le_sha256": "a637d883e4ac331b697586b5097bc6ff0de7fff31bcc86f5d9e87d30bea34d3b",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_006",
+      "source_text": "베티: 2번 무기도 사용해 봐요. 저 버려진 포탑들을 쏘면서 연습해요.",
+      "source_utf16le_sha256": "3b8d07319b6ad7f8e1d6a06c2bcdf3d58103a2c589f09cee40cfef5b07c2468a",
+      "break_index_utf16": 18
+    },
+    {
+      "key": "KR_SH_TUT_007",
+      "source_text": "베티: 기체 조종 성능도 시험해 봐요. 임멜만 기동을 해 보세요.",
+      "source_utf16le_sha256": "bc00460a05633b95fe6b80679d1ff3b0c10974d0e7fef7b29f28db873cc6f937",
+      "break_index_utf16": 21
+    },
+    {
+      "key": "KR_SH_TUT_008",
+      "source_text": "베티: 다른 기동도 몇 번 더 해 봐요. 확실히 점검해야죠.",
+      "source_utf16le_sha256": "92426d2a3eddd240e182945ee0f6cdbc22758ccd3a342aac36c957ccb8a8fabd",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_009",
+      "source_text": "베티: 다 했으면 이쪽으로 와요. 계속 가죠.",
+      "source_utf16le_sha256": "b14b5f3444c9f9a12f088531b6a18052db9a9f8a693cdcf30e3b809cd6a742cb",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_010",
+      "source_text": "베티: 박사님이 브레이크를 조정해 줬어요. 한번 시험해 봐요.",
+      "source_utf16le_sha256": "a31e71e588c3a09b8118e0e570b3ba7cec199b84491922042e5829ab81ac548a",
+      "break_index_utf16": 14
+    },
+    {
+      "key": "KR_SH_TUT_011",
+      "source_text": "베티: 좋아요!",
+      "source_utf16le_sha256": "fed02cd683d58e6341cb5725734efd7b67c4f2b92764f6bf75e53e17ce03988d",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_012",
+      "source_text": "베티: 이제 서둘러야겠어요. 부스터를 사용해요!",
+      "source_utf16le_sha256": "ed4f857d3254d1be1d0b525aeaaea2f26b9983224e3aceb4423ea772598e9259",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_013",
+      "source_text": "베티: 저기 우리 비행선이에요. 조심해요. 케이준 기체들이 순찰 중이에요.",
+      "source_utf16le_sha256": "fb9b69f7e253abefe26a19c18f567beb2bba15ccf944a4a8c17884af86e3dc0e",
+      "break_index_utf16": 23
+    },
+    {
+      "key": "KR_SH_TUT_014",
+      "source_text": "네이슨: 문제없어. 빨리 해치우자. 날 따라와.",
+      "source_utf16le_sha256": "eb42373135d35a898f5551325c62bf23d2f4988421aedff813d3a281fd84ac91",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_015",
+      "source_text": "베티: 좋아요, 대장. 그래야죠!",
+      "source_utf16le_sha256": "6dad34373a4d0b19747f04b3d6e159f8f13883638b232f0c39e501be0fa0b42c",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_016",
+      "source_text": "케이준: 오호! 포춘 헌터스 놈들이 비행선을 되찾으러 왔군!",
+      "source_utf16le_sha256": "bcb19821bf7695ca556a896e32b127e810ab4ee46d3f4b95e42717aa12ce8644",
+      "break_index_utf16": 19
+    },
+    {
+      "key": "KR_SH_TUT_017",
+      "source_text": "베티: 뭘 기다려요? 놈들을 해치워요!",
+      "source_utf16le_sha256": "052ffe37c73554fdd87d689475f984cd96333b53dd8623462dab2d4fcf12e9db",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_018",
+      "source_text": "베티: 미안해요, 대장!",
+      "source_utf16le_sha256": "ab105a873e968f70f9656dd1ed53829eb2e682f5e51bcf7210bf8f74b306d744",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_019",
+      "source_text": "베티: 어디 가요? 판도라를 되찾아야죠!",
+      "source_utf16le_sha256": "3abea7d685bbc4fe25e600fce2ce5e4df8b4f48131b7c6aa65f3dc931970e46c",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_020",
+      "source_text": "베티: 조심해요! 판도라를 망가뜨리지 말아요!",
+      "source_utf16le_sha256": "c6ca275ecca5017092208b81fbc623fdf121096446c7e3a8f78d71eb5a32df80",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_021",
+      "source_text": "베티: 뭐 해요? 우리 비행선 망가뜨리지 말아요!",
+      "source_utf16le_sha256": "37342e4b154be7a2e129af27cfd441bd79500dd3aab3b7d4d168b6684661c7c1",
+      "break_index_utf16": 12
+    },
+    {
+      "key": "KR_SH_TUT_022",
+      "source_text": "베티: 좋아요, 충분해요.",
+      "source_utf16le_sha256": "afc37ac0edef07af41ec191a74c036ecdb7759c0473855052c1489f201c97f81",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_023",
+      "source_text": "네이슨: 판도라에 타자.",
+      "source_utf16le_sha256": "a3501636d6b2d9f073388f5f0bd826ec02c52bfedb14ba09ce83fb3331fbb215",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_024",
+      "source_text": "베티: 누가 조종하죠? 빅 존이 필요해요.",
+      "source_utf16le_sha256": "9ca307c406bde24ee5e17fe0bb2287ac3119364cc0b419de91f6345afc1d5eef",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_025",
+      "source_text": "네이슨: 어젯밤 카드판 도중에 가 버렸어. 찾을 때까진 내가 어떻게든 해 봐야지.",
+      "source_utf16le_sha256": "2c8ec8d40b433ae802268166625bb29efc586d401846bc31a1ee044153baa87e",
+      "break_index_utf16": 23
+    },
+    {
+      "key": "KR_SH_TUT_026",
+      "source_text": "베티: 네이슨, 판도라에 올라타려던 거 아니었어요?",
+      "source_utf16le_sha256": "ac2a2568805dc5d00c6aa28628174bab10d701f9d34cb45362cfa9c4073adf1e",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_027",
+      "source_text": "베티: 뭐 하러 나한테 쏘는 거예요!",
+      "source_utf16le_sha256": "fa7747510d5214aca950368256703ed9d8f07edfdd021c3262b604056e6452da",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_028",
+      "source_text": "베티: 조심해요, 네이슨! 증원군이 와요!",
+      "source_utf16le_sha256": "a634367fd745e8c5581098484896c77dfdfbc4ce3f0ded21646a7a4c99152ea4",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_029",
+      "source_text": "베티: 네이슨, 비행선에 올라탈 수 있게 저 대공포를 처리해 줘요.",
+      "source_utf16le_sha256": "a98c87873e9dddfefed14f9b1044f5c36072220f4eb27f1ef6f4812b41f2c79a",
+      "break_index_utf16": 22
+    },
+    {
+      "key": "KR_SH_TUT_030",
+      "source_text": "베티: 서둘러 가고 싶은가 보네요!",
+      "source_utf16le_sha256": "c8dc26c3e7f9b48dbe82fee5e049fa6060c4505ef474c4d7cd15c05d5f087eaa",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_031",
+      "source_text": "베티: 게이지가 부족할 땐 특수 비행 기술을 조심해서 사용해요.",
+      "source_utf16le_sha256": "5ddbbde59821b5ee89e4d0ce02ac483ce45844fcbc65961e56a3796762c4281b",
+      "break_index_utf16": 14
+    },
+    {
+      "key": "KR_SH_TUT_032",
+      "source_text": "베티: 잘했어요.",
+      "source_utf16le_sha256": "c41f5de7913916d54be580db3a07db211f4e0855468340f777c7114847eabfde",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_034",
+      "source_text": "베티: 잘했어요.",
+      "source_utf16le_sha256": "c41f5de7913916d54be580db3a07db211f4e0855468340f777c7114847eabfde",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_037",
+      "source_text": "베티: 그건 스플릿 에스예요.",
+      "source_utf16le_sha256": "ffa92fea6d0c8424a0c3c131e24a77545de2da30525db7294a57bc3e08c6524e",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_038",
+      "source_text": "베티: 그건 스냅 턴이에요.",
+      "source_utf16le_sha256": "a1832172fcb4d767edaca07d78af2df747520851ac71b2ffe9671195a8084b08",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_039",
+      "source_text": "베티: 그건 배럴 롤이에요.",
+      "source_utf16le_sha256": "055b066b6b96b4ad4ed573261c507bf1ab501548f29b2abd188528046700e760",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_040",
+      "source_text": "베티: 스냅 롤이에요.",
+      "source_utf16le_sha256": "d1ca2bcce2fa0fc7826866789cfb0664e752b5543dc66dffe85727cdedb0aa0c",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_041",
+      "source_text": "베티: 그건 하이스피드 요요예요.",
+      "source_utf16le_sha256": "b27183de454fcda6040e4a46d88fdfa0e4bd2b3b35213c3fcb3e3b5d3a8b4133",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_042",
+      "source_text": "베티: 임멜만이에요.",
+      "source_utf16le_sha256": "2395c4ea222c009819ed69479f313a629df630e81d67d8fb36342d8bfd4c1ac5",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_043",
+      "source_text": "베티: 스톨이에요.",
+      "source_utf16le_sha256": "70b867bfdea8430f47121a436e0904509210bf9d7b916234930b0a97c408d777",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_044",
+      "source_text": "베티: 그건 파워 클라임이에요.",
+      "source_utf16le_sha256": "e2aaf44e46623d11a07e410b8c06b8c42e10a77969583b2d51e3d78df8707240",
+      "break_index_utf16": null
+    },
+    {
+      "key": "KR_SH_TUT_045",
+      "source_text": "베티: 그건 백 스톨 루프예요.",
+      "source_utf16le_sha256": "ee182a274a7082a15a6027d471eacd3810a7c3dee897dd9843942a908ea36fe8",
+      "break_index_utf16": null
+    }
+  ]
+}

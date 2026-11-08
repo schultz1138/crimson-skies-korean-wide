@@ -1,5 +1,13 @@
 # Crimson Skies Korean & Widescreen Patch
 
+## 0.13.0 Alpha 2: Korean dubbing and matching captions
+
+**[Download Alpha 2](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.13.0-alpha.2)** · [Install/restore guide](docs/DUBBING.en.md) · [Source builds](dubbing/README.en.md)
+
+Adds finalized AI Korean dialogue for 1,847 WAVs and 56 movies, a caption style matching the spoken script, and a movie-caption cache fix. Install the **0.11 foundation → audio ZIP's `KoreanDubInstaller.exe` → caption ZIP's `PrepareSubtitleLauncher.exe`**, then select **한국어 — 더빙 대사 자막**. Players need no API key or TTS generation.
+
+Restore active 0.12 subtitle packs with their own launcher before installing. To return to English audio, restore the original translation captions first, then restore the audio installer. Profile management remains available. Complete campaign playtesting is still in progress, so this is a prerelease.
+
 ## 0.12.2 alpha 1: profile backup, deletion and restoration
 
 **[Download 0.12.2 alpha](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.12.2-alpha.1)** · [Profile Manager guide](docs/PROFILE_MANAGER.en.md)

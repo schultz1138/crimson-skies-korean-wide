@@ -1,0 +1,11 @@
+Crimson Skies community Korean AI dubbing
+
+Korean character performances were generated with Google Gemini TTS and
+processed by this project for radio character, level, duration and cinematic
+mixing. This is an unofficial community localization.
+
+The project code uses the repository's MIT license. Preserve the original
+third-party notices for xdelta, its dependencies and the Noto-derived font.
+Original game assets remain subject to their respective rights; players supply
+their own supported game. Public packages contain differential patch data and
+tools, without complete original game files, private backups or API keys.

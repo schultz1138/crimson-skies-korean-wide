@@ -1,0 +1,364 @@
+{
+  "schema": 1,
+  "releaseId": "CrimsonSkies-Dub-Subtitles-0.13.0-alpha.2",
+  "baselineId": "FullDubBeta1",
+  "baselineStyleId": "ko-KR",
+  "files": [
+    {
+      "path": "xefu_2ae70168_ceb51ba7_9b9c95a0_541622e1_d1689465.dll",
+      "bytes": 42328576,
+      "baselineSha256": "45c2c716da6c01f0937ce922dbfe2de89a3a9dfb163578757cfc5c5cc7e65f44"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0000",
+      "bytes": 170459136,
+      "baselineSha256": "97a4167d5321ed61821ac414b0191b432c37ceff3f9ed4fa822717223c791531"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0005",
+      "bytes": 170459136,
+      "baselineSha256": "e24a1398a97f79dfe65e20aff9ebaef7587fd823bdf9e8554d4fec2e67442cb5"
+    }
+  ],
+  "guards": [
+    {
+      "path": "Game/DefaultPackage.data/Data0001",
+      "bytes": 170459136,
+      "sha256": "6b890ec181940d8514a44fbda69e84abd696712bd18566d251727c203b032ecc"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0003",
+      "bytes": 170459136,
+      "sha256": "27585b680fe6862047c14e61db7372bb2ebd9108e970218944c6bc746da1cd90"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0004",
+      "bytes": 170459136,
+      "sha256": "3d18ae5fd841f4499b6d1f07a26b951d16c59d583bfcda398bb0e199e81b156e"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0006",
+      "bytes": 170459136,
+      "sha256": "0f36301f74dc457f7bb3530293b6387866bc16ed077b678bdb1c5d6934bd5535"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0007",
+      "bytes": 170459136,
+      "sha256": "5ea57b3d76f2b484c4356b087452b7831e5d616a5044844bfdf3de91a4cc4d68"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0010",
+      "bytes": 170459136,
+      "sha256": "fc849d87643d21af062403a244b891618223cf8eea1333a18008df6360f68d88"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0011",
+      "bytes": 170459136,
+      "sha256": "43375584660337126765f86e689cd0cd9a433bd889a157110181f9776c3ba2d1"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0012",
+      "bytes": 170459136,
+      "sha256": "594a517a38ec93529d6f8cd62e8a843ff47fd390d27212307f5b89d3ae1f30cb"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0013",
+      "bytes": 170459136,
+      "sha256": "f23c9c566e06e41c90b43406a9d53281a36fb13f4d3c3a933a6918eaa73d34ca"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0014",
+      "bytes": 170459136,
+      "sha256": "99e83e2c77293c2403fbeaae9c8c045490043fab1ee08749d65a862b5eb46515"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0015",
+      "bytes": 170459136,
+      "sha256": "769b8bd55eae31587316dc941953bf031a4d2be42fbf87271c0ddbade8992569"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0016",
+      "bytes": 170459136,
+      "sha256": "ba428b4d7bafce6818f5076d06ed6f6565cbe5d8f0d0e702f29db24b172786ba"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0017",
+      "bytes": 170459136,
+      "sha256": "836b4801cbb9e3a8fd2c1e1978a5c9fad68138b5c019901d8c0f080c16b4a85d"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0018",
+      "bytes": 170459136,
+      "sha256": "611c8e136c76f5f0ee2055de62309966425e05716871e134946a7d7126ec47a8"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0019",
+      "bytes": 170459136,
+      "sha256": "fe733d6912b0bef349737f4f5de857f164f42198746f27b0d1c315e71386fb01"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0020",
+      "bytes": 170459136,
+      "sha256": "0b7f7ee851a48f875743f90de1c1a9d1afd4c1ce758b9362a4a708198f9db56a"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0021",
+      "bytes": 170459136,
+      "sha256": "cfbf469c27c5c1cb08844bf766b67c9ce066ccfcf2c80bea5da58ccd5128069d"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0022",
+      "bytes": 170459136,
+      "sha256": "712a2acf81ae2f8746886667e76af45ce3dfbaf859546810e353effa4bb336ea"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0002",
+      "bytes": 170459136,
+      "sha256": "1df1144aa41b3a1bf001f2e313c12014671a456f07cda0a2a8dc61da8e9d24b4"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0008",
+      "bytes": 170459136,
+      "sha256": "6e028b02c19e3d7e21e6dd2126b2196e84294664330a8d82369bbd4659d419a7"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0009",
+      "bytes": 170459136,
+      "sha256": "b9ac2847504617c4c83dc0a337974917daf83ceafb56f0035346f71e083c20ec"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0023",
+      "bytes": 170459136,
+      "sha256": "eaa31b3c06efdc0447b1c0f3317dc28cc539259a97b71381c5ac59a9d89c4d52"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0024",
+      "bytes": 170459136,
+      "sha256": "59903056e549f6fa908cca51d256d2302b9dc11f4baa10b25a83eb51b9052487"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0025",
+      "bytes": 141451264,
+      "sha256": "c1a0d157aa5665830ef6ce99691ff42df1c815b255c7bf24de0b57f88c268607"
+    },
+    {
+      "path": "Game/DefaultPackage",
+      "bytes": 45056,
+      "sha256": "48bde944d77390e444670600d502f3cafbee7b3d201ffd2a76d5dfe44c3a66ef"
+    },
+    {
+      "path": "appxmanifest.xml",
+      "bytes": 4815,
+      "sha256": "7d9e362e1af1b0c2e7f4b5f6bca9258530fd04a03a21640b1cbeff8049d9ed71"
+    },
+    {
+      "path": "EmuMenu/Assets/TitleMenuData.json",
+      "bytes": 1215,
+      "sha256": "52a1cfe539eb52a1cc5241bfd6072fa4fc5531d63b0d325fa44d4be54942ee39"
+    },
+    {
+      "path": "EmuMenu/EmuMenu.dll",
+      "bytes": 634880,
+      "sha256": "40e78379367b74c6dc7ccffce9215abae7400a069cebb9f8d50360f7a46fdc11"
+    }
+  ],
+  "spans": [
+    {
+      "fileIndex": 0,
+      "offset": 352,
+      "bytes": 4
+    },
+    {
+      "fileIndex": 0,
+      "offset": 41945792,
+      "bytes": 1028
+    },
+    {
+      "fileIndex": 0,
+      "offset": 42016512,
+      "bytes": 233964
+    },
+    {
+      "fileIndex": 1,
+      "offset": 13472,
+      "bytes": 4
+    },
+    {
+      "fileIndex": 2,
+      "offset": 84291584,
+      "bytes": 520192
+    },
+    {
+      "fileIndex": 2,
+      "offset": 84815872,
+      "bytes": 835584
+    },
+    {
+      "fileIndex": 2,
+      "offset": 85655552,
+      "bytes": 835584
+    },
+    {
+      "fileIndex": 2,
+      "offset": 86495232,
+      "bytes": 835584
+    },
+    {
+      "fileIndex": 2,
+      "offset": 87334912,
+      "bytes": 835584
+    },
+    {
+      "fileIndex": 2,
+      "offset": 88174592,
+      "bytes": 835584
+    },
+    {
+      "fileIndex": 2,
+      "offset": 89014272,
+      "bytes": 835584
+    },
+    {
+      "fileIndex": 2,
+      "offset": 89853952,
+      "bytes": 835584
+    },
+    {
+      "fileIndex": 2,
+      "offset": 90693632,
+      "bytes": 835584
+    },
+    {
+      "fileIndex": 2,
+      "offset": 91533312,
+      "bytes": 835584
+    },
+    {
+      "fileIndex": 2,
+      "offset": 92372992,
+      "bytes": 835584
+    },
+    {
+      "fileIndex": 2,
+      "offset": 93212672,
+      "bytes": 835584
+    },
+    {
+      "fileIndex": 2,
+      "offset": 94052352,
+      "bytes": 835584
+    },
+    {
+      "fileIndex": 2,
+      "offset": 94892032,
+      "bytes": 835584
+    },
+    {
+      "fileIndex": 2,
+      "offset": 95731712,
+      "bytes": 835584
+    },
+    {
+      "fileIndex": 2,
+      "offset": 96571392,
+      "bytes": 835584
+    },
+    {
+      "fileIndex": 2,
+      "offset": 97411072,
+      "bytes": 835584
+    },
+    {
+      "fileIndex": 2,
+      "offset": 98250752,
+      "bytes": 835584
+    },
+    {
+      "fileIndex": 2,
+      "offset": 99090432,
+      "bytes": 388120
+    }
+  ],
+  "styles": [
+    {
+      "id": "ko-KR",
+      "displayName": "한국어 — 번역 자막",
+      "coverage": "기존 한국어 번역 자막입니다. 전체 한국어 더빙은 유지됩니다.",
+      "hashes": [
+        "45c2c716da6c01f0937ce922dbfe2de89a3a9dfb163578757cfc5c5cc7e65f44",
+        "97a4167d5321ed61821ac414b0191b432c37ceff3f9ed4fa822717223c791531",
+        "e24a1398a97f79dfe65e20aff9ebaef7587fd823bdf9e8554d4fec2e67442cb5"
+      ],
+      "payload": {
+        "path": "captions/original.bin",
+        "bytes": 15348240,
+        "sha256": "9ca6547fa453573a17883e7cc6e145eacbb5cceae89d5b6d647cfac9cd581174"
+      },
+      "spanHashes": [
+        "f22a6c070b90fc997eb7003cb242ffed5b02b57029bd88b1562e0107039a4834",
+        "d6bfb934c20d48a8ea1aab9556fd65a24b30683b01a34c5a88ed7d6db5084c8e",
+        "82ff3eb28d2b97e19a963bf5201c602463ad032b78dff3940a13ad591f9d92ba",
+        "22c01b4b4633317dc31d34f5e1a1c691490da5e9b6d962bbd7777d116f4d0d21",
+        "8eb97205aa7dabbc832a051bf5c8637a8803f1c90b23c6715411750942b4aaae",
+        "c3b71bc53f9e7d27486e8b3cafd0eb78617cba1ef545b2ced8d2148c49b000b1",
+        "6391f566702445753266bf3d1188bb93f540f5910bf75464b3017d4bc4bb4f2a",
+        "43d9f3e768867ed9b90836a743b20aa425e1934c6f76d5650b0c1a9a3bec9c0a",
+        "22526da71c30f8940c9afef0ae2c034a42d0a55bc877f5c0e334dad736e6d531",
+        "986f9c0377109f4878ec1b6347f6660ed1a82bfd03193e5acfa687d89df093e1",
+        "4d32dd4eab4c97f4a60650a3a270880118c8fa1158ffd57d68ba8cfb9dcb1cfc",
+        "ef98bd1939f92fd55da13dd6f3ddf99c186a08496e036ca8eb0ac1ffd4d134e9",
+        "7281fb70f343eeeb1942a28800e3c4feba5e2b0699b9825e73268909b16f9073",
+        "43b9909c3235c8b6ef62a618c4e932364ac294fcd3c11004de58e2f42a2db31e",
+        "cedea7660d0c12b738ce551ff3abbfc93980a6662747031d1732322ccd84c753",
+        "3bfb61b0df9b02b646f3d24d6b995f03a0ace67f7a3754a4fe241a4c28be285e",
+        "30916bb6f190c432104c25687cf6161eaf83e6b2e2c5bf930cc9a32d99def497",
+        "58f09eb8139b3d7d5f81d9f7480b0d420c61a41f28e2ae230e7057e50ccd4d97",
+        "c22303374ee0b47c01e9bd03e8d781885cd1b7cfef5cabed9ac00813c1b108d7",
+        "29c34f9c3d2c08335f81ae10459b351a556ddd0e2ff36a6d51262288d42ac2b4",
+        "e909b8f28e28eeb133e123d1f08b42e2bb18bd3a3dd8976bb60748edab3068c3",
+        "ff27ed89ea156758fac62589705529424f7c82d209e1d50205a0dc324e895fd0",
+        "fdcccd2ccc82e1ca6a73bbec8d2cdf93b6a6fc7b9d4e3bdf448e510d463402de"
+      ]
+    },
+    {
+      "id": "ko-KR-dub",
+      "displayName": "한국어 — 더빙 대사 자막",
+      "coverage": "현재 설치된 더빙의 최종 발화 1,943개와 영상 56개에 맞춘 자막입니다. 컷신 문장 분할 시점은 검수용 근사 배치입니다.",
+      "hashes": [
+        "155003071b4f27d81e35871efd3b1b08cfad6f68d91dabf70cddcaa85a8cfe9b",
+        "1d5d728ec8edebdeb2d8d74ef809a43b2cf067c68002fddfadad36457ee87183",
+        "e537ccfa9d37db33d7c9fb39004dd84e90e87aa76eb251575a852e0606b5be9d"
+      ],
+      "payload": {
+        "path": "captions/dub.bin",
+        "bytes": 15348240,
+        "sha256": "ce91c70f657fb5b61c540ffb6a1f943b33a846ba87835663eb9a0eff1392d9b1"
+      },
+      "spanHashes": [
+        "583b790e4dbfeebdc9b93d722dc6474cc6029669bddd60ceeaff074b5588a092",
+        "da9806672ccaad0fc22fac2086218e823ac66e30f0fc314292540ce41fa108eb",
+        "ccbab65ff4e8efe3cf98218222cf5dc0c0dc713bb48c9d969cc678b0a3edb449",
+        "8ad31d0ae17bc6c12f3af4695df6d915c76bca74b963f0b41209bcad11fd62bb",
+        "93c3fbd7343b3612d73e677ce4f829f46aeb51935fd784f320296faa42fb645a",
+        "dcb4c0d8aec35cb459f8f1112b78d485cd0ed79628bebcfbf21eef5efc30b478",
+        "2feace7b59fa905c050354ebd24eacd666dd32a72f405964a7051a8e76f9cec3",
+        "834e6984386b697bc5ac4b67721d32de94eae7d0638d069acaa1784e612b7cfe",
+        "a57a15fd970b9c275e36b09f38e3f9c7ab5bc4bc6fafc309734a32f38610b21f",
+        "df0e545fd89a3cc17817f69c7e966f8865eac503e30f91b50f20d02130721a7d",
+        "a100365229f7e344869d7f4fd224ee7c6531a4997664164d8ae9610141744e87",
+        "7168f48b3e5b2e75a22539962b00ebc3246d7d5008ebebabfc036d1df1a0378a",
+        "b5d156dfa56e3ad02e2d2ec70d108ae57b3d90885ebe7606697ced506d68d1ba",
+        "ca8fbe4d1ac0ec3a4ff3db3d2f14516fea00a256de58c951fb28055b17c8862d",
+        "6e92977e1911620761bd59bc1793e5d2dc8c198a07903837a517c4d97c7150b2",
+        "85178517e454b4182f62f0fcc0f0947bd41f499c3b1b33dbd863c29f2b10b0a4",
+        "ec8452dce06aee81747d2a4385a0801d0c4cf94de72ee349390113e9c71fca9e",
+        "4cf4c3c2b7dba3d3875b47a211a95c1ec1a976d16b3711526ef82721d7a32171",
+        "7e59362cbb6d952c9ac87cde1f7036b9162a10d917defac306fd492314e01422",
+        "0770932876b2dc1d80ba81bcd4676eb08d06fd400553b8244fa5d869727db878",
+        "664561da2b5592251eedaed2637a7a491d426ccec55b0ceb5481c6b721f54795",
+        "3a53af12ce0126165937f87b2d3e4e76f89f685cd37f64861ded906ce480d769",
+        "e6b94b0480fd5c9ab38910151d1e479acce8e61ec7b6964b88bb6b65385a006a"
+      ]
+    }
+  ]
+}

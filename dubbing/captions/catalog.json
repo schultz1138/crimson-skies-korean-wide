@@ -1,0 +1,112 @@
+{
+  "schema": 1,
+  "releaseId": "CrimsonSkies-Multilingual-0.12.0-alpha.1",
+  "tool": {
+    "path": "tools/xdelta3.exe",
+    "sha256": "732980d52f9220dc81817ccdd0c295eadce8a0048a24c2a771a73f791ac824e9"
+  },
+  "packs": [
+    {
+      "id": "ko-KR",
+      "displayName": "한국어 (기준 번역)",
+      "englishName": "Korean (baseline)",
+      "status": "baseline",
+      "fallback": null,
+      "coverage": "Canonical Korean baseline; no translation overrides. native 1901/1901, tutorial 42/42, movie 286/286, credits 74/74, ui 1651/1651.",
+      "files": [
+        {
+          "path": "xefu_2ae70168_ceb51ba7_9b9c95a0_541622e1_d1689465.dll",
+          "sha256": "45c2c716da6c01f0937ce922dbfe2de89a3a9dfb163578757cfc5c5cc7e65f44",
+          "bytes": 42328576,
+          "delta": null,
+          "deltaSha256": null,
+          "deltaBytes": 0
+        },
+        {
+          "path": "Game/DefaultPackage.data/Data0000",
+          "sha256": "91f96697337e6717dcdfaa99eb321196c3521da33295e77e54fb6777c92ed487",
+          "bytes": 170459136,
+          "delta": null,
+          "deltaSha256": null,
+          "deltaBytes": 0
+        },
+        {
+          "path": "Game/DefaultPackage.data/Data0005",
+          "sha256": "68317f440ba24f74a832346f9ddf400f6a3076a743cd8e80b67be62aa5484e31",
+          "bytes": 170459136,
+          "delta": null,
+          "deltaSha256": null,
+          "deltaBytes": 0
+        }
+      ]
+    },
+    {
+      "id": "en-US",
+      "displayName": "English (partial starter)",
+      "englishName": "English (partial starter)",
+      "status": "partial",
+      "fallback": "ko-KR",
+      "coverage": "Partial translation; missing text uses Korean (ko-KR). native 1/1901, tutorial 3/42, movie 1/286, credits 1/74, ui 4/1651.",
+      "files": [
+        {
+          "path": "xefu_2ae70168_ceb51ba7_9b9c95a0_541622e1_d1689465.dll",
+          "sha256": "64c63b289f41ffa21000787446a54b1c3a32a1f0766e609b24c264e24df694f8",
+          "bytes": 42564096,
+          "delta": "patches/en-US-native.vcdiff",
+          "deltaSha256": "328f8f1dbeda6e8d4cdfd3c88342071836b776808bf20dc650aa834fe4858b93",
+          "deltaBytes": 10543
+        },
+        {
+          "path": "Game/DefaultPackage.data/Data0000",
+          "sha256": "91f96697337e6717dcdfaa99eb321196c3521da33295e77e54fb6777c92ed487",
+          "bytes": 170459136,
+          "delta": null,
+          "deltaSha256": null,
+          "deltaBytes": 0
+        },
+        {
+          "path": "Game/DefaultPackage.data/Data0005",
+          "sha256": "14d35168b84edbc65ed7451dd5fcae3879d041dbeb09cb563d49e184a7b9368d",
+          "bytes": 170459136,
+          "delta": "patches/en-US-data0005.vcdiff",
+          "deltaSha256": "50e45ac9b222e9d4e568a427b8896102fda6b0287ffbbc4f3e5146abd475d0aa",
+          "deltaBytes": 4990
+        }
+      ]
+    },
+    {
+      "id": "es-ES",
+      "displayName": "Español (5-part sample)",
+      "englishName": "Spanish (5-part sample)",
+      "status": "partial",
+      "fallback": "ko-KR",
+      "coverage": "Partial translation; missing text uses Korean (ko-KR). native 5/1901, tutorial 0/42, movie 0/286, credits 0/74, ui 0/1651.",
+      "files": [
+        {
+          "path": "xefu_2ae70168_ceb51ba7_9b9c95a0_541622e1_d1689465.dll",
+          "sha256": "5652b1f327c2106d430a9095301d270b5390ee4e3c4d85604fdb5896a54b9f35",
+          "bytes": 42564096,
+          "delta": "patches/es-ES-native.vcdiff",
+          "deltaSha256": "af9f49c02582f86571f07e56a40547c3c54dd2218565faffe5643aebb5e5e33f",
+          "deltaBytes": 10586
+        },
+        {
+          "path": "Game/DefaultPackage.data/Data0000",
+          "sha256": "91f96697337e6717dcdfaa99eb321196c3521da33295e77e54fb6777c92ed487",
+          "bytes": 170459136,
+          "delta": null,
+          "deltaSha256": null,
+          "deltaBytes": 0
+        },
+        {
+          "path": "Game/DefaultPackage.data/Data0005",
+          "sha256": "d6e1ac77023bde862804c54d21cee4f9cd1547b73ee1a4caa6cb5bbd43471ef5",
+          "bytes": 170459136,
+          "delta": "patches/es-ES-data0005.vcdiff",
+          "deltaSha256": "bf6948ea1f141bfc2c6fdd346d3082fafbb64fe54dc895e1de64159a24054845",
+          "deltaBytes": 9101
+        }
+      ]
+    }
+  ]
+}

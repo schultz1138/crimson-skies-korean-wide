@@ -1,5 +1,13 @@
 # Crimson Skies 한국어·와이드스크린 통합 패치
 
+## 0.13.0 Alpha 2: 전체 한국어 더빙과 더빙 대사 자막
+
+**[Alpha 2 다운로드](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.13.0-alpha.2)** · [설치·복구 안내](docs/DUBBING.ko.md) · [소스 빌드](dubbing/README.md)
+
+무전 WAV 1,847개와 영상 56개의 한국어 AI 더빙, 최종 발화에 맞는 자막 선택, 영상 자막 캐시 수정을 제공합니다. 설치 순서는 **0.11 기반 패치 → 전체 더빙 ZIP의 `KoreanDubInstaller.exe` → 자막 ZIP의 `PrepareSubtitleLauncher.exe`**입니다. 준비 후 **한국어 — 더빙 대사 자막**을 선택하세요. API 키나 음성 재생성은 필요 없습니다.
+
+0.12 언어팩 사용자는 기존 실행기로 원본 언어팩 상태를 복구해 0.11 기반으로 돌아온 뒤 설치하세요. 원음을 복구할 때는 **원본 자막 복구 → 더빙 설치기의 복구** 순서입니다. 프로필 관리 기능은 유지됩니다. 전체 구간 플레이 검증은 진행 중이므로 프리릴리즈로 공개합니다.
+
 ## 0.12.2 알파 1: 프로필 백업·삭제·복원
 
 **[0.12.2 알파 다운로드](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.12.2-alpha.1)** · [프로필 관리자 안내](docs/PROFILE_MANAGER.ko.md)

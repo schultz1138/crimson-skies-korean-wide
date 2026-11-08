@@ -1,0 +1,396 @@
+{
+  "schema": 2,
+  "releaseId": "CrimsonSkies-Korean-Dub-0.13.0-alpha.2",
+  "tool": {
+    "path": "tools/xdelta3.exe",
+    "sha256": "732980d52f9220dc81817ccdd0c295eadce8a0048a24c2a771a73f791ac824e9"
+  },
+  "supportedPackage": {
+    "name": "Xbox360BackwardCompatibil.PrimaryCrimsonSkiesHighR",
+    "version": "2608.3123.1.0",
+    "architecture": "x64",
+    "publisher": "CN=92ADE8CC-2A9A-4DF3-9BAF-18AF498CAA12"
+  },
+  "files": [
+    {
+      "path": "Game/DefaultPackage.data/Data0000",
+      "targetBytes": 170459136,
+      "targetSha256": "97a4167d5321ed61821ac414b0191b432c37ceff3f9ed4fa822717223c791531",
+      "sources": [
+        {
+          "sourceBytes": 170459136,
+          "sourceSha256": "91f96697337e6717dcdfaa99eb321196c3521da33295e77e54fb6777c92ed487",
+          "delta": "patches/audio-00.vcdiff",
+          "deltaBytes": 973571,
+          "deltaSha256": "ce303700120372de224cdef1a625ef436c569593f0d4088b45e3ab05c73f89d2"
+        }
+      ]
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0001",
+      "targetBytes": 170459136,
+      "targetSha256": "6b890ec181940d8514a44fbda69e84abd696712bd18566d251727c203b032ecc",
+      "sources": [
+        {
+          "sourceBytes": 170459136,
+          "sourceSha256": "6ba9e1188beaefc068dba528ad64818d77e35436edde1a6568a7b6a444bc79ea",
+          "delta": "patches/audio-01.vcdiff",
+          "deltaBytes": 33935797,
+          "deltaSha256": "64c87119a913604136470b88ce50721213f61c3a34507aa1445345d6a9204884"
+        }
+      ]
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0003",
+      "targetBytes": 170459136,
+      "targetSha256": "27585b680fe6862047c14e61db7372bb2ebd9108e970218944c6bc746da1cd90",
+      "sources": [
+        {
+          "sourceBytes": 170459136,
+          "sourceSha256": "25e44fd5e4ea2fb254db6bd5398ee10d6d9a603920dfe3f337c15011244e2965",
+          "delta": "patches/audio-02.vcdiff",
+          "deltaBytes": 39459597,
+          "deltaSha256": "21168f8a26edafa6fccbe80707fcafb5d58ee18314e17d423b0b2a1530c46501"
+        }
+      ]
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0004",
+      "targetBytes": 170459136,
+      "targetSha256": "3d18ae5fd841f4499b6d1f07a26b951d16c59d583bfcda398bb0e199e81b156e",
+      "sources": [
+        {
+          "sourceBytes": 170459136,
+          "sourceSha256": "265c3b92452d43b768d5bd334dcfb418142a0727e5d294e45bac86f7d4809e6c",
+          "delta": "patches/audio-03.vcdiff",
+          "deltaBytes": 1360108,
+          "deltaSha256": "4f9efbfdf7cacde41c8bd01d0762ba794f0efa3d63277e4af522884daf459d25"
+        }
+      ]
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0005",
+      "targetBytes": 170459136,
+      "targetSha256": "e24a1398a97f79dfe65e20aff9ebaef7587fd823bdf9e8554d4fec2e67442cb5",
+      "sources": [
+        {
+          "sourceBytes": 170459136,
+          "sourceSha256": "68317f440ba24f74a832346f9ddf400f6a3076a743cd8e80b67be62aa5484e31",
+          "delta": "patches/audio-04.vcdiff",
+          "deltaBytes": 23713536,
+          "deltaSha256": "f59ee88e1f391cf4dfdbfeb28e875c566f7c03f77577a722e61b458818eebe39"
+        }
+      ]
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0006",
+      "targetBytes": 170459136,
+      "targetSha256": "0f36301f74dc457f7bb3530293b6387866bc16ed077b678bdb1c5d6934bd5535",
+      "sources": [
+        {
+          "sourceBytes": 170459136,
+          "sourceSha256": "7de9c00bf1cfd9f247ad9c9cdde893a97a953f43b4aaf099e2e26f25bf3ce851",
+          "delta": "patches/audio-05.vcdiff",
+          "deltaBytes": 30707561,
+          "deltaSha256": "2eb4e2c40c286fd6d363027599f0c62f8f505ca3482af3ef6b7d5bd72c6e2cc2"
+        }
+      ]
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0007",
+      "targetBytes": 170459136,
+      "targetSha256": "5ea57b3d76f2b484c4356b087452b7831e5d616a5044844bfdf3de91a4cc4d68",
+      "sources": [
+        {
+          "sourceBytes": 170459136,
+          "sourceSha256": "f1b26a2165eac1934d93e43ed638754db4929f92bd6c7d3c63484ed47d5fa290",
+          "delta": "patches/audio-06.vcdiff",
+          "deltaBytes": 14926122,
+          "deltaSha256": "d18dc69ba7cf1c88566da878ea427492911e0ac0cb4fdf989ab3f270733b5a07"
+        }
+      ]
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0010",
+      "targetBytes": 170459136,
+      "targetSha256": "fc849d87643d21af062403a244b891618223cf8eea1333a18008df6360f68d88",
+      "sources": [
+        {
+          "sourceBytes": 170459136,
+          "sourceSha256": "e904491d57bfaa819dc7c560c0665e346b0c79b1336cb9819a763b19f44272d1",
+          "delta": "patches/audio-07.vcdiff",
+          "deltaBytes": 21557386,
+          "deltaSha256": "fc943c807445674633cb0dad97aacd47fd3f621fbf5c7d241d45c66021edd0b3"
+        }
+      ]
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0011",
+      "targetBytes": 170459136,
+      "targetSha256": "43375584660337126765f86e689cd0cd9a433bd889a157110181f9776c3ba2d1",
+      "sources": [
+        {
+          "sourceBytes": 170459136,
+          "sourceSha256": "693883afe29071ee4d4d5b9a21386585611a0f5870feb5bf1957d70b1393c000",
+          "delta": "patches/audio-08.vcdiff",
+          "deltaBytes": 705776,
+          "deltaSha256": "2b71ef3a848cd3f24a5dde575bea74669835ad0c62abc75fa66b9a8125951097"
+        }
+      ]
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0012",
+      "targetBytes": 170459136,
+      "targetSha256": "594a517a38ec93529d6f8cd62e8a843ff47fd390d27212307f5b89d3ae1f30cb",
+      "sources": [
+        {
+          "sourceBytes": 170459136,
+          "sourceSha256": "a7d969b45dcc2d8d2fd389abbf469222a26fbb47770e3c6704f36213db61b4a3",
+          "delta": "patches/audio-09.vcdiff",
+          "deltaBytes": 1070745,
+          "deltaSha256": "cd9df8d11ea7ea6e03026e242367559660cef9ec4497bd14e25d43267c31d73f"
+        }
+      ]
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0013",
+      "targetBytes": 170459136,
+      "targetSha256": "f23c9c566e06e41c90b43406a9d53281a36fb13f4d3c3a933a6918eaa73d34ca",
+      "sources": [
+        {
+          "sourceBytes": 170459136,
+          "sourceSha256": "4534aae0fc5ad4c840d431899b6a227b8b4472b79c81bfe1f8e7827a838b49b0",
+          "delta": "patches/audio-10.vcdiff",
+          "deltaBytes": 2892704,
+          "deltaSha256": "548a810716850369ecc9bc2117819b7ba51931dfca33673b871b410b1c2fff1b"
+        }
+      ]
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0014",
+      "targetBytes": 170459136,
+      "targetSha256": "99e83e2c77293c2403fbeaae9c8c045490043fab1ee08749d65a862b5eb46515",
+      "sources": [
+        {
+          "sourceBytes": 170459136,
+          "sourceSha256": "92f5c893708fe989f7d8205fc9afc317a03468eebffa30b43e8b96bce7067184",
+          "delta": "patches/audio-11.vcdiff",
+          "deltaBytes": 1268406,
+          "deltaSha256": "b0c946bd110b9cbe771ce1549734e282696268c3cd58ad9eec2b2b57c55de52e"
+        }
+      ]
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0015",
+      "targetBytes": 170459136,
+      "targetSha256": "769b8bd55eae31587316dc941953bf031a4d2be42fbf87271c0ddbade8992569",
+      "sources": [
+        {
+          "sourceBytes": 170459136,
+          "sourceSha256": "14d0275e4b8e19d65b199a79ca005e8a6a4d943ed730ae47b50724347362c22e",
+          "delta": "patches/audio-12.vcdiff",
+          "deltaBytes": 306193,
+          "deltaSha256": "bde23f1771106cf3c253f7ecd7aa72ada6099910840854bbcedc56aae3427f18"
+        }
+      ]
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0016",
+      "targetBytes": 170459136,
+      "targetSha256": "ba428b4d7bafce6818f5076d06ed6f6565cbe5d8f0d0e702f29db24b172786ba",
+      "sources": [
+        {
+          "sourceBytes": 170459136,
+          "sourceSha256": "5dee25935156d127c6132d67782b349b71020b5dc8f30e4b383b15a5f68d9e54",
+          "delta": "patches/audio-13.vcdiff",
+          "deltaBytes": 1289074,
+          "deltaSha256": "ddc93b8e80f50076025ccfb6dc209adc7a4b91cd33e12c0e075082f2f5895899"
+        }
+      ]
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0017",
+      "targetBytes": 170459136,
+      "targetSha256": "836b4801cbb9e3a8fd2c1e1978a5c9fad68138b5c019901d8c0f080c16b4a85d",
+      "sources": [
+        {
+          "sourceBytes": 170459136,
+          "sourceSha256": "1e61338b79e8a7ad8834f843146becd9f79d3bcf8b16134853898b6e4849972d",
+          "delta": "patches/audio-14.vcdiff",
+          "deltaBytes": 2343154,
+          "deltaSha256": "618bf17e02d23d7f7121072d1beeec443d4f32294a29252e09b4576b16ca1315"
+        }
+      ]
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0018",
+      "targetBytes": 170459136,
+      "targetSha256": "611c8e136c76f5f0ee2055de62309966425e05716871e134946a7d7126ec47a8",
+      "sources": [
+        {
+          "sourceBytes": 170459136,
+          "sourceSha256": "b0efdc866b9394779e1258998877c714ff7eceb06032c4afdd2677c28ceac97f",
+          "delta": "patches/audio-15.vcdiff",
+          "deltaBytes": 2195666,
+          "deltaSha256": "792d00691eab1d6ccb035996f10c7d13d777465587d67c3e42bcdcbaa3682781"
+        }
+      ]
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0019",
+      "targetBytes": 170459136,
+      "targetSha256": "fe733d6912b0bef349737f4f5de857f164f42198746f27b0d1c315e71386fb01",
+      "sources": [
+        {
+          "sourceBytes": 170459136,
+          "sourceSha256": "98024a45f5b90ee06caeb6a269b1c0cbf6a105c674dc3cc47ee2fb71ca42db17",
+          "delta": "patches/audio-16.vcdiff",
+          "deltaBytes": 804402,
+          "deltaSha256": "85b1a26fd7cde076c199d5df23b1be3e8afccc5bb049f60aae7594d7688d9f66"
+        }
+      ]
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0020",
+      "targetBytes": 170459136,
+      "targetSha256": "0b7f7ee851a48f875743f90de1c1a9d1afd4c1ce758b9362a4a708198f9db56a",
+      "sources": [
+        {
+          "sourceBytes": 170459136,
+          "sourceSha256": "a3c821a72140cab339778b4d9db6022f40cf1952489a678af797501dbcffb1bf",
+          "delta": "patches/audio-17.vcdiff",
+          "deltaBytes": 170368,
+          "deltaSha256": "ff132616d583de788a2215e4ab34dcf8b1f97745eab64b5a11c406d739870bef"
+        }
+      ]
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0021",
+      "targetBytes": 170459136,
+      "targetSha256": "cfbf469c27c5c1cb08844bf766b67c9ce066ccfcf2c80bea5da58ccd5128069d",
+      "sources": [
+        {
+          "sourceBytes": 170459136,
+          "sourceSha256": "278f882865942e6a0662b5f0adbedf1f8cf06523a7394db3cf676889f7d654ea",
+          "delta": "patches/audio-18.vcdiff",
+          "deltaBytes": 130090,
+          "deltaSha256": "e0474c75d11585661f991576883086e7c500795f93d7611c28e06e1b144235d8"
+        }
+      ]
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0022",
+      "targetBytes": 170459136,
+      "targetSha256": "712a2acf81ae2f8746886667e76af45ce3dfbaf859546810e353effa4bb336ea",
+      "sources": [
+        {
+          "sourceBytes": 170459136,
+          "sourceSha256": "d34431a87650a0ce6a7f22a697f49de081d428073b5bd7d3c50e4e592938fb98",
+          "delta": "patches/audio-19.vcdiff",
+          "deltaBytes": 117909,
+          "deltaSha256": "8f20241f24923a2b851db49489dc7a7f2022a7a95459985b9c21dddab16c0355"
+        }
+      ]
+    },
+    {
+      "path": "EmuMenu/Assets/TitleMenuData.json",
+      "targetBytes": 1215,
+      "targetSha256": "52a1cfe539eb52a1cc5241bfd6072fa4fc5531d63b0d325fa44d4be54942ee39",
+      "sources": [
+        {
+          "sourceBytes": 2200,
+          "sourceSha256": "200b609e7b279c25814fb42ed1dd1cdcd6f3203b670dc3b05749a6ee26686265",
+          "delta": "patches/audio-20.vcdiff",
+          "deltaBytes": 534,
+          "deltaSha256": "9e4f171be7ab05a5e9c2f77242327aaa4751e01d533b6ac2a35ac7b2ba392bfb"
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "id": "ko-wide-0.11.0-beta.1",
+      "label": "0.11.0 beta1 Korean/widescreen foundation",
+      "sha256": [
+        "91f96697337e6717dcdfaa99eb321196c3521da33295e77e54fb6777c92ed487",
+        "6ba9e1188beaefc068dba528ad64818d77e35436edde1a6568a7b6a444bc79ea",
+        "25e44fd5e4ea2fb254db6bd5398ee10d6d9a603920dfe3f337c15011244e2965",
+        "265c3b92452d43b768d5bd334dcfb418142a0727e5d294e45bac86f7d4809e6c",
+        "68317f440ba24f74a832346f9ddf400f6a3076a743cd8e80b67be62aa5484e31",
+        "7de9c00bf1cfd9f247ad9c9cdde893a97a953f43b4aaf099e2e26f25bf3ce851",
+        "f1b26a2165eac1934d93e43ed638754db4929f92bd6c7d3c63484ed47d5fa290",
+        "e904491d57bfaa819dc7c560c0665e346b0c79b1336cb9819a763b19f44272d1",
+        "693883afe29071ee4d4d5b9a21386585611a0f5870feb5bf1957d70b1393c000",
+        "a7d969b45dcc2d8d2fd389abbf469222a26fbb47770e3c6704f36213db61b4a3",
+        "4534aae0fc5ad4c840d431899b6a227b8b4472b79c81bfe1f8e7827a838b49b0",
+        "92f5c893708fe989f7d8205fc9afc317a03468eebffa30b43e8b96bce7067184",
+        "14d0275e4b8e19d65b199a79ca005e8a6a4d943ed730ae47b50724347362c22e",
+        "5dee25935156d127c6132d67782b349b71020b5dc8f30e4b383b15a5f68d9e54",
+        "1e61338b79e8a7ad8834f843146becd9f79d3bcf8b16134853898b6e4849972d",
+        "b0efdc866b9394779e1258998877c714ff7eceb06032c4afdd2677c28ceac97f",
+        "98024a45f5b90ee06caeb6a269b1c0cbf6a105c674dc3cc47ee2fb71ca42db17",
+        "a3c821a72140cab339778b4d9db6022f40cf1952489a678af797501dbcffb1bf",
+        "278f882865942e6a0662b5f0adbedf1f8cf06523a7394db3cf676889f7d654ea",
+        "d34431a87650a0ce6a7f22a697f49de081d428073b5bd7d3c50e4e592938fb98",
+        "200b609e7b279c25814fb42ed1dd1cdcd6f3203b670dc3b05749a6ee26686265"
+      ]
+    }
+  ],
+  "guards": [
+    {
+      "path": "Game/DefaultPackage.data/Data0002",
+      "bytes": 170459136,
+      "sha256": "1df1144aa41b3a1bf001f2e313c12014671a456f07cda0a2a8dc61da8e9d24b4"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0008",
+      "bytes": 170459136,
+      "sha256": "6e028b02c19e3d7e21e6dd2126b2196e84294664330a8d82369bbd4659d419a7"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0009",
+      "bytes": 170459136,
+      "sha256": "b9ac2847504617c4c83dc0a337974917daf83ceafb56f0035346f71e083c20ec"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0023",
+      "bytes": 170459136,
+      "sha256": "eaa31b3c06efdc0447b1c0f3317dc28cc539259a97b71381c5ac59a9d89c4d52"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0024",
+      "bytes": 170459136,
+      "sha256": "59903056e549f6fa908cca51d256d2302b9dc11f4baa10b25a83eb51b9052487"
+    },
+    {
+      "path": "Game/DefaultPackage.data/Data0025",
+      "bytes": 141451264,
+      "sha256": "c1a0d157aa5665830ef6ce99691ff42df1c815b255c7bf24de0b57f88c268607"
+    },
+    {
+      "path": "xefu_2ae70168_ceb51ba7_9b9c95a0_541622e1_d1689465.dll",
+      "bytes": 42328576,
+      "sha256": "45c2c716da6c01f0937ce922dbfe2de89a3a9dfb163578757cfc5c5cc7e65f44"
+    },
+    {
+      "path": "Game/DefaultPackage",
+      "bytes": 45056,
+      "sha256": "48bde944d77390e444670600d502f3cafbee7b3d201ffd2a76d5dfe44c3a66ef"
+    },
+    {
+      "path": "appxmanifest.xml",
+      "bytes": 4815,
+      "sha256": "7d9e362e1af1b0c2e7f4b5f6bca9258530fd04a03a21640b1cbeff8049d9ed71"
+    },
+    {
+      "path": "VGPUDX12.dll",
+      "bytes": 6393856,
+      "sha256": "f4d7784a007919a1e397405340855ac539c76f4abccfc6ecf8edebb2ed9835aa"
+    },
+    {
+      "path": "EmuMenu/EmuMenu.dll",
+      "bytes": 634880,
+      "sha256": "40e78379367b74c6dc7ccffce9215abae7400a069cebb9f8d50360f7a46fdc11"
+    }
+  ]
+}

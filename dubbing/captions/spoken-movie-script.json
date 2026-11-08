@@ -1,0 +1,3484 @@
+[
+  {
+    "id": "ax_blur_mariasgasstation.acting-group.01",
+    "movie": "ax_blur_mariasgasstation.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "도와줄까요?",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 360000,
+    "renderEndFrame48000": 447360
+  },
+  {
+    "id": "ax_blur_mariasgasstation.acting-group.02",
+    "movie": "ax_blur_mariasgasstation.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "연료를 좀 연장도 있었으면 좋겠는데 아, 미안합니다. 여기 주인 어디 갔나요?",
+    "sourceCueIds": [
+      1,
+      2,
+      3
+    ],
+    "renderStartFrame48000": 474240,
+    "renderEndFrame48000": 822912
+  },
+  {
+    "id": "ax_blur_mariasgasstation.acting-group.03",
+    "movie": "ax_blur_mariasgasstation.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "바로 전데요 마리아라고 해요",
+    "sourceCueIds": [
+      4,
+      5
+    ],
+    "renderStartFrame48000": 827520,
+    "renderEndFrame48000": 938400
+  },
+  {
+    "id": "ax_blur_mariasgasstation.acting-group.04",
+    "movie": "ax_blur_mariasgasstation.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "당신이?",
+    "sourceCueIds": [
+      6
+    ],
+    "renderStartFrame48000": 971520,
+    "renderEndFrame48000": 1026720
+  },
+  {
+    "id": "ax_blur_mariasgasstation.acting-group.05",
+    "movie": "ax_blur_mariasgasstation.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "이런, 장미 한 송이를 찾고 있었다고 할 걸 그랬군요",
+    "sourceCueIds": [
+      7
+    ],
+    "renderStartFrame48000": 1063680,
+    "renderEndFrame48000": 1205280
+  },
+  {
+    "id": "ax_blur_mariasgasstation.acting-group.06",
+    "movie": "ax_blur_mariasgasstation.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "저랑 말장난이나 하려는 건 아니시구요? 그 쪽 이름도 말씀해 주셔야죠?",
+    "sourceCueIds": [
+      8,
+      9
+    ],
+    "renderStartFrame48000": 1213824,
+    "renderEndFrame48000": 1453440
+  },
+  {
+    "id": "ax_blur_mariasgasstation.acting-group.07",
+    "movie": "ax_blur_mariasgasstation.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "네이슨 재커리",
+    "sourceCueIds": [
+      10
+    ],
+    "renderStartFrame48000": 1470720,
+    "renderEndFrame48000": 1543200
+  },
+  {
+    "id": "ax_blur_mariasgasstation.acting-group.08",
+    "movie": "ax_blur_mariasgasstation.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "네이슨 재커리... 포춘 헌터스의?",
+    "sourceCueIds": [
+      11
+    ],
+    "renderStartFrame48000": 1552128,
+    "renderEndFrame48000": 1712640
+  },
+  {
+    "id": "ax_blur_mariasgasstation.acting-group.09",
+    "movie": "ax_blur_mariasgasstation.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "바로 접니다.",
+    "sourceCueIds": [
+      12
+    ],
+    "renderStartFrame48000": 1722240,
+    "renderEndFrame48000": 1778592
+  },
+  {
+    "id": "ax_blur_mariasgasstation.acting-group.10",
+    "movie": "ax_blur_mariasgasstation.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "아, 네이슨 씨. 소개는 대충 끝났고... 질문이 있어요",
+    "sourceCueIds": [
+      13,
+      14
+    ],
+    "renderStartFrame48000": 1781760,
+    "renderEndFrame48000": 2057280
+  },
+  {
+    "id": "ax_blur_mariasgasstation.acting-group.11",
+    "movie": "ax_blur_mariasgasstation.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "물론.",
+    "sourceCueIds": [
+      15
+    ],
+    "renderStartFrame48000": 2057472,
+    "renderEndFrame48000": 2101536
+  },
+  {
+    "id": "ax_blur_mariasgasstation.acting-group.12",
+    "movie": "ax_blur_mariasgasstation.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "도스 무에르토랑 싸웠어요?",
+    "sourceCueIds": [
+      16
+    ],
+    "renderStartFrame48000": 2113536,
+    "renderEndFrame48000": 2223456
+  },
+  {
+    "id": "ax_blur_mariasgasstation.acting-group.13",
+    "movie": "ax_blur_mariasgasstation.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "아마도",
+    "sourceCueIds": [
+      17
+    ],
+    "renderStartFrame48000": 2228352,
+    "renderEndFrame48000": 2289216
+  },
+  {
+    "id": "ax_blur_mariasgasstation.acting-group.14",
+    "movie": "ax_blur_mariasgasstation.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "뛰어!",
+    "sourceCueIds": [
+      18
+    ],
+    "renderStartFrame48000": 2425920,
+    "renderEndFrame48000": 2476416
+  },
+  {
+    "id": "ax_blur_mariasgasstation.acting-group.15",
+    "movie": "ax_blur_mariasgasstation.bik",
+    "speakerId": "el-muerte",
+    "voice": "voice_5f1b3574-51bb-4d9f-8ec9-fa10f55493de",
+    "text": "잘 가라",
+    "sourceCueIds": [
+      19
+    ],
+    "renderStartFrame48000": 3285120,
+    "renderEndFrame48000": 3378240
+  },
+  {
+    "id": "ax_blur_mariasgasstation.acting-group.16",
+    "movie": "ax_blur_mariasgasstation.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "아, 내 비행장, 좋아요, 아주 멋지군요 매력적인 남자라고들 하던데 당신 첫인상 한번 참 멋지네요",
+    "sourceCueIds": [
+      20,
+      21
+    ],
+    "renderStartFrame48000": 3939840,
+    "renderEndFrame48000": 4437888
+  },
+  {
+    "id": "ax_navajo01.acting-group.01",
+    "movie": "ax_navajo01.bik",
+    "speakerId": "soloho",
+    "voice": "voice_c62a7fb2-34d8-4829-9b4a-6103383b618b",
+    "text": "우리 부족에게 신성한 석상이라네. 되돌려 줘서 고맙네",
+    "sourceCueIds": [
+      0,
+      1
+    ],
+    "renderStartFrame48000": 86400,
+    "renderEndFrame48000": 334560
+  },
+  {
+    "id": "ax_navajo01.acting-group.02",
+    "movie": "ax_navajo01.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "저, 부탁이 하나 있습니다 나바호 상공을 지나고 싶습니다",
+    "sourceCueIds": [
+      2,
+      3
+    ],
+    "renderStartFrame48000": 413760,
+    "renderEndFrame48000": 704160
+  },
+  {
+    "id": "ax_navajo01.acting-group.03",
+    "movie": "ax_navajo01.bik",
+    "speakerId": "soloho",
+    "voice": "voice_c62a7fb2-34d8-4829-9b4a-6103383b618b",
+    "text": "그렇게 간단한 문제가 아닌데",
+    "sourceCueIds": [
+      4
+    ],
+    "renderStartFrame48000": 898944,
+    "renderEndFrame48000": 1004640
+  },
+  {
+    "id": "ax_navajo01.acting-group.04",
+    "movie": "ax_navajo01.bik",
+    "speakerId": "soloho",
+    "voice": "voice_c62a7fb2-34d8-4829-9b4a-6103383b618b",
+    "text": "도적들이 날뛰고 있는 통에 우리 영역을 외부인들에게 공개하지 않는다네 하지만 자네는 이미 우리 나바호의 친구임을 증명했으니",
+    "sourceCueIds": [
+      5,
+      6,
+      7
+    ],
+    "renderStartFrame48000": 1052928,
+    "renderEndFrame48000": 1502880
+  },
+  {
+    "id": "ax_navajo01.acting-group.05",
+    "movie": "ax_navajo01.bik",
+    "speakerId": "soloho",
+    "voice": "voice_c62a7fb2-34d8-4829-9b4a-6103383b618b",
+    "text": "세 가지 관문만 통과하면 이 곳을 지날 수 있게 해 주지",
+    "sourceCueIds": [
+      8
+    ],
+    "renderStartFrame48000": 1525632,
+    "renderEndFrame48000": 1786080
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.01",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "베티랑 다른 동료들은 카지노에 있을 거야",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 636288,
+    "renderEndFrame48000": 794880
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.02",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "난 도시가 싫어요. 무미건조하고 너무 낯설어요...",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 835200,
+    "renderEndFrame48000": 1071360
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.03",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "아릭소에서 멀리 왔군.",
+    "sourceCueIds": [
+      2
+    ],
+    "renderStartFrame48000": 1096704,
+    "renderEndFrame48000": 1191840
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.04",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "이제 모두 끝났군 아릭소로 돌아갈 건가?",
+    "sourceCueIds": [
+      3,
+      4
+    ],
+    "renderStartFrame48000": 1236480,
+    "renderEndFrame48000": 1404672
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.05",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "거긴 아무 것도 없는 걸요...",
+    "sourceCueIds": [
+      5
+    ],
+    "renderStartFrame48000": 1429440,
+    "renderEndFrame48000": 1538496
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.06",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "그 낡은 비행장이 전부였는데",
+    "sourceCueIds": [
+      6
+    ],
+    "renderStartFrame48000": 1555200,
+    "renderEndFrame48000": 1665408
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.07",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "본 에센에게서 박사님 설계도를 지켰군요.",
+    "sourceCueIds": [
+      7
+    ],
+    "renderStartFrame48000": 1719360,
+    "renderEndFrame48000": 1873536
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.08",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "시카고를 정복하겠다는 꿈도 물거품이 되었으니 다시는 그 녀석을 볼 일도 없을 거야",
+    "sourceCueIds": [
+      8,
+      9
+    ],
+    "renderStartFrame48000": 1873920,
+    "renderEndFrame48000": 2171040
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.09",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "희망 사항일지도 모르죠",
+    "sourceCueIds": [
+      10
+    ],
+    "renderStartFrame48000": 2184000,
+    "renderEndFrame48000": 2273760
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.10",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "헛꿈에 건배.",
+    "sourceCueIds": [
+      11
+    ],
+    "renderStartFrame48000": 2300160,
+    "renderEndFrame48000": 2371680
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.11",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "그런데 사람들이 말하는 게 정말이예요?",
+    "sourceCueIds": [
+      12
+    ],
+    "renderStartFrame48000": 2388864,
+    "renderEndFrame48000": 2520480
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.12",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "뭐라고 하는데?",
+    "sourceCueIds": [
+      13
+    ],
+    "renderStartFrame48000": 2550720,
+    "renderEndFrame48000": 2670336
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.13",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "여자에게 약하다는 거죠.",
+    "sourceCueIds": [
+      14
+    ],
+    "renderStartFrame48000": 2693376,
+    "renderEndFrame48000": 2783040
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.14",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "그 약점을 이용해 보시겠다?",
+    "sourceCueIds": [
+      15
+    ],
+    "renderStartFrame48000": 2783040,
+    "renderEndFrame48000": 2941920
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.15",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "아마.",
+    "sourceCueIds": [
+      16
+    ],
+    "renderStartFrame48000": 2982720,
+    "renderEndFrame48000": 3026304
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.16",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "이 턱시도 금방 구겨질 것 같아요",
+    "sourceCueIds": [
+      17
+    ],
+    "renderStartFrame48000": 3067200,
+    "renderEndFrame48000": 3200640
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.17",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "문제가 되나?",
+    "sourceCueIds": [
+      18
+    ],
+    "renderStartFrame48000": 3236160,
+    "renderEndFrame48000": 3311520
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.18",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "네이슨, 중요한 밤이니 옷차림도 단정해야죠... 그것 좀 벗고 오시죠?",
+    "sourceCueIds": [
+      19,
+      20
+    ],
+    "renderStartFrame48000": 3317760,
+    "renderEndFrame48000": 3641856
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.19",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "금방 올께",
+    "sourceCueIds": [
+      21
+    ],
+    "renderStartFrame48000": 3665664,
+    "renderEndFrame48000": 3752448
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.20",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "벌써 보고 싶네요.",
+    "sourceCueIds": [
+      22
+    ],
+    "renderStartFrame48000": 4269120,
+    "renderEndFrame48000": 4354080
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.21",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "양말은 신고 있어도 되지?",
+    "sourceCueIds": [
+      23
+    ],
+    "renderStartFrame48000": 4656000,
+    "renderEndFrame48000": 4794240
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.22",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "마리아?",
+    "sourceCueIds": [
+      24
+    ],
+    "renderStartFrame48000": 4819584,
+    "renderEndFrame48000": 4860000
+  },
+  {
+    "id": "ch_blur_mariastealsplans.acting-group.23",
+    "movie": "ch_blur_mariastealsplans.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "마리아!",
+    "sourceCueIds": [
+      25
+    ],
+    "renderStartFrame48000": 5605440,
+    "renderEndFrame48000": 5647680
+  },
+  {
+    "id": "ch_blur_nathanconfrontskahn.acting-group.01",
+    "movie": "ch_blur_nathanconfrontskahn.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "베티가 안부 전하더군",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 0,
+    "renderEndFrame48000": 82080
+  },
+  {
+    "id": "ch_blur_nathanconfrontskahn.acting-group.02",
+    "movie": "ch_blur_nathanconfrontskahn.bik",
+    "speakerId": "kahn",
+    "voice": "voice_3a2fcbde-c5a7-4300-9058-a16c816398d6",
+    "text": "조심해, 참는 데도 한계가 있어",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 167040,
+    "renderEndFrame48000": 324000
+  },
+  {
+    "id": "ch_blur_nathanconfrontskahn.acting-group.03",
+    "movie": "ch_blur_nathanconfrontskahn.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "날 죽이려 했지!",
+    "sourceCueIds": [
+      2
+    ],
+    "renderStartFrame48000": 333696,
+    "renderEndFrame48000": 443520
+  },
+  {
+    "id": "ch_blur_nathanconfrontskahn.acting-group.04",
+    "movie": "ch_blur_nathanconfrontskahn.bik",
+    "speakerId": "kahn",
+    "voice": "voice_3a2fcbde-c5a7-4300-9058-a16c816398d6",
+    "text": "위로가 될진 모르겠지만, 난 네 생사에 관심이 없었어.",
+    "sourceCueIds": [
+      3
+    ],
+    "renderStartFrame48000": 493824,
+    "renderEndFrame48000": 671520
+  },
+  {
+    "id": "ch_blur_nathanconfrontskahn.acting-group.05",
+    "movie": "ch_blur_nathanconfrontskahn.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "네 놈 배후가 누구지? 본 에센?",
+    "sourceCueIds": [
+      4
+    ],
+    "renderStartFrame48000": 773760,
+    "renderEndFrame48000": 945120
+  },
+  {
+    "id": "ch_blur_nathanconfrontskahn.acting-group.06",
+    "movie": "ch_blur_nathanconfrontskahn.bik",
+    "speakerId": "kahn",
+    "voice": "voice_3a2fcbde-c5a7-4300-9058-a16c816398d6",
+    "text": "그 이름, 어찌 알지?",
+    "sourceCueIds": [
+      5
+    ],
+    "renderStartFrame48000": 948480,
+    "renderEndFrame48000": 1024320
+  },
+  {
+    "id": "ch_blur_nathanconfrontskahn.acting-group.07",
+    "movie": "ch_blur_nathanconfrontskahn.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "네가 죽인 박사님한테 들었다",
+    "sourceCueIds": [
+      6
+    ],
+    "renderStartFrame48000": 1041024,
+    "renderEndFrame48000": 1220640
+  },
+  {
+    "id": "ch_blur_nathanconfrontskahn.acting-group.08",
+    "movie": "ch_blur_nathanconfrontskahn.bik",
+    "speakerId": "kahn",
+    "voice": "voice_3a2fcbde-c5a7-4300-9058-a16c816398d6",
+    "text": "분노에 이성을 잃었군 내가 돈에 이성을 잃은 것처럼 박사를 죽인 건 내가 아냐",
+    "sourceCueIds": [
+      7,
+      8,
+      9
+    ],
+    "renderStartFrame48000": 1402752,
+    "renderEndFrame48000": 1670880
+  },
+  {
+    "id": "ch_blur_nathanconfrontskahn.acting-group.09",
+    "movie": "ch_blur_nathanconfrontskahn.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "수작 마, 칸.",
+    "sourceCueIds": [
+      10
+    ],
+    "renderStartFrame48000": 1670880,
+    "renderEndFrame48000": 1734240
+  },
+  {
+    "id": "ch_blur_nathanconfrontskahn.acting-group.10",
+    "movie": "ch_blur_nathanconfrontskahn.bik",
+    "speakerId": "kahn",
+    "voice": "voice_3a2fcbde-c5a7-4300-9058-a16c816398d6",
+    "text": "두 달 전에 본 에센을 만났어 내가 티탄을 구해주면 디까를로를 치게 도와 준댔어",
+    "sourceCueIds": [
+      11,
+      12
+    ],
+    "renderStartFrame48000": 1848960,
+    "renderEndFrame48000": 2173440
+  },
+  {
+    "id": "ch_blur_nathanconfrontskahn.acting-group.11",
+    "movie": "ch_blur_nathanconfrontskahn.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "귀가 솔깃했겠군. 디까를로를 치고 시카고를 접수하겠다?",
+    "sourceCueIds": [
+      13
+    ],
+    "renderStartFrame48000": 2177280,
+    "renderEndFrame48000": 2388480
+  },
+  {
+    "id": "ch_blur_nathanconfrontskahn.acting-group.12",
+    "movie": "ch_blur_nathanconfrontskahn.bik",
+    "speakerId": "kahn",
+    "voice": "voice_3a2fcbde-c5a7-4300-9058-a16c816398d6",
+    "text": "그랬지. 그런데 디까를로를 치워도 본 에센은 남았어... ISA 정부에 대한 정보를 캐내기 위해 날 이용했어",
+    "sourceCueIds": [
+      14,
+      15
+    ],
+    "renderStartFrame48000": 2450880,
+    "renderEndFrame48000": 2852160
+  },
+  {
+    "id": "ch_blur_nathanconfrontskahn.acting-group.13",
+    "movie": "ch_blur_nathanconfrontskahn.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "떨어지면 볼 만하겠군, 계속하시지",
+    "sourceCueIds": [
+      16
+    ],
+    "renderStartFrame48000": 3312000,
+    "renderEndFrame48000": 3486720
+  },
+  {
+    "id": "ch_blur_nathanconfrontskahn.acting-group.14",
+    "movie": "ch_blur_nathanconfrontskahn.bik",
+    "speakerId": "kahn",
+    "voice": "voice_3a2fcbde-c5a7-4300-9058-a16c816398d6",
+    "text": "웃기지 마, 무서워서 말하는 게 아냐 본 에센과 손을 잡은 것은 실수였어 이제 그가 원하는 게 뭔지 알 것 같아",
+    "sourceCueIds": [
+      17,
+      18,
+      19
+    ],
+    "renderStartFrame48000": 3507840,
+    "renderEndFrame48000": 3979200
+  },
+  {
+    "id": "ch_blur_nathanconfrontskahn.acting-group.15",
+    "movie": "ch_blur_nathanconfrontskahn.bik",
+    "speakerId": "kahn",
+    "voice": "voice_3a2fcbde-c5a7-4300-9058-a16c816398d6",
+    "text": "도시 남쪽에 군대를 모으고 있어 테슬라 기술을 훔쳐 전기 비행선도 만들었어",
+    "sourceCueIds": [
+      20,
+      21
+    ],
+    "renderStartFrame48000": 4068864,
+    "renderEndFrame48000": 4408800
+  },
+  {
+    "id": "ch_blur_nathanconfrontskahn.acting-group.16",
+    "movie": "ch_blur_nathanconfrontskahn.bik",
+    "speakerId": "kahn",
+    "voice": "voice_3a2fcbde-c5a7-4300-9058-a16c816398d6",
+    "text": "네이슨, 본 에센은 시카고를 정복할 거야",
+    "sourceCueIds": [
+      22
+    ],
+    "renderStartFrame48000": 4470912,
+    "renderEndFrame48000": 4625760
+  },
+  {
+    "id": "ch_blur_vonessendiesfinalvictory.acting-group.01",
+    "movie": "ch_blur_vonessendiesfinalvictory.bik",
+    "speakerId": "von-essen",
+    "voice": "voice_85bcd4b9-94ae-494b-853e-b6084fa676e1",
+    "text": "제이 투 북쪽 해안에서 합류하라! 6소대 상황 보고하라!",
+    "sourceCueIds": [
+      0,
+      1
+    ],
+    "renderStartFrame48000": 124032,
+    "renderEndFrame48000": 336960
+  },
+  {
+    "id": "ch_blur_vonessendiesfinalvictory.acting-group.02",
+    "movie": "ch_blur_vonessendiesfinalvictory.bik",
+    "speakerId": "von-essen",
+    "voice": "voice_85bcd4b9-94ae-494b-853e-b6084fa676e1",
+    "text": "6소대 상황 보고하라!",
+    "sourceCueIds": [
+      2
+    ],
+    "renderStartFrame48000": 482880,
+    "renderEndFrame48000": 577152
+  },
+  {
+    "id": "ch_kahnsclubfalling.acting-group.01",
+    "movie": "ch_kahnsclubfalling.bik",
+    "speakerId": "kahn",
+    "voice": "voice_3a2fcbde-c5a7-4300-9058-a16c816398d6",
+    "text": "저녁 식사를 하러 왔다면 미안하지만 예약은 하셨나 모르겠군",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 555840,
+    "renderEndFrame48000": 753120
+  },
+  {
+    "id": "ch_kahnsclubfalling.acting-group.02",
+    "movie": "ch_kahnsclubfalling.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "예약해야 하나?",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 771840,
+    "renderEndFrame48000": 831840
+  },
+  {
+    "id": "ch_kahnsclubfalling.acting-group.03",
+    "movie": "ch_kahnsclubfalling.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "이상하지. 아릭소에서 그 정도 당했으면 충분히 예상했을 텐데?",
+    "sourceCueIds": [
+      2
+    ],
+    "renderStartFrame48000": 870720,
+    "renderEndFrame48000": 1081728
+  },
+  {
+    "id": "ch_kahnsclubfalling.acting-group.04",
+    "movie": "ch_kahnsclubfalling.bik",
+    "speakerId": "kahn",
+    "voice": "voice_3a2fcbde-c5a7-4300-9058-a16c816398d6",
+    "text": "입조심하게. 네이슨 바보같이 사과 대신 농담이나 지껄이다니",
+    "sourceCueIds": [
+      3,
+      4
+    ],
+    "renderStartFrame48000": 1130880,
+    "renderEndFrame48000": 1365120
+  },
+  {
+    "id": "ch_kahnsclubfalling.acting-group.05",
+    "movie": "ch_kahnsclubfalling.bik",
+    "speakerId": "kahn",
+    "voice": "voice_3a2fcbde-c5a7-4300-9058-a16c816398d6",
+    "text": "네 총질로 돈을 꽤 날렸거든.",
+    "sourceCueIds": [
+      5
+    ],
+    "renderStartFrame48000": 1400640,
+    "renderEndFrame48000": 1535520
+  },
+  {
+    "id": "ch_kahnsclubfalling.acting-group.06",
+    "movie": "ch_kahnsclubfalling.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "요즘 너무 여기저기 손대는 거 아냐?",
+    "sourceCueIds": [
+      6
+    ],
+    "renderStartFrame48000": 1552512,
+    "renderEndFrame48000": 1658400
+  },
+  {
+    "id": "ch_kahnsclubfalling.acting-group.07",
+    "movie": "ch_kahnsclubfalling.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "언제부터 티탄 채광에 그렇게 관심이 있었지?",
+    "sourceCueIds": [
+      7
+    ],
+    "renderStartFrame48000": 1684800,
+    "renderEndFrame48000": 1807200
+  },
+  {
+    "id": "ch_kahnsclubfalling.acting-group.08",
+    "movie": "ch_kahnsclubfalling.bik",
+    "speakerId": "kahn",
+    "voice": "voice_3a2fcbde-c5a7-4300-9058-a16c816398d6",
+    "text": "일종의 사업 확장이지...",
+    "sourceCueIds": [
+      8
+    ],
+    "renderStartFrame48000": 1836480,
+    "renderEndFrame48000": 1930560
+  },
+  {
+    "id": "ch_kahnsclubfalling.acting-group.09",
+    "movie": "ch_kahnsclubfalling.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "오, 사업이라? 넌 늘 술주정뱅이, 싸움꾼에 여자나 밝히는 사기꾼이었지.",
+    "sourceCueIds": [
+      9,
+      10
+    ],
+    "renderStartFrame48000": 1953024,
+    "renderEndFrame48000": 2256000
+  },
+  {
+    "id": "ch_kahnsclubfalling.acting-group.10",
+    "movie": "ch_kahnsclubfalling.bik",
+    "speakerId": "kahn",
+    "voice": "voice_3a2fcbde-c5a7-4300-9058-a16c816398d6",
+    "text": "그래서 잘 맞았지.",
+    "sourceCueIds": [
+      11
+    ],
+    "renderStartFrame48000": 2292864,
+    "renderEndFrame48000": 2361120
+  },
+  {
+    "id": "ch_kahnsclubfalling.acting-group.11",
+    "movie": "ch_kahnsclubfalling.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "그런데 파시스트란 말이지? 난 파시스트는 정말 싫거든",
+    "sourceCueIds": [
+      12
+    ],
+    "renderStartFrame48000": 2375040,
+    "renderEndFrame48000": 2609760
+  },
+  {
+    "id": "ch_kahnsclubfalling.acting-group.12",
+    "movie": "ch_kahnsclubfalling.bik",
+    "speakerId": "kahn",
+    "voice": "voice_3a2fcbde-c5a7-4300-9058-a16c816398d6",
+    "text": "뭐라고 떠드는지 도저히 모르겠군",
+    "sourceCueIds": [
+      13
+    ],
+    "renderStartFrame48000": 2625600,
+    "renderEndFrame48000": 2770080
+  },
+  {
+    "id": "ch_kahnsclubfalling.acting-group.13",
+    "movie": "ch_kahnsclubfalling.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "이걸 보면 기억나겠지?",
+    "sourceCueIds": [
+      14
+    ],
+    "renderStartFrame48000": 2792448,
+    "renderEndFrame48000": 2892000
+  },
+  {
+    "id": "ch_kahnsclubfalling.acting-group.14",
+    "movie": "ch_kahnsclubfalling.bik",
+    "speakerId": "kahn",
+    "voice": "voice_3a2fcbde-c5a7-4300-9058-a16c816398d6",
+    "text": "없애 버려",
+    "sourceCueIds": [
+      15
+    ],
+    "renderStartFrame48000": 3181440,
+    "renderEndFrame48000": 3254400
+  },
+  {
+    "id": "ch_kahnsclubfalling.acting-group.15",
+    "movie": "ch_kahnsclubfalling.bik",
+    "speakerId": "kahn",
+    "voice": "voice_3a2fcbde-c5a7-4300-9058-a16c816398d6",
+    "text": "너야말로 여기저기 나서지 말고 네 일이나 신경쓰지 그래, 네이슨",
+    "sourceCueIds": [
+      16
+    ],
+    "renderStartFrame48000": 3345408,
+    "renderEndFrame48000": 3535200
+  },
+  {
+    "id": "ch_kahnsclubfalling.acting-group.16",
+    "movie": "ch_kahnsclubfalling.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "베티, 창문으로!",
+    "sourceCueIds": [
+      17
+    ],
+    "renderStartFrame48000": 3720960,
+    "renderEndFrame48000": 3778560
+  },
+  {
+    "id": "ch_opening.acting-group.01",
+    "movie": "ch_opening.bik",
+    "speakerId": "news-chicago-opening",
+    "voice": "Rasalgethi",
+    "text": "뉴스를 말씀드리겠습니다. 디까를로와 조나단 칸의 레드 스컬 사이의 긴장이 지난주 초 절정에 달했습니다. 도시 상공에서 두 조직이 세력 다툼을 벌인 것입니다. 이상 아이 인더 스카이 뉴스였습니다",
+    "sourceCueIds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "renderStartFrame48000": 107520,
+    "renderEndFrame48000": 892032
+  },
+  {
+    "id": "ch_opening.acting-group.02",
+    "movie": "ch_opening.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "시카고가 시끄러워 지겠는데요",
+    "sourceCueIds": [
+      5
+    ],
+    "renderStartFrame48000": 904320,
+    "renderEndFrame48000": 997920
+  },
+  {
+    "id": "ch_opening.acting-group.03",
+    "movie": "ch_opening.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "칸을 만나야겠군",
+    "sourceCueIds": [
+      6
+    ],
+    "renderStartFrame48000": 1013760,
+    "renderEndFrame48000": 1093920
+  },
+  {
+    "id": "ch_rescuebetty.acting-group.01",
+    "movie": "ch_rescuebetty.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "이 쪽이다, 이 자식아!",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 322560,
+    "renderEndFrame48000": 416160
+  },
+  {
+    "id": "ch_rescuebetty.acting-group.02",
+    "movie": "ch_rescuebetty.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "빨리 타!",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 516864,
+    "renderEndFrame48000": 567360
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.01",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "이제 약속한 돈을 주시죠",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 830400,
+    "renderEndFrame48000": 947520
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.02",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "von-essen",
+    "voice": "voice_85bcd4b9-94ae-494b-853e-b6084fa676e1",
+    "text": "그건 처리해 주지.",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 1026240,
+    "renderEndFrame48000": 1122240
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.03",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "말도 안돼요! 분명히 시카고에선 가져다 주는 즉시 주기로 했잖아요",
+    "sourceCueIds": [
+      2,
+      3
+    ],
+    "renderStartFrame48000": 1128000,
+    "renderEndFrame48000": 1392000
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.04",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "설계도 받고 사흘이나 작업했잖아요!",
+    "sourceCueIds": [
+      4
+    ],
+    "renderStartFrame48000": 1460160,
+    "renderEndFrame48000": 1623360
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.05",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "die-spinne-demolition-radio",
+    "voice": "Orus",
+    "text": "화산 통풍구 비 투와 씨 식스에 폭약 설치 및 기폭 준비 완료.",
+    "sourceCueIds": [
+      5
+    ],
+    "renderStartFrame48000": 1639680,
+    "renderEndFrame48000": 1803840
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.06",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "von-essen",
+    "voice": "voice_85bcd4b9-94ae-494b-853e-b6084fa676e1",
+    "text": "다음 지시를 기다려.",
+    "sourceCueIds": [
+      6
+    ],
+    "renderStartFrame48000": 1834368,
+    "renderEndFrame48000": 1919520
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.07",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "내 말 듣고 있어요?",
+    "sourceCueIds": [
+      7
+    ],
+    "renderStartFrame48000": 1934400,
+    "renderEndFrame48000": 2026080
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.08",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "von-essen",
+    "voice": "voice_85bcd4b9-94ae-494b-853e-b6084fa676e1",
+    "text": "그만 가게. 사소한 일에 쓸 시간 없어.",
+    "sourceCueIds": [
+      8
+    ],
+    "renderStartFrame48000": 2030400,
+    "renderEndFrame48000": 2158560
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.09",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "안 돼요, 내 몫을 달라구요!",
+    "sourceCueIds": [
+      9
+    ],
+    "renderStartFrame48000": 2171520,
+    "renderEndFrame48000": 2286240
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.10",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "von-essen",
+    "voice": "voice_85bcd4b9-94ae-494b-853e-b6084fa676e1",
+    "text": "네 몫을 달라고?",
+    "sourceCueIds": [
+      10
+    ],
+    "renderStartFrame48000": 2315520,
+    "renderEndFrame48000": 2389440
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.11",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "네!",
+    "sourceCueIds": [
+      11
+    ],
+    "renderStartFrame48000": 2418240,
+    "renderEndFrame48000": 2447040
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.12",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "von-essen",
+    "voice": "voice_85bcd4b9-94ae-494b-853e-b6084fa676e1",
+    "text": "해결된 셈이지.",
+    "sourceCueIds": [
+      12
+    ],
+    "renderStartFrame48000": 2721600,
+    "renderEndFrame48000": 2821440
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.13",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "von-essen",
+    "voice": "voice_85bcd4b9-94ae-494b-853e-b6084fa676e1",
+    "text": "오, 네이슨 재커리. 불꽃놀이에 딱 맞춰 왔군.",
+    "sourceCueIds": [
+      13,
+      14
+    ],
+    "renderStartFrame48000": 3283200,
+    "renderEndFrame48000": 3532608
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.14",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "von-essen",
+    "voice": "voice_85bcd4b9-94ae-494b-853e-b6084fa676e1",
+    "text": "기분이 어땠어? 네이슨 그 차디 찬 바닥에 파젠바인더 박사가 죽어있는 걸 보니?",
+    "sourceCueIds": [
+      15,
+      16
+    ],
+    "renderStartFrame48000": 3566400,
+    "renderEndFrame48000": 3861600
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.15",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "von-essen",
+    "voice": "voice_85bcd4b9-94ae-494b-853e-b6084fa676e1",
+    "text": "박사를 지키지 못하고 내 손아귀에 놀아났군, 네이슨. 내가 언제 죽이느냐가 문제지 복수심에 불타는 사람은 늘 약하기 마련이지 네 약점이 하찮은 주유소 계집일 줄은 몰랐지.",
+    "sourceCueIds": [
+      17,
+      18,
+      19,
+      20
+    ],
+    "renderStartFrame48000": 3985920,
+    "renderEndFrame48000": 4619136
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.16",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "von-essen",
+    "voice": "voice_85bcd4b9-94ae-494b-853e-b6084fa676e1",
+    "text": "설득은 좀 힘들었지만, 누구나 돈이면 넘어가지.",
+    "sourceCueIds": [
+      21,
+      22
+    ],
+    "renderStartFrame48000": 4659072,
+    "renderEndFrame48000": 4870560
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.17",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "끝이야, 본 에센. 아지트도 들켰어.",
+    "sourceCueIds": [
+      23,
+      24
+    ],
+    "renderStartFrame48000": 4970880,
+    "renderEndFrame48000": 5124000
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.18",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "von-essen",
+    "voice": "voice_85bcd4b9-94ae-494b-853e-b6084fa676e1",
+    "text": "이 동굴이 뭐로 보이나? 나한테는 더 이상 필요없어 이제부터 시카고가 내가 가야할 곳이네",
+    "sourceCueIds": [
+      25,
+      26,
+      27
+    ],
+    "renderStartFrame48000": 5136384,
+    "renderEndFrame48000": 5523840
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.19",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "von-essen",
+    "voice": "voice_85bcd4b9-94ae-494b-853e-b6084fa676e1",
+    "text": "내가 지배하게 될 시카고 말이야 이제 이 나라 ISA는 다이 스피네의 권력 하에 있게 될 것이네 서쪽 피플스 컬렉티브로 파시즘을 전파하고... 그다음 동쪽 엠파이어 스테이트를 정복하는 거지...",
+    "sourceCueIds": [
+      28,
+      29,
+      30,
+      31
+    ],
+    "renderStartFrame48000": 5691840,
+    "renderEndFrame48000": 6322080
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.20",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "앞서가지 마, 본 에센. 시카고는 절대 못 차지해.",
+    "sourceCueIds": [
+      32,
+      33
+    ],
+    "renderStartFrame48000": 6343680,
+    "renderEndFrame48000": 6510720
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.21",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "von-essen",
+    "voice": "voice_85bcd4b9-94ae-494b-853e-b6084fa676e1",
+    "text": "아니, 차지할 수 있어. 박사 덕이지. 그가 수정한 설계도는 아주 훌륭했어",
+    "sourceCueIds": [
+      34,
+      35
+    ],
+    "renderStartFrame48000": 6544512,
+    "renderEndFrame48000": 6872448
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.22",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "von-essen",
+    "voice": "voice_85bcd4b9-94ae-494b-853e-b6084fa676e1",
+    "text": "넌 한발 늦었어 터빈은 이미 완성되었어! 스타커 스텀 비행선이 마침내 완성된 거야!",
+    "sourceCueIds": [
+      36,
+      37,
+      38
+    ],
+    "renderStartFrame48000": 7059072,
+    "renderEndFrame48000": 7369920
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.23",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "von-essen",
+    "voice": "voice_85bcd4b9-94ae-494b-853e-b6084fa676e1",
+    "text": "20시간 안에 시카고는 내 요구를 받아들일 거야. 아니면 바람의 도시는 통째로 날아가겠지!",
+    "sourceCueIds": [
+      39,
+      40
+    ],
+    "renderStartFrame48000": 7468800,
+    "renderEndFrame48000": 7875360
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.24",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "von-essen",
+    "voice": "voice_85bcd4b9-94ae-494b-853e-b6084fa676e1",
+    "text": "이제 죽음을 맞이할 준비나 하시지, 네이슨",
+    "sourceCueIds": [
+      41
+    ],
+    "renderStartFrame48000": 8056320,
+    "renderEndFrame48000": 8239296
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.25",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "미안해요, 네이슨...",
+    "sourceCueIds": [
+      42
+    ],
+    "renderStartFrame48000": 8977920,
+    "renderEndFrame48000": 9080640
+  },
+  {
+    "id": "lc_blur_vonessenkillsmaria.acting-group.26",
+    "movie": "lc_blur_vonessenkillsmaria.bik",
+    "speakerId": "maria",
+    "voice": "voice_d5cc9308-ed0f-4cb0-baa3-4ef4ccfc1e3a",
+    "text": "미안...",
+    "sourceCueIds": [
+      43
+    ],
+    "renderStartFrame48000": 9142080,
+    "renderEndFrame48000": 9182400
+  },
+  {
+    "id": "lc_in_pf_bandito.acting-group.01",
+    "movie": "lc_in_pf_bandito.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 271872,
+    "renderEndFrame48000": 410880
+  },
+  {
+    "id": "lc_in_pf_bandito.acting-group.02",
+    "movie": "lc_in_pf_bandito.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "입구가!",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 478080,
+    "renderEndFrame48000": 534240
+  },
+  {
+    "id": "lc_in_pf_bandito_upgrade.acting-group.01",
+    "movie": "lc_in_pf_bandito_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 271872,
+    "renderEndFrame48000": 410880
+  },
+  {
+    "id": "lc_in_pf_bandito_upgrade.acting-group.02",
+    "movie": "lc_in_pf_bandito_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "입구가!",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 478080,
+    "renderEndFrame48000": 534240
+  },
+  {
+    "id": "lc_in_pf_biplane.acting-group.01",
+    "movie": "lc_in_pf_biplane.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 271872,
+    "renderEndFrame48000": 410880
+  },
+  {
+    "id": "lc_in_pf_biplane.acting-group.02",
+    "movie": "lc_in_pf_biplane.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "입구가!",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 478080,
+    "renderEndFrame48000": 534240
+  },
+  {
+    "id": "lc_in_pf_biplane_upgrade.acting-group.01",
+    "movie": "lc_in_pf_biplane_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 271872,
+    "renderEndFrame48000": 410880
+  },
+  {
+    "id": "lc_in_pf_biplane_upgrade.acting-group.02",
+    "movie": "lc_in_pf_biplane_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "입구가!",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 478080,
+    "renderEndFrame48000": 534240
+  },
+  {
+    "id": "lc_in_pf_brigand.acting-group.01",
+    "movie": "lc_in_pf_brigand.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 271872,
+    "renderEndFrame48000": 410880
+  },
+  {
+    "id": "lc_in_pf_brigand.acting-group.02",
+    "movie": "lc_in_pf_brigand.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "입구가!",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 478080,
+    "renderEndFrame48000": 534240
+  },
+  {
+    "id": "lc_in_pf_brigand_upgrade.acting-group.01",
+    "movie": "lc_in_pf_brigand_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 271872,
+    "renderEndFrame48000": 410880
+  },
+  {
+    "id": "lc_in_pf_brigand_upgrade.acting-group.02",
+    "movie": "lc_in_pf_brigand_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "입구가!",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 478080,
+    "renderEndFrame48000": 534240
+  },
+  {
+    "id": "lc_in_pf_cajunseaplane.acting-group.01",
+    "movie": "lc_in_pf_cajunseaplane.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 271872,
+    "renderEndFrame48000": 410880
+  },
+  {
+    "id": "lc_in_pf_cajunseaplane.acting-group.02",
+    "movie": "lc_in_pf_cajunseaplane.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "입구가!",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 478080,
+    "renderEndFrame48000": 534240
+  },
+  {
+    "id": "lc_in_pf_cajunseaplane_upgrade.acting-group.01",
+    "movie": "lc_in_pf_cajunseaplane_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 271872,
+    "renderEndFrame48000": 410880
+  },
+  {
+    "id": "lc_in_pf_cajunseaplane_upgrade.acting-group.02",
+    "movie": "lc_in_pf_cajunseaplane_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "입구가!",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 478080,
+    "renderEndFrame48000": 534240
+  },
+  {
+    "id": "lc_in_pf_desertfox.acting-group.01",
+    "movie": "lc_in_pf_desertfox.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 271872,
+    "renderEndFrame48000": 410880
+  },
+  {
+    "id": "lc_in_pf_desertfox.acting-group.02",
+    "movie": "lc_in_pf_desertfox.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "입구가!",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 478080,
+    "renderEndFrame48000": 534240
+  },
+  {
+    "id": "lc_in_pf_desertfox_upgrade.acting-group.01",
+    "movie": "lc_in_pf_desertfox_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 271872,
+    "renderEndFrame48000": 410880
+  },
+  {
+    "id": "lc_in_pf_desertfox_upgrade.acting-group.02",
+    "movie": "lc_in_pf_desertfox_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "입구가!",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 478080,
+    "renderEndFrame48000": 534240
+  },
+  {
+    "id": "lc_in_pf_devastator.acting-group.01",
+    "movie": "lc_in_pf_devastator.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 271872,
+    "renderEndFrame48000": 410880
+  },
+  {
+    "id": "lc_in_pf_devastator.acting-group.02",
+    "movie": "lc_in_pf_devastator.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "입구가!",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 478080,
+    "renderEndFrame48000": 534240
+  },
+  {
+    "id": "lc_in_pf_devastator_upgrade.acting-group.01",
+    "movie": "lc_in_pf_devastator_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 271872,
+    "renderEndFrame48000": 410880
+  },
+  {
+    "id": "lc_in_pf_devastator_upgrade.acting-group.02",
+    "movie": "lc_in_pf_devastator_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "입구가!",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 478080,
+    "renderEndFrame48000": 534240
+  },
+  {
+    "id": "lc_in_pf_doppleganger.acting-group.01",
+    "movie": "lc_in_pf_doppleganger.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 271872,
+    "renderEndFrame48000": 410880
+  },
+  {
+    "id": "lc_in_pf_doppleganger.acting-group.02",
+    "movie": "lc_in_pf_doppleganger.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "입구가!",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 478080,
+    "renderEndFrame48000": 534240
+  },
+  {
+    "id": "lc_in_pf_doppleganger_upgrade.acting-group.01",
+    "movie": "lc_in_pf_doppleganger_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 271872,
+    "renderEndFrame48000": 410880
+  },
+  {
+    "id": "lc_in_pf_doppleganger_upgrade.acting-group.02",
+    "movie": "lc_in_pf_doppleganger_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "입구가!",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 478080,
+    "renderEndFrame48000": 534240
+  },
+  {
+    "id": "lc_in_pf_gangster.acting-group.01",
+    "movie": "lc_in_pf_gangster.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 271872,
+    "renderEndFrame48000": 410880
+  },
+  {
+    "id": "lc_in_pf_gangster.acting-group.02",
+    "movie": "lc_in_pf_gangster.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "입구가!",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 478080,
+    "renderEndFrame48000": 534240
+  },
+  {
+    "id": "lc_in_pf_gangster_upgrade.acting-group.01",
+    "movie": "lc_in_pf_gangster_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 271872,
+    "renderEndFrame48000": 410880
+  },
+  {
+    "id": "lc_in_pf_gangster_upgrade.acting-group.02",
+    "movie": "lc_in_pf_gangster_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "입구가!",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 478080,
+    "renderEndFrame48000": 534240
+  },
+  {
+    "id": "lc_in_pf_minigyro.acting-group.01",
+    "movie": "lc_in_pf_minigyro.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 271872,
+    "renderEndFrame48000": 410880
+  },
+  {
+    "id": "lc_in_pf_minigyro.acting-group.02",
+    "movie": "lc_in_pf_minigyro.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "입구가!",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 478080,
+    "renderEndFrame48000": 534240
+  },
+  {
+    "id": "lc_in_pf_piranha.acting-group.01",
+    "movie": "lc_in_pf_piranha.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 271872,
+    "renderEndFrame48000": 410880
+  },
+  {
+    "id": "lc_in_pf_piranha.acting-group.02",
+    "movie": "lc_in_pf_piranha.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "입구가!",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 478080,
+    "renderEndFrame48000": 534240
+  },
+  {
+    "id": "lc_in_pf_piranha_upgrade.acting-group.01",
+    "movie": "lc_in_pf_piranha_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 271872,
+    "renderEndFrame48000": 410880
+  },
+  {
+    "id": "lc_in_pf_piranha_upgrade.acting-group.02",
+    "movie": "lc_in_pf_piranha_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "입구가!",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 478080,
+    "renderEndFrame48000": 534240
+  },
+  {
+    "id": "lc_out_pf_bandito.acting-group.01",
+    "movie": "lc_out_pf_bandito.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "네이슨, 빨리!",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 39360,
+    "renderEndFrame48000": 111360
+  },
+  {
+    "id": "lc_out_pf_bandito.acting-group.02",
+    "movie": "lc_out_pf_bandito.bik",
+    "speakerId": "big-john",
+    "voice": "Charon",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "sourceCueIds": [
+      1,
+      2
+    ],
+    "renderStartFrame48000": 778560,
+    "renderEndFrame48000": 903648
+  },
+  {
+    "id": "lc_out_pf_bandito.acting-group.03",
+    "movie": "lc_out_pf_bandito.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "본 에센이 도망치고 있어!",
+    "sourceCueIds": [
+      3
+    ],
+    "renderStartFrame48000": 1008384,
+    "renderEndFrame48000": 1072800
+  },
+  {
+    "id": "lc_out_pf_bandito_upgrade.acting-group.01",
+    "movie": "lc_out_pf_bandito_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "네이슨, 빨리!",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 39360,
+    "renderEndFrame48000": 111360
+  },
+  {
+    "id": "lc_out_pf_bandito_upgrade.acting-group.02",
+    "movie": "lc_out_pf_bandito_upgrade.bik",
+    "speakerId": "big-john",
+    "voice": "Charon",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "sourceCueIds": [
+      1,
+      2
+    ],
+    "renderStartFrame48000": 778560,
+    "renderEndFrame48000": 903648
+  },
+  {
+    "id": "lc_out_pf_bandito_upgrade.acting-group.03",
+    "movie": "lc_out_pf_bandito_upgrade.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "본 에센이 도망치고 있어!",
+    "sourceCueIds": [
+      3
+    ],
+    "renderStartFrame48000": 1008384,
+    "renderEndFrame48000": 1072800
+  },
+  {
+    "id": "lc_out_pf_biplane.acting-group.01",
+    "movie": "lc_out_pf_biplane.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "네이슨, 빨리!",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 39360,
+    "renderEndFrame48000": 111360
+  },
+  {
+    "id": "lc_out_pf_biplane.acting-group.02",
+    "movie": "lc_out_pf_biplane.bik",
+    "speakerId": "big-john",
+    "voice": "Charon",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "sourceCueIds": [
+      1,
+      2
+    ],
+    "renderStartFrame48000": 778560,
+    "renderEndFrame48000": 903648
+  },
+  {
+    "id": "lc_out_pf_biplane.acting-group.03",
+    "movie": "lc_out_pf_biplane.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "본 에센이 도망치고 있어!",
+    "sourceCueIds": [
+      3
+    ],
+    "renderStartFrame48000": 1008384,
+    "renderEndFrame48000": 1072800
+  },
+  {
+    "id": "lc_out_pf_biplane_upgrade.acting-group.01",
+    "movie": "lc_out_pf_biplane_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "네이슨, 빨리!",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 39360,
+    "renderEndFrame48000": 111360
+  },
+  {
+    "id": "lc_out_pf_biplane_upgrade.acting-group.02",
+    "movie": "lc_out_pf_biplane_upgrade.bik",
+    "speakerId": "big-john",
+    "voice": "Charon",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "sourceCueIds": [
+      1,
+      2
+    ],
+    "renderStartFrame48000": 778560,
+    "renderEndFrame48000": 903648
+  },
+  {
+    "id": "lc_out_pf_biplane_upgrade.acting-group.03",
+    "movie": "lc_out_pf_biplane_upgrade.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "본 에센이 도망치고 있어!",
+    "sourceCueIds": [
+      3
+    ],
+    "renderStartFrame48000": 1008384,
+    "renderEndFrame48000": 1072800
+  },
+  {
+    "id": "lc_out_pf_brigand.acting-group.01",
+    "movie": "lc_out_pf_brigand.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "네이슨, 빨리!",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 39360,
+    "renderEndFrame48000": 111360
+  },
+  {
+    "id": "lc_out_pf_brigand.acting-group.02",
+    "movie": "lc_out_pf_brigand.bik",
+    "speakerId": "big-john",
+    "voice": "Charon",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "sourceCueIds": [
+      1,
+      2
+    ],
+    "renderStartFrame48000": 778560,
+    "renderEndFrame48000": 903648
+  },
+  {
+    "id": "lc_out_pf_brigand.acting-group.03",
+    "movie": "lc_out_pf_brigand.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "본 에센이 도망치고 있어!",
+    "sourceCueIds": [
+      3
+    ],
+    "renderStartFrame48000": 1008384,
+    "renderEndFrame48000": 1072800
+  },
+  {
+    "id": "lc_out_pf_brigand_upgrade.acting-group.01",
+    "movie": "lc_out_pf_brigand_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "네이슨, 빨리!",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 39360,
+    "renderEndFrame48000": 111360
+  },
+  {
+    "id": "lc_out_pf_brigand_upgrade.acting-group.02",
+    "movie": "lc_out_pf_brigand_upgrade.bik",
+    "speakerId": "big-john",
+    "voice": "Charon",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "sourceCueIds": [
+      1,
+      2
+    ],
+    "renderStartFrame48000": 778560,
+    "renderEndFrame48000": 903648
+  },
+  {
+    "id": "lc_out_pf_brigand_upgrade.acting-group.03",
+    "movie": "lc_out_pf_brigand_upgrade.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "본 에센이 도망치고 있어!",
+    "sourceCueIds": [
+      3
+    ],
+    "renderStartFrame48000": 1008384,
+    "renderEndFrame48000": 1072800
+  },
+  {
+    "id": "lc_out_pf_cajunseaplane.acting-group.01",
+    "movie": "lc_out_pf_cajunseaplane.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "네이슨, 빨리!",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 39360,
+    "renderEndFrame48000": 111360
+  },
+  {
+    "id": "lc_out_pf_cajunseaplane.acting-group.02",
+    "movie": "lc_out_pf_cajunseaplane.bik",
+    "speakerId": "big-john",
+    "voice": "Charon",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "sourceCueIds": [
+      1,
+      2
+    ],
+    "renderStartFrame48000": 778560,
+    "renderEndFrame48000": 903648
+  },
+  {
+    "id": "lc_out_pf_cajunseaplane.acting-group.03",
+    "movie": "lc_out_pf_cajunseaplane.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "본 에센이 도망치고 있어!",
+    "sourceCueIds": [
+      3
+    ],
+    "renderStartFrame48000": 1008384,
+    "renderEndFrame48000": 1072800
+  },
+  {
+    "id": "lc_out_pf_cajunseaplane_upgrade.acting-group.01",
+    "movie": "lc_out_pf_cajunseaplane_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "네이슨, 빨리!",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 39360,
+    "renderEndFrame48000": 111360
+  },
+  {
+    "id": "lc_out_pf_cajunseaplane_upgrade.acting-group.02",
+    "movie": "lc_out_pf_cajunseaplane_upgrade.bik",
+    "speakerId": "big-john",
+    "voice": "Charon",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "sourceCueIds": [
+      1,
+      2
+    ],
+    "renderStartFrame48000": 778560,
+    "renderEndFrame48000": 903648
+  },
+  {
+    "id": "lc_out_pf_cajunseaplane_upgrade.acting-group.03",
+    "movie": "lc_out_pf_cajunseaplane_upgrade.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "본 에센이 도망치고 있어!",
+    "sourceCueIds": [
+      3
+    ],
+    "renderStartFrame48000": 1008384,
+    "renderEndFrame48000": 1072800
+  },
+  {
+    "id": "lc_out_pf_desertfox.acting-group.01",
+    "movie": "lc_out_pf_desertfox.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "네이슨, 빨리!",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 39360,
+    "renderEndFrame48000": 111360
+  },
+  {
+    "id": "lc_out_pf_desertfox.acting-group.02",
+    "movie": "lc_out_pf_desertfox.bik",
+    "speakerId": "big-john",
+    "voice": "Charon",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "sourceCueIds": [
+      1,
+      2
+    ],
+    "renderStartFrame48000": 778560,
+    "renderEndFrame48000": 903648
+  },
+  {
+    "id": "lc_out_pf_desertfox.acting-group.03",
+    "movie": "lc_out_pf_desertfox.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "본 에센이 도망치고 있어!",
+    "sourceCueIds": [
+      3
+    ],
+    "renderStartFrame48000": 1008384,
+    "renderEndFrame48000": 1072800
+  },
+  {
+    "id": "lc_out_pf_desertfox_upgrade.acting-group.01",
+    "movie": "lc_out_pf_desertfox_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "네이슨, 빨리!",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 39360,
+    "renderEndFrame48000": 111360
+  },
+  {
+    "id": "lc_out_pf_desertfox_upgrade.acting-group.02",
+    "movie": "lc_out_pf_desertfox_upgrade.bik",
+    "speakerId": "big-john",
+    "voice": "Charon",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "sourceCueIds": [
+      1,
+      2
+    ],
+    "renderStartFrame48000": 778560,
+    "renderEndFrame48000": 903648
+  },
+  {
+    "id": "lc_out_pf_desertfox_upgrade.acting-group.03",
+    "movie": "lc_out_pf_desertfox_upgrade.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "본 에센이 도망치고 있어!",
+    "sourceCueIds": [
+      3
+    ],
+    "renderStartFrame48000": 1008384,
+    "renderEndFrame48000": 1072800
+  },
+  {
+    "id": "lc_out_pf_devastator.acting-group.01",
+    "movie": "lc_out_pf_devastator.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "네이슨, 빨리!",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 39360,
+    "renderEndFrame48000": 111360
+  },
+  {
+    "id": "lc_out_pf_devastator.acting-group.02",
+    "movie": "lc_out_pf_devastator.bik",
+    "speakerId": "big-john",
+    "voice": "Charon",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "sourceCueIds": [
+      1,
+      2
+    ],
+    "renderStartFrame48000": 778560,
+    "renderEndFrame48000": 903648
+  },
+  {
+    "id": "lc_out_pf_devastator.acting-group.03",
+    "movie": "lc_out_pf_devastator.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "본 에센이 도망치고 있어!",
+    "sourceCueIds": [
+      3
+    ],
+    "renderStartFrame48000": 1008384,
+    "renderEndFrame48000": 1072800
+  },
+  {
+    "id": "lc_out_pf_devastator_upgrade.acting-group.01",
+    "movie": "lc_out_pf_devastator_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "네이슨, 빨리!",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 39360,
+    "renderEndFrame48000": 111360
+  },
+  {
+    "id": "lc_out_pf_devastator_upgrade.acting-group.02",
+    "movie": "lc_out_pf_devastator_upgrade.bik",
+    "speakerId": "big-john",
+    "voice": "Charon",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "sourceCueIds": [
+      1,
+      2
+    ],
+    "renderStartFrame48000": 778560,
+    "renderEndFrame48000": 903648
+  },
+  {
+    "id": "lc_out_pf_devastator_upgrade.acting-group.03",
+    "movie": "lc_out_pf_devastator_upgrade.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "본 에센이 도망치고 있어!",
+    "sourceCueIds": [
+      3
+    ],
+    "renderStartFrame48000": 1008384,
+    "renderEndFrame48000": 1072800
+  },
+  {
+    "id": "lc_out_pf_doppleganger.acting-group.01",
+    "movie": "lc_out_pf_doppleganger.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "네이슨, 빨리!",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 39360,
+    "renderEndFrame48000": 111360
+  },
+  {
+    "id": "lc_out_pf_doppleganger.acting-group.02",
+    "movie": "lc_out_pf_doppleganger.bik",
+    "speakerId": "big-john",
+    "voice": "Charon",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "sourceCueIds": [
+      1,
+      2
+    ],
+    "renderStartFrame48000": 778560,
+    "renderEndFrame48000": 903648
+  },
+  {
+    "id": "lc_out_pf_doppleganger.acting-group.03",
+    "movie": "lc_out_pf_doppleganger.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "본 에센이 도망치고 있어!",
+    "sourceCueIds": [
+      3
+    ],
+    "renderStartFrame48000": 1008384,
+    "renderEndFrame48000": 1072800
+  },
+  {
+    "id": "lc_out_pf_doppleganger_upgrade.acting-group.01",
+    "movie": "lc_out_pf_doppleganger_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "네이슨, 빨리!",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 39360,
+    "renderEndFrame48000": 111360
+  },
+  {
+    "id": "lc_out_pf_doppleganger_upgrade.acting-group.02",
+    "movie": "lc_out_pf_doppleganger_upgrade.bik",
+    "speakerId": "big-john",
+    "voice": "Charon",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "sourceCueIds": [
+      1,
+      2
+    ],
+    "renderStartFrame48000": 778560,
+    "renderEndFrame48000": 903648
+  },
+  {
+    "id": "lc_out_pf_doppleganger_upgrade.acting-group.03",
+    "movie": "lc_out_pf_doppleganger_upgrade.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "본 에센이 도망치고 있어!",
+    "sourceCueIds": [
+      3
+    ],
+    "renderStartFrame48000": 1008384,
+    "renderEndFrame48000": 1072800
+  },
+  {
+    "id": "lc_out_pf_gangster.acting-group.01",
+    "movie": "lc_out_pf_gangster.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "네이슨, 빨리!",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 39360,
+    "renderEndFrame48000": 111360
+  },
+  {
+    "id": "lc_out_pf_gangster.acting-group.02",
+    "movie": "lc_out_pf_gangster.bik",
+    "speakerId": "big-john",
+    "voice": "Charon",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "sourceCueIds": [
+      1,
+      2
+    ],
+    "renderStartFrame48000": 778560,
+    "renderEndFrame48000": 903648
+  },
+  {
+    "id": "lc_out_pf_gangster.acting-group.03",
+    "movie": "lc_out_pf_gangster.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "본 에센이 도망치고 있어!",
+    "sourceCueIds": [
+      3
+    ],
+    "renderStartFrame48000": 1008384,
+    "renderEndFrame48000": 1072800
+  },
+  {
+    "id": "lc_out_pf_gangster_upgrade.acting-group.01",
+    "movie": "lc_out_pf_gangster_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "네이슨, 빨리!",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 39360,
+    "renderEndFrame48000": 111360
+  },
+  {
+    "id": "lc_out_pf_gangster_upgrade.acting-group.02",
+    "movie": "lc_out_pf_gangster_upgrade.bik",
+    "speakerId": "big-john",
+    "voice": "Charon",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "sourceCueIds": [
+      1,
+      2
+    ],
+    "renderStartFrame48000": 778560,
+    "renderEndFrame48000": 903648
+  },
+  {
+    "id": "lc_out_pf_gangster_upgrade.acting-group.03",
+    "movie": "lc_out_pf_gangster_upgrade.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "본 에센이 도망치고 있어!",
+    "sourceCueIds": [
+      3
+    ],
+    "renderStartFrame48000": 1008384,
+    "renderEndFrame48000": 1072800
+  },
+  {
+    "id": "lc_out_pf_minigyro.acting-group.01",
+    "movie": "lc_out_pf_minigyro.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "네이슨, 빨리!",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 39360,
+    "renderEndFrame48000": 111360
+  },
+  {
+    "id": "lc_out_pf_minigyro.acting-group.02",
+    "movie": "lc_out_pf_minigyro.bik",
+    "speakerId": "big-john",
+    "voice": "Charon",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "sourceCueIds": [
+      1,
+      2
+    ],
+    "renderStartFrame48000": 778560,
+    "renderEndFrame48000": 903648
+  },
+  {
+    "id": "lc_out_pf_minigyro.acting-group.03",
+    "movie": "lc_out_pf_minigyro.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "본 에센이 도망치고 있어!",
+    "sourceCueIds": [
+      3
+    ],
+    "renderStartFrame48000": 1008384,
+    "renderEndFrame48000": 1072800
+  },
+  {
+    "id": "lc_out_pf_piranha.acting-group.01",
+    "movie": "lc_out_pf_piranha.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "네이슨, 빨리!",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 39360,
+    "renderEndFrame48000": 111360
+  },
+  {
+    "id": "lc_out_pf_piranha.acting-group.02",
+    "movie": "lc_out_pf_piranha.bik",
+    "speakerId": "big-john",
+    "voice": "Charon",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "sourceCueIds": [
+      1,
+      2
+    ],
+    "renderStartFrame48000": 778560,
+    "renderEndFrame48000": 903648
+  },
+  {
+    "id": "lc_out_pf_piranha.acting-group.03",
+    "movie": "lc_out_pf_piranha.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "본 에센이 도망치고 있어!",
+    "sourceCueIds": [
+      3
+    ],
+    "renderStartFrame48000": 1008384,
+    "renderEndFrame48000": 1072800
+  },
+  {
+    "id": "lc_out_pf_piranha_upgrade.acting-group.01",
+    "movie": "lc_out_pf_piranha_upgrade.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "네이슨, 빨리!",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 39360,
+    "renderEndFrame48000": 111360
+  },
+  {
+    "id": "lc_out_pf_piranha_upgrade.acting-group.02",
+    "movie": "lc_out_pf_piranha_upgrade.bik",
+    "speakerId": "big-john",
+    "voice": "Charon",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "sourceCueIds": [
+      1,
+      2
+    ],
+    "renderStartFrame48000": 778560,
+    "renderEndFrame48000": 903648
+  },
+  {
+    "id": "lc_out_pf_piranha_upgrade.acting-group.03",
+    "movie": "lc_out_pf_piranha_upgrade.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "본 에센이 도망치고 있어!",
+    "sourceCueIds": [
+      3
+    ],
+    "renderStartFrame48000": 1008384,
+    "renderEndFrame48000": 1072800
+  },
+  {
+    "id": "map_transition_ax_to_ch.acting-group.01",
+    "movie": "map_transition_ax_to_ch.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "아릭소 티탄 광산에서의 전투로 분명해진 것은 레드 스컬 일당과 다이 스피네 군대가 한 패거리란 것이다",
+    "sourceCueIds": [
+      0,
+      1
+    ],
+    "renderStartFrame48000": 115200,
+    "renderEndFrame48000": 396000
+  },
+  {
+    "id": "map_transition_ax_to_ch.acting-group.02",
+    "movie": "map_transition_ax_to_ch.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "목적과 가담 정도는 몰랐다.",
+    "sourceCueIds": [
+      2
+    ],
+    "renderStartFrame48000": 438912,
+    "renderEndFrame48000": 559680
+  },
+  {
+    "id": "map_transition_ax_to_ch.acting-group.03",
+    "movie": "map_transition_ax_to_ch.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "우선 시카고로 가서 해답을 찾기로 했다 조나단 칸이 아마 해답을 가지고 있는 듯하다",
+    "sourceCueIds": [
+      3,
+      4
+    ],
+    "renderStartFrame48000": 624960,
+    "renderEndFrame48000": 898560
+  },
+  {
+    "id": "map_transition_ch_to_lc.acting-group.01",
+    "movie": "map_transition_ch_to_lc.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "마리아의 배신으로 인한 충격이 아직 가시지 않은 채로 우리는 그녀를 뒤쫓아 남쪽으로 향했다 그녀는 박사님의 설계도를 가지고",
+    "sourceCueIds": [
+      0,
+      1,
+      2
+    ],
+    "renderStartFrame48000": 118080,
+    "renderEndFrame48000": 555360
+  },
+  {
+    "id": "map_transition_ch_to_lc.acting-group.02",
+    "movie": "map_transition_ch_to_lc.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "우리보다 앞서 서둘러 남쪽으로 가고 있었다 한 가지 분명한 것은 그녀가 본 에센에게 가고 있다는 것이었다",
+    "sourceCueIds": [
+      3,
+      4,
+      5
+    ],
+    "renderStartFrame48000": 587520,
+    "renderEndFrame48000": 951168
+  },
+  {
+    "id": "map_transition_lc_to_ch.acting-group.01",
+    "movie": "map_transition_lc_to_ch.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "판도라의 엔진을 정비하는 동안 우리는 귀중한 시간을 소비했다 그 동안 박사님의 터빈으로 무장한 본 에센의 스타커 스텀은 시카고에 가까워지고 있었다",
+    "sourceCueIds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "renderStartFrame48000": 126720,
+    "renderEndFrame48000": 612480
+  },
+  {
+    "id": "map_transition_lc_to_ch.acting-group.02",
+    "movie": "map_transition_lc_to_ch.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "만반의 준비를 마친 우리는 묵묵히 비행을 계속했다 제 시간에 시카고에 도착하기만을 바라면서...",
+    "sourceCueIds": [
+      4,
+      5
+    ],
+    "renderStartFrame48000": 642432,
+    "renderEndFrame48000": 949920
+  },
+  {
+    "id": "map_transition_sh_to_ax.acting-group.01",
+    "movie": "map_transition_sh_to_ax.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "그날 밤, 박사님을 죽인 놈을 찾아",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 135360,
+    "renderEndFrame48000": 266400
+  },
+  {
+    "id": "map_transition_sh_to_ax.acting-group.02",
+    "movie": "map_transition_sh_to_ax.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "반드시 복수하겠다는 다짐을 했다",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 303360,
+    "renderEndFrame48000": 420960
+  },
+  {
+    "id": "map_transition_sh_to_ax.acting-group.03",
+    "movie": "map_transition_sh_to_ax.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "다음 날 판도라에 짐을 싣고 아릭소로 갔다.",
+    "sourceCueIds": [
+      2
+    ],
+    "renderStartFrame48000": 448320,
+    "renderEndFrame48000": 590880
+  },
+  {
+    "id": "map_transition_sh_to_ax.acting-group.04",
+    "movie": "map_transition_sh_to_ax.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "박사님 생전 마지막 방문지였다.",
+    "sourceCueIds": [
+      3
+    ],
+    "renderStartFrame48000": 613440,
+    "renderEndFrame48000": 743520
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.01",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "fassenbinder",
+    "voice": "Sadaltager",
+    "text": "네이슨, 어서 오게",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 1240320,
+    "renderEndFrame48000": 1330560
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.02",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "fassenbinder",
+    "voice": "Sadaltager",
+    "text": "들어와",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 1423680,
+    "renderEndFrame48000": 1473408
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.03",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "무슨 일이죠?",
+    "sourceCueIds": [
+      2
+    ],
+    "renderStartFrame48000": 1490880,
+    "renderEndFrame48000": 1546080
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.04",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "fassenbinder",
+    "voice": "Sadaltager",
+    "text": "이것 좀 봐 누가 왔었던 것 같아. 완전히 엉망을 만들어 놨어!",
+    "sourceCueIds": [
+      3,
+      4
+    ],
+    "renderStartFrame48000": 1617408,
+    "renderEndFrame48000": 1865856
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.05",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "뭘 찾고 있었을까요?",
+    "sourceCueIds": [
+      5
+    ],
+    "renderStartFrame48000": 1899840,
+    "renderEndFrame48000": 1961760
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.06",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "fassenbinder",
+    "voice": "Sadaltager",
+    "text": "놈들이 노린 게 뭔지 알 것 같아",
+    "sourceCueIds": [
+      6
+    ],
+    "renderStartFrame48000": 1973760,
+    "renderEndFrame48000": 2128800
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.07",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "뭐죠?",
+    "sourceCueIds": [
+      7
+    ],
+    "renderStartFrame48000": 2231808,
+    "renderEndFrame48000": 2277120
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.08",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "fassenbinder",
+    "voice": "Sadaltager",
+    "text": "윈드 터빈",
+    "sourceCueIds": [
+      8
+    ],
+    "renderStartFrame48000": 2287680,
+    "renderEndFrame48000": 2376480
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.09",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "fassenbinder",
+    "voice": "Sadaltager",
+    "text": "최근에 들어서야 이걸 만들 수 있는 금속을 찾아냈지",
+    "sourceCueIds": [
+      9
+    ],
+    "renderStartFrame48000": 2417280,
+    "renderEndFrame48000": 2604960
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.10",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "가볍네요.",
+    "sourceCueIds": [
+      10
+    ],
+    "renderStartFrame48000": 2631360,
+    "renderEndFrame48000": 2688960
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.11",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "fassenbinder",
+    "voice": "Sadaltager",
+    "text": "티탄이야. 아릭소에 있는 광산에서 찾아냈어 놈들이 이 곳을 뒤지고 있을 때 난 이걸 구하러 다니고 있었지",
+    "sourceCueIds": [
+      11,
+      12
+    ],
+    "renderStartFrame48000": 2704320,
+    "renderEndFrame48000": 3040800
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.12",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "침입자들이 이 설계도를 노렸다고요?",
+    "sourceCueIds": [
+      13
+    ],
+    "renderStartFrame48000": 3060480,
+    "renderEndFrame48000": 3191520
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.13",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "도대체 어디에 쓰는 거죠?",
+    "sourceCueIds": [
+      14
+    ],
+    "renderStartFrame48000": 3254400,
+    "renderEndFrame48000": 3372960
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.14",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "fassenbinder",
+    "voice": "Sadaltager",
+    "text": "극한의 기상 조건을 만들어 내는 거야 기상 대류권의 상승 기류를 마음대로 조종해서 말이지",
+    "sourceCueIds": [
+      15,
+      16
+    ],
+    "renderStartFrame48000": 3384960,
+    "renderEndFrame48000": 3678240
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.15",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "폭풍을 만든다는 겁니까?",
+    "sourceCueIds": [
+      17
+    ],
+    "renderStartFrame48000": 3702528,
+    "renderEndFrame48000": 3807360
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.16",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "fassenbinder",
+    "voice": "Sadaltager",
+    "text": "가뭄을 없앨 수 있어 불모의 땅을 농작물 생산에 알맞은 곳으로 만들 수 있거든",
+    "sourceCueIds": [
+      18,
+      19
+    ],
+    "renderStartFrame48000": 3835008,
+    "renderEndFrame48000": 4071840
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.17",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "fassenbinder",
+    "voice": "Sadaltager",
+    "text": "이제부터 내가 하는 이야기는 비밀로 해야 하네",
+    "sourceCueIds": [
+      20
+    ],
+    "renderStartFrame48000": 4117440,
+    "renderEndFrame48000": 4328640
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.18",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "네.",
+    "sourceCueIds": [
+      21
+    ],
+    "renderStartFrame48000": 4359360,
+    "renderEndFrame48000": 4400160
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.19",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "fassenbinder",
+    "voice": "Sadaltager",
+    "text": "세계 대전 때 스타커 스텀 계획 참여를 제안받았지. 바람을 만들어 내는 무기였는데 본 에센이라는 과학자의 머리에서 나온 거였다네",
+    "sourceCueIds": [
+      22,
+      23,
+      24
+    ],
+    "renderStartFrame48000": 4428288,
+    "renderEndFrame48000": 5002368
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.20",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "fassenbinder",
+    "voice": "Sadaltager",
+    "text": "영리하긴 했지만 비열한 녀석이었지 그 기술을 좋은 데 쓰자는 의견을 무시하고 엄청난 파괴력에만 관심이 있었거든",
+    "sourceCueIds": [
+      25,
+      26,
+      27
+    ],
+    "renderStartFrame48000": 5043456,
+    "renderEndFrame48000": 5539680
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.21",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "fassenbinder",
+    "voice": "Sadaltager",
+    "text": "토네이도는 폭탄 천만톤을 능가하는 큰 에너지를 가지고 있지",
+    "sourceCueIds": [
+      28
+    ],
+    "renderStartFrame48000": 5568000,
+    "renderEndFrame48000": 5832480
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.22",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "fassenbinder",
+    "voice": "Sadaltager",
+    "text": "다행히도 그 꿈이 실행되기도 전에 전쟁이 끝나 버렸지만 말야 혼란 속에서 난 연구 자료를 챙겼고 놈은 남아메리카로 가 버렸어 다시는 그 녀석에 대해 듣고 싶지 않았는데",
+    "sourceCueIds": [
+      29,
+      30,
+      31
+    ],
+    "renderStartFrame48000": 5921664,
+    "renderEndFrame48000": 6573312
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.23",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "fassenbinder",
+    "voice": "Sadaltager",
+    "text": "이건 바로...",
+    "sourceCueIds": [
+      32
+    ],
+    "renderStartFrame48000": 6653952,
+    "renderEndFrame48000": 6690720
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.24",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "fassenbinder",
+    "voice": "Sadaltager",
+    "text": "그 녀석 짓이야, 네이슨 그가 돌아왔어",
+    "sourceCueIds": [
+      33,
+      34
+    ],
+    "renderStartFrame48000": 6800640,
+    "renderEndFrame48000": 6948480
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.25",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "fassenbinder",
+    "voice": "Sadaltager",
+    "text": "느껴 진다구...",
+    "sourceCueIds": [
+      35
+    ],
+    "renderStartFrame48000": 7040640,
+    "renderEndFrame48000": 7131840
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.26",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "fassenbinder",
+    "voice": "Sadaltager",
+    "text": "내가 여기서 자세한 걸 알아내는 동안 이걸 좀 맡아 주게",
+    "sourceCueIds": [
+      36
+    ],
+    "renderStartFrame48000": 7235520,
+    "renderEndFrame48000": 7422240
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.27",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "fassenbinder",
+    "voice": "Sadaltager",
+    "text": "그래도 되겠나?",
+    "sourceCueIds": [
+      37
+    ],
+    "renderStartFrame48000": 7454400,
+    "renderEndFrame48000": 7516416
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.28",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "물론이죠, 박사님.",
+    "sourceCueIds": [
+      38
+    ],
+    "renderStartFrame48000": 7532160,
+    "renderEndFrame48000": 7600320
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.29",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "fassenbinder",
+    "voice": "Sadaltager",
+    "text": "자, 이걸 가져가게, 네이슨 가게. 절대로 이 얘기를 다른 사람에게 해선 안돼 아무도 믿지 말게",
+    "sourceCueIds": [
+      39,
+      40,
+      41
+    ],
+    "renderStartFrame48000": 7616256,
+    "renderEndFrame48000": 8001792
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.30",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "big-john",
+    "voice": "Charon",
+    "text": "네이슨, 박사님은 괜찮으신가?",
+    "sourceCueIds": [
+      42
+    ],
+    "renderStartFrame48000": 8293632,
+    "renderEndFrame48000": 8380416
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.31",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "응. 괜찮아 연구실에 침입자가 있어 좀 놀라신 것 뿐이야",
+    "sourceCueIds": [
+      43,
+      44
+    ],
+    "renderStartFrame48000": 8380416,
+    "renderEndFrame48000": 8550912
+  },
+  {
+    "id": "sh_blur_fasslab.acting-group.32",
+    "movie": "sh_blur_fasslab.bik",
+    "speakerId": "big-john",
+    "voice": "Charon",
+    "text": "헐리우드군 소식이 있네. 지도실로 오게. 자세히 알려 주지.",
+    "sourceCueIds": [
+      45,
+      46
+    ],
+    "renderStartFrame48000": 8561280,
+    "renderEndFrame48000": 8750016
+  },
+  {
+    "id": "sh_blur_fassydead.acting-group.01",
+    "movie": "sh_blur_fassydead.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "박사님?",
+    "sourceCueIds": [
+      0
+    ],
+    "renderStartFrame48000": 92544,
+    "renderEndFrame48000": 144000
+  },
+  {
+    "id": "sh_blur_fassydead.acting-group.02",
+    "movie": "sh_blur_fassydead.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "박사님!",
+    "sourceCueIds": [
+      1
+    ],
+    "renderStartFrame48000": 522240,
+    "renderEndFrame48000": 564960
+  },
+  {
+    "id": "sh_blur_fassydead.acting-group.03",
+    "movie": "sh_blur_fassydead.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "안 돼!",
+    "sourceCueIds": [
+      2
+    ],
+    "renderStartFrame48000": 864384,
+    "renderEndFrame48000": 917280
+  },
+  {
+    "id": "ss_farewell.acting-group.01",
+    "movie": "ss_farewell.bik",
+    "speakerId": "big-john",
+    "voice": "Charon",
+    "text": "해냈어, 네이슨 본 에센, 다이 스피네, 모두 끝났어",
+    "sourceCueIds": [
+      0,
+      1
+    ],
+    "renderStartFrame48000": 80640,
+    "renderEndFrame48000": 327936
+  },
+  {
+    "id": "ss_farewell.acting-group.02",
+    "movie": "ss_farewell.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "재건할 게 많군.",
+    "sourceCueIds": [
+      2
+    ],
+    "renderStartFrame48000": 359040,
+    "renderEndFrame48000": 456960
+  },
+  {
+    "id": "ss_farewell.acting-group.03",
+    "movie": "ss_farewell.bik",
+    "speakerId": "kahn",
+    "voice": "voice_3a2fcbde-c5a7-4300-9058-a16c816398d6",
+    "text": "그건 내일 시작하고 오늘 밤은 맘껏 즐기자구 카지노에서 한판 어때? 최고급 샴페인까지 곁들여서",
+    "sourceCueIds": [
+      3,
+      4
+    ],
+    "renderStartFrame48000": 468480,
+    "renderEndFrame48000": 833760
+  },
+  {
+    "id": "ss_farewell.acting-group.04",
+    "movie": "ss_farewell.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "네이슨!?",
+    "sourceCueIds": [
+      5
+    ],
+    "renderStartFrame48000": 853440,
+    "renderEndFrame48000": 906624
+  },
+  {
+    "id": "ss_farewell.acting-group.05",
+    "movie": "ss_farewell.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "고마워 칸, 하지만 당분간은 포커와는 담 쌓아야 할 것 같아!",
+    "sourceCueIds": [
+      6
+    ],
+    "renderStartFrame48000": 945408,
+    "renderEndFrame48000": 1160448
+  },
+  {
+    "id": "AttractMode.utterance-group.01",
+    "movie": "AttractMode.bik",
+    "speakerId": "opening-narrator",
+    "voice": "Charon",
+    "text": "세계 대전이 끝나자, 사람들은 새로운 희망을 품었다. 그러나 금주령과 대공황이 연방의 뿌리를 무너뜨렸다.",
+    "sourceCueIds": [
+      0,
+      1
+    ],
+    "renderStartFrame48000": 168960,
+    "renderEndFrame48000": 547200
+  },
+  {
+    "id": "AttractMode.utterance-group.02",
+    "movie": "AttractMode.bik",
+    "speakerId": "opening-narrator",
+    "voice": "Charon",
+    "text": "신생 국가들은 하늘로 눈을 돌렸고, 새로운 교역의 시대가 열렸다. 그리고 그와 함께, 하늘의 해적들이 태어났다.",
+    "sourceCueIds": [
+      2,
+      3
+    ],
+    "renderStartFrame48000": 656640,
+    "renderEndFrame48000": 1113600
+  },
+  {
+    "id": "AttractMode.utterance-group.03",
+    "movie": "AttractMode.bik",
+    "speakerId": "opening-narrator",
+    "voice": "Charon",
+    "text": "이것은 불길에 휩싸인 세계. 이것이 바로 크림슨 스카이의 세계다.",
+    "sourceCueIds": [
+      4,
+      5
+    ],
+    "renderStartFrame48000": 1169280,
+    "renderEndFrame48000": 1459200
+  },
+  {
+    "id": "AttractMode.utterance-group.04",
+    "movie": "AttractMode.bik",
+    "speakerId": "montage-antagonist",
+    "voice": "Alnilam",
+    "text": "죽여라. 당장!",
+    "sourceCueIds": [
+      7
+    ],
+    "renderStartFrame48000": 1863840,
+    "renderEndFrame48000": 1953600
+  },
+  {
+    "id": "AttractMode.utterance-group.05",
+    "movie": "AttractMode.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "음, 양말은 신어도 되겠지?",
+    "sourceCueIds": [
+      11
+    ],
+    "renderStartFrame48000": 4104000,
+    "renderEndFrame48000": 4248000
+  },
+  {
+    "id": "AttractMode.utterance-group.06",
+    "movie": "AttractMode.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "마리아?",
+    "sourceCueIds": [
+      12
+    ],
+    "renderStartFrame48000": 4308960,
+    "renderEndFrame48000": 4363200
+  },
+  {
+    "id": "SH_OPENING.utterance-group.01",
+    "movie": "SH_OPENING.bik",
+    "speakerId": "thibodeaux",
+    "voice": "Alnilam",
+    "text": "꼼짝 마, 네이슨. 가만히 있어. 갑자기 움직이지 말고. 천천히.",
+    "sourceCueIds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "renderStartFrame48000": 150720,
+    "renderEndFrame48000": 418560
+  },
+  {
+    "id": "SH_OPENING.utterance-group.02",
+    "movie": "SH_OPENING.bik",
+    "speakerId": "thibodeaux",
+    "voice": "Alnilam",
+    "text": "판돈 큰 포커는 말이야, 네이슨… 몇 번만 패가 안 좋아도, 전부 잃는다는 거지. 네 비행선에, 돈에, 비행기까지.",
+    "sourceCueIds": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "renderStartFrame48000": 444480,
+    "renderEndFrame48000": 928800
+  },
+  {
+    "id": "SH_OPENING.utterance-group.03",
+    "movie": "SH_OPENING.bik",
+    "speakerId": "thibodeaux",
+    "voice": "Alnilam",
+    "text": "포커 칠 때 샴페인은 금물이지. 술기운이 오르면 판단이 흐려지거든.",
+    "sourceCueIds": [
+      9,
+      10
+    ],
+    "renderStartFrame48000": 944160,
+    "renderEndFrame48000": 1252800
+  },
+  {
+    "id": "SH_OPENING.utterance-group.04",
+    "movie": "SH_OPENING.bik",
+    "speakerId": "thibodeaux",
+    "voice": "Alnilam",
+    "text": "실례했소, 아가씨. 영리한 도박사는 받을 돈부터 챙기는 법이지.",
+    "sourceCueIds": [
+      11,
+      12
+    ],
+    "renderStartFrame48000": 1389600,
+    "renderEndFrame48000": 1692000
+  },
+  {
+    "id": "SH_OPENING.utterance-group.05",
+    "movie": "SH_OPENING.bik",
+    "speakerId": "thibodeaux",
+    "voice": "Alnilam",
+    "text": "잘 있게.",
+    "sourceCueIds": [
+      13
+    ],
+    "renderStartFrame48000": 1724640,
+    "renderEndFrame48000": 1795200
+  },
+  {
+    "id": "SH_OPENING.utterance-group.06",
+    "movie": "SH_OPENING.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "어젯밤엔 신사였지? 그럼 실례. 비행기를 잡아야 해서.",
+    "sourceCueIds": [
+      14,
+      15
+    ],
+    "renderStartFrame48000": 2142720,
+    "renderEndFrame48000": 2340000
+  },
+  {
+    "id": "SH_OPENING.utterance-group.07",
+    "movie": "SH_OPENING.bik",
+    "speakerId": "thibodeaux",
+    "voice": "Alnilam",
+    "text": "네이슨! 미쳤어? 이제 내 비행기라고!",
+    "sourceCueIds": [
+      16
+    ],
+    "renderStartFrame48000": 2999040,
+    "renderEndFrame48000": 3183360
+  },
+  {
+    "id": "SH_OPENING.utterance-group.08",
+    "movie": "SH_OPENING.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "뭐, 얻는 게 있으면… 잃는 것도 있는 법이지.",
+    "sourceCueIds": [
+      17,
+      18
+    ],
+    "renderStartFrame48000": 3183360,
+    "renderEndFrame48000": 3453600
+  },
+  {
+    "id": "SH_OPENING.utterance-group.09",
+    "movie": "SH_OPENING.bik",
+    "speakerId": "thibodeaux",
+    "voice": "Alnilam",
+    "text": "네 비행선은 아직 내 거야!",
+    "sourceCueIds": [
+      19
+    ],
+    "renderStartFrame48000": 3559680,
+    "renderEndFrame48000": 3746400
+  },
+  {
+    "id": "SH_OPENING.utterance-group.10",
+    "movie": "SH_OPENING.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "베티, 들려?",
+    "sourceCueIds": [
+      20
+    ],
+    "renderStartFrame48000": 4085760,
+    "renderEndFrame48000": 4147200
+  },
+  {
+    "id": "SH_OPENING.utterance-group.11",
+    "movie": "SH_OPENING.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "아주 잘 들려요. 어디 있었어요? 죠의 가게는 혼자 털었잖아요!",
+    "sourceCueIds": [
+      21,
+      22
+    ],
+    "renderStartFrame48000": 4147200,
+    "renderEndFrame48000": 4397760
+  },
+  {
+    "id": "SH_OPENING.utterance-group.12",
+    "movie": "SH_OPENING.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "미안해. 일이 좀 꼬였어. 얼마나 챙겼어?",
+    "sourceCueIds": [
+      23,
+      24
+    ],
+    "renderStartFrame48000": 4405440,
+    "renderEndFrame48000": 4642560
+  },
+  {
+    "id": "SH_OPENING.utterance-group.13",
+    "movie": "SH_OPENING.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "이천 달러쯤요.",
+    "sourceCueIds": [
+      25
+    ],
+    "renderStartFrame48000": 4650240,
+    "renderEndFrame48000": 4712640
+  },
+  {
+    "id": "SH_OPENING.utterance-group.14",
+    "movie": "SH_OPENING.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "그걸론 모자라겠네.",
+    "sourceCueIds": [
+      26
+    ],
+    "renderStartFrame48000": 4718400,
+    "renderEndFrame48000": 4799040
+  },
+  {
+    "id": "SH_OPENING.utterance-group.15",
+    "movie": "SH_OPENING.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "무슨 소리예요?",
+    "sourceCueIds": [
+      27
+    ],
+    "renderStartFrame48000": 4804800,
+    "renderEndFrame48000": 4853760
+  },
+  {
+    "id": "SH_OPENING.utterance-group.16",
+    "movie": "SH_OPENING.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "어젯밤 큰 포커판에 끼었다가 꼬였어.",
+    "sourceCueIds": [
+      28
+    ],
+    "renderStartFrame48000": 4878240,
+    "renderEndFrame48000": 5023200
+  },
+  {
+    "id": "SH_OPENING.utterance-group.17",
+    "movie": "SH_OPENING.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "무슨 문제요?",
+    "sourceCueIds": [
+      29
+    ],
+    "renderStartFrame48000": 5036160,
+    "renderEndFrame48000": 5119200
+  },
+  {
+    "id": "SH_OPENING.utterance-group.18",
+    "movie": "SH_OPENING.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "도박 문제지. 티보독이 속여서 판도라를 따 갔어.",
+    "sourceCueIds": [
+      30,
+      31
+    ],
+    "renderStartFrame48000": 5139840,
+    "renderEndFrame48000": 5361600
+  },
+  {
+    "id": "SH_OPENING.utterance-group.19",
+    "movie": "SH_OPENING.bik",
+    "speakerId": "betty",
+    "voice": "Aoede",
+    "text": "우리 비행선을 도박으로 날렸다고요?",
+    "sourceCueIds": [
+      32
+    ],
+    "renderStartFrame48000": 5372160,
+    "renderEndFrame48000": 5493600
+  },
+  {
+    "id": "SH_OPENING.utterance-group.20",
+    "movie": "SH_OPENING.bik",
+    "speakerId": "nathan",
+    "voice": "Algenib",
+    "text": "칼리코 만에서 만나. 자세한 얘기는 그때 할게. 기억이 나는 대로 말이야.",
+    "sourceCueIds": [
+      33,
+      34,
+      35
+    ],
+    "renderStartFrame48000": 5506080,
+    "renderEndFrame48000": 5827200
+  }
+]

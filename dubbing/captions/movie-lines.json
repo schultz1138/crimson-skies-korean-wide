@@ -1,0 +1,5906 @@
+[
+  {
+    "nativeNodeName": "AttractMode.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_ATTRACTMODE_C000_P01_L1",
+    "text": "세계 대전이 끝나자, 사람들은 새로운 희망을 품었다.",
+    "widthPixels": 403,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 104,
+      "End": 198,
+      "PosX": 118,
+      "PosY": 420,
+      "Text": "KR_DUBM_ATTRACTMODE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AttractMode.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_ATTRACTMODE_C000_P02_L1",
+    "text": "그러나 금주령과 대공황이 연방의 뿌리를 무너뜨렸다.",
+    "widthPixels": 408,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 218,
+      "End": 338,
+      "PosX": 116,
+      "PosY": 420,
+      "Text": "KR_DUBM_ATTRACTMODE_C000_P02_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AttractMode.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_ATTRACTMODE_C002_P01_L1",
+    "text": "신생 국가들은 하늘로 눈을 돌렸고, 새로운 교역의 시대가 열렸다.",
+    "widthPixels": 500,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 408,
+      "End": 549,
+      "PosX": 70,
+      "PosY": 420,
+      "Text": "KR_DUBM_ATTRACTMODE_C002_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AttractMode.bik_Subtitle3",
+    "unicodeKey": "KR_DUBM_ATTRACTMODE_C002_P02_L1",
+    "text": "그리고 그와 함께, 하늘의 해적들이 태어났다.",
+    "widthPixels": 346,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 577,
+      "End": 676,
+      "PosX": 147,
+      "PosY": 420,
+      "Text": "KR_DUBM_ATTRACTMODE_C002_P02_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AttractMode.bik_Subtitle4",
+    "unicodeKey": "KR_DUBM_ATTRACTMODE_C004_P01_L1",
+    "text": "이것은 불길에 휩싸인 세계.",
+    "widthPixels": 209,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 729,
+      "End": 786,
+      "PosX": 215,
+      "PosY": 420,
+      "Text": "KR_DUBM_ATTRACTMODE_C004_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AttractMode.bik_Subtitle5",
+    "unicodeKey": "KR_DUBM_ATTRACTMODE_C004_P02_L1",
+    "text": "이것이 바로 크림슨 스카이의 세계다.",
+    "widthPixels": 284,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 820,
+      "End": 891,
+      "PosX": 178,
+      "PosY": 420,
+      "Text": "KR_DUBM_ATTRACTMODE_C004_P02_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AttractMode.bik_Subtitle7",
+    "unicodeKey": "KR_DUBM_ATTRACTMODE_C007_P01_L1",
+    "text": "죽여라. 당장!",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1162,
+      "End": 1219,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_ATTRACTMODE_C007_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AttractMode.bik_Subtitle11",
+    "unicodeKey": "KR_DUBM_ATTRACTMODE_C011_P01_L1",
+    "text": "음, 양말은 신어도 되겠지?",
+    "widthPixels": 203,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2561,
+      "End": 2652,
+      "PosX": 218,
+      "PosY": 420,
+      "Text": "KR_DUBM_ATTRACTMODE_C011_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AttractMode.bik_Subtitle12",
+    "unicodeKey": "KR_DUBM_ATTRACTMODE_C012_P01_L1",
+    "text": "마리아?",
+    "widthPixels": 61,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2689,
+      "End": 2724,
+      "PosX": 289,
+      "PosY": 420,
+      "Text": "KR_DUBM_ATTRACTMODE_C012_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AX_BLUR_MariasGasStation.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C000_P01_L1",
+    "text": "도와줄까요?",
+    "widthPixels": 95,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 223,
+      "End": 262,
+      "PosX": 272,
+      "PosY": 420,
+      "Text": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AX_BLUR_MariasGasStation.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C001_P01_L1",
+    "text": "연료를 좀 연장도 있었으면 좋겠는데 아,",
+    "widthPixels": 307,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 295,
+      "End": 514,
+      "PosX": 166,
+      "PosY": 394,
+      "Text": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AX_BLUR_MariasGasStation.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C001_P01_L2",
+    "text": "미안합니다. 여기 주인 어디 갔나요?",
+    "widthPixels": 277,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 295,
+      "End": 514,
+      "PosX": 181,
+      "PosY": 420,
+      "Text": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C001_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "AX_BLUR_MariasGasStation.bik_Subtitle3",
+    "unicodeKey": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C004_P01_L1",
+    "text": "바로 전데요 마리아라고 해요",
+    "widthPixels": 222,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 515,
+      "End": 586,
+      "PosX": 209,
+      "PosY": 420,
+      "Text": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C004_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AX_BLUR_MariasGasStation.bik_Subtitle4",
+    "unicodeKey": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C006_P01_L1",
+    "text": "당신이?",
+    "widthPixels": 61,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 605,
+      "End": 638,
+      "PosX": 289,
+      "PosY": 420,
+      "Text": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C006_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AX_BLUR_MariasGasStation.bik_Subtitle5",
+    "unicodeKey": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C007_P01_L1",
+    "text": "이런, 장미 한 송이를 찾고 있었다고 할 걸 그랬군요",
+    "widthPixels": 393,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 663,
+      "End": 753,
+      "PosX": 123,
+      "PosY": 420,
+      "Text": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C007_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AX_BLUR_MariasGasStation.bik_Subtitle6",
+    "unicodeKey": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C008_P01_L1",
+    "text": "저랑 말장난이나 하려는 건 아니시구요?",
+    "widthPixels": 306,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 756,
+      "End": 908,
+      "PosX": 167,
+      "PosY": 394,
+      "Text": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C008_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AX_BLUR_MariasGasStation.bik_Subtitle7",
+    "unicodeKey": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C008_P01_L2",
+    "text": "그 쪽 이름도 말씀해 주셔야죠?",
+    "widthPixels": 238,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 756,
+      "End": 908,
+      "PosX": 201,
+      "PosY": 420,
+      "Text": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C008_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "AX_BLUR_MariasGasStation.bik_Subtitle8",
+    "unicodeKey": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C010_P01_L1",
+    "text": "네이슨 재커리",
+    "widthPixels": 108,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 917,
+      "End": 964,
+      "PosX": 266,
+      "PosY": 420,
+      "Text": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C010_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AX_BLUR_MariasGasStation.bik_Subtitle9",
+    "unicodeKey": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C011_P01_L1",
+    "text": "네이슨 재커리... 포춘 헌터스의?",
+    "widthPixels": 247,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 968,
+      "End": 1069,
+      "PosX": 196,
+      "PosY": 420,
+      "Text": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C011_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AX_BLUR_MariasGasStation.bik_Subtitle10",
+    "unicodeKey": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C012_P01_L1",
+    "text": "바로 접니다.",
+    "widthPixels": 96,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1074,
+      "End": 1111,
+      "PosX": 272,
+      "PosY": 420,
+      "Text": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C012_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AX_BLUR_MariasGasStation.bik_Subtitle11",
+    "unicodeKey": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C013_P01_L1",
+    "text": "아, 네이슨 씨. 소개는 대충 끝났고... 질문이 있어요",
+    "widthPixels": 390,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1111,
+      "End": 1281,
+      "PosX": 125,
+      "PosY": 420,
+      "Text": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C013_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AX_BLUR_MariasGasStation.bik_Subtitle12",
+    "unicodeKey": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C015_P01_L1",
+    "text": "물론.",
+    "widthPixels": 39,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1283,
+      "End": 1313,
+      "PosX": 300,
+      "PosY": 420,
+      "Text": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C015_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AX_BLUR_MariasGasStation.bik_Subtitle13",
+    "unicodeKey": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C016_P01_L1",
+    "text": "도스 무에르토랑 싸웠어요?",
+    "widthPixels": 208,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1318,
+      "End": 1380,
+      "PosX": 216,
+      "PosY": 420,
+      "Text": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C016_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AX_BLUR_MariasGasStation.bik_Subtitle14",
+    "unicodeKey": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C017_P01_L1",
+    "text": "아마도",
+    "widthPixels": 51,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1390,
+      "End": 1430,
+      "PosX": 294,
+      "PosY": 420,
+      "Text": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C017_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AX_BLUR_MariasGasStation.bik_Subtitle15",
+    "unicodeKey": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C018_P01_L1",
+    "text": "뛰어!",
+    "widthPixels": 39,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1513,
+      "End": 1542,
+      "PosX": 300,
+      "PosY": 420,
+      "Text": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C018_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AX_BLUR_MariasGasStation.bik_Subtitle16",
+    "unicodeKey": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C019_P01_L1",
+    "text": "잘 가라",
+    "widthPixels": 57,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2050,
+      "End": 2080,
+      "PosX": 291,
+      "PosY": 420,
+      "Text": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C019_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AX_BLUR_MariasGasStation.bik_Subtitle17",
+    "unicodeKey": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C020_P01_L1",
+    "text": "아, 내 비행장, 좋아요, 아주 멋지군요 매력적인",
+    "widthPixels": 357,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2458,
+      "End": 2771,
+      "PosX": 141,
+      "PosY": 394,
+      "Text": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C020_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AX_BLUR_MariasGasStation.bik_Subtitle18",
+    "unicodeKey": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C020_P01_L2",
+    "text": "남자라고들 하던데 당신 첫인상 한번 참 멋지네요",
+    "widthPixels": 376,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2458,
+      "End": 2771,
+      "PosX": 132,
+      "PosY": 420,
+      "Text": "KR_DUBM_AX_BLUR_MARIASGASSTATION_C020_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "AX_Navajo01.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_AX_NAVAJO01_C000_P01_L1",
+    "text": "우리 부족에게 신성한 석상이라네. 되돌려 줘서 고맙네",
+    "widthPixels": 415,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 52,
+      "End": 209,
+      "PosX": 112,
+      "PosY": 420,
+      "Text": "KR_DUBM_AX_NAVAJO01_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AX_Navajo01.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_AX_NAVAJO01_C002_P01_L1",
+    "text": "저, 부탁이 하나 있습니다 나바호 상공을 지나고 싶습니다",
+    "widthPixels": 438,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 257,
+      "End": 383,
+      "PosX": 101,
+      "PosY": 420,
+      "Text": "KR_DUBM_AX_NAVAJO01_C002_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AX_Navajo01.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_AX_NAVAJO01_C004_P01_L1",
+    "text": "그렇게 간단한 문제가 아닌데",
+    "widthPixels": 222,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 560,
+      "End": 628,
+      "PosX": 209,
+      "PosY": 420,
+      "Text": "KR_DUBM_AX_NAVAJO01_C004_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AX_Navajo01.bik_Subtitle3",
+    "unicodeKey": "KR_DUBM_AX_NAVAJO01_C005_P01_L1",
+    "text": "도적들이 날뛰고 있는 통에 우리 영역을 외부인들에게 공개하지",
+    "widthPixels": 484,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 656,
+      "End": 938,
+      "PosX": 78,
+      "PosY": 394,
+      "Text": "KR_DUBM_AX_NAVAJO01_C005_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "AX_Navajo01.bik_Subtitle4",
+    "unicodeKey": "KR_DUBM_AX_NAVAJO01_C005_P01_L2",
+    "text": "않는다네 하지만 자네는 이미 우리 나바호의 친구임을 증명했으니",
+    "widthPixels": 501,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 656,
+      "End": 938,
+      "PosX": 69,
+      "PosY": 420,
+      "Text": "KR_DUBM_AX_NAVAJO01_C005_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "AX_Navajo01.bik_Subtitle5",
+    "unicodeKey": "KR_DUBM_AX_NAVAJO01_C008_P01_L1",
+    "text": "세 가지 관문만 통과하면 이 곳을 지날 수 있게 해 주지",
+    "widthPixels": 417,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 951,
+      "End": 1100,
+      "PosX": 111,
+      "PosY": 420,
+      "Text": "KR_DUBM_AX_NAVAJO01_C008_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C000_P01_L1",
+    "text": "베티랑 다른 동료들은 카지노에 있을 거야",
+    "widthPixels": 319,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 396,
+      "End": 490,
+      "PosX": 160,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C001_P01_L1",
+    "text": "난 도시가 싫어요. 무미건조하고 너무 낯설어요...",
+    "widthPixels": 373,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 520,
+      "End": 669,
+      "PosX": 133,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C002_P01_L1",
+    "text": "아릭소에서 멀리 왔군.",
+    "widthPixels": 170,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 683,
+      "End": 744,
+      "PosX": 235,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C002_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle3",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C003_P01_L1",
+    "text": "이제 모두 끝났군 아릭소로 돌아갈 건가?",
+    "widthPixels": 312,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 771,
+      "End": 877,
+      "PosX": 164,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle4",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C005_P01_L1",
+    "text": "거긴 아무 것도 없는 걸요...",
+    "widthPixels": 209,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 891,
+      "End": 961,
+      "PosX": 215,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C005_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle5",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C006_P01_L1",
+    "text": "그 낡은 비행장이 전부였는데",
+    "widthPixels": 222,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 970,
+      "End": 1040,
+      "PosX": 209,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C006_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle6",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C007_P01_L1",
+    "text": "본 에센에게서 박사님 설계도를 지켰군요.",
+    "widthPixels": 317,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1072,
+      "End": 1170,
+      "PosX": 161,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C007_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle7",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C008_P01_L1",
+    "text": "시카고를 정복하겠다는 꿈도 물거품이",
+    "widthPixels": 290,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1169,
+      "End": 1353,
+      "PosX": 175,
+      "PosY": 394,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C008_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle8",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C008_P01_L2",
+    "text": "되었으니 다시는 그 녀석을 볼 일도 없을 거야",
+    "widthPixels": 348,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1169,
+      "End": 1353,
+      "PosX": 146,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C008_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle9",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C010_P01_L1",
+    "text": "희망 사항일지도 모르죠",
+    "widthPixels": 182,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1362,
+      "End": 1420,
+      "PosX": 229,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C010_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle10",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C011_P01_L1",
+    "text": "헛꿈에 건배.",
+    "widthPixels": 95,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1435,
+      "End": 1471,
+      "PosX": 272,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C011_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle11",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C012_P01_L1",
+    "text": "그런데 사람들이 말하는 게 정말이예요?",
+    "widthPixels": 306,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1490,
+      "End": 1574,
+      "PosX": 167,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C012_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle12",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C013_P01_L1",
+    "text": "뭐라고 하는데?",
+    "widthPixels": 118,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1591,
+      "End": 1645,
+      "PosX": 261,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C013_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle13",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C014_P01_L1",
+    "text": "여자에게 약하다는 거죠.",
+    "widthPixels": 187,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1680,
+      "End": 1737,
+      "PosX": 226,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C014_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle14",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C015_P01_L1",
+    "text": "그 약점을 이용해 보시겠다?",
+    "widthPixels": 215,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1736,
+      "End": 1810,
+      "PosX": 212,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C015_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle15",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C016_P01_L1",
+    "text": "아마.",
+    "widthPixels": 39,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1861,
+      "End": 1890,
+      "PosX": 300,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C016_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle16",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C017_P01_L1",
+    "text": "이 턱시도 금방 구겨질 것 같아요",
+    "widthPixels": 251,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1914,
+      "End": 1999,
+      "PosX": 194,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C017_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle17",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C018_P01_L1",
+    "text": "문제가 되나?",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2019,
+      "End": 2067,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C018_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle18",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C019_P01_L1",
+    "text": "네이슨, 중요한 밤이니 옷차림도 단정해야죠... 그것 좀 벗고 오시죠?",
+    "widthPixels": 520,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2070,
+      "End": 2274,
+      "PosX": 60,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C019_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle19",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C021_P01_L1",
+    "text": "금방 올께",
+    "widthPixels": 74,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2287,
+      "End": 2329,
+      "PosX": 283,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C021_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle20",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C022_P01_L1",
+    "text": "벌써 보고 싶네요.",
+    "widthPixels": 136,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2664,
+      "End": 2719,
+      "PosX": 252,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C022_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle21",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C023_P01_L1",
+    "text": "양말은 신고 있어도 되지?",
+    "widthPixels": 198,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2906,
+      "End": 2992,
+      "PosX": 221,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C023_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle22",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C024_P01_L1",
+    "text": "마리아?",
+    "widthPixels": 61,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3008,
+      "End": 3035,
+      "PosX": 289,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C024_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_MariaStealsPlans.bik_Subtitle23",
+    "unicodeKey": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C025_P01_L1",
+    "text": "마리아!",
+    "widthPixels": 56,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3498,
+      "End": 3527,
+      "PosX": 292,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_MARIASTEALSPLANS_C025_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_NathanConfrontsKahn.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C000_P01_L1",
+    "text": "베티가 안부 전하더군",
+    "widthPixels": 165,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 0,
+      "End": 51,
+      "PosX": 237,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_NathanConfrontsKahn.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C001_P01_L1",
+    "text": "조심해, 참는 데도 한계가 있어",
+    "widthPixels": 233,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 103,
+      "End": 203,
+      "PosX": 203,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_NathanConfrontsKahn.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C002_P01_L1",
+    "text": "날 죽이려 했지!",
+    "widthPixels": 119,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 207,
+      "End": 277,
+      "PosX": 260,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C002_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_NathanConfrontsKahn.bik_Subtitle3",
+    "unicodeKey": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C003_P01_L1",
+    "text": "위로가 될진 모르겠지만, 난 네 생사에 관심이 없었어.",
+    "widthPixels": 409,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 307,
+      "End": 419,
+      "PosX": 115,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_NathanConfrontsKahn.bik_Subtitle4",
+    "unicodeKey": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C004_P01_L1",
+    "text": "네 놈 배후가 누구지? 본 에센?",
+    "widthPixels": 237,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 482,
+      "End": 577,
+      "PosX": 201,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C004_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_NathanConfrontsKahn.bik_Subtitle5",
+    "unicodeKey": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C005_P01_L1",
+    "text": "그 이름, 어찌 알지?",
+    "widthPixels": 151,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 591,
+      "End": 640,
+      "PosX": 244,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C005_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_NathanConfrontsKahn.bik_Subtitle6",
+    "unicodeKey": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C006_P01_L1",
+    "text": "네가 죽인 박사님한테 들었다",
+    "widthPixels": 222,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 648,
+      "End": 728,
+      "PosX": 209,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C006_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_NathanConfrontsKahn.bik_Subtitle7",
+    "unicodeKey": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C007_P01_L1",
+    "text": "분노에 이성을 잃었군 내가 돈에 이성을",
+    "widthPixels": 302,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 874,
+      "End": 1043,
+      "PosX": 169,
+      "PosY": 394,
+      "Text": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C007_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_NathanConfrontsKahn.bik_Subtitle8",
+    "unicodeKey": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C007_P01_L2",
+    "text": "잃은 것처럼 박사를 죽인 건 내가 아냐",
+    "widthPixels": 291,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 874,
+      "End": 1043,
+      "PosX": 174,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C007_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_NathanConfrontsKahn.bik_Subtitle9",
+    "unicodeKey": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C010_P01_L1",
+    "text": "수작 마, 칸.",
+    "widthPixels": 90,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1042,
+      "End": 1083,
+      "PosX": 275,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C010_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_NathanConfrontsKahn.bik_Subtitle10",
+    "unicodeKey": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C011_P01_L1",
+    "text": "두 달 전에 본 에센을 만났어 내가 티탄을",
+    "widthPixels": 314,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1153,
+      "End": 1357,
+      "PosX": 163,
+      "PosY": 394,
+      "Text": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C011_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_NathanConfrontsKahn.bik_Subtitle11",
+    "unicodeKey": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C011_P01_L2",
+    "text": "구해주면 디까를로를 치게 도와 준댔어",
+    "widthPixels": 296,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1153,
+      "End": 1357,
+      "PosX": 172,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C011_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_NathanConfrontsKahn.bik_Subtitle12",
+    "unicodeKey": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C013_P01_L1",
+    "text": "귀가 솔깃했겠군. 디까를로를 치고 시카고를 접수하겠다?",
+    "widthPixels": 436,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1358,
+      "End": 1488,
+      "PosX": 102,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C013_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_NathanConfrontsKahn.bik_Subtitle13",
+    "unicodeKey": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C014_P01_L1",
+    "text": "그랬지. 그런데 디까를로를 치워도 본 에센은 남았어...",
+    "widthPixels": 413,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1529,
+      "End": 1781,
+      "PosX": 113,
+      "PosY": 394,
+      "Text": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C014_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_NathanConfrontsKahn.bik_Subtitle14",
+    "unicodeKey": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C014_P01_L2",
+    "text": "ISA 정부에 대한 정보를 캐내기 위해 날 이용했어",
+    "widthPixels": 378,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1529,
+      "End": 1781,
+      "PosX": 131,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C014_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_NathanConfrontsKahn.bik_Subtitle15",
+    "unicodeKey": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C016_P01_L1",
+    "text": "떨어지면 볼 만하겠군, 계속하시지",
+    "widthPixels": 261,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2066,
+      "End": 2177,
+      "PosX": 189,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C016_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_NathanConfrontsKahn.bik_Subtitle16",
+    "unicodeKey": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C017_P01_L1",
+    "text": "웃기지 마, 무서워서 말하는 게 아냐 본 에센과 손을 잡은",
+    "widthPixels": 433,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2189,
+      "End": 2485,
+      "PosX": 103,
+      "PosY": 394,
+      "Text": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C017_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_NathanConfrontsKahn.bik_Subtitle17",
+    "unicodeKey": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C017_P01_L2",
+    "text": "것은 실수였어 이제 그가 원하는 게 뭔지 알 것 같아",
+    "widthPixels": 394,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2189,
+      "End": 2485,
+      "PosX": 123,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C017_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_NathanConfrontsKahn.bik_Subtitle18",
+    "unicodeKey": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C020_P01_L1",
+    "text": "도시 남쪽에 군대를 모으고 있어 테슬라",
+    "widthPixels": 302,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2539,
+      "End": 2747,
+      "PosX": 169,
+      "PosY": 394,
+      "Text": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C020_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_NathanConfrontsKahn.bik_Subtitle19",
+    "unicodeKey": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C020_P01_L2",
+    "text": "기술을 훔쳐 전기 비행선도 만들었어",
+    "widthPixels": 279,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2539,
+      "End": 2747,
+      "PosX": 180,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C020_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_NathanConfrontsKahn.bik_Subtitle20",
+    "unicodeKey": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C022_P01_L1",
+    "text": "네이슨, 본 에센은 시카고를 정복할 거야",
+    "widthPixels": 307,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2790,
+      "End": 2885,
+      "PosX": 166,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_NATHANCONFRONTSKAHN_C022_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_VonEssenDiesFinalVictory.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_CH_BLUR_VONESSENDIESFINALVICTORY_C000_P01_L1",
+    "text": "제이 투 북쪽 해안에서 합류하라! 6소대 상황 보고하라!",
+    "widthPixels": 420,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 76,
+      "End": 184,
+      "PosX": 110,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_VONESSENDIESFINALVICTORY_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_BLUR_VonEssenDiesFinalVictory.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_CH_BLUR_VONESSENDIESFINALVICTORY_C002_P01_L1",
+    "text": "6소대 상황 보고하라!",
+    "widthPixels": 164,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 300,
+      "End": 358,
+      "PosX": 238,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_BLUR_VONESSENDIESFINALVICTORY_C002_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_KahnsClubFalling.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_CH_KAHNSCLUBFALLING_C000_P01_L1",
+    "text": "저녁 식사를 하러 왔다면 미안하지만 예약은 하셨나 모르겠군",
+    "widthPixels": 467,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 346,
+      "End": 470,
+      "PosX": 86,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_KAHNSCLUBFALLING_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_KahnsClubFalling.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_CH_KAHNSCLUBFALLING_C001_P01_L1",
+    "text": "예약해야 하나?",
+    "widthPixels": 118,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 480,
+      "End": 520,
+      "PosX": 261,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_KAHNSCLUBFALLING_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_KahnsClubFalling.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_CH_KAHNSCLUBFALLING_C002_P01_L1",
+    "text": "이상하지. 아릭소에서 그 정도 당했으면 충분히 예상했을 텐데?",
+    "widthPixels": 482,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 542,
+      "End": 676,
+      "PosX": 79,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_KAHNSCLUBFALLING_C002_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_KahnsClubFalling.bik_Subtitle3",
+    "unicodeKey": "KR_DUBM_CH_KAHNSCLUBFALLING_C003_P01_L1",
+    "text": "입조심하게. 네이슨 바보같이 사과 대신 농담이나 지껄이다니",
+    "widthPixels": 466,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 705,
+      "End": 853,
+      "PosX": 87,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_KAHNSCLUBFALLING_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_KahnsClubFalling.bik_Subtitle4",
+    "unicodeKey": "KR_DUBM_CH_KAHNSCLUBFALLING_C005_P01_L1",
+    "text": "네 총질로 돈을 꽤 날렸거든.",
+    "widthPixels": 216,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 873,
+      "End": 958,
+      "PosX": 212,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_KAHNSCLUBFALLING_C005_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_KahnsClubFalling.bik_Subtitle5",
+    "unicodeKey": "KR_DUBM_CH_KAHNSCLUBFALLING_C006_P01_L1",
+    "text": "요즘 너무 여기저기 손대는 거 아냐?",
+    "widthPixels": 278,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 968,
+      "End": 1036,
+      "PosX": 181,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_KAHNSCLUBFALLING_C006_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_KahnsClubFalling.bik_Subtitle6",
+    "unicodeKey": "KR_DUBM_CH_KAHNSCLUBFALLING_C007_P01_L1",
+    "text": "언제부터 티탄 채광에 그렇게 관심이 있었지?",
+    "widthPixels": 346,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1050,
+      "End": 1129,
+      "PosX": 147,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_KAHNSCLUBFALLING_C007_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_KahnsClubFalling.bik_Subtitle7",
+    "unicodeKey": "KR_DUBM_CH_KAHNSCLUBFALLING_C008_P01_L1",
+    "text": "일종의 사업 확장이지...",
+    "widthPixels": 180,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1145,
+      "End": 1206,
+      "PosX": 230,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_KAHNSCLUBFALLING_C008_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_KahnsClubFalling.bik_Subtitle8",
+    "unicodeKey": "KR_DUBM_CH_KAHNSCLUBFALLING_C009_P01_L1",
+    "text": "오, 사업이라? 넌 늘 술주정뱅이,",
+    "widthPixels": 248,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1218,
+      "End": 1409,
+      "PosX": 196,
+      "PosY": 394,
+      "Text": "KR_DUBM_CH_KAHNSCLUBFALLING_C009_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_KahnsClubFalling.bik_Subtitle9",
+    "unicodeKey": "KR_DUBM_CH_KAHNSCLUBFALLING_C009_P01_L2",
+    "text": "싸움꾼에 여자나 밝히는 사기꾼이었지.",
+    "widthPixels": 295,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1218,
+      "End": 1409,
+      "PosX": 172,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_KAHNSCLUBFALLING_C009_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "CH_KahnsClubFalling.bik_Subtitle10",
+    "unicodeKey": "KR_DUBM_CH_KAHNSCLUBFALLING_C011_P01_L1",
+    "text": "그래서 잘 맞았지.",
+    "widthPixels": 136,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1430,
+      "End": 1475,
+      "PosX": 252,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_KAHNSCLUBFALLING_C011_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_KahnsClubFalling.bik_Subtitle11",
+    "unicodeKey": "KR_DUBM_CH_KAHNSCLUBFALLING_C012_P01_L1",
+    "text": "그런데 파시스트란 말이지? 난 파시스트는 정말 싫거든",
+    "widthPixels": 420,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1481,
+      "End": 1630,
+      "PosX": 110,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_KAHNSCLUBFALLING_C012_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_KahnsClubFalling.bik_Subtitle12",
+    "unicodeKey": "KR_DUBM_CH_KAHNSCLUBFALLING_C013_P01_L1",
+    "text": "뭐라고 떠드는지 도저히 모르겠군",
+    "widthPixels": 256,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1638,
+      "End": 1730,
+      "PosX": 192,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_KAHNSCLUBFALLING_C013_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_KahnsClubFalling.bik_Subtitle13",
+    "unicodeKey": "KR_DUBM_CH_KAHNSCLUBFALLING_C014_P01_L1",
+    "text": "이걸 보면 기억나겠지?",
+    "widthPixels": 175,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1742,
+      "End": 1806,
+      "PosX": 232,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_KAHNSCLUBFALLING_C014_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_KahnsClubFalling.bik_Subtitle14",
+    "unicodeKey": "KR_DUBM_CH_KAHNSCLUBFALLING_C015_P01_L1",
+    "text": "없애 버려",
+    "widthPixels": 74,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1985,
+      "End": 2031,
+      "PosX": 283,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_KAHNSCLUBFALLING_C015_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_KahnsClubFalling.bik_Subtitle15",
+    "unicodeKey": "KR_DUBM_CH_KAHNSCLUBFALLING_C016_P01_L1",
+    "text": "너야말로 여기저기 나서지 말고 네 일이나 신경쓰지 그래, 네이슨",
+    "widthPixels": 495,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2087,
+      "End": 2207,
+      "PosX": 72,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_KAHNSCLUBFALLING_C016_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_KahnsClubFalling.bik_Subtitle16",
+    "unicodeKey": "KR_DUBM_CH_KAHNSCLUBFALLING_C017_P01_L1",
+    "text": "베티, 창문으로!",
+    "widthPixels": 118,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2322,
+      "End": 2359,
+      "PosX": 261,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_KAHNSCLUBFALLING_C017_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_Opening.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_CH_OPENING_C000_P01_L1",
+    "text": "뉴스를 말씀드리겠습니다. 디까를로와 조나단 칸의",
+    "widthPixels": 386,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 66,
+      "End": 327,
+      "PosX": 127,
+      "PosY": 394,
+      "Text": "KR_DUBM_CH_OPENING_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_Opening.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_CH_OPENING_C000_P01_L2",
+    "text": "레드 스컬 사이의 긴장이 지난주 초 절정에 달했습니다.",
+    "widthPixels": 421,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 66,
+      "End": 327,
+      "PosX": 109,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_OPENING_C000_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "CH_Opening.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_CH_OPENING_C000_P02_L1",
+    "text": "도시 상공에서 두 조직이 세력 다툼을 벌인",
+    "widthPixels": 325,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 326,
+      "End": 546,
+      "PosX": 157,
+      "PosY": 394,
+      "Text": "KR_DUBM_CH_OPENING_C000_P02_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_Opening.bik_Subtitle3",
+    "unicodeKey": "KR_DUBM_CH_OPENING_C000_P02_L2",
+    "text": "것입니다. 이상 아이 인더 스카이 뉴스였습니다",
+    "widthPixels": 358,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 326,
+      "End": 546,
+      "PosX": 141,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_OPENING_C000_P02_L2"
+    }
+  },
+  {
+    "nativeNodeName": "CH_Opening.bik_Subtitle4",
+    "unicodeKey": "KR_DUBM_CH_OPENING_C005_P01_L1",
+    "text": "시카고가 시끄러워 지겠는데요",
+    "widthPixels": 233,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 563,
+      "End": 624,
+      "PosX": 203,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_OPENING_C005_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_Opening.bik_Subtitle5",
+    "unicodeKey": "KR_DUBM_CH_OPENING_C006_P01_L1",
+    "text": "칸을 만나야겠군",
+    "widthPixels": 125,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 631,
+      "End": 683,
+      "PosX": 257,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_OPENING_C006_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_rescueBetty.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_CH_RESCUEBETTY_C000_P01_L1",
+    "text": "이 쪽이다, 이 자식아!",
+    "widthPixels": 164,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 200,
+      "End": 258,
+      "PosX": 238,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_RESCUEBETTY_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "CH_rescueBetty.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_CH_RESCUEBETTY_C001_P01_L1",
+    "text": "빨리 타!",
+    "widthPixels": 62,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 321,
+      "End": 352,
+      "PosX": 289,
+      "PosY": 420,
+      "Text": "KR_DUBM_CH_RESCUEBETTY_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C000_P01_L1",
+    "text": "이제 약속한 돈을 주시죠",
+    "widthPixels": 188,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 517,
+      "End": 583,
+      "PosX": 226,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C001_P01_L1",
+    "text": "그건 처리해 주지.",
+    "widthPixels": 136,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 639,
+      "End": 701,
+      "PosX": 252,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C002_P01_L1",
+    "text": "말도 안돼요! 분명히 시카고에선 가져다 주는 즉시 주기로 했잖아요",
+    "widthPixels": 512,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 703,
+      "End": 867,
+      "PosX": 64,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C002_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle3",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C004_P01_L1",
+    "text": "설계도 받고 사흘이나 작업했잖아요!",
+    "widthPixels": 278,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 910,
+      "End": 1014,
+      "PosX": 181,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C004_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle4",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C005_P01_L1",
+    "text": "화산 통풍구 비 투와 씨 식스에 폭약 설치 및 기폭 준비 완료.",
+    "widthPixels": 462,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1022,
+      "End": 1125,
+      "PosX": 89,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C005_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle5",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C006_P01_L1",
+    "text": "다음 지시를 기다려.",
+    "widthPixels": 153,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1144,
+      "End": 1199,
+      "PosX": 243,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C006_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle6",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C007_P01_L1",
+    "text": "내 말 듣고 있어요?",
+    "widthPixels": 147,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1206,
+      "End": 1257,
+      "PosX": 246,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C007_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle7",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C008_P01_L1",
+    "text": "그만 가게. 사소한 일에 쓸 시간 없어.",
+    "widthPixels": 284,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1266,
+      "End": 1348,
+      "PosX": 178,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C008_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle8",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C009_P01_L1",
+    "text": "안 돼요, 내 몫을 달라구요!",
+    "widthPixels": 204,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1354,
+      "End": 1428,
+      "PosX": 218,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C009_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle9",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C010_P01_L1",
+    "text": "네 몫을 달라고?",
+    "widthPixels": 124,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1444,
+      "End": 1492,
+      "PosX": 258,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C010_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle10",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C011_P01_L1",
+    "text": "네!",
+    "widthPixels": 22,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1508,
+      "End": 1527,
+      "PosX": 309,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C011_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle11",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C012_P01_L1",
+    "text": "해결된 셈이지.",
+    "widthPixels": 112,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1698,
+      "End": 1754,
+      "PosX": 264,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C012_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle12",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C013_P01_L1",
+    "text": "오, 네이슨 재커리. 불꽃놀이에 딱 맞춰 왔군.",
+    "widthPixels": 339,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2048,
+      "End": 2205,
+      "PosX": 150,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C013_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle13",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C015_P01_L1",
+    "text": "기분이 어땠어? 네이슨 그 차디 찬 바닥에",
+    "widthPixels": 318,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2225,
+      "End": 2410,
+      "PosX": 161,
+      "PosY": 394,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C015_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle14",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C015_P01_L2",
+    "text": "파젠바인더 박사가 죽어있는 걸 보니?",
+    "widthPixels": 289,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2225,
+      "End": 2410,
+      "PosX": 175,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C015_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle15",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C017_P01_L1",
+    "text": "박사를 지키지 못하고 내 손아귀에 놀아났군, 네이슨.",
+    "widthPixels": 403,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2487,
+      "End": 2609,
+      "PosX": 118,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C017_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle16",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C017_P02_L1",
+    "text": "내가 언제 죽이느냐가 문제지 복수심에 불타는 사람은 늘",
+    "widthPixels": 433,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2608,
+      "End": 2883,
+      "PosX": 103,
+      "PosY": 394,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C017_P02_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle17",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C017_P02_L2",
+    "text": "약하기 마련이지 네 약점이 하찮은 주유소 계집일 줄은 몰랐지.",
+    "widthPixels": 478,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2608,
+      "End": 2883,
+      "PosX": 81,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C017_P02_L2"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle18",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C021_P01_L1",
+    "text": "설득은 좀 힘들었지만, 누구나 돈이면 넘어가지.",
+    "widthPixels": 363,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2908,
+      "End": 3041,
+      "PosX": 138,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C021_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle19",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C023_P01_L1",
+    "text": "끝이야, 본 에센. 아지트도 들켰어.",
+    "widthPixels": 259,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3102,
+      "End": 3200,
+      "PosX": 190,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C023_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle20",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C025_P01_L1",
+    "text": "이 동굴이 뭐로 보이나? 나한테는 더 이상",
+    "widthPixels": 318,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3206,
+      "End": 3449,
+      "PosX": 161,
+      "PosY": 394,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C025_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle21",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C025_P01_L2",
+    "text": "필요없어 이제부터 시카고가 내가 가야할 곳이네",
+    "widthPixels": 370,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3206,
+      "End": 3449,
+      "PosX": 135,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C025_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle22",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C028_P01_L1",
+    "text": "내가 지배하게 될 시카고 말이야 이제 이 나라",
+    "widthPixels": 348,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3552,
+      "End": 3749,
+      "PosX": 146,
+      "PosY": 394,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C028_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle23",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C028_P01_L2",
+    "text": "ISA는 다이 스피네의 권력 하에 있게 될 것이네",
+    "widthPixels": 361,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3552,
+      "End": 3749,
+      "PosX": 139,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C028_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle24",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C028_P02_L1",
+    "text": "서쪽 피플스 컬렉티브로 파시즘을 전파하고...",
+    "widthPixels": 345,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3748,
+      "End": 3947,
+      "PosX": 147,
+      "PosY": 394,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C028_P02_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle25",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C028_P02_L2",
+    "text": "그다음 동쪽 엠파이어 스테이트를 정복하는 거지...",
+    "widthPixels": 385,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3748,
+      "End": 3947,
+      "PosX": 127,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C028_P02_L2"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle26",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C032_P01_L1",
+    "text": "앞서가지 마, 본 에센. 시카고는 절대 못 차지해.",
+    "widthPixels": 363,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3959,
+      "End": 4065,
+      "PosX": 138,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C032_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle27",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C034_P01_L1",
+    "text": "아니, 차지할 수 있어. 박사 덕이지.",
+    "widthPixels": 266,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 4085,
+      "End": 4291,
+      "PosX": 187,
+      "PosY": 394,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C034_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle28",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C034_P01_L2",
+    "text": "그가 수정한 설계도는 아주 훌륭했어",
+    "widthPixels": 279,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 4085,
+      "End": 4291,
+      "PosX": 180,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C034_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle29",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C036_P01_L1",
+    "text": "넌 한발 늦었어 터빈은 이미 완성되었어!",
+    "widthPixels": 307,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 4406,
+      "End": 4602,
+      "PosX": 166,
+      "PosY": 394,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C036_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle30",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C036_P01_L2",
+    "text": "스타커 스텀 비행선이 마침내 완성된 거야!",
+    "widthPixels": 324,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 4406,
+      "End": 4602,
+      "PosX": 158,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C036_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle31",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C039_P01_L1",
+    "text": "20시간 안에 시카고는 내 요구를 받아들일 거야.",
+    "widthPixels": 369,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 4662,
+      "End": 4917,
+      "PosX": 135,
+      "PosY": 394,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C039_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle32",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C039_P01_L2",
+    "text": "아니면 바람의 도시는 통째로 날아가겠지!",
+    "widthPixels": 318,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 4662,
+      "End": 4917,
+      "PosX": 161,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C039_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle33",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C041_P01_L1",
+    "text": "이제 죽음을 맞이할 준비나 하시지, 네이슨",
+    "widthPixels": 324,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 5029,
+      "End": 5145,
+      "PosX": 158,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C041_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle34",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C042_P01_L1",
+    "text": "미안해요, 네이슨...",
+    "widthPixels": 145,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 5604,
+      "End": 5670,
+      "PosX": 247,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C042_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_BLUR_VonEssenKillsMaria.bik_Subtitle35",
+    "unicodeKey": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C043_P01_L1",
+    "text": "미안...",
+    "widthPixels": 49,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 5707,
+      "End": 5734,
+      "PosX": 295,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_BLUR_VONESSENKILLSMARIA_C043_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Bandito.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_BANDITO_C000_P01_L1",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "widthPixels": 266,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 168,
+      "End": 257,
+      "PosX": 187,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_BANDITO_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Bandito.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_BANDITO_C001_P01_L1",
+    "text": "입구가!",
+    "widthPixels": 56,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 297,
+      "End": 333,
+      "PosX": 292,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_BANDITO_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Bandito_Upgrade.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_BANDITO_UPGRADE_C000_P01_L1",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "widthPixels": 266,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 168,
+      "End": 257,
+      "PosX": 187,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_BANDITO_UPGRADE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Bandito_Upgrade.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_BANDITO_UPGRADE_C001_P01_L1",
+    "text": "입구가!",
+    "widthPixels": 56,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 297,
+      "End": 333,
+      "PosX": 292,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_BANDITO_UPGRADE_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Biplane.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_BIPLANE_C000_P01_L1",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "widthPixels": 266,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 168,
+      "End": 257,
+      "PosX": 187,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_BIPLANE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Biplane.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_BIPLANE_C001_P01_L1",
+    "text": "입구가!",
+    "widthPixels": 56,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 297,
+      "End": 333,
+      "PosX": 292,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_BIPLANE_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Biplane_Upgrade.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_BIPLANE_UPGRADE_C000_P01_L1",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "widthPixels": 266,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 168,
+      "End": 257,
+      "PosX": 187,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_BIPLANE_UPGRADE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Biplane_Upgrade.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_BIPLANE_UPGRADE_C001_P01_L1",
+    "text": "입구가!",
+    "widthPixels": 56,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 297,
+      "End": 333,
+      "PosX": 292,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_BIPLANE_UPGRADE_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Brigand.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_BRIGAND_C000_P01_L1",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "widthPixels": 266,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 168,
+      "End": 257,
+      "PosX": 187,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_BRIGAND_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Brigand.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_BRIGAND_C001_P01_L1",
+    "text": "입구가!",
+    "widthPixels": 56,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 297,
+      "End": 333,
+      "PosX": 292,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_BRIGAND_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Brigand_Upgrade.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_BRIGAND_UPGRADE_C000_P01_L1",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "widthPixels": 266,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 168,
+      "End": 257,
+      "PosX": 187,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_BRIGAND_UPGRADE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Brigand_Upgrade.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_BRIGAND_UPGRADE_C001_P01_L1",
+    "text": "입구가!",
+    "widthPixels": 56,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 297,
+      "End": 333,
+      "PosX": 292,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_BRIGAND_UPGRADE_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_CajunSeaplane.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_CAJUNSEAPLANE_C000_P01_L1",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "widthPixels": 266,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 168,
+      "End": 257,
+      "PosX": 187,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_CAJUNSEAPLANE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_CajunSeaplane.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_CAJUNSEAPLANE_C001_P01_L1",
+    "text": "입구가!",
+    "widthPixels": 56,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 297,
+      "End": 333,
+      "PosX": 292,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_CAJUNSEAPLANE_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_CajunSeaplane_Upgrade.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_CAJUNSEAPLANE_UPGRADE_C000_P01_L1",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "widthPixels": 266,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 168,
+      "End": 257,
+      "PosX": 187,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_CAJUNSEAPLANE_UPGRADE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_CajunSeaplane_Upgrade.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_CAJUNSEAPLANE_UPGRADE_C001_P01_L1",
+    "text": "입구가!",
+    "widthPixels": 56,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 297,
+      "End": 333,
+      "PosX": 292,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_CAJUNSEAPLANE_UPGRADE_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_DesertFox.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_DESERTFOX_C000_P01_L1",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "widthPixels": 266,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 168,
+      "End": 257,
+      "PosX": 187,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_DESERTFOX_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_DesertFox.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_DESERTFOX_C001_P01_L1",
+    "text": "입구가!",
+    "widthPixels": 56,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 297,
+      "End": 333,
+      "PosX": 292,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_DESERTFOX_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_DesertFox_Upgrade.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_DESERTFOX_UPGRADE_C000_P01_L1",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "widthPixels": 266,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 168,
+      "End": 257,
+      "PosX": 187,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_DESERTFOX_UPGRADE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_DesertFox_Upgrade.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_DESERTFOX_UPGRADE_C001_P01_L1",
+    "text": "입구가!",
+    "widthPixels": 56,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 297,
+      "End": 333,
+      "PosX": 292,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_DESERTFOX_UPGRADE_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Devastator.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_DEVASTATOR_C000_P01_L1",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "widthPixels": 266,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 168,
+      "End": 257,
+      "PosX": 187,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_DEVASTATOR_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Devastator.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_DEVASTATOR_C001_P01_L1",
+    "text": "입구가!",
+    "widthPixels": 56,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 297,
+      "End": 333,
+      "PosX": 292,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_DEVASTATOR_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Devastator_Upgrade.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_DEVASTATOR_UPGRADE_C000_P01_L1",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "widthPixels": 266,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 168,
+      "End": 257,
+      "PosX": 187,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_DEVASTATOR_UPGRADE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Devastator_Upgrade.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_DEVASTATOR_UPGRADE_C001_P01_L1",
+    "text": "입구가!",
+    "widthPixels": 56,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 297,
+      "End": 333,
+      "PosX": 292,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_DEVASTATOR_UPGRADE_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Doppleganger.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_DOPPLEGANGER_C000_P01_L1",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "widthPixels": 266,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 168,
+      "End": 257,
+      "PosX": 187,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_DOPPLEGANGER_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Doppleganger.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_DOPPLEGANGER_C001_P01_L1",
+    "text": "입구가!",
+    "widthPixels": 56,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 297,
+      "End": 333,
+      "PosX": 292,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_DOPPLEGANGER_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Doppleganger_Upgrade.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_DOPPLEGANGER_UPGRADE_C000_P01_L1",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "widthPixels": 266,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 168,
+      "End": 257,
+      "PosX": 187,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_DOPPLEGANGER_UPGRADE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Doppleganger_Upgrade.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_DOPPLEGANGER_UPGRADE_C001_P01_L1",
+    "text": "입구가!",
+    "widthPixels": 56,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 297,
+      "End": 333,
+      "PosX": 292,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_DOPPLEGANGER_UPGRADE_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Gangster.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_GANGSTER_C000_P01_L1",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "widthPixels": 266,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 168,
+      "End": 257,
+      "PosX": 187,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_GANGSTER_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Gangster.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_GANGSTER_C001_P01_L1",
+    "text": "입구가!",
+    "widthPixels": 56,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 297,
+      "End": 333,
+      "PosX": 292,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_GANGSTER_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Gangster_Upgrade.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_GANGSTER_UPGRADE_C000_P01_L1",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "widthPixels": 266,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 168,
+      "End": 257,
+      "PosX": 187,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_GANGSTER_UPGRADE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Gangster_Upgrade.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_GANGSTER_UPGRADE_C001_P01_L1",
+    "text": "입구가!",
+    "widthPixels": 56,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 297,
+      "End": 333,
+      "PosX": 292,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_GANGSTER_UPGRADE_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Minigyro.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_MINIGYRO_C000_P01_L1",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "widthPixels": 266,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 168,
+      "End": 257,
+      "PosX": 187,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_MINIGYRO_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Minigyro.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_MINIGYRO_C001_P01_L1",
+    "text": "입구가!",
+    "widthPixels": 56,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 297,
+      "End": 333,
+      "PosX": 292,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_MINIGYRO_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Piranha.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_PIRANHA_C000_P01_L1",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "widthPixels": 266,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 168,
+      "End": 257,
+      "PosX": 187,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_PIRANHA_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Piranha.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_PIRANHA_C001_P01_L1",
+    "text": "입구가!",
+    "widthPixels": 56,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 297,
+      "End": 333,
+      "PosX": 292,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_PIRANHA_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Piranha_Upgrade.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_PIRANHA_UPGRADE_C000_P01_L1",
+    "text": "조심해요, 네이슨. 예감이 안좋아요",
+    "widthPixels": 266,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 168,
+      "End": 257,
+      "PosX": 187,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_PIRANHA_UPGRADE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_In_PF_Piranha_Upgrade.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_IN_PF_PIRANHA_UPGRADE_C001_P01_L1",
+    "text": "입구가!",
+    "widthPixels": 56,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 297,
+      "End": 333,
+      "PosX": 292,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_IN_PF_PIRANHA_UPGRADE_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Bandito.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_BANDITO_C000_P01_L1",
+    "text": "네이슨, 빨리!",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 23,
+      "End": 70,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_BANDITO_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Bandito.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_BANDITO_C001_P01_L1",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "widthPixels": 272,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 485,
+      "End": 564,
+      "PosX": 184,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_BANDITO_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Bandito.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_BANDITO_C003_P01_L1",
+    "text": "본 에센이 도망치고 있어!",
+    "widthPixels": 193,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 628,
+      "End": 670,
+      "PosX": 223,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_BANDITO_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Bandito_Upgrade.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_BANDITO_UPGRADE_C000_P01_L1",
+    "text": "네이슨, 빨리!",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 23,
+      "End": 70,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_BANDITO_UPGRADE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Bandito_Upgrade.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_BANDITO_UPGRADE_C001_P01_L1",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "widthPixels": 272,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 485,
+      "End": 564,
+      "PosX": 184,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_BANDITO_UPGRADE_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Bandito_Upgrade.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_BANDITO_UPGRADE_C003_P01_L1",
+    "text": "본 에센이 도망치고 있어!",
+    "widthPixels": 193,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 628,
+      "End": 670,
+      "PosX": 223,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_BANDITO_UPGRADE_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Biplane.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_BIPLANE_C000_P01_L1",
+    "text": "네이슨, 빨리!",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 23,
+      "End": 70,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_BIPLANE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Biplane.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_BIPLANE_C001_P01_L1",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "widthPixels": 272,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 485,
+      "End": 564,
+      "PosX": 184,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_BIPLANE_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Biplane.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_BIPLANE_C003_P01_L1",
+    "text": "본 에센이 도망치고 있어!",
+    "widthPixels": 193,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 628,
+      "End": 670,
+      "PosX": 223,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_BIPLANE_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Biplane_Upgrade.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_BIPLANE_UPGRADE_C000_P01_L1",
+    "text": "네이슨, 빨리!",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 23,
+      "End": 70,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_BIPLANE_UPGRADE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Biplane_Upgrade.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_BIPLANE_UPGRADE_C001_P01_L1",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "widthPixels": 272,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 485,
+      "End": 564,
+      "PosX": 184,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_BIPLANE_UPGRADE_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Biplane_Upgrade.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_BIPLANE_UPGRADE_C003_P01_L1",
+    "text": "본 에센이 도망치고 있어!",
+    "widthPixels": 193,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 628,
+      "End": 670,
+      "PosX": 223,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_BIPLANE_UPGRADE_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Brigand.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_BRIGAND_C000_P01_L1",
+    "text": "네이슨, 빨리!",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 23,
+      "End": 70,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_BRIGAND_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Brigand.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_BRIGAND_C001_P01_L1",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "widthPixels": 272,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 485,
+      "End": 564,
+      "PosX": 184,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_BRIGAND_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Brigand.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_BRIGAND_C003_P01_L1",
+    "text": "본 에센이 도망치고 있어!",
+    "widthPixels": 193,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 628,
+      "End": 670,
+      "PosX": 223,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_BRIGAND_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Brigand_Upgrade.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_BRIGAND_UPGRADE_C000_P01_L1",
+    "text": "네이슨, 빨리!",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 23,
+      "End": 70,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_BRIGAND_UPGRADE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Brigand_Upgrade.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_BRIGAND_UPGRADE_C001_P01_L1",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "widthPixels": 272,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 485,
+      "End": 564,
+      "PosX": 184,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_BRIGAND_UPGRADE_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Brigand_Upgrade.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_BRIGAND_UPGRADE_C003_P01_L1",
+    "text": "본 에센이 도망치고 있어!",
+    "widthPixels": 193,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 628,
+      "End": 670,
+      "PosX": 223,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_BRIGAND_UPGRADE_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_CajunSeaplane.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_CAJUNSEAPLANE_C000_P01_L1",
+    "text": "네이슨, 빨리!",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 23,
+      "End": 70,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_CAJUNSEAPLANE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_CajunSeaplane.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_CAJUNSEAPLANE_C001_P01_L1",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "widthPixels": 272,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 485,
+      "End": 564,
+      "PosX": 184,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_CAJUNSEAPLANE_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_CajunSeaplane.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_CAJUNSEAPLANE_C003_P01_L1",
+    "text": "본 에센이 도망치고 있어!",
+    "widthPixels": 193,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 628,
+      "End": 670,
+      "PosX": 223,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_CAJUNSEAPLANE_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_CajunSeaplane_Upgrade.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_CAJUNSEAPLANE_UPGRADE_C000_P01_L1",
+    "text": "네이슨, 빨리!",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 23,
+      "End": 70,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_CAJUNSEAPLANE_UPGRADE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_CajunSeaplane_Upgrade.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_CAJUNSEAPLANE_UPGRADE_C001_P01_L1",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "widthPixels": 272,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 485,
+      "End": 564,
+      "PosX": 184,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_CAJUNSEAPLANE_UPGRADE_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_CajunSeaplane_Upgrade.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_CAJUNSEAPLANE_UPGRADE_C003_P01_L1",
+    "text": "본 에센이 도망치고 있어!",
+    "widthPixels": 193,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 628,
+      "End": 670,
+      "PosX": 223,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_CAJUNSEAPLANE_UPGRADE_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_DesertFox.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_DESERTFOX_C000_P01_L1",
+    "text": "네이슨, 빨리!",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 23,
+      "End": 70,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_DESERTFOX_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_DesertFox.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_DESERTFOX_C001_P01_L1",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "widthPixels": 272,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 485,
+      "End": 564,
+      "PosX": 184,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_DESERTFOX_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_DesertFox.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_DESERTFOX_C003_P01_L1",
+    "text": "본 에센이 도망치고 있어!",
+    "widthPixels": 193,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 628,
+      "End": 670,
+      "PosX": 223,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_DESERTFOX_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_DesertFox_Upgrade.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_DESERTFOX_UPGRADE_C000_P01_L1",
+    "text": "네이슨, 빨리!",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 23,
+      "End": 70,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_DESERTFOX_UPGRADE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_DesertFox_Upgrade.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_DESERTFOX_UPGRADE_C001_P01_L1",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "widthPixels": 272,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 485,
+      "End": 564,
+      "PosX": 184,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_DESERTFOX_UPGRADE_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_DesertFox_Upgrade.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_DESERTFOX_UPGRADE_C003_P01_L1",
+    "text": "본 에센이 도망치고 있어!",
+    "widthPixels": 193,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 628,
+      "End": 670,
+      "PosX": 223,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_DESERTFOX_UPGRADE_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Devastator.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_DEVASTATOR_C000_P01_L1",
+    "text": "네이슨, 빨리!",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 23,
+      "End": 70,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_DEVASTATOR_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Devastator.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_DEVASTATOR_C001_P01_L1",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "widthPixels": 272,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 485,
+      "End": 564,
+      "PosX": 184,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_DEVASTATOR_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Devastator.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_DEVASTATOR_C003_P01_L1",
+    "text": "본 에센이 도망치고 있어!",
+    "widthPixels": 193,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 628,
+      "End": 670,
+      "PosX": 223,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_DEVASTATOR_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Devastator_Upgrade.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_DEVASTATOR_UPGRADE_C000_P01_L1",
+    "text": "네이슨, 빨리!",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 23,
+      "End": 70,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_DEVASTATOR_UPGRADE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Devastator_Upgrade.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_DEVASTATOR_UPGRADE_C001_P01_L1",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "widthPixels": 272,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 485,
+      "End": 564,
+      "PosX": 184,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_DEVASTATOR_UPGRADE_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Devastator_Upgrade.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_DEVASTATOR_UPGRADE_C003_P01_L1",
+    "text": "본 에센이 도망치고 있어!",
+    "widthPixels": 193,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 628,
+      "End": 670,
+      "PosX": 223,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_DEVASTATOR_UPGRADE_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Doppleganger.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_DOPPLEGANGER_C000_P01_L1",
+    "text": "네이슨, 빨리!",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 23,
+      "End": 70,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_DOPPLEGANGER_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Doppleganger.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_DOPPLEGANGER_C001_P01_L1",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "widthPixels": 272,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 485,
+      "End": 564,
+      "PosX": 184,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_DOPPLEGANGER_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Doppleganger.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_DOPPLEGANGER_C003_P01_L1",
+    "text": "본 에센이 도망치고 있어!",
+    "widthPixels": 193,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 628,
+      "End": 670,
+      "PosX": 223,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_DOPPLEGANGER_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Doppleganger_Upgrade.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_DOPPLEGANGER_UPGRADE_C000_P01_L1",
+    "text": "네이슨, 빨리!",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 23,
+      "End": 70,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_DOPPLEGANGER_UPGRADE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Doppleganger_Upgrade.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_DOPPLEGANGER_UPGRADE_C001_P01_L1",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "widthPixels": 272,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 485,
+      "End": 564,
+      "PosX": 184,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_DOPPLEGANGER_UPGRADE_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Doppleganger_Upgrade.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_DOPPLEGANGER_UPGRADE_C003_P01_L1",
+    "text": "본 에센이 도망치고 있어!",
+    "widthPixels": 193,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 628,
+      "End": 670,
+      "PosX": 223,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_DOPPLEGANGER_UPGRADE_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Gangster.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_GANGSTER_C000_P01_L1",
+    "text": "네이슨, 빨리!",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 23,
+      "End": 70,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_GANGSTER_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Gangster.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_GANGSTER_C001_P01_L1",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "widthPixels": 272,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 485,
+      "End": 564,
+      "PosX": 184,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_GANGSTER_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Gangster.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_GANGSTER_C003_P01_L1",
+    "text": "본 에센이 도망치고 있어!",
+    "widthPixels": 193,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 628,
+      "End": 670,
+      "PosX": 223,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_GANGSTER_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Gangster_Upgrade.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_GANGSTER_UPGRADE_C000_P01_L1",
+    "text": "네이슨, 빨리!",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 23,
+      "End": 70,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_GANGSTER_UPGRADE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Gangster_Upgrade.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_GANGSTER_UPGRADE_C001_P01_L1",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "widthPixels": 272,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 485,
+      "End": 564,
+      "PosX": 184,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_GANGSTER_UPGRADE_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Gangster_Upgrade.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_GANGSTER_UPGRADE_C003_P01_L1",
+    "text": "본 에센이 도망치고 있어!",
+    "widthPixels": 193,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 628,
+      "End": 670,
+      "PosX": 223,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_GANGSTER_UPGRADE_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Minigyro.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_MINIGYRO_C000_P01_L1",
+    "text": "네이슨, 빨리!",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 23,
+      "End": 70,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_MINIGYRO_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Minigyro.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_MINIGYRO_C001_P01_L1",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "widthPixels": 272,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 485,
+      "End": 564,
+      "PosX": 184,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_MINIGYRO_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Minigyro.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_MINIGYRO_C003_P01_L1",
+    "text": "본 에센이 도망치고 있어!",
+    "widthPixels": 193,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 628,
+      "End": 670,
+      "PosX": 223,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_MINIGYRO_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Piranha.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_PIRANHA_C000_P01_L1",
+    "text": "네이슨, 빨리!",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 23,
+      "End": 70,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_PIRANHA_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Piranha.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_PIRANHA_C001_P01_L1",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "widthPixels": 272,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 485,
+      "End": 564,
+      "PosX": 184,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_PIRANHA_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Piranha.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_PIRANHA_C003_P01_L1",
+    "text": "본 에센이 도망치고 있어!",
+    "widthPixels": 193,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 628,
+      "End": 670,
+      "PosX": 223,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_PIRANHA_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Piranha_Upgrade.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_PIRANHA_UPGRADE_C000_P01_L1",
+    "text": "네이슨, 빨리!",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 23,
+      "End": 70,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_PIRANHA_UPGRADE_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Piranha_Upgrade.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_PIRANHA_UPGRADE_C001_P01_L1",
+    "text": "피격당했어! 판도라를 착륙시키겠다",
+    "widthPixels": 272,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 485,
+      "End": 564,
+      "PosX": 184,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_PIRANHA_UPGRADE_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "LC_Out_PF_Piranha_Upgrade.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_LC_OUT_PF_PIRANHA_UPGRADE_C003_P01_L1",
+    "text": "본 에센이 도망치고 있어!",
+    "widthPixels": 193,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 628,
+      "End": 670,
+      "PosX": 223,
+      "PosY": 420,
+      "Text": "KR_DUBM_LC_OUT_PF_PIRANHA_UPGRADE_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "MAP_Transition_AX_to_CH.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_MAP_TRANSITION_AX_TO_CH_C000_P01_L1",
+    "text": "아릭소 티탄 광산에서의 전투로 분명해진 것은 레드 스컬",
+    "widthPixels": 433,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 0,
+      "Red": 0,
+      "SubtitleType": "Bink",
+      "Start": 70,
+      "End": 248,
+      "PosX": 103,
+      "PosY": 394,
+      "Text": "KR_DUBM_MAP_TRANSITION_AX_TO_CH_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "MAP_Transition_AX_to_CH.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_MAP_TRANSITION_AX_TO_CH_C000_P01_L2",
+    "text": "일당과 다이 스피네 군대가 한 패거리란 것이다",
+    "widthPixels": 359,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 0,
+      "Red": 0,
+      "SubtitleType": "Bink",
+      "Start": 70,
+      "End": 248,
+      "PosX": 140,
+      "PosY": 420,
+      "Text": "KR_DUBM_MAP_TRANSITION_AX_TO_CH_C000_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "MAP_Transition_AX_to_CH.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_MAP_TRANSITION_AX_TO_CH_C002_P01_L1",
+    "text": "목적과 가담 정도는 몰랐다.",
+    "widthPixels": 210,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 0,
+      "Red": 0,
+      "SubtitleType": "Bink",
+      "Start": 273,
+      "End": 350,
+      "PosX": 215,
+      "PosY": 420,
+      "Text": "KR_DUBM_MAP_TRANSITION_AX_TO_CH_C002_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "MAP_Transition_AX_to_CH.bik_Subtitle3",
+    "unicodeKey": "KR_DUBM_MAP_TRANSITION_AX_TO_CH_C003_P01_L1",
+    "text": "우선 시카고로 가서 해답을 찾기로 했다",
+    "widthPixels": 302,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 0,
+      "Red": 0,
+      "SubtitleType": "Bink",
+      "Start": 389,
+      "End": 561,
+      "PosX": 169,
+      "PosY": 394,
+      "Text": "KR_DUBM_MAP_TRANSITION_AX_TO_CH_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "MAP_Transition_AX_to_CH.bik_Subtitle4",
+    "unicodeKey": "KR_DUBM_MAP_TRANSITION_AX_TO_CH_C003_P01_L2",
+    "text": "조나단 칸이 아마 해답을 가지고 있는 듯하다",
+    "widthPixels": 342,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 0,
+      "Red": 0,
+      "SubtitleType": "Bink",
+      "Start": 389,
+      "End": 561,
+      "PosX": 149,
+      "PosY": 420,
+      "Text": "KR_DUBM_MAP_TRANSITION_AX_TO_CH_C003_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "MAP_Transition_CH_to_LC.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_MAP_TRANSITION_CH_TO_LC_C000_P01_L1",
+    "text": "마리아의 배신으로 인한 충격이 아직 가시지 않은 채로 우리는",
+    "widthPixels": 473,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 0,
+      "Red": 0,
+      "SubtitleType": "Bink",
+      "Start": 72,
+      "End": 347,
+      "PosX": 83,
+      "PosY": 394,
+      "Text": "KR_DUBM_MAP_TRANSITION_CH_TO_LC_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "MAP_Transition_CH_to_LC.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_MAP_TRANSITION_CH_TO_LC_C000_P01_L2",
+    "text": "그녀를 뒤쫓아 남쪽으로 향했다 그녀는 박사님의 설계도를 가지고",
+    "widthPixels": 501,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 0,
+      "Red": 0,
+      "SubtitleType": "Bink",
+      "Start": 72,
+      "End": 347,
+      "PosX": 69,
+      "PosY": 420,
+      "Text": "KR_DUBM_MAP_TRANSITION_CH_TO_LC_C000_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "MAP_Transition_CH_to_LC.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_MAP_TRANSITION_CH_TO_LC_C003_P01_L1",
+    "text": "우리보다 앞서 서둘러 남쪽으로 가고 있었다 한 가지",
+    "widthPixels": 399,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 0,
+      "Red": 0,
+      "SubtitleType": "Bink",
+      "Start": 365,
+      "End": 594,
+      "PosX": 120,
+      "PosY": 394,
+      "Text": "KR_DUBM_MAP_TRANSITION_CH_TO_LC_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "MAP_Transition_CH_to_LC.bik_Subtitle3",
+    "unicodeKey": "KR_DUBM_MAP_TRANSITION_CH_TO_LC_C003_P01_L2",
+    "text": "분명한 것은 그녀가 본 에센에게 가고 있다는 것이었다",
+    "widthPixels": 416,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 0,
+      "Red": 0,
+      "SubtitleType": "Bink",
+      "Start": 365,
+      "End": 594,
+      "PosX": 112,
+      "PosY": 420,
+      "Text": "KR_DUBM_MAP_TRANSITION_CH_TO_LC_C003_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "MAP_Transition_LC_to_CH.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_MAP_TRANSITION_LC_TO_CH_C000_P01_L1",
+    "text": "판도라의 엔진을 정비하는 동안 우리는",
+    "widthPixels": 296,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 0,
+      "Red": 0,
+      "SubtitleType": "Bink",
+      "Start": 78,
+      "End": 224,
+      "PosX": 172,
+      "PosY": 394,
+      "Text": "KR_DUBM_MAP_TRANSITION_LC_TO_CH_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "MAP_Transition_LC_to_CH.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_MAP_TRANSITION_LC_TO_CH_C000_P01_L2",
+    "text": "귀중한 시간을 소비했다 그 동안",
+    "widthPixels": 245,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 0,
+      "Red": 0,
+      "SubtitleType": "Bink",
+      "Start": 78,
+      "End": 224,
+      "PosX": 197,
+      "PosY": 420,
+      "Text": "KR_DUBM_MAP_TRANSITION_LC_TO_CH_C000_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "MAP_Transition_LC_to_CH.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_MAP_TRANSITION_LC_TO_CH_C000_P02_L1",
+    "text": "박사님의 터빈으로 무장한 본 에센의",
+    "widthPixels": 279,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 0,
+      "Red": 0,
+      "SubtitleType": "Bink",
+      "Start": 223,
+      "End": 382,
+      "PosX": 180,
+      "PosY": 394,
+      "Text": "KR_DUBM_MAP_TRANSITION_LC_TO_CH_C000_P02_L1"
+    }
+  },
+  {
+    "nativeNodeName": "MAP_Transition_LC_to_CH.bik_Subtitle3",
+    "unicodeKey": "KR_DUBM_MAP_TRANSITION_LC_TO_CH_C000_P02_L2",
+    "text": "스타커 스텀은 시카고에 가까워지고 있었다",
+    "widthPixels": 330,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 0,
+      "Red": 0,
+      "SubtitleType": "Bink",
+      "Start": 223,
+      "End": 382,
+      "PosX": 155,
+      "PosY": 420,
+      "Text": "KR_DUBM_MAP_TRANSITION_LC_TO_CH_C000_P02_L2"
+    }
+  },
+  {
+    "nativeNodeName": "MAP_Transition_LC_to_CH.bik_Subtitle4",
+    "unicodeKey": "KR_DUBM_MAP_TRANSITION_LC_TO_CH_C004_P01_L1",
+    "text": "만반의 준비를 마친 우리는 묵묵히 비행을 계속했다",
+    "widthPixels": 393,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 0,
+      "Red": 0,
+      "SubtitleType": "Bink",
+      "Start": 400,
+      "End": 593,
+      "PosX": 123,
+      "PosY": 394,
+      "Text": "KR_DUBM_MAP_TRANSITION_LC_TO_CH_C004_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "MAP_Transition_LC_to_CH.bik_Subtitle5",
+    "unicodeKey": "KR_DUBM_MAP_TRANSITION_LC_TO_CH_C004_P01_L2",
+    "text": "제 시간에 시카고에 도착하기만을 바라면서...",
+    "widthPixels": 345,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 0,
+      "Red": 0,
+      "SubtitleType": "Bink",
+      "Start": 400,
+      "End": 593,
+      "PosX": 147,
+      "PosY": 420,
+      "Text": "KR_DUBM_MAP_TRANSITION_LC_TO_CH_C004_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "MAP_Transition_SH_to_AX.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_MAP_TRANSITION_SH_TO_AX_C000_P01_L1",
+    "text": "그날 밤, 박사님을 죽인 놈을 찾아",
+    "widthPixels": 256,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 0,
+      "Red": 0,
+      "SubtitleType": "Bink",
+      "Start": 83,
+      "End": 166,
+      "PosX": 192,
+      "PosY": 420,
+      "Text": "KR_DUBM_MAP_TRANSITION_SH_TO_AX_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "MAP_Transition_SH_to_AX.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_MAP_TRANSITION_SH_TO_AX_C001_P01_L1",
+    "text": "반드시 복수하겠다는 다짐을 했다",
+    "widthPixels": 256,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 0,
+      "Red": 0,
+      "SubtitleType": "Bink",
+      "Start": 188,
+      "End": 263,
+      "PosX": 192,
+      "PosY": 420,
+      "Text": "KR_DUBM_MAP_TRANSITION_SH_TO_AX_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "MAP_Transition_SH_to_AX.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_MAP_TRANSITION_SH_TO_AX_C002_P01_L1",
+    "text": "다음 날 판도라에 짐을 싣고 아릭소로 갔다.",
+    "widthPixels": 329,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 0,
+      "Red": 0,
+      "SubtitleType": "Bink",
+      "Start": 278,
+      "End": 369,
+      "PosX": 155,
+      "PosY": 420,
+      "Text": "KR_DUBM_MAP_TRANSITION_SH_TO_AX_C002_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "MAP_Transition_SH_to_AX.bik_Subtitle3",
+    "unicodeKey": "KR_DUBM_MAP_TRANSITION_SH_TO_AX_C003_P01_L1",
+    "text": "박사님 생전 마지막 방문지였다.",
+    "widthPixels": 244,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 0,
+      "Red": 0,
+      "SubtitleType": "Bink",
+      "Start": 382,
+      "End": 465,
+      "PosX": 198,
+      "PosY": 420,
+      "Text": "KR_DUBM_MAP_TRANSITION_SH_TO_AX_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C000_P01_L1",
+    "text": "네이슨, 어서 오게",
+    "widthPixels": 136,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 773,
+      "End": 817,
+      "PosX": 252,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C001_P01_L1",
+    "text": "들어와",
+    "widthPixels": 51,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 887,
+      "End": 920,
+      "PosX": 294,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C002_P01_L1",
+    "text": "무슨 일이죠?",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 929,
+      "End": 965,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C002_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle3",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C003_P01_L1",
+    "text": "이것 좀 봐 누가 왔었던 것 같아. 완전히 엉망을 만들어 놨어!",
+    "widthPixels": 461,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1008,
+      "End": 1165,
+      "PosX": 89,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle4",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C005_P01_L1",
+    "text": "뭘 찾고 있었을까요?",
+    "widthPixels": 158,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1185,
+      "End": 1225,
+      "PosX": 241,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C005_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle5",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C006_P01_L1",
+    "text": "놈들이 노린 게 뭔지 알 것 같아",
+    "widthPixels": 240,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1231,
+      "End": 1324,
+      "PosX": 200,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C006_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle6",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C007_P01_L1",
+    "text": "뭐죠?",
+    "widthPixels": 44,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1392,
+      "End": 1418,
+      "PosX": 298,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C007_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle7",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C008_P01_L1",
+    "text": "윈드 터빈",
+    "widthPixels": 74,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1427,
+      "End": 1460,
+      "PosX": 283,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C008_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle8",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C009_P01_L1",
+    "text": "최근에 들어서야 이걸 만들 수 있는 금속을 찾아냈지",
+    "widthPixels": 399,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1508,
+      "End": 1627,
+      "PosX": 120,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C009_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle9",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C010_P01_L1",
+    "text": "가볍네요.",
+    "widthPixels": 73,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1641,
+      "End": 1679,
+      "PosX": 283,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C010_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle10",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C011_P01_L1",
+    "text": "티탄이야. 아릭소에 있는 광산에서 찾아냈어 놈들이 이 곳을",
+    "widthPixels": 455,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1687,
+      "End": 1899,
+      "PosX": 92,
+      "PosY": 394,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C011_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle11",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C011_P01_L2",
+    "text": "뒤지고 있을 때 난 이걸 구하러 다니고 있었지",
+    "widthPixels": 348,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1687,
+      "End": 1899,
+      "PosX": 146,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C011_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle12",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C013_P01_L1",
+    "text": "침입자들이 이 설계도를 노렸다고요?",
+    "widthPixels": 283,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1909,
+      "End": 1993,
+      "PosX": 178,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C013_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle13",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C014_P01_L1",
+    "text": "도대체 어디에 쓰는 거죠?",
+    "widthPixels": 198,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2030,
+      "End": 2106,
+      "PosX": 221,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C014_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle14",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C015_P01_L1",
+    "text": "극한의 기상 조건을 만들어 내는 거야 기상",
+    "widthPixels": 325,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2112,
+      "End": 2297,
+      "PosX": 157,
+      "PosY": 394,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C015_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle15",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C015_P01_L2",
+    "text": "대류권의 상승 기류를 마음대로 조종해서 말이지",
+    "widthPixels": 370,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2112,
+      "End": 2297,
+      "PosX": 135,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C015_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle16",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C017_P01_L1",
+    "text": "폭풍을 만든다는 겁니까?",
+    "widthPixels": 192,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2310,
+      "End": 2378,
+      "PosX": 224,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C017_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle17",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C018_P01_L1",
+    "text": "가뭄을 없앨 수 있어 불모의 땅을 농작물",
+    "widthPixels": 308,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2393,
+      "End": 2543,
+      "PosX": 166,
+      "PosY": 394,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C018_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle18",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C018_P01_L2",
+    "text": "생산에 알맞은 곳으로 만들 수 있거든",
+    "widthPixels": 285,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2393,
+      "End": 2543,
+      "PosX": 177,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C018_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle19",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C020_P01_L1",
+    "text": "이제부터 내가 하는 이야기는 비밀로 해야 하네",
+    "widthPixels": 359,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2569,
+      "End": 2656,
+      "PosX": 140,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C020_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle20",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C021_P01_L1",
+    "text": "네.",
+    "widthPixels": 22,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2720,
+      "End": 2745,
+      "PosX": 309,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C021_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle21",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C022_P01_L1",
+    "text": "세계 대전 때 스타커 스텀 계획 참여를 제안받았지. 바람을 만들어",
+    "widthPixels": 501,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2763,
+      "End": 3079,
+      "PosX": 69,
+      "PosY": 394,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C022_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle22",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C022_P01_L2",
+    "text": "내는 무기였는데 본 에센이라는 과학자의 머리에서 나온 거였다네",
+    "widthPixels": 501,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2763,
+      "End": 3079,
+      "PosX": 69,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C022_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle23",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C025_P01_L1",
+    "text": "영리하긴 했지만 비열한 녀석이었지 그 기술을 좋은 데",
+    "widthPixels": 416,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3148,
+      "End": 3421,
+      "PosX": 112,
+      "PosY": 394,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C025_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle24",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C025_P01_L2",
+    "text": "쓰자는 의견을 무시하고 엄청난 파괴력에만 관심이 있었거든",
+    "widthPixels": 461,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3148,
+      "End": 3421,
+      "PosX": 89,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C025_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle25",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C028_P01_L1",
+    "text": "토네이도는 폭탄 천만톤을 능가하는 큰 에너지를 가지고 있지",
+    "widthPixels": 467,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3475,
+      "End": 3611,
+      "PosX": 86,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C028_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle26",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C029_P01_L1",
+    "text": "다행히도 그 꿈이 실행되기도 전에 전쟁이",
+    "widthPixels": 319,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3696,
+      "End": 3895,
+      "PosX": 160,
+      "PosY": 394,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C029_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle27",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C029_P01_L2",
+    "text": "끝나 버렸지만 말야 혼란 속에서 난 연구",
+    "widthPixels": 308,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3696,
+      "End": 3895,
+      "PosX": 166,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C029_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle28",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C029_P02_L1",
+    "text": "자료를 챙겼고 놈은 남아메리카로 가 버렸어",
+    "widthPixels": 336,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3894,
+      "End": 4104,
+      "PosX": 152,
+      "PosY": 394,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C029_P02_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle29",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C029_P02_L2",
+    "text": "다시는 그 녀석에 대해 듣고 싶지 않았는데",
+    "widthPixels": 325,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3894,
+      "End": 4104,
+      "PosX": 157,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C029_P02_L2"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle30",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C032_P01_L1",
+    "text": "이건 바로...",
+    "widthPixels": 89,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 4153,
+      "End": 4178,
+      "PosX": 275,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C032_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle31",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C033_P01_L1",
+    "text": "그 녀석 짓이야, 네이슨 그가 돌아왔어",
+    "widthPixels": 290,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 4245,
+      "End": 4339,
+      "PosX": 175,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C033_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle32",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C035_P01_L1",
+    "text": "느껴 진다구...",
+    "widthPixels": 106,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 4394,
+      "End": 4453,
+      "PosX": 267,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C035_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle33",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C036_P01_L1",
+    "text": "내가 여기서 자세한 걸 알아내는 동안 이걸 좀 맡아 주게",
+    "widthPixels": 428,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 4516,
+      "End": 4634,
+      "PosX": 106,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C036_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle34",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C037_P01_L1",
+    "text": "그래도 되겠나?",
+    "widthPixels": 118,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 4653,
+      "End": 4693,
+      "PosX": 261,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C037_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle35",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C038_P01_L1",
+    "text": "물론이죠, 박사님.",
+    "widthPixels": 135,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 4701,
+      "End": 4746,
+      "PosX": 252,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C038_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle36",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C039_P01_L1",
+    "text": "자, 이걸 가져가게, 네이슨 가게. 절대로 이 얘기를",
+    "widthPixels": 380,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 4754,
+      "End": 4953,
+      "PosX": 130,
+      "PosY": 394,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C039_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle37",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C039_P01_L2",
+    "text": "다른 사람에게 해선 안돼 아무도 믿지 말게",
+    "widthPixels": 325,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 4754,
+      "End": 4953,
+      "PosX": 157,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C039_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle38",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C042_P01_L1",
+    "text": "네이슨, 박사님은 괜찮으신가?",
+    "widthPixels": 231,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 5177,
+      "End": 5232,
+      "PosX": 204,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C042_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle39",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C043_P01_L1",
+    "text": "응. 괜찮아 연구실에 침입자가 있어 좀 놀라신 것 뿐이야",
+    "widthPixels": 427,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 5231,
+      "End": 5339,
+      "PosX": 106,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C043_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassLab.bik_Subtitle40",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSLAB_C045_P01_L1",
+    "text": "헐리우드군 소식이 있네. 지도실로 오게. 자세히 알려 주지.",
+    "widthPixels": 448,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 5344,
+      "End": 5464,
+      "PosX": 96,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSLAB_C045_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassyDead.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSYDEAD_C000_P01_L1",
+    "text": "박사님?",
+    "widthPixels": 61,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 56,
+      "End": 90,
+      "PosX": 289,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSYDEAD_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassyDead.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSYDEAD_C001_P01_L1",
+    "text": "박사님!",
+    "widthPixels": 56,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 325,
+      "End": 353,
+      "PosX": 292,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSYDEAD_C001_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_BLUR_FassyDead.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_SH_BLUR_FASSYDEAD_C002_P01_L1",
+    "text": "안 돼!",
+    "widthPixels": 45,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 538,
+      "End": 573,
+      "PosX": 297,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_BLUR_FASSYDEAD_C002_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_opening.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_SH_OPENING_C000_P01_L1",
+    "text": "꼼짝 마, 네이슨. 가만히 있어. 갑자기 움직이지 말고. 천천히.",
+    "widthPixels": 464,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 93,
+      "End": 261,
+      "PosX": 88,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_OPENING_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_opening.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_SH_OPENING_C004_P01_L1",
+    "text": "판돈 큰 포커는 말이야, 네이슨… 몇 번만 패가 안 좋아도,",
+    "widthPixels": 438,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 276,
+      "End": 580,
+      "PosX": 101,
+      "PosY": 394,
+      "Text": "KR_DUBM_SH_OPENING_C004_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_opening.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_SH_OPENING_C004_P01_L2",
+    "text": "전부 잃는다는 거지. 네 비행선에, 돈에, 비행기까지.",
+    "widthPixels": 396,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 276,
+      "End": 580,
+      "PosX": 122,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_OPENING_C004_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "SH_opening.bik_Subtitle3",
+    "unicodeKey": "KR_DUBM_SH_OPENING_C009_P01_L1",
+    "text": "포커 칠 때 샴페인은 금물이지. 술기운이 오르면 판단이 흐려지거든.",
+    "widthPixels": 516,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 588,
+      "End": 782,
+      "PosX": 62,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_OPENING_C009_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_opening.bik_Subtitle4",
+    "unicodeKey": "KR_DUBM_SH_OPENING_C011_P01_L1",
+    "text": "실례했소, 아가씨. 영리한 도박사는 받을 돈부터 챙기는 법이지.",
+    "widthPixels": 482,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 866,
+      "End": 1057,
+      "PosX": 79,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_OPENING_C011_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_opening.bik_Subtitle5",
+    "unicodeKey": "KR_DUBM_SH_OPENING_C013_P01_L1",
+    "text": "잘 있게.",
+    "widthPixels": 62,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1075,
+      "End": 1121,
+      "PosX": 289,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_OPENING_C013_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_opening.bik_Subtitle6",
+    "unicodeKey": "KR_DUBM_SH_OPENING_C014_P01_L1",
+    "text": "어젯밤엔 신사였지? 그럼 실례. 비행기를 잡아야 해서.",
+    "widthPixels": 413,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1336,
+      "End": 1461,
+      "PosX": 113,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_OPENING_C014_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_opening.bik_Subtitle7",
+    "unicodeKey": "KR_DUBM_SH_OPENING_C016_P01_L1",
+    "text": "네이슨! 미쳤어? 이제 내 비행기라고!",
+    "widthPixels": 282,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1871,
+      "End": 1987,
+      "PosX": 179,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_OPENING_C016_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_opening.bik_Subtitle8",
+    "unicodeKey": "KR_DUBM_SH_OPENING_C017_P01_L1",
+    "text": "뭐, 얻는 게 있으면… 잃는 것도 있는 법이지.",
+    "widthPixels": 341,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 1986,
+      "End": 2143,
+      "PosX": 149,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_OPENING_C017_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_opening.bik_Subtitle9",
+    "unicodeKey": "KR_DUBM_SH_OPENING_C019_P01_L1",
+    "text": "네 비행선은 아직 내 거야!",
+    "widthPixels": 199,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2221,
+      "End": 2329,
+      "PosX": 220,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_OPENING_C019_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_opening.bik_Subtitle10",
+    "unicodeKey": "KR_DUBM_SH_OPENING_C020_P01_L1",
+    "text": "베티, 들려?",
+    "widthPixels": 89,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2550,
+      "End": 2589,
+      "PosX": 275,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_OPENING_C020_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_opening.bik_Subtitle11",
+    "unicodeKey": "KR_DUBM_SH_OPENING_C021_P01_L1",
+    "text": "아주 잘 들려요. 어디 있었어요? 죠의 가게는 혼자 털었잖아요!",
+    "widthPixels": 476,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2588,
+      "End": 2746,
+      "PosX": 82,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_OPENING_C021_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_opening.bik_Subtitle12",
+    "unicodeKey": "KR_DUBM_SH_OPENING_C023_P01_L1",
+    "text": "미안해. 일이 좀 꼬였어. 얼마나 챙겼어?",
+    "widthPixels": 304,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2749,
+      "End": 2896,
+      "PosX": 168,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_OPENING_C023_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_opening.bik_Subtitle13",
+    "unicodeKey": "KR_DUBM_SH_OPENING_C025_P01_L1",
+    "text": "이천 달러쯤요.",
+    "widthPixels": 112,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2902,
+      "End": 2943,
+      "PosX": 264,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_OPENING_C025_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_opening.bik_Subtitle14",
+    "unicodeKey": "KR_DUBM_SH_OPENING_C026_P01_L1",
+    "text": "그걸론 모자라겠네.",
+    "widthPixels": 147,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2945,
+      "End": 2997,
+      "PosX": 246,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_OPENING_C026_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_opening.bik_Subtitle15",
+    "unicodeKey": "KR_DUBM_SH_OPENING_C027_P01_L1",
+    "text": "무슨 소리예요?",
+    "widthPixels": 118,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 2998,
+      "End": 3031,
+      "PosX": 261,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_OPENING_C027_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_opening.bik_Subtitle16",
+    "unicodeKey": "KR_DUBM_SH_OPENING_C028_P01_L1",
+    "text": "어젯밤 큰 포커판에 끼었다가 꼬였어.",
+    "widthPixels": 282,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3044,
+      "End": 3136,
+      "PosX": 179,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_OPENING_C028_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_opening.bik_Subtitle17",
+    "unicodeKey": "KR_DUBM_SH_OPENING_C029_P01_L1",
+    "text": "무슨 문제요?",
+    "widthPixels": 101,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3143,
+      "End": 3181,
+      "PosX": 269,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_OPENING_C029_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_opening.bik_Subtitle18",
+    "unicodeKey": "KR_DUBM_SH_OPENING_C030_P01_L1",
+    "text": "도박 문제지. 티보독이 속여서 판도라를 따 갔어.",
+    "widthPixels": 369,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3208,
+      "End": 3342,
+      "PosX": 135,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_OPENING_C030_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_opening.bik_Subtitle19",
+    "unicodeKey": "KR_DUBM_SH_OPENING_C032_P01_L1",
+    "text": "우리 비행선을 도박으로 날렸다고요?",
+    "widthPixels": 283,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3353,
+      "End": 3429,
+      "PosX": 178,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_OPENING_C032_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_opening.bik_Subtitle20",
+    "unicodeKey": "KR_DUBM_SH_OPENING_C033_P01_L1",
+    "text": "칼리코 만에서 만나. 자세한 얘기는",
+    "widthPixels": 267,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3436,
+      "End": 3616,
+      "PosX": 186,
+      "PosY": 394,
+      "Text": "KR_DUBM_SH_OPENING_C033_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SH_opening.bik_Subtitle21",
+    "unicodeKey": "KR_DUBM_SH_OPENING_C033_P01_L2",
+    "text": "그때 할게. 기억이 나는 대로 말이야.",
+    "widthPixels": 278,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 3436,
+      "End": 3616,
+      "PosX": 181,
+      "PosY": 420,
+      "Text": "KR_DUBM_SH_OPENING_C033_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "SS_Farewell.bik_Subtitle0",
+    "unicodeKey": "KR_DUBM_SS_FAREWELL_C000_P01_L1",
+    "text": "해냈어, 네이슨 본 에센, 다이 스피네, 모두 끝났어",
+    "widthPixels": 380,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 49,
+      "End": 204,
+      "PosX": 130,
+      "PosY": 420,
+      "Text": "KR_DUBM_SS_FAREWELL_C000_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SS_Farewell.bik_Subtitle1",
+    "unicodeKey": "KR_DUBM_SS_FAREWELL_C002_P01_L1",
+    "text": "재건할 게 많군.",
+    "widthPixels": 119,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 223,
+      "End": 280,
+      "PosX": 260,
+      "PosY": 420,
+      "Text": "KR_DUBM_SS_FAREWELL_C002_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SS_Farewell.bik_Subtitle2",
+    "unicodeKey": "KR_DUBM_SS_FAREWELL_C003_P01_L1",
+    "text": "그건 내일 시작하고 오늘 밤은 맘껏 즐기자구",
+    "widthPixels": 342,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 291,
+      "End": 520,
+      "PosX": 149,
+      "PosY": 394,
+      "Text": "KR_DUBM_SS_FAREWELL_C003_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SS_Farewell.bik_Subtitle3",
+    "unicodeKey": "KR_DUBM_SS_FAREWELL_C003_P01_L2",
+    "text": "카지노에서 한판 어때? 최고급 샴페인까지 곁들여서",
+    "widthPixels": 397,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 291,
+      "End": 520,
+      "PosX": 121,
+      "PosY": 420,
+      "Text": "KR_DUBM_SS_FAREWELL_C003_P01_L2"
+    }
+  },
+  {
+    "nativeNodeName": "SS_Farewell.bik_Subtitle4",
+    "unicodeKey": "KR_DUBM_SS_FAREWELL_C005_P01_L1",
+    "text": "네이슨!?",
+    "widthPixels": 66,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 531,
+      "End": 566,
+      "PosX": 287,
+      "PosY": 420,
+      "Text": "KR_DUBM_SS_FAREWELL_C005_P01_L1"
+    }
+  },
+  {
+    "nativeNodeName": "SS_Farewell.bik_Subtitle5",
+    "unicodeKey": "KR_DUBM_SS_FAREWELL_C006_P01_L1",
+    "text": "고마워 칸, 하지만 당분간은 포커와는 담 쌓아야 할 것 같아!",
+    "widthPixels": 455,
+    "properties": {
+      "Alpha": 255,
+      "Blue": 255,
+      "Green": 255,
+      "Red": 255,
+      "SubtitleType": "Bink",
+      "Start": 589,
+      "End": 725,
+      "PosX": 92,
+      "PosY": 420,
+      "Text": "KR_DUBM_SS_FAREWELL_C006_P01_L1"
+    }
+  }
+]

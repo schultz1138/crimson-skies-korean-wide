@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.13.0-alpha.2 — 2026-11-09
+
+- Publish the finalized Korean AI dubbing as a separate VCDIFF installer from the public 0.11 foundation: 1,847 dialogue WAVs / 1,943 parts and 56 movies
+- Add selectable original-translation and final-spoken-script Korean captions while retaining Korean audio and profile management
+- Fix stale movie captions caused by the game's file-size-only ZIP cache; original/dub archives use different supported logical lengths
+- Refresh the two changed cinematic dialogue WAVs in an existing English ZIP cache on both install and restore; preserve all other cache bytes with atomic replacement and backups
+- Materialize caption span payloads locally from owned game files with six forward/reverse deltas; distribute no raw game-volume or complete-movie payloads
+- Publish declarative radio/tutorial/movie captions, fixed Native tables, font/asset reproduction and bilingual installation/build guides
+- Verify full-sized audio install/restore/reinstall, public caption bootstrap from both states, style restoration, refusal paths and exact source-rebuilt game hashes
+- Keep full-campaign playthrough certification pending; the user confirmed corrected movie captions in actual play
+
 ## 0.12.2-alpha.1 — 2026-11-08
 
 - Selected-profile ZIP backups and confirmation-gated deletion; other profiles and shared title data remain intact

@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "release": "0.13.0-alpha.2",
+  "status": "PASS_PUBLISHED_SOURCE_AND_DIFFERENTIAL_PACKAGE_VALIDATION",
+  "coverage": {
+    "dialogueWavs": 1847,
+    "dialogueParts": 1943,
+    "movies": 56,
+    "nativeCaptionParts": 1901,
+    "tutorialCaptionParts": 42,
+    "movieSpokenLineNodes": 328
+  },
+  "audio": {
+    "modifiedFiles": 21,
+    "payloadBytes": 179928699,
+    "guards": 11,
+    "everyDeltaDecodedToFinalHash": true,
+    "all26TargetVolumesExact": true,
+    "installRestoreReinstall": true,
+    "unknownSourceAndCorruptDeltaRefused": true,
+    "fixtureSymbolNotInShippingBinary": true,
+    "productionGameGuardRuntimeObserved": false,
+    "sourceRepackageAll21DeltasExact": true,
+    "finalProductionBinaryRestoreReapply": true,
+    "finalProductionBinarySha256": "b468e439b6d0aaf981a08de09d774cb9b2c528e570b5fb1540d101167e311bea"
+  },
+  "captions": {
+    "bootstrapBothDirections": true,
+    "missingAudioFoundationRefused": true,
+    "corruptLocalPayloadRefused": true,
+    "styleApplyRestoreReapply": true,
+    "all28GuardsExact": true,
+    "generatedSpanPayloadsNotDistributed": true,
+    "exactSourceBuiltGameHashes": [
+      "155003071b4f27d81e35871efd3b1b08cfad6f68d91dabf70cddcaa85a8cfe9b",
+      "1d5d728ec8edebdeb2d8d74ef809a43b2cf067c68002fddfadad36457ee87183",
+      "e537ccfa9d37db33d7c9fb39004dd84e90e87aa76eb251575a852e0606b5be9d"
+    ],
+    "cacheOriginalBytes": 15113239,
+    "cacheDubBytes": 15113240,
+    "eocdOffsetFromEof": 22,
+    "zipCommentBytes": 0,
+    "publicGuiPreparationAndCustomRootHandoff": true,
+    "twoStylesAndProfilesButtonVisible": true
+  },
+  "profiles": {
+    "unchangedPublic0122SourceFiles": [
+      "ProfileBackup.cs",
+      "ProfileManagerBackend.cs",
+      "ProfileManagerUi.cs",
+      "ProfileOperations.cs",
+      "ProfileRestoreImage.cs",
+      "ProfileRestoreOperations.cs",
+      "ProfileStore.cs",
+      "ProfileTombstone.cs"
+    ]
+  },
+  "actualPlay": {
+    "userConfirmedModifiedMovieCaptions": true,
+    "fullCampaignPlaythroughCertified": false,
+    "wordForcedAlignmentClaimed": false
+  },
+  "privateData": {
+    "originalGameFilesPublished": false,
+    "rawMovieOrOriginalAudioPublished": false,
+    "ttsCredentialsPublished": false,
+    "installedGameMutatedByReleaseTests": false
+  },
+  "voiceCache": {
+    "changedArchive": "cinematics_dialog_sound.zip",
+    "changedWavs": 2,
+    "registeredInstallationIdentityBound": true,
+    "actualRegisteredCacheProbedReadOnly": true,
+    "actualInstalledCacheWrittenByTests": false,
+    "syntheticInstallRestoreAtomicRollbackAndIdempotence": true,
+    "checkpointsAndAllOtherCacheBytesExact": true,
+    "laterCheckpointEditsPreserved": true,
+    "unknownZipCycleAndFormatRefused": true,
+    "normalRestoreUsesCurrentCache": true,
+    "wholeCacheBackupsRetained": true
+  }
+}

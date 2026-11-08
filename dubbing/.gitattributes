@@ -1,0 +1,6 @@
+# Hash-pinned JSON is a byte contract. Keep its exact authored line endings.
+*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+*.cs text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
