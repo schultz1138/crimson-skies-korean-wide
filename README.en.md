@@ -1,5 +1,15 @@
 # Crimson Skies Korean & Widescreen Patch
 
+## 0.14.0 Alpha 1: selective unified setup
+
+**[Download unified setup](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-alpha.1)** · [Install, restore and source builds](unified/README.en.md) · [Verification record](unified/verification.json)
+
+Extract **`CrimsonSkies-Unified-0.14.0-alpha.1.zip`** and run `CrimsonSkiesSetup.exe`. Select Korean text/fonts, independent widescreen, Korean voices and caption style in one screen, directly from stock. No separate 0.11 installation or API key is needed. The same tool switches components, creates backups and restores them.
+
+Supports exact stock or the public 0.11 foundation. Restore existing 0.12 packs with their old launcher first. For 0.13 dubbing, restore **captions → audio** before migrating. Allow about 14GB extra for the complete dub. Profile management remains in the older separate launcher.
+
+All 12 component selections passed installer tests and full-size install/restore checks passed. **Normal gameplay was confirmed after reinstalling the default complete selection.** Other component combinations and an entire campaign playthrough still need gameplay verification; this is an alpha prerelease.
+
 ## 0.13.0 Alpha 2: Korean dubbing and matching captions
 
 **[Download Alpha 2](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.13.0-alpha.2)** · [Install/restore guide](docs/DUBBING.en.md) · [Source builds](dubbing/README.en.md)

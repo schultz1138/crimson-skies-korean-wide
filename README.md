@@ -1,5 +1,15 @@
 # Crimson Skies 한국어·와이드스크린 통합 패치
 
+## 0.14.0 Alpha 1: 선택형 통합 설치기
+
+**[통합 설치기 다운로드](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-alpha.1)** · [설치·복구·소스 빌드 안내](unified/README.md) · [검증 기록](unified/verification.json)
+
+`CrimsonSkies-Unified-0.14.0-alpha.1.zip` 하나를 풀고 `CrimsonSkiesSetup.exe`를 실행하세요. 원본에서 **한글화·와이드스크린·한국어 더빙·자막 종류**를 한 화면에서 선택하고 설치할 수 있습니다. 별도의 0.11 기반 설치나 API 키가 필요 없습니다. 이후 구성 변경·자동 백업·복구도 같은 도구에서 수행합니다.
+
+정확한 원본 또는 공개 0.11 기반 상태를 지원합니다. 기존 0.12 언어팩은 이전 실행기에서 복구하고, 0.13 더빙은 **자막 → 음성 복구** 후 전환하세요. 전체 더빙은 약 14GB의 추가 여유 공간을 권장합니다. 프로필 관리는 기존 별도 런처의 기능입니다.
+
+12가지 구성의 설치기 검사와 실제 크기 파일의 설치·복구 검증을 통과했습니다. **기본 전체 선택으로 재설치한 뒤 정상 플레이도 확인했습니다.** 다른 선택 조합의 실제 화면과 엔딩까지의 전 구간 검증은 진행 중이므로 알파 프리릴리즈입니다.
+
 ## 0.13.0 Alpha 2: 전체 한국어 더빙과 더빙 대사 자막
 
 **[Alpha 2 다운로드](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.13.0-alpha.2)** · [설치·복구 안내](docs/DUBBING.ko.md) · [소스 빌드](dubbing/README.md)

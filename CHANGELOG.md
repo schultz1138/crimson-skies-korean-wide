@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.14.0-alpha.1 — 2026-11-09
+
+- Add an offline unified setup from exact stock or the public 0.11 foundation
+- Select Korean text/fonts, independent widescreen, Korean voices and original/dub/movie-only captions in one screen; enforce dependencies
+- Retain the default Alpha2 Native/volume/menu targets, voice-cache refresh and 4K AA support
+- Add coherent 29-file fingerprints, selected delta graph, lazy original backups, component switching, atomic replacement and interrupted-operation recovery
+- Preserve unrelated settings and save profiles; provide Korean/English installation and source/test guides
+- Verify 12 selections with 213 synthetic assertions across 74 operations, plus full-sized installation, component switching and restoration
+- Confirm normal gameplay after migrating the maintainer's existing Alpha2 to the unified default complete selection; all 29 game files/4 guards match and the complete settings file is unchanged
+- Publish the unified installer and full source archive with bilingual guides and SHA-256 checksums
+- Keep pre-existing Alpha2/0.12 restoration, other-combination gameplay checks and full-campaign playthrough limits explicit
+
 ## 0.13.0-alpha.2 — 2026-11-09
 
 - Publish the finalized Korean AI dubbing as a separate VCDIFF installer from the public 0.11 foundation: 1,847 dialogue WAVs / 1,943 parts and 56 movies

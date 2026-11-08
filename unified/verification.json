@@ -1,0 +1,113 @@
+{
+  "schema": 1,
+  "version": "0.14.0-alpha.1",
+  "date": "2026-11-09",
+  "status": "PASS_OFFLINE_TESTS_AND_MAINTAINER_DEFAULT_GAMEPLAY",
+  "profiles": 12,
+  "coherentFiles": 29,
+  "readOnlyGuards": 4,
+  "deltaEdges": 51,
+  "manifestSha256": "5c7c84d7cc31444ef1b9d54a2bf14d50f8f3de749c3743314ea93fb4484a03cd",
+  "shippingExeSha256": "383a5b8c2e0b8922859e788c18d2b895a2e891e939b77188c72c8673ec1cf886",
+  "shippingBinaryReadOnlyStockCheckPassed": true,
+  "fixtureDefinesIncludedInShippingBinary": false,
+  "synthetic": {
+    "assertions": 213,
+    "operations": 74,
+    "all12OptionsPassed": true,
+    "interruptionRecoveryPassed": true,
+    "unknownInputsAndTamperedBackupRefused": true,
+    "unrelatedSettingsAndSentinelsPreserved": true
+  },
+  "fullSize": {
+    "status": "PASS_OWNED_FULL_SIZE_ROUNDTRIP",
+    "operations": [
+      {
+        "operation": "shipping-check-stock",
+        "exit": 0,
+        "seconds": 11.594
+      },
+      {
+        "operation": "install-k1-w1-d1-dub",
+        "exit": 0,
+        "seconds": 173.453
+      },
+      {
+        "operation": "shipping-reject-unowned-full",
+        "seconds": 9.297,
+        "exit": 1,
+        "expected": 1
+      },
+      {
+        "operation": "install-k1-w0-d1-dub",
+        "seconds": 36.422,
+        "exit": 0,
+        "expected": 0
+      },
+      {
+        "operation": "install-k1-w0-d0-original",
+        "seconds": 108.0,
+        "exit": 0,
+        "expected": 0
+      },
+      {
+        "operation": "install-k0-w1-d0-off",
+        "seconds": 45.344,
+        "exit": 0,
+        "expected": 0
+      },
+      {
+        "operation": "restore-stock",
+        "seconds": 39.875,
+        "exit": 0,
+        "expected": 0
+      }
+    ],
+    "all29FilesAnd4GuardsVerified": true,
+    "stockInputsUnchanged": true,
+    "fixtureUsesIsolatedSettingsAndBackups": true
+  },
+  "ui": {
+    "visibleLayoutChecked": true,
+    "dependencySelectionChecked": true
+  },
+  "defaultFullProfile": {
+    "nativeSha256": "155003071b4f27d81e35871efd3b1b08cfad6f68d91dabf70cddcaa85a8cfe9b",
+    "allGameTargetsMatchAcceptedAlpha2": true
+  },
+  "cache": {
+    "implementation": "Unchanged reviewed Alpha2 VoiceCache.cs, namespace adaptation only",
+    "sourceSha256": "66157c21d929d00973666bccafaacfdbac35e772404422050a534db602d41f54"
+  },
+  "sourceHashes": {
+    "unified/source/Engine.cs": "3ef3a60a583c1a20a38bc671d8d713b704930a32d4e9b2eae53a48f7daa61e9d",
+    "unified/source/Settings.cs": "003a03ca5a67aa4ac2a64dacdbcff776813ece04a3755c3ab33f2e156f940cae",
+    "unified/source/Ui.cs": "ce8443d7a9aa47ab27ca46c286eeef136a666cc6909367060d6d1ccd90b5f44c",
+    "unified/native_options.py": "1959a4f07f46e2510e695d27b62acfab1b6cbf2641e76a1735a028ea5f1d4fab",
+    "unified/build.py": "00ef38668db54b38b9a620222d3395bbf76e228e06a7c22d726e9606b43d1772"
+  },
+  "offlineTestingInstalledGameWrites": 0,
+  "offlineTestingInstalledSettingsWrites": 0,
+  "nonDefaultComponentCombinationsGameplayVerified": false,
+  "realInstallation": {
+    "profile": "k1-w1-d1-dub",
+    "sourceBaseline": "foundation",
+    "all29FilesAnd4GuardsExact": true,
+    "allGameTargetsSameAsAcceptedAlpha2": true,
+    "entireSettingsFileIdentical": true,
+    "nonOwnedSettingsByteExact": true,
+    "resolution": "1920×1080 (1080p, 16:9)",
+    "saveProfilesWritten": false,
+    "ownedOriginalBackupFiles": 22,
+    "pendingTransaction": false,
+    "originalLauncherOpened": true
+  },
+  "maintainerGameplay": {
+    "date": "2026-11-09",
+    "profile": "k1-w1-d1-dub",
+    "normalGameplayConfirmed": true,
+    "missionRecorded": false,
+    "playDurationRecorded": false,
+    "fullCampaignCertified": false
+  }
+}
