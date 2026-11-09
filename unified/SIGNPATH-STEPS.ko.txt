@@ -9,7 +9,7 @@ Windows 보안에서 끄기 확인창이 남아 있다면 'Keep Smart App Contro
 - schultz1138 계정에 2단계 인증이 켜져 있는지 확인한다.
 - PR #1은 이미 병합되었다. 이번 설치기 단독 서명 변경에 대한 후속 PR을
   검토하고 최신 Windows CI 통과 후 main에 병합한다.
-  https://github.com/schultz1138/crimson-skies-korean-wide/compare/main...fix/installer-only-signing
+  https://github.com/schultz1138/crimson-skies-korean-wide/pull/2
 - main README에 Code signing policy 링크가 보이는지 확인한다.
   https://github.com/schultz1138/crimson-skies-korean-wide/blob/main/unified/SIGNING.md
 - 제안 역할은 작성/검토/서명 승인 schultz1138이다. 1인 유지관리자의 역할 구성은

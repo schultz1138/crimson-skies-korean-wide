@@ -50,8 +50,8 @@ the disclosed game-patch use case, and which provenance/review requirements
 would apply. We will not publish provider attribution before acceptance.
 
 Public preparation/review:
-https://github.com/schultz1138/crimson-skies-korean-wide/compare/main...fix/installer-only-signing
-Code signing policy: unified/SIGNING.md in that branch (main after merge).
+https://github.com/schultz1138/crimson-skies-korean-wide/pull/2
+Code signing policy: unified/SIGNING.md in that PR (main after merge).
 GitHub workflow: .github/workflows/release-readiness.yml.
 The signing artifact contains only our own source-built CrimsonSkiesSetup.exe;
 no xdelta executable, game binary, delta file, voice asset or font is submitted.

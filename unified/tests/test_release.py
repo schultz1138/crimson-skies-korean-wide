@@ -275,7 +275,7 @@ class ReleaseTests(unittest.TestCase):
         decoder_hash = release.sha(self.bundle / 'tools/xdelta3.exe')
         with patch.object(release, 'verify_signature', return_value=self.valid_signature()) as verifier:
             report = release.finalize(self.bundle, self.preparation, self.out, require_installer_signature=True)
-        verifier.assert_called_once_with(self.bundle / 'CrimsonSkiesSetup.exe')
+        verifier.assert_called_once_with((self.bundle / 'CrimsonSkiesSetup.exe').resolve())
         self.assertEqual(report['signatureVerification'], 'installer-only')
         self.assertEqual(set(report['signatures']), {'CrimsonSkiesSetup.exe'})
         self.assertEqual(report['files']['tools/xdelta3.exe'], decoder_hash)
