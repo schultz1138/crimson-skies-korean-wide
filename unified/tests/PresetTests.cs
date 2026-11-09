@@ -9,9 +9,13 @@ class PresetTests {
  static string Selected(SetupForm form){return (string)typeof(SetupForm).GetMethod("ProfileId",BindingFlags.NonPublic|BindingFlags.Instance).Invoke(form,null);}
  static void Layout(Control root){root.PerformLayout();foreach(Control c in root.Controls)Layout(c);}
  static void Render(SetupForm form,string path){
-  var unused=form.Handle;Layout(form);
+  // Hidden WinForms parents omit child controls from DrawToBitmap. Show our
+  // own fixture off-screen on CI so that native children are created/painted.
+  if(!form.Visible){form.StartPosition=FormStartPosition.Manual;form.Location=new Point(-10000,-10000);form.Show();}
+  Layout(form);form.Refresh();Application.DoEvents();
   using(var bitmap=new Bitmap(form.Width,form.Height)){form.DrawToBitmap(bitmap,new Rectangle(Point.Empty,form.Size));bitmap.Save(path,ImageFormat.Png);}
   foreach(var c in Descendants(form).Where(c=>c is RadioButton||c is CheckBox)){
+   Need(c.Visible,"Choice hidden: "+c.Text);
    Need(c.Parent.ClientRectangle.Contains(c.Bounds),"Choice clipped: "+c.Text);
   }
  }

@@ -5,7 +5,7 @@ namespace CrimsonSkiesUnified {
   readonly TextBox root=new TextBox{Dock=DockStyle.Fill};readonly TextBox output=new TextBox{Dock=DockStyle.Fill,Multiline=true,ReadOnly=true,ScrollBars=ScrollBars.Both,WordWrap=false};
   readonly RadioButton original=new RadioButton{Text="원본 음성·자막 / Original voices and captions",AutoSize=true};
   readonly RadioButton subtitles=new RadioButton{Text="영어 음성 + 한국어 자막 / English voices + Korean captions",AutoSize=true};
-  readonly RadioButton voicesOnly=new RadioButton{Text="한국어 더빙만 / Korean voices only",AutoSize=true};
+  readonly RadioButton voicesOnly=new RadioButton{Text="한국어 더빙만 (추가 자막 끔) / Korean voices only (no added captions)",AutoSize=true};
   readonly RadioButton voicesAndSubtitles=new RadioButton{Text="한국어 더빙 + 맞춤 자막 / Korean voices + matched captions",AutoSize=true,Checked=true};
   readonly CheckBox wide=new CheckBox{Text="와이드스크린·고해상도 (별도 선택) / Widescreen & high resolutions (independent)",AutoSize=true,Checked=true};
   readonly Label description=new Label{Dock=DockStyle.Fill};readonly Button browse=new Button{Text="폴더 선택 / Browse",AutoSize=true};readonly Button check=new Button{Text="상태 검사 / Check",AutoSize=true};readonly Button apply=new Button{Text="선택 항목 설치 / Install selected",AutoSize=true};readonly Button restore=new Button{Text="설치 전 복구 / Restore",AutoSize=true};readonly Button recover=new Button{Text="중단 작업 복구 / Recover",AutoSize=true};readonly Button play=new Button{Text="플레이 창 열기 / Open game",AutoSize=true};bool busy;
