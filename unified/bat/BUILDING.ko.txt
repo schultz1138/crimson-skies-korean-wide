@@ -1,0 +1,47 @@
+BAT 복사본 실험 — 유지관리자 재현 절차
+
+현재 실험은 공개 Beta 1의 정확한 manifest와 xdelta 바이너리에 고정되어 있습니다.
+다음 Python 명령은 제작·검증용입니다. 생성된 CMD의 실행에는 Python이 필요 없습니다.
+모든 출력 경로는 존재하지 않는 새 폴더를 지정하세요.
+
+실제 크기의 소유한 파일 복사본
+
+python unified/bat/build_sandbox.py --bundle D:\Beta1 --stock D:\OwnedStock\Content --out D:\BAT-Owned
+python unified/bat/test_sandbox.py --sandbox D:\BAT-Owned --report D:\bat-owned-tests.json
+
+패치 대상 29개와 가드 4개만 별도 폴더로 복사합니다. 실제 설치 위치를 수정하지 않습니다.
+생성된 파일에는 자신의 게임 데이터가 있으므로 이 폴더를 ZIP으로 배포하면 안 됩니다.
+실제 게임 실행 캐시·설정 전환·프로필·저장은 이 구현의 범위에 포함되지 않습니다.
+
+인공 데이터와 작은 호환성 검사 ZIP
+
+기존 통합 엔진의 인공 테스트 생성기를 실행합니다. 게임 원본은 필요하지 않습니다.
+해당 생성기의 Fixture.exe는 유지관리자 테스트에만 사용하며 아래 ZIP에는 복사하지 않습니다.
+
+python unified/tests/transactions.py --package D:\Beta1 --out D:\BAT-Fixture
+python unified/bat/pack_probe.py --fixture-bundle D:\BAT-Fixture\package --fixture-stock D:\BAT-Fixture\matrix\Content --notices-from D:\Beta1 --out D:\BAT-Probe
+
+ZIP을 새 폴더로 풀고 검사합니다. 원래 ZIP은 미실행 상태로 보존합니다.
+
+python unified/bat/test_sandbox.py --sandbox D:\Extracted\BAT-Probe --report D:\bat-probe-tests.json --adversarial
+python unified/bat/test_sandbox.py --sandbox D:\Extracted\BAT-Probe --report D:\bat-menu-wide.json --menu-only
+python unified/bat/test_sandbox.py --sandbox D:\Extracted\BAT-Probe --report D:\bat-menu-no-wide.json --menu-only --menu-wide N
+python unified/bat/test_sandbox.py --sandbox D:\Extracted\BAT-Probe --report D:\bat-menu-full.json --menu-only --menu-preset 4
+
+검증 범위
+- CMD를 실제 실행하고, Python이 29개 결과 파일·4개 가드 해시를 독립적으로 비교합니다.
+- 8조합 적용/상태 검사/원복, 인공 미소유 파일 보존을 확인합니다.
+- --adversarial은 인공 데이터에만 허용합니다. 파일/가드/차분/도구/백업 변조, 잘못된 상태,
+  동시 실행 잠금, 두 번째 파일 교체 실패 뒤 첫 파일 롤백을 검사합니다.
+- --menu-only는 CHOICE에 입력하여 적용·원복·종료를 검사합니다. 기본 프리셋은 더빙만이며
+  --menu-preset 1..4로 바꿀 수 있습니다. 메뉴 항목 4개와 명령 해석 오류 여부도 확인합니다.
+- 실행 CMD 명령문은 ASCII만 사용하고, 한글은 Menu.ko.txt / Actions.ko.txt를 TYPE으로 표시합니다.
+- 검사 기록에 실제 SAC 상태를 읽어서 남깁니다. 켜짐 상태의 로컬 실행 성공과
+  웹에서 내려받은 출처 표식이 있는 배포본의 실행 성공은 구분해야 합니다.
+- 갑작스러운 전원 차단 내구성이나 정식 설치기의 원자적 교체와 동등함을 보증하지 않습니다.
+
+SAC를 끈 PC의 성공은 SAC 호환성 검증이 아닙니다.
+ZIP을 SAC가 켜진 다른 PC에서 내려받아 그대로 풀고 실행해야 합니다.
+이 검사본이 허용되어도 수정된 게임 DLL과 실제 게임 실행의 허용 여부는 별도 확인 대상입니다.
+보안 설정이나 다운로드 출처 표식을 바꾸는 단계는 없습니다.
+공개 Beta 1 배포물을 변경하거나 업로드하는 단계도 없습니다.

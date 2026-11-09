@@ -65,6 +65,8 @@ jobs:
         run: python unified/tests/transactions.py --package '${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-beta.1' --out '${{ runner.temp }}/crimson-transactions'
       - name: Test checkpoint-preserving asset cache transactions
         run: python unified/tests/cache_transactions.py --package '${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-beta.1' --out '${{ runner.temp }}/crimson-cache-transactions'
+      - name: Test portable installer transactions and original-DLL voices mode
+        run: python unified/portable/tests.py --fixture '${{ runner.temp }}/crimson-transactions/package' --stock '${{ runner.temp }}/crimson-transactions/matrix/Content' --out '${{ runner.temp }}/crimson-portable'
       - name: Build normal unsigned fan-patch ZIP and checksums
         run: python unified/release.py finalize --bundle '${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-beta.1' --preparation '${{ runner.temp }}/crimson-signing/prepared/preparation.json' --out '${{ runner.temp }}/crimson-signing/package'
       - name: Preserve fan-patch ZIP and verification reports
@@ -75,6 +77,7 @@ jobs:
             ${{ runner.temp }}/crimson-signing/package
             ${{ runner.temp }}/crimson-transactions/report.json
             ${{ runner.temp }}/crimson-cache-transactions/report.json
+            ${{ runner.temp }}/crimson-portable/report.json
           if-no-files-found: error
           retention-days: 7
       - name: Preserve preset UI review images and results
