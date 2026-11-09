@@ -15,7 +15,7 @@ namespace CrimsonSkiesUnified {
  public sealed class Pending {public string stage,from,to,settingsBefore,settingsAfter;public int[] changed;}
  public sealed class Receipt {public int schema;public string releaseId,root,manifestSha256,original,current;public SettingOrigin settings;public Pending pending;}
  public sealed partial class PatchEngine {
-  public const string ReleaseId="CrimsonSkies-Unified-0.14.0-alpha.1";
+  public const string ReleaseId=Pins.ReleaseId;
   public const string ManifestDigest=Pins.Manifest;
   public const string NativeName="xefu_2ae70168_ceb51ba7_9b9c95a0_541622e1_d1689465.dll";
   static readonly UTF8Encoding Utf8=new UTF8Encoding(false,true);

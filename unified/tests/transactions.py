@@ -48,7 +48,7 @@ def main():
     for name in ['Engine.cs','Settings.cs']:shutil.copyfile(REPO/'unified/source'/name,compile_dir/name)
     for name,src in [('VoiceCache.cs','dubbing/audio/VoiceCache.cs'),('Resolution.cs','source/SelectionMigration.cs')]:
         (compile_dir/name).write_text((REPO/src).read_text('utf-8').replace('namespace CrimsonSkiesKoreanPatch','namespace CrimsonSkiesUnified'),encoding='utf-8')
-    (compile_dir/'Pins.cs').write_text('namespace CrimsonSkiesUnified {public static class Pins {public const string Manifest="'+sha(bundle/'manifest.json')+'";}}')
+    (compile_dir/'Pins.cs').write_text('namespace CrimsonSkiesUnified {public static class Pins {public const string Manifest="'+sha(bundle/'manifest.json')+'";public const string ReleaseId="'+m['releaseId']+'";}}')
     (compile_dir/'Harness.cs').write_text(HARNESS)
     csc=Path(os.environ['WINDIR'])/'Microsoft.NET/Framework64/v4.0.30319/csc.exe';exe=bundle/'Fixture.exe'
     r=subprocess.run([str(csc),'/nologo','/codepage:65001','/define:UNIFIED_TEST','/target:exe','/out:'+str(exe),*['/r:'+x for x in ['System.Core.dll','System.Web.Extensions.dll','System.Xml.dll']],*[str(p) for p in compile_dir.glob('*.cs')]],capture_output=True)

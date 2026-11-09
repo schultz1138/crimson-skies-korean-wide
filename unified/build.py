@@ -4,13 +4,13 @@ The public build accepts exact stock, 0.11 foundation, full dub and Alpha2
 caption outputs. Only VCDIFFs, managed tools, metadata and notices are shipped.
 """
 from pathlib import Path
-import argparse, hashlib, json, os, shutil, subprocess, sys, zipfile
-from native_options import compose, NAME
+import argparse, hashlib, json, os, shutil, subprocess, sys
 
 HERE=Path(__file__).resolve().parent
+if str(HERE) not in sys.path:sys.path.insert(0,str(HERE))
 REPO=HERE.parent
 TOOL_SHA='732980d52f9220dc81817ccdd0c295eadce8a0048a24c2a771a73f791ac824e9'
-RELEASE='CrimsonSkies-Unified-0.14.0-alpha.1'
+RELEASE='CrimsonSkies-Unified-0.14.0-alpha.2'
 
 def sha(p):
     h=hashlib.sha256()
@@ -28,21 +28,30 @@ def compile_setup(bundle,compile_dir):
     """Compile the shipping UI/engine; fixture defines are never supplied."""
     assert not compile_dir.exists();compile_dir.mkdir(parents=True)
     files=[]
-    for name in ['Engine.cs','Settings.cs','Ui.cs']:
+    for name in ['Engine.cs','Settings.cs','Selection.cs','Ui.cs']:
         p=compile_dir/name;shutil.copyfile(HERE/'source'/name,p);files.append(name)
     for name,source in [('VoiceCache.cs','dubbing/audio/VoiceCache.cs'),('Resolution.cs','source/SelectionMigration.cs')]:
         p=compile_dir/name;p.write_text((REPO/source).read_text('utf-8').replace('namespace CrimsonSkiesKoreanPatch','namespace CrimsonSkiesUnified'),encoding='utf-8');files.append(name)
-    (compile_dir/'Pins.cs').write_text('namespace CrimsonSkiesUnified {public static class Pins {public const string Manifest="'+sha(bundle/'manifest.json')+'";}}',encoding='utf-8');files.append('Pins.cs')
+    from release import assembly_metadata, pins_source
+    release_id=load(bundle/'manifest.json')['releaseId']
+    (compile_dir/'Pins.cs').write_text(pins_source(sha(bundle/'manifest.json'),release_id),encoding='utf-8');files.append('Pins.cs')
+    (compile_dir/'AssemblyInfo.cs').write_text(assembly_metadata(release_id),encoding='utf-8');files.append('AssemblyInfo.cs')
     csc=Path(os.environ['WINDIR'])/'Microsoft.NET/Framework64/v4.0.30319/csc.exe'
     run([csc,'/nologo','/codepage:65001','/target:winexe','/optimize+','/out:CrimsonSkiesSetup.exe',*['/r:'+x for x in ['System.Core.dll','System.Windows.Forms.dll','System.Drawing.dll','System.Web.Extensions.dll','System.Xml.dll']],*files],compile_dir)
     shutil.copyfile(compile_dir/'CrimsonSkiesSetup.exe',bundle/'CrimsonSkiesSetup.exe')
 
 def build(a):
+    from native_options import compose, NAME
+    from release import check_signed_tool, record_preparation, finalize
     out=a.out.resolve()
     assert not out.exists(), 'Use a new output directory'
     for p in [a.stock,a.foundation,a.full_dub,a.dub_captions,a.native_work,REPO]:
         p=p.resolve();assert not out.is_relative_to(p) and not p.is_relative_to(out)
     assert sha(a.xdelta)==TOOL_SHA
+    shipping_tool=a.xdelta
+    if a.signed_xdelta:
+        check_signed_tool(a.xdelta,a.signed_xdelta)
+        shipping_tool=a.signed_xdelta
     f=load(REPO/'manifest.json');audio=load(REPO/'dubbing/audio/manifest.json');cap=load(REPO/'dubbing/captions/dub-caption-catalog.json')
     for i,row in enumerate(f['files']):
         assert sha(a.stock/row['path'])==f['profiles'][0]['sha256'][i]
@@ -60,7 +69,7 @@ def build(a):
     assert sha(a.stock/'EmuMenu/EmuMenu.dll')=='40e78379367b74c6dc7ccffce9215abae7400a069cebb9f8d50360f7a46fdc11'
     assert sha(a.stock/'EmuMenu/EmuMenuLaunchArguments.txt')=='da7174421ed8ec03bbdbe9d9b8e094a937786c82b445d05906911335eb25a4f0'
     out.mkdir(parents=True);bundle=out/RELEASE;bundle.mkdir();(bundle/'patches').mkdir();(bundle/'tools').mkdir();work=out/'private-work';work.mkdir()
-    shutil.copyfile(a.xdelta,bundle/'tools/xdelta3.exe')
+    shutil.copyfile(shipping_tool,bundle/'tools/xdelta3.exe')
     # Include every volume in the coherent fingerprint, including untouched
     # ones. Full backups and staging are limited to files actually changing.
     paths=[NAME,'VGPUDX12.dll','EmuMenu/Assets/TitleMenuData.json']+[f'Game/DefaultPackage.data/Data{i:04d}' for i in range(26)]
@@ -122,25 +131,24 @@ def build(a):
                     profiles.append(dict(id=ident,korean=ko,wide=wide,dub=dub,captions=caption,hashes=v))
     # Exact stock/public foundation are safe initial baselines. Unowned full
     # dub installations must be restored by their own tool before migration.
-    m=dict(schema=1,releaseId=RELEASE,supportedPackage=f['supportedPackage'],tool=dict(path='tools/xdelta3.exe',sha256=TOOL_SHA),files=rows,profiles=profiles,inputs=[dict(id=k,hashes=vectors[k]) for k in ['stock','foundation']],knownExternal=[dict(id=k,hashes=vectors[k]) for k in ['full-dub','dub-captions']],guards=[])
+    m=dict(schema=1,releaseId=RELEASE,supportedPackage=f['supportedPackage'],tool=dict(path='tools/xdelta3.exe',sha256=sha(shipping_tool)),files=rows,profiles=profiles,inputs=[dict(id=k,hashes=vectors[k]) for k in ['stock','foundation']],knownExternal=[dict(id=k,hashes=vectors[k]) for k in ['full-dub','dub-captions']],guards=[])
     for rel in guard_paths:
         p=a.stock/rel;m['guards'].append(dict(path=rel,bytes=p.stat().st_size,sha256=sha(p)))
     save(bundle/'manifest.json',m)
     compile_setup(bundle,work/'compile')
-    for p in [REPO/'LICENSE',REPO/'FONT-NOTICE.txt',REPO/'THIRD-PARTY-NOTICES.txt',REPO/'dubbing/AI-DUB-NOTICE.txt',HERE/'README.md',HERE/'README.en.md']:shutil.copyfile(p,bundle/p.name)
+    for p in [REPO/'LICENSE',REPO/'FONT-NOTICE.txt',REPO/'THIRD-PARTY-NOTICES.txt',REPO/'dubbing/AI-DUB-NOTICE.txt',HERE/'README.md',HERE/'README.en.md',HERE/'SIGNING.md']:shutil.copyfile(p,bundle/p.name)
     shutil.copytree(REPO/'licenses',bundle/'licenses')
     save(out/'build-report.json',dict(schema=1,releaseId=RELEASE,profiles=len(profiles),edges=edge_id,deltaBytes=sum(e['bytes'] for r in rows for e in r['edges']),manifestSha256=sha(bundle/'manifest.json'),gameWrites=0))
-    archive=out/(RELEASE+'.zip')
-    with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
-        for p in sorted(bundle.rglob('*')):
-            if p.is_file():
-                rel=p.relative_to(bundle).as_posix()
-                assert rel.endswith(('.exe','.vcdiff','.json','.txt','.md')) or rel=='LICENSE',rel
-                z.write(p,RELEASE+'/'+rel)
-    print(json.dumps(dict(status='BUILT',archive=str(archive),bytes=archive.stat().st_size,sha256=sha(archive)),ensure_ascii=False),flush=True)
+    record_preparation(bundle,out/'preparation.json')
+    if a.prepare_only:
+        print(json.dumps(dict(status='PREPARED',bundle=str(bundle)),ensure_ascii=False),flush=True)
+    else:
+        print(json.dumps(finalize(bundle,out/'preparation.json',out/'release'),ensure_ascii=False),flush=True)
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)
     for flag in ['stock','foundation','full-dub','dub-captions','native-work','xdelta','out']:p.add_argument('--'+flag,required=True,type=Path)
     p.add_argument('--delta-cache',type=Path,help='Optional previous patches directory; every reused delta is decoded and its complete target hash verified')
+    p.add_argument('--signed-xdelta',type=Path,help='Already trusted/timestamped signature on the exact pinned xdelta code; must be finalized before manifest compilation')
+    p.add_argument('--prepare-only',action='store_true',help='Stage the bundle without a ZIP, for optional later signing')
     build(p.parse_args())

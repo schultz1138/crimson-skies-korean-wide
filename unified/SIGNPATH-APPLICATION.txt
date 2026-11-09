@@ -1,0 +1,47 @@
+DRAFT ONLY — OPTIONAL / ON HOLD, not submitted. Repository owner must review before use.
+
+Project: Crimson Skies Korean Wide
+Repository: https://github.com/schultz1138/crimson-skies-korean-wide
+Maintainer/account: schultz1138
+Contact email: [owner to provide in the service's application]
+Application: https://signpath.org/apply
+
+We would like to request an eligibility review for free OSS signing of our
+source-built Windows installer, CrimsonSkiesSetup.exe.
+
+The project is an unofficial offline community patch for an owned Windows
+installation of Crimson Skies: High Road to Revenge, build 2608.3123.1.0.
+It provides Korean subtitles, widescreen/HUD fixes, optional AI Korean voices,
+component selection, verified backups and restoration. The installer source
+is MIT licensed. Font and third-party licenses are documented in the repo.
+The installer does not send user information to networked systems.
+
+This is a new project, publicly released in November 2026. We do not claim a
+long release history or a large installed user base. A second-PC test with
+Smart App Control enabled blocked the unsigned installer. We are preparing
+a public GitHub-hosted build and signature-gated release workflow to address
+distribution trust without asking users to weaken Windows protections.
+
+Requested signing scope: only the installer compiled from this repository.
+Its product name is Crimson Skies Korean Wide; candidate file version is
+0.14.0.2. The GitHub artifact submitted for signing contains this EXE only.
+The owner would manually approve each signing request after code review.
+Proposed author/reviewer/approver: schultz1138, subject to your requirements.
+
+Important disclosures for eligibility review:
+- The final game patch package contains binary deltas against proprietary
+  game files and game-derived/translated assets. Full original game files,
+  keys, account data and saves are not distributed or submitted for signing.
+- The unchanged upstream xdelta3.exe is a separate unsigned dependency. We
+  understand that we may not sign it under our project's Foundation identity.
+  Our optional signed-release path requires it too to have a trusted,
+  timestamped signature from an authorized provider. Normal unsigned ZIP
+  distribution remains available independently. We have not resolved
+  that dependency or claimed full Smart App Control compatibility yet.
+
+Please confirm whether this installer/signing scope can qualify, including
+the disclosed game-patch use case, and which provenance/review requirements
+would apply. We will not publish provider attribution before acceptance.
+
+No original game data, private backups, personal machine logs, API tokens or
+identity documents should be attached to this draft.

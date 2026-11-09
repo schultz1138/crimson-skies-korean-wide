@@ -1,5 +1,11 @@
 # Crimson Skies 한국어·와이드스크린 통합 패치
 
+## Code signing policy
+
+공개 0.14 Alpha 1 설치기와 xdelta는 미서명이며 Smart App Control 환경에서
+설치기 차단이 확인되었습니다. 일반 팬 패치 ZIP 배포에 SignPath 신청이나 서명은
+필수가 아닙니다. [일반 배포와 선택적 서명 안내](unified/SIGNING.md)를 확인하세요.
+
 ## 0.14.0 Alpha 1: 선택형 통합 설치기
 
 **[통합 설치기 다운로드](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-alpha.1)** · [설치·복구·소스 빌드 안내](unified/README.md) · [검증 기록](unified/verification.json)

@@ -1,4 +1,4 @@
-# Crimson Skies 선택형 통합 설치기 — 0.14.0 Alpha 1
+# Crimson Skies 선택형 통합 설치기
 
 소유한 Windows x64 게임 **2608.3123.1.0**에 필요한 기능을 한 번에
 설치하는 오프라인 시험본입니다. 원본 게임 파일은 포함하지 않습니다.
@@ -6,6 +6,13 @@
 
 [GitHub 다운로드](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-alpha.1) · [English](README.en.md)
 실행용 ZIP은 `CrimsonSkies-Unified-0.14.0-alpha.1.zip`이며 소스 ZIP은 별도입니다.
+
+## Code signing policy
+
+현재 공개 Alpha 1의 설치기와 동봉 xdelta는 미서명 상태이며, Smart App Control이
+켜진 PC에서 설치기 실행 차단을 재현했습니다. 일반 팬 패치는 미서명 ZIP으로
+배포할 수 있으며 SignPath 신청은 선택 사항입니다. [배포와 선택적 서명](SIGNING.md)을
+확인하세요. 체크섬 검증은 Windows의 실행 허용을 의미하지 않습니다.
 
 ## 설치
 
@@ -19,20 +26,26 @@
 이전 도구로 먼저 복구하세요. Alpha2는 **자막 복구 → 음성 복구** 순서입니다.
 이전 도구의 백업 기록을 통합 설치기의 복구 기록으로 가져오지는 않습니다.
 
-## 선택 항목
+## Alpha 2 준비본의 프리셋
 
-| 항목 | 동작 |
+아래는 개발 중인 Alpha 2의 선택 화면입니다. 공개 Alpha 1은 기존 체크박스 화면을 사용합니다.
+음성·자막 프리셋 중 하나를 고르고, 와이드스크린은 별도로 선택합니다.
+
+| 프리셋 | 동작 |
 | --- | --- |
-| 한글화 | 한글 메뉴·글꼴·기본 영상 번역 데이터 |
-| 와이드스크린·고해상도 | 4:3/16:9 자동 전환, 최대 4K, HUD 보정, 4K AA 유지 |
-| 한국어 더빙 | 무전·컷신 한국어 음성. 필요한 한글화가 함께 선택됩니다. |
-| 원문 번역 자막 | 기존 번역의 무전·게임 내 컷신·영상 자막 |
-| 더빙 대사 자막 | 실제 한국어 더빙 스크립트에 맞춘 자막. 한글화·더빙이 함께 선택됩니다. |
-| 기본 영상 자막만 | 추가 무전·게임 내 컷신 자막을 끄고 게임의 영상 자막은 유지 |
+| 원본 음성·자막 | 영어 음성과 게임 기본 자막 |
+| 영어 음성 + 한국어 자막 | 영어 음성을 유지하고 한국어 번역 자막·메뉴·글꼴 적용 |
+| 한국어 더빙만 | 한국어 음성 적용, 추가 무전·게임 내 컷신 자막 끔 |
+| 한국어 더빙 + 맞춤 자막 | 한국어 음성과 실제 더빙 대사에 맞춘 자막 적용 |
 
-와이드스크린은 단독으로 설치할 수 있습니다. 모두 해제하고 설치하면 원본
-구성으로 전환합니다. 설치 이후 항목을 바꾸고 같은 도구에서 다시 설치할 수
-있습니다. 내장 언어 설정은 한글화 선택에 맞춰 연결됩니다.
+더빙 프리셋은 필요한 한글 메뉴·글꼴을 함께 적용합니다. ‘더빙만’에서도 **기본 영상 자막은 유지**합니다.
+‘더빙만’은 모든 글자·영상 자막을 지우거나 원본 메뉴를 그대로 보존하는 모드가 아닙니다.
+더빙에 기존 번역 자막을 조합하는 선택은 새 화면에서 제공하지 않습니다.
+
+와이드스크린·고해상도 체크는 4:3/16:9 전환, 최대 4K, HUD 보정, 4K AA 유지를
+별도로 적용합니다. 프리셋을 바꿔도 이 체크는 유지됩니다. 와이드만 필요하면
+원본 음성·자막 + 와이드를 선택하고, 완전 원본은 원본 음성·자막 + 와이드 해제입니다.
+설치 이후에도 같은 도구에서 프리셋을 전환할 수 있습니다.
 
 ## 백업과 복구
 
@@ -68,6 +81,11 @@ python unified/build.py --stock D:\owned-stock\Content --foundation D:\source-01
 설치 폴더를 출력으로 사용하지 마세요. `dub-captions`에는 세 변경 파일만 있어도
 됩니다. 새로운 출력 폴더를 사용하세요. 배포 ZIP에는 차분·도구·안내만 들어갑니다.
 
+현재 소스 빌드는 Alpha 2 폴더와 `preparation.json`, `release` 폴더의 일반 미서명
+ZIP·SHA-256·검증 보고서를 생성합니다. `--prepare-only`는 ZIP 없이 준비만 합니다.
+이미 준비된 폴더는 `release.py finalize`로 패키징할 수 있습니다. 서명이 필요한
+별도 경로에서만 `--require-signatures`를 사용합니다. [자세한 안내](SIGNING.md).
+
 선택형 Native는 공개 캡션 컴파일러가 선언한 후크와 디스패치 범위만 원본
 명령으로 복구합니다. 와이드스크린을 끄면 공개 0.10 캡션 단계의 Native와
 원본 GPU/해상도 메뉴를 사용합니다. 기본 전체 선택의 Native/게임 볼륨은
@@ -84,8 +102,8 @@ python unified/build.py --stock D:\owned-stock\Content --foundation D:\source-01
 `UNIFIED_TEST`로 컴파일하는 테스트 실행기는 배포하지 않습니다.
 
 ```powershell
-python unified/tests/transactions.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-alpha.1 --out D:\unified-synthetic-001
-python unified/tests/owned_roundtrip.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-alpha.1 --stock D:\owned-stock\Content --out D:\unified-owned-test-001
+python unified/tests/transactions.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-alpha.2 --out D:\unified-synthetic-001
+python unified/tests/owned_roundtrip.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-alpha.2 --stock D:\owned-stock\Content --out D:\unified-owned-test-001
 ```
 
 두 검사 모두 새 출력 폴더를 요구합니다. 실제 크기 검사는 원본 입력을 별도로

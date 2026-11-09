@@ -1,0 +1,159 @@
+name: Windows release readiness
+
+on:
+  pull_request:
+    paths: ['unified/**', '.github/workflows/release-readiness.yml']
+  workflow_dispatch:
+    inputs:
+      request_signing:
+        description: 'Optional signing request; not required for the normal fan-patch ZIP'
+        required: true
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  check:
+    runs-on: windows-2025
+    timeout-minutes: 20
+    outputs:
+      installer-artifact: ${{ steps.installer.outputs.artifact-id }}
+      preparation-artifact: ${{ steps.preparation.outputs.artifact-id }}
+      decoder-ready: ${{ steps.prepare.outputs.decoder-ready }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - name: Release policy tests
+        run: python -m unittest discover -s unified/tests -p test_release.py -v
+      - name: Prepare from pinned public inputs without launching downloaded code
+        id: prepare
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $ProgressPreference = 'SilentlyContinue'
+          $config = Get-Content unified/signing-input.json -Raw | ConvertFrom-Json
+          $stage = Join-Path $env:RUNNER_TEMP 'crimson-signing'
+          New-Item -ItemType Directory -Path $stage | Out-Null
+          $archive = Join-Path $stage 'baseline.zip'
+          Invoke-WebRequest -Uri $config.baselineUrl -OutFile $archive
+          if ((Get-FileHash -LiteralPath $archive -Algorithm SHA256).Hash -ne $config.baselineSha256) { throw 'Baseline ZIP hash mismatch' }
+          Expand-Archive -LiteralPath $archive -DestinationPath (Join-Path $stage 'input')
+          $arguments = @('unified/release.py', 'prepare', '--bundle', (Join-Path $stage 'input/CrimsonSkies-Unified-0.14.0-alpha.1'), '--out', (Join-Path $stage 'prepared'))
+          $decoderReady = 'false'
+          if ($config.signedXdeltaUrl -or $config.signedXdeltaSha256) {
+            if (-not $config.signedXdeltaUrl -or -not $config.signedXdeltaSha256) { throw 'Both signed decoder URL and SHA256 are required' }
+            $decoder = Join-Path $stage 'signed-xdelta3.exe'
+            Invoke-WebRequest -Uri $config.signedXdeltaUrl -OutFile $decoder
+            if ((Get-FileHash -LiteralPath $decoder -Algorithm SHA256).Hash -ne $config.signedXdeltaSha256) { throw 'Signed decoder hash mismatch' }
+            $arguments += @('--signed-xdelta', $decoder)
+            $decoderReady = 'true'
+          }
+          & python @arguments
+          if ($LASTEXITCODE -ne 0) { throw 'Candidate preparation failed' }
+          "decoder-ready=$decoderReady" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
+          "Preparation only. Signed decoder ready: $decoderReady. No release has been published." | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Append -Encoding utf8
+      - name: Test actual preset policy and render own UI controls
+        run: python unified/tests/presets.py --package '${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-alpha.2' --out '${{ runner.temp }}/crimson-presets'
+      - name: Test install and recovery transactions on synthetic data
+        run: python unified/tests/transactions.py --package '${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-alpha.2' --out '${{ runner.temp }}/crimson-transactions'
+      - name: Build normal unsigned fan-patch ZIP and checksums
+        run: python unified/release.py finalize --bundle '${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-alpha.2' --preparation '${{ runner.temp }}/crimson-signing/prepared/preparation.json' --out '${{ runner.temp }}/crimson-signing/package'
+      - name: Preserve fan-patch ZIP and verification reports
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: fan-patch-package-unsigned
+          path: |
+            ${{ runner.temp }}/crimson-signing/package
+            ${{ runner.temp }}/crimson-transactions/report.json
+          if-no-files-found: error
+          retention-days: 7
+      - name: Preserve preset UI review images and results
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: preset-ui-review
+          path: |
+            ${{ runner.temp }}/crimson-presets/screenshots
+            ${{ runner.temp }}/crimson-presets/report.json
+            ${{ runner.temp }}/crimson-presets/results.txt
+          if-no-files-found: warn
+          retention-days: 7
+      - name: Upload own source-built installer for review
+        id: installer
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: UNSIGNED-installer-review-only
+          path: ${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-alpha.2/CrimsonSkiesSetup.exe
+          if-no-files-found: error
+          retention-days: 7
+      - name: Preserve matching preparation state
+        id: preparation
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: preparation-state-not-a-release
+          path: |
+            ${{ runner.temp }}/crimson-signing/prepared/preparation.json
+            ${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-alpha.2
+          if-no-files-found: error
+          retention-days: 7
+
+  sign:
+    if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main' && inputs.request_signing
+    needs: check
+    environment: code-signing
+    runs-on: windows-2025
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - name: Require approved provider and already signed decoder
+        shell: pwsh
+        env:
+          DECODER_READY: ${{ needs.check.outputs.decoder-ready }}
+          SIGNPATH_API_TOKEN: ${{ secrets.SIGNPATH_API_TOKEN }}
+          SIGNPATH_ORGANIZATION_ID: ${{ vars.SIGNPATH_ORGANIZATION_ID }}
+          SIGNPATH_PROJECT_SLUG: ${{ vars.SIGNPATH_PROJECT_SLUG }}
+          SIGNPATH_POLICY_SLUG: ${{ vars.SIGNPATH_POLICY_SLUG }}
+          SIGNPATH_ARTIFACT_SLUG: ${{ vars.SIGNPATH_ARTIFACT_SLUG }}
+        run: |
+          if ($env:DECODER_READY -ne 'true') { throw 'Upstream xdelta is still unsigned. Installer-only signing cannot complete this release.' }
+          foreach ($name in @('SIGNPATH_API_TOKEN', 'SIGNPATH_ORGANIZATION_ID', 'SIGNPATH_PROJECT_SLUG', 'SIGNPATH_POLICY_SLUG', 'SIGNPATH_ARTIFACT_SLUG')) {
+            if ([string]::IsNullOrWhiteSpace([Environment]::GetEnvironmentVariable($name))) { throw "Configure the approved provider first: $name" }
+          }
+      - name: Submit only the project-owned installer for manual provider approval
+        uses: SignPath/github-action-submit-signing-request@f6d04783b4569d051e0c80105fe66e82819d0092 # v3
+        with:
+          api-token: ${{ secrets.SIGNPATH_API_TOKEN }}
+          organization-id: ${{ vars.SIGNPATH_ORGANIZATION_ID }}
+          project-slug: ${{ vars.SIGNPATH_PROJECT_SLUG }}
+          signing-policy-slug: ${{ vars.SIGNPATH_POLICY_SLUG }}
+          artifact-configuration-slug: ${{ vars.SIGNPATH_ARTIFACT_SLUG }}
+          github-artifact-id: ${{ needs.check.outputs.installer-artifact }}
+          wait-for-completion: true
+          output-artifact-directory: ${{ runner.temp }}/signed-installer
+      # Final packaging is intentionally a separate maintainer step. Download
+      # preparation-state and the signed installer, finalize with
+      # --require-signatures, then run
+      # SAC-enabled installation/gameplay/restore QA before public publication.
+      - name: Verify returned embedded signature
+        shell: pwsh
+        run: |
+          & ./unified/verify-signature.ps1 -LiteralPath '${{ runner.temp }}/signed-installer/CrimsonSkiesSetup.exe'
+          if ($LASTEXITCODE -ne 0) { throw 'Returned installer signature rejected' }
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: signed-installer-for-finalization-not-a-release
+          path: ${{ runner.temp }}/signed-installer/CrimsonSkiesSetup.exe
+          if-no-files-found: error
+          retention-days: 7

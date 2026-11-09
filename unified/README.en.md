@@ -1,4 +1,4 @@
-# Crimson Skies Selective Unified Setup — 0.14.0 Alpha 1
+# Crimson Skies Selective Unified Setup
 
 Offline component installer for an owned Windows x64 **2608.3123.1.0** game.
 Extract the entire ZIP, close the game and original Play window, then run
@@ -9,12 +9,35 @@ needed when starting from exact stock files.
 [Download on GitHub](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-alpha.1) · [한국어](README.md)
 The installer ZIP is `CrimsonSkies-Unified-0.14.0-alpha.1.zip`; the source ZIP is separate.
 
-Choose Korean text/fonts, widescreen/high resolutions, Korean voices, and
-original-translation or spoken-dub captions. Widescreen works independently.
-Korean voices/captions select the required Korean foundation automatically.
-“Movies only” disables added radio/in-engine captions and preserves the
-game's movie subtitles. Unchecking all components selects the stock composition.
-Switch components by running this same tool again.
+## Code signing policy
+
+The public Alpha 1 installer and bundled xdelta are unsigned. An installer
+launch block was reproduced on a PC with Smart App Control enabled. See
+[packaging and optional signing](SIGNING.md). Normal fan-patch ZIP packaging
+does not require SignPath or certificates. Checksums do not grant Windows
+execution permission.
+
+## Alpha 2 candidate presets
+
+The source candidate offers four exclusive voice/caption presets. The public
+Alpha 1 still uses the earlier checkbox UI.
+
+| Preset | Behavior |
+| --- | --- |
+| Original voices and captions | English voices and the game's built-in captions |
+| English voices + Korean captions | Original voices, translated Korean captions/menu/fonts |
+| Korean voices only | Korean voices; added radio/in-engine captions off |
+| Korean voices + matched captions | Korean voices and captions matching the spoken dub |
+
+Both dub presets include the required Korean menu/fonts. In “Voices only”,
+built-in movie captions remain. This does not remove all text/movie captions or
+preserve the original menu unchanged. The UI no longer offers Korean voices
+with the older, unmatched translation captions.
+
+Widescreen/high resolutions is a separate checkbox and stays unchanged when
+switching voice presets. Choose Original + widescreen for a screen-only patch,
+or Original without widescreen for stock composition. Switch presets later
+by running this same tool again.
 
 Exact public 0.11 is also a supported initial state. Restore old 0.12 packs
 with their own launcher first. For pre-existing Alpha2, restore captions,
@@ -52,7 +75,12 @@ on a **separate owned stock copy** to prepare the respective tree. Never use
 the installed game as build output. The dub-caption tree needs only its three
 modified files. Output must be new and separate from all inputs/source.
 
-The ZIP contains only VCDIFFs, managed tools, metadata and notices. Optional
+The ZIP contains only VCDIFFs, managed tools, metadata and notices. Source
+builds create the Alpha 2 bundle, `preparation.json`, and a normal unsigned
+ZIP/checksum/report in the `release` subdirectory. `--prepare-only` skips ZIP
+creation. Existing prepared bundles can use `release.py finalize` directly;
+only the optional signed path uses `--require-signatures`. See [SIGNING.md](SIGNING.md).
+
 Native composition restores only the source caption compiler's declared
 hooks/dispatch ranges. Disabling wide uses the public pre-wide caption stage,
 stock GPU and stock resolution menu. Default full installation preserves
@@ -69,8 +97,8 @@ exit/recovery, tampered inputs/deltas/backups and unrelated settings preservatio
 The `UNIFIED_TEST` executable is never shipped.
 
 ```powershell
-python unified/tests/transactions.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-alpha.1 --out D:\unified-synthetic-001
-python unified/tests/owned_roundtrip.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-alpha.1 --stock D:\owned-stock\Content --out D:\unified-owned-test-001
+python unified/tests/transactions.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-alpha.2 --out D:\unified-synthetic-001
+python unified/tests/owned_roundtrip.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-alpha.2 --stock D:\owned-stock\Content --out D:\unified-owned-test-001
 ```
 
 Both require a fresh scratch directory. The full-size test copies owned stock
