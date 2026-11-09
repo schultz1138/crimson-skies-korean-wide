@@ -7,6 +7,15 @@ was reproduced with Smart App Control enabled. Signing/SignPath enrollment is
 optional for normal fan-patch ZIP distribution. See [packaging and optional
 signing](unified/SIGNING.md).
 
+> [!WARNING]
+> **Before installing: the current public release is unsigned.**
+> If Smart App Control (SAC) is enabled and blocks this installer, installing this release requires turning SAC off. SAC has no per-app exception.
+> **Disabling SAC reduces app-execution protection for the entire PC. Depending on your Windows environment, you may be unable to turn it back on without resetting or reinstalling Windows.** Re-enabling it after installation is not guaranteed. Read the confirmation shown by Windows before deciding.
+> Proceed only if you understand and accept this change. To keep SAC enabled, postpone installation and wait for a signed update. If SAC is already off, no SAC setting change is needed.
+> The installer does not change security settings automatically. An installer-only free-signing application is being prepared; it has not been submitted or approved, and no signed-release date is confirmed.
+>
+> [Microsoft SAC FAQ](https://support.microsoft.com/en-us/windows/security/threat-malware-protection/smart-app-control-frequently-asked-questions) · [Signing status](unified/SIGNING.md)
+
 ## 0.14.0 Alpha 1: selective unified setup
 
 **[Download unified setup](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-alpha.1)** · [Install, restore and source builds](unified/README.en.md) · [Verification record](unified/verification.json)

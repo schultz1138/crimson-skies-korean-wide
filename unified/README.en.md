@@ -17,6 +17,15 @@ launch block was reproduced on a PC with Smart App Control enabled. See
 does not require SignPath or certificates. Checksums do not grant Windows
 execution permission.
 
+> [!WARNING]
+> **Before installing: the current public release is unsigned.**
+> If Smart App Control (SAC) is enabled and blocks this installer, installing this release requires turning SAC off. SAC has no per-app exception.
+> **Disabling SAC reduces app-execution protection for the entire PC. Depending on your Windows environment, you may be unable to turn it back on without resetting or reinstalling Windows.** Re-enabling it after installation is not guaranteed. Read the confirmation shown by Windows before deciding.
+> Proceed only if you understand and accept this change. To keep SAC enabled, postpone installation and wait for a signed update. If SAC is already off, no SAC setting change is needed.
+> The installer does not change security settings automatically. An installer-only free-signing application is being prepared; it has not been submitted or approved, and no signed-release date is confirmed.
+>
+> [Microsoft SAC FAQ](https://support.microsoft.com/en-us/windows/security/threat-malware-protection/smart-app-control-frequently-asked-questions) · [Signing status](SIGNING.md)
+
 ## Alpha 2 candidate presets
 
 The source candidate offers four exclusive voice/caption presets. The public
