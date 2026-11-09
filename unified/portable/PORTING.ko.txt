@@ -1,0 +1,49 @@
+BAT 설치기 개발·검증 기록 (2026-11-09)
+
+구조
+- 앞선 unified/bat 검사본은 순수 CMD + xdelta 복사본 시험입니다.
+- 정식 기능의 이 구현은 BAT 입구, 공식 PSF 서명 Python 내장 런타임, 공개 Python 소스,
+  원본 xdelta를 사용합니다. Python 추가 설치·자체 EXE·동적 C# 컴파일은 없습니다.
+- Python 3.15.2 공식 ZIP SHA-256을 고정하고 바이너리는 변경하지 않습니다.
+  이 PC에서 동봉 PE 34개 모두 PSF 유효 서명을 확인했습니다.
+- 설치 시 네트워크나 보안 설정 변경, 출처 표식 삭제, 인증서 설치는 하지 않습니다.
+
+기존 기능 이식
+- 전체 29파일/4가드 및 경로 연결 검사, 정확한 구성 벡터, 원본 백업과 작업 기록을 사용합니다.
+- 설정에서는 기존 언어/해상도 키만 다루며 AA 등 다른 값은 보존합니다.
+- XTAF 캐시의 할당 중복·크기·알려진 내용·목표 내용과 모든 미소유 바이트 보존을 검사합니다.
+- 새 게임 볼륨의 SVOD에서 캐시 데이터를 읽어 교체 전에 캐시 전체를 준비합니다.
+- 준비 중/교체 중 기록, Windows ReplaceFileW, 설치 경로별 공용 mutex를 사용합니다.
+- 예외나 강제 종료 뒤에도 파일/캐시/설정을 검증해 복구합니다. 외부 변경은 덮어쓰지 않습니다.
+- 정확한 Beta 1 백업은 새 독립 백업으로 복사할 수 있습니다. 기존 원본 기록은 변경하지 않습니다.
+- 원본 DLL 유지 모드는 정확한 stock에서만 새 설치를 시작하며, 허용 선택을 두 개로 제한합니다.
+
+SAC 실험에서 확인한 경계
+- CMD와 unsigned xdelta의 실제 대용량 차분 적용은 SAC 켬 상태에서 실행되었습니다.
+- 기존 전체 패치의 VGPUDX12.dll 로드는 0xc0e90002로 차단되었습니다.
+  CodeIntegrity 3033/3077, SAC 정책 0283ac0f-fff1-49ae-ada1-8a933130cad6이 기록되었습니다.
+- Native를 원본 해시로 돌려도 로드 차단이 남아 공식 Xbox 확인·복구와 대조했습니다.
+- 공식 복구 후 바이트 해시는 같고 $KERNEL.PURGE.GAMING.UNMODIFIED 속성이 돌아왔으며,
+  SAC 켬 상태에서 원본 게임 부팅이 성공했습니다. 메타데이터와 카탈로그 등도 관여할 수 있어
+  파일 해시 복원만으로 Windows 실행 허용까지 보장하지 않습니다.
+- 보안용 EA는 읽어서 기록만 했습니다. 복사·변조하거나 수정 DLL에 이식하지 않았습니다.
+- DLL 파일 자체를 처음부터 교체하지 않는 더빙/4:3 후보를 별도로 빌드합니다.
+- 일반 8조합 기능 이식은 수정 DLL의 SAC 허용을 해결했다는 뜻이 아닙니다.
+  공개 배포·서명 검토에서는 설치기뿐 아니라 최종 게임 DLL도 고려해야 합니다.
+
+공식 복구가 만드는 appxmanifest.xml 형식
+- 같은 2608.3123.1.0에서 GameLaunchHelper.exe 경로, VC 런타임 의존 버전,
+  appLicensing 항목이 다른 두 정확한 XML 형식을 관찰했습니다.
+- 원본 가드와 별도로 공식 복구 XML의 정확한 SHA-256/길이만 허용 목록에 추가했습니다.
+- 허용된 XML도 Name/Version/Architecture/Publisher를 독립 검사합니다. XML을 수정하지 않습니다.
+
+재현 예 (유지관리자 명령)
+python unified/portable/build.py --bundle D:\Beta1 --runtime D:\python-3.15.2-embed-amd64.zip --out D:\BAT-Candidate
+python unified/portable/build.py --bundle D:\Beta1 --runtime D:\python-3.15.2-embed-amd64.zip --out D:\Voices-StockDLL --stock-native-voices
+python unified/tests/transactions.py --package D:\Beta1 --out D:\Synthetic
+python unified/portable/tests.py --fixture D:\Synthetic\package --stock D:\Synthetic\matrix\Content --out D:\Portable-QA
+
+출력은 존재하지 않는 새롭고 짧은 로컬 폴더를 사용하세요.
+검증은 합성 파일만 강제 중단하며 실제 설치를 고의로 중단하지 않습니다.
+테스트 보고서와 실제 설치/플레이 보고서는 구분합니다. 캠페인 전체·모든 PC의 허용은 보장하지 않습니다.
+검증 중 후보 패키지는 공개 Beta 1과 별개이며, 기존 릴리스를 덮어쓰지 않습니다.
