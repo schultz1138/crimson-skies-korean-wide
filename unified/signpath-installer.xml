@@ -1,0 +1,11 @@
+<!-- Configure only after provider approval. Upstream xdelta is NOT signed here. -->
+<artifact-configuration xmlns="http://signpath.io/artifact-configuration/v1">
+  <zip-file>
+    <pe-file path="CrimsonSkiesSetup.exe"
+             product-name="Crimson Skies Korean Wide"
+             product-version="0.14.0-alpha.2"
+             file-version="0.14.0.2">
+      <authenticode-sign hash-algorithm="sha256" />
+    </pe-file>
+  </zip-file>
+</artifact-configuration>

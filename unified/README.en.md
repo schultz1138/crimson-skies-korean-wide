@@ -9,6 +9,15 @@ needed when starting from exact stock files.
 [Download on GitHub](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-alpha.1) · [한국어](README.md)
 The installer ZIP is `CrimsonSkies-Unified-0.14.0-alpha.1.zip`; the source ZIP is separate.
 
+## Code signing policy
+
+The public Alpha 1 installer and bundled xdelta are unsigned. An installer
+launch block was reproduced on a PC with Smart App Control enabled. See
+[signing preparation and outstanding requirements](SIGNING.md). Alpha 2 is a
+signing candidate, not an already signed compatibility fix.
+
+## Components
+
 Choose Korean text/fonts, widescreen/high resolutions, Korean voices, and
 original-translation or spoken-dub captions. Widescreen works independently.
 Korean voices/captions select the required Korean foundation automatically.
@@ -52,7 +61,12 @@ on a **separate owned stock copy** to prepare the respective tree. Never use
 the installed game as build output. The dub-caption tree needs only its three
 modified files. Output must be new and separate from all inputs/source.
 
-The ZIP contains only VCDIFFs, managed tools, metadata and notices. Optional
+The ZIP contains only VCDIFFs, managed tools, metadata and notices. Source
+builds now stage Alpha 2 plus `preparation.json` without making a
+release ZIP. Provide the already signed decoder with `--signed-xdelta` before
+manifest compilation; the signature-gated `release.py finalize` creates the
+archive after installer signing. See [SIGNING.md](SIGNING.md) for the order.
+
 Native composition restores only the source caption compiler's declared
 hooks/dispatch ranges. Disabling wide uses the public pre-wide caption stage,
 stock GPU and stock resolution menu. Default full installation preserves
@@ -69,8 +83,8 @@ exit/recovery, tampered inputs/deltas/backups and unrelated settings preservatio
 The `UNIFIED_TEST` executable is never shipped.
 
 ```powershell
-python unified/tests/transactions.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-alpha.1 --out D:\unified-synthetic-001
-python unified/tests/owned_roundtrip.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-alpha.1 --stock D:\owned-stock\Content --out D:\unified-owned-test-001
+python unified/tests/transactions.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-alpha.2 --out D:\unified-synthetic-001
+python unified/tests/owned_roundtrip.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-alpha.2 --stock D:\owned-stock\Content --out D:\unified-owned-test-001
 ```
 
 Both require a fresh scratch directory. The full-size test copies owned stock

@@ -1,5 +1,11 @@
 # Crimson Skies Korean & Widescreen Patch
 
+## Code signing policy
+
+The public 0.14 Alpha 1 installer and xdelta are unsigned; an installer block
+was reproduced with Smart App Control enabled. See [signing readiness and
+release requirements](unified/SIGNING.md). A signed fix has not been published.
+
 ## 0.14.0 Alpha 1: selective unified setup
 
 **[Download unified setup](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-alpha.1)** · [Install, restore and source builds](unified/README.en.md) · [Verification record](unified/verification.json)

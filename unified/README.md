@@ -7,6 +7,12 @@
 [GitHub 다운로드](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-alpha.1) · [English](README.en.md)
 실행용 ZIP은 `CrimsonSkies-Unified-0.14.0-alpha.1.zip`이며 소스 ZIP은 별도입니다.
 
+## Code signing policy
+
+현재 공개 Alpha 1의 설치기와 동봉 xdelta는 미서명 상태이며, Smart App Control이
+켜진 PC에서 설치기 실행 차단을 재현했습니다. [서명 준비와 남은 조건](SIGNING.md)을
+확인하세요. Alpha 2는 서명 준비 후보이며 아직 서명된 수정 배포본이 아닙니다.
+
 ## 설치
 
 1. 게임과 `플레이` 창을 종료하고 ZIP 전체를 새 폴더에 풉니다.
@@ -68,6 +74,11 @@ python unified/build.py --stock D:\owned-stock\Content --foundation D:\source-01
 설치 폴더를 출력으로 사용하지 마세요. `dub-captions`에는 세 변경 파일만 있어도
 됩니다. 새로운 출력 폴더를 사용하세요. 배포 ZIP에는 차분·도구·안내만 들어갑니다.
 
+현재 소스 빌드는 Alpha 2 서명 준비 폴더와 `preparation.json`까지만 생성합니다.
+공개 ZIP 생성은 두 실행 파일의 신뢰된 서명·타임스탬프를 검사하는
+`release.py finalize` 단계로 옮겼습니다. 도구 서명은 manifest 생성 전에
+`--signed-xdelta`로 제공해야 합니다. 자세한 순서는 [SIGNING.md](SIGNING.md)를 따릅니다.
+
 선택형 Native는 공개 캡션 컴파일러가 선언한 후크와 디스패치 범위만 원본
 명령으로 복구합니다. 와이드스크린을 끄면 공개 0.10 캡션 단계의 Native와
 원본 GPU/해상도 메뉴를 사용합니다. 기본 전체 선택의 Native/게임 볼륨은
@@ -84,8 +95,8 @@ python unified/build.py --stock D:\owned-stock\Content --foundation D:\source-01
 `UNIFIED_TEST`로 컴파일하는 테스트 실행기는 배포하지 않습니다.
 
 ```powershell
-python unified/tests/transactions.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-alpha.1 --out D:\unified-synthetic-001
-python unified/tests/owned_roundtrip.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-alpha.1 --stock D:\owned-stock\Content --out D:\unified-owned-test-001
+python unified/tests/transactions.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-alpha.2 --out D:\unified-synthetic-001
+python unified/tests/owned_roundtrip.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-alpha.2 --stock D:\owned-stock\Content --out D:\unified-owned-test-001
 ```
 
 두 검사 모두 새 출력 폴더를 요구합니다. 실제 크기 검사는 원본 입력을 별도로
