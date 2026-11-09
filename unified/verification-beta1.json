@@ -1,0 +1,190 @@
+{
+  "schema": 1,
+  "version": "0.14.0-beta.1",
+  "date": "2026-11-09",
+  "status": "PASS_EIGHT_FIRST_MISSION_CONFIGURATIONS_AND_RESTORE",
+  "manifestSha256": "c2bd4fa525a2ae0cec2339ca9eb85783a4aaf39d695704cce7695c67f877d4cb",
+  "shippingExeSha256": "b466539e7440c97fbbfe0543a63728ce9773dccb25285b7ece51a441fd73ca5a",
+  "exactPlaytestedExecutablePreserved": true,
+  "coherentFiles": 29,
+  "readOnlyGuards": 4,
+  "deltaEdges": 55,
+  "automated": {
+    "unitTests": 42,
+    "presetUiAssertions": 66,
+    "syntheticAssertions": 213,
+    "syntheticOperations": 74,
+    "syntheticProfiles": 12,
+    "cacheAssertions": 31,
+    "cacheOperations": 7,
+    "checkpointAndUnownedBytesPreserved": true
+  },
+  "environment": {
+    "os": "Windows 11 Pro 26H2 build 26300.9711 x64",
+    "gameBuild": "2608.3123.1.0",
+    "cpu": "Ryzen 7 8845HS",
+    "gpu": "GeForce RTX 4060 Laptop",
+    "ramGB": 16,
+    "SAC": "Disabled manually by the owner before testing; no SAC-enabled installation claim"
+  },
+  "cases": [
+    {
+      "id": "C00",
+      "profile": "k0-w0-d0-off",
+      "label": "원본",
+      "checkedFiles": 33,
+      "mismatches": 0,
+      "captured": [
+        "main-menu",
+        "first-mission-movie",
+        "tutorial-flight-HUD",
+        "RT-firing",
+        "left-stick-turn",
+        "pause-objectives"
+      ],
+      "footageSha256": "df19759e5c006f91a03e1d1aecc797bd157a4d689deea1be017f7f9f523a9565",
+      "footageTailDecoded": true
+    },
+    {
+      "id": "C01",
+      "profile": "k0-w1-d0-off",
+      "label": "와이드만",
+      "checkedFiles": 33,
+      "mismatches": 0,
+      "captured": [
+        "main-menu",
+        "first-mission-movie",
+        "tutorial-flight-HUD",
+        "RT-firing",
+        "left-stick-turn",
+        "pause-objectives"
+      ],
+      "footageSha256": "17211f8a4a92c13529ba14ddf4a06453f1fda90f3158c9d1bfeda9e94fa8ab65",
+      "footageTailDecoded": true
+    },
+    {
+      "id": "C02",
+      "profile": "k1-w0-d0-original",
+      "label": "한국어 자막만",
+      "checkedFiles": 33,
+      "mismatches": 0,
+      "captured": [
+        "main-menu",
+        "first-mission-movie",
+        "tutorial-flight-HUD",
+        "RT-firing",
+        "left-stick-turn",
+        "pause-objectives"
+      ],
+      "footageSha256": "6cbab282e9d2b707055e757bfbf70e4f02da58406a7dd39d26e57e12147ea70d",
+      "footageTailDecoded": true
+    },
+    {
+      "id": "C03",
+      "profile": "k1-w1-d0-original",
+      "label": "한국어 자막+와이드",
+      "checkedFiles": 33,
+      "mismatches": 0,
+      "captured": [
+        "main-menu",
+        "first-mission-movie",
+        "tutorial-flight-HUD",
+        "RT-firing",
+        "left-stick-turn",
+        "pause-objectives"
+      ],
+      "footageSha256": "5600b565bb4ea07d1127187152df62339a469aafa959b4813819a9d0668e64ed",
+      "footageTailDecoded": true
+    },
+    {
+      "id": "C04",
+      "profile": "k1-w0-d1-off",
+      "label": "한국어 더빙만",
+      "checkedFiles": 33,
+      "mismatches": 0,
+      "captured": [
+        "main-menu",
+        "first-mission-movie",
+        "tutorial-flight-HUD",
+        "RT-firing",
+        "left-stick-turn",
+        "pause-objectives"
+      ],
+      "footageSha256": "424d2af314a73602ed65cfa4c4ef77ef384fa2bff37196ecb1a9db662c65688f",
+      "footageTailDecoded": true
+    },
+    {
+      "id": "C05",
+      "profile": "k1-w1-d1-off",
+      "label": "한국어 더빙+와이드",
+      "checkedFiles": 33,
+      "mismatches": 0,
+      "captured": [
+        "main-menu",
+        "first-mission-movie",
+        "tutorial-flight-HUD",
+        "RT-firing",
+        "left-stick-turn",
+        "pause-objectives"
+      ],
+      "footageSha256": "e5fc9e464af354109c4c499ddbdfb562ddb11ac01d37d8ee2f264a89d3202756",
+      "footageTailDecoded": true
+    },
+    {
+      "id": "C06",
+      "profile": "k1-w0-d1-dub",
+      "label": "한국어 더빙+맞춤 자막",
+      "checkedFiles": 33,
+      "mismatches": 0,
+      "captured": [
+        "main-menu",
+        "first-mission-movie",
+        "tutorial-flight-HUD",
+        "RT-firing",
+        "left-stick-turn",
+        "pause-objectives"
+      ],
+      "footageSha256": "621c9d3c8c864b65dfe5af288746d1f306d25563bc5ce8e222289e891199714e",
+      "footageTailDecoded": true
+    },
+    {
+      "id": "C07",
+      "profile": "k1-w1-d1-dub",
+      "label": "전체 적용",
+      "checkedFiles": 33,
+      "mismatches": 0,
+      "captured": [
+        "main-menu",
+        "first-mission-movie",
+        "tutorial-flight-HUD",
+        "RT-firing",
+        "left-stick-turn",
+        "pause-objectives"
+      ],
+      "footageSha256": "38ebdeb050a3963dae6761345a2eb258267591d04e6880f200798fc0c13e76ab",
+      "footageTailDecoded": true
+    }
+  ],
+  "restore": {
+    "checkedFiles": 33,
+    "mismatches": 0,
+    "cachedDataZipSha256": "ab71b478a106da4243cffab55d17fc514304ff3718ead9348820912cb2b1da8a",
+    "cachedTutorialSha256": "8838dd3f46bd64f14aa6453d8ad487a3cb23e67b0b7a870ce66753fb2fefe18c"
+  },
+  "regression": {
+    "voicesOnly": "Added tutorial/radio captions absent in both 4:3 and widescreen; original instructions and built-in movie captions retained",
+    "assetCache": "Known cached root assets refreshed on profile switch and restore; checkpoints and every unowned cache byte checked before atomic replacement"
+  },
+  "audio": {
+    "captured": "AAC 48kHz stereo in raw game recordings",
+    "payloads": "Installed dub payload hashes match the selected profile",
+    "listeningReview": "Pending owner listening review; pronunciation, balance, and all dialogue are not certified"
+  },
+  "limits": [
+    "First mission/tutorial samples only; no completed campaign",
+    "No 4K gameplay check",
+    "60fps is the capture format, not a measured game frame rate",
+    "Unsigned installer and decoder; SAC-enabled execution not verified",
+    "Synthetic interruption tests are isolated fixtures, not deliberate interruption of the real installation"
+  ]
+}

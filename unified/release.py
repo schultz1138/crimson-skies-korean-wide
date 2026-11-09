@@ -18,7 +18,7 @@ import zipfile
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parent
 PRODUCT = 'Crimson Skies Korean Wide'
-NEXT_RELEASE = 'CrimsonSkies-Unified-0.14.0-alpha.2'
+NEXT_RELEASE = 'CrimsonSkies-Unified-0.14.0-beta.1'
 BASE_MANIFEST = '5c7c84d7cc31444ef1b9d54a2bf14d50f8f3de749c3743314ea93fb4484a03cd'
 BASE_SETUP = '383a5b8c2e0b8922859e788c18d2b895a2e891e939b77188c72c8673ec1cf886'
 BASE_TOOL = '732980d52f9220dc81817ccdd0c295eadce8a0048a24c2a771a73f791ac824e9'
@@ -47,8 +47,8 @@ def save(path, value):
 
 
 def version(release_id):
-    match = re.fullmatch(r'CrimsonSkies-Unified-(\d+)\.(\d+)\.(\d+)-alpha\.(\d+)', release_id)
-    need(match is not None, 'Expected a versioned CrimsonSkies-Unified alpha release ID')
+    match = re.fullmatch(r'CrimsonSkies-Unified-(\d+)\.(\d+)\.(\d+)-(?:alpha|beta)\.(\d+)', release_id)
+    need(match is not None, 'Expected a versioned CrimsonSkies-Unified alpha or beta release ID')
     parts = [int(x) for x in match.groups()]
     need(all(x < 65535 for x in parts), 'Version field exceeds assembly limits')
     return '.'.join(str(x) for x in parts)
@@ -192,6 +192,9 @@ def check_signed_tool(original, signed):
 
 def source_hashes():
     paths = [*sorted((HERE / 'source').glob('*.cs')), HERE / 'build.py', HERE / 'release.py',
+             HERE / 'voice_only_assets.py', HERE / 'caption_off_overlay.py',
+             HERE / 'build_caption_off_overlay.py', HERE / 'caption-off-overlay/overlay.json',
+             HERE / 'cache_assets.py', HERE / 'build_cache_assets.py', HERE / 'cache-assets.json',
              HERE / 'verify-signature.ps1', REPO / 'dubbing/audio/VoiceCache.cs',
              REPO / 'source/SelectionMigration.cs']
     return {path.relative_to(REPO).as_posix(): sha(path) for path in paths}
@@ -228,6 +231,13 @@ def prepare(bundle, out, signed_xdelta=None, release_id=NEXT_RELEASE):
     out.mkdir(parents=True)
     target = out / release_id
     shutil.copytree(bundle, target, ignore=shutil.ignore_patterns('VERIFICATION.json'))
+    if '-beta.' in release_id:
+        if str(HERE) not in sys.path:
+            sys.path.insert(0, str(HERE))
+        from caption_off_overlay import apply
+        manifest = apply(manifest, target)
+        from cache_assets import inject
+        manifest = inject(manifest)
     if signed_xdelta:
         shutil.copyfile(signed_xdelta, target / 'tools/xdelta3.exe')
     manifest['releaseId'] = release_id
@@ -237,7 +247,7 @@ def prepare(bundle, out, signed_xdelta=None, release_id=NEXT_RELEASE):
         text = (HERE / name).read_text('utf-8')
         text = text.replace('0.14.0-alpha.1', release_id.removeprefix('CrimsonSkies-Unified-'))
         text = text.replace('0.14.0 Alpha 1', release_id.removeprefix('CrimsonSkies-Unified-'))
-        (target / name).write_text('> Candidate build: installation/gameplay on this executable is not yet verified.\n\n' + text, encoding='utf-8')
+        (target / name).write_text('> Packaging checks do not certify gameplay. See the separate release verification record.\n\n' + text, encoding='utf-8')
     shutil.copyfile(HERE / 'SIGNING.md', target / 'SIGNING.md')
     # Also work with isolated/embedded Python distributions that omit script dirs.
     if str(HERE) not in sys.path:

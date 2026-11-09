@@ -10,7 +10,7 @@ HERE=Path(__file__).resolve().parent
 if str(HERE) not in sys.path:sys.path.insert(0,str(HERE))
 REPO=HERE.parent
 TOOL_SHA='732980d52f9220dc81817ccdd0c295eadce8a0048a24c2a771a73f791ac824e9'
-RELEASE='CrimsonSkies-Unified-0.14.0-alpha.2'
+RELEASE='CrimsonSkies-Unified-0.14.0-beta.1'
 
 def sha(p):
     h=hashlib.sha256()
@@ -28,7 +28,7 @@ def compile_setup(bundle,compile_dir):
     """Compile the shipping UI/engine; fixture defines are never supplied."""
     assert not compile_dir.exists();compile_dir.mkdir(parents=True)
     files=[]
-    for name in ['Engine.cs','Settings.cs','Selection.cs','Ui.cs']:
+    for name in ['Engine.cs','Settings.cs','Selection.cs','Ui.cs','GameCache.cs']:
         p=compile_dir/name;shutil.copyfile(HERE/'source'/name,p);files.append(name)
     for name,source in [('VoiceCache.cs','dubbing/audio/VoiceCache.cs'),('Resolution.cs','source/SelectionMigration.cs')]:
         p=compile_dir/name;p.write_text((REPO/source).read_text('utf-8').replace('namespace CrimsonSkiesKoreanPatch','namespace CrimsonSkiesUnified'),encoding='utf-8');files.append(name)
@@ -129,11 +129,27 @@ def build(a):
                     v[1]=vectors['foundation' if wide else 'stock'][1];v[2]=menus[ko,wide]
                     edge(0,vectors['stock'][0],v[0]);edge(0,v[0],vectors['stock'][0])
                     profiles.append(dict(id=ident,korean=ko,wide=wide,dub=dub,captions=caption,hashes=v))
+    # Caption-off must also remove the tutorial UserMsg events authored in
+    # localized data.zip; restoring only native hooks exposes them centered.
+    # Append new edges after legacy paths so the public-input overlay matches.
+    from voice_only_assets import build_variant
+    for dubbed,folder,label in [(False,a.foundation,'foundation'),(True,a.full_dub,'full-dub')]:
+        fixed=work/('caption-off-'+label)
+        proof=build_variant(a.stock,folder,fixed,label)
+        before=vectors['full-dub' if dubbed else 'foundation'][8]
+        after=node(8,fixed/paths[8])
+        edge(8,before,after);edge(8,after,before)
+        for profile in profiles:
+            if profile['korean'] and profile['dub']==dubbed and profile['captions']=='off':profile['hashes'][8]=after
     # Exact stock/public foundation are safe initial baselines. Unowned full
     # dub installations must be restored by their own tool before migration.
     m=dict(schema=1,releaseId=RELEASE,supportedPackage=f['supportedPackage'],tool=dict(path='tools/xdelta3.exe',sha256=sha(shipping_tool)),files=rows,profiles=profiles,inputs=[dict(id=k,hashes=vectors[k]) for k in ['stock','foundation']],knownExternal=[dict(id=k,hashes=vectors[k]) for k in ['full-dub','dub-captions']],guards=[])
     for rel in guard_paths:
         p=a.stock/rel;m['guards'].append(dict(path=rel,bytes=p.stat().st_size,sha256=sha(p)))
+    from cache_assets import build as cache_fingerprints
+    cache=cache_fingerprints(m,{(i-3,h):p for (i,h),p in sources.items() if i>=3})
+    assert cache==load(HERE/'cache-assets.json'), 'Rebuilt cache fingerprints differ from source pins'
+    m['cacheFiles']=cache['files']
     save(bundle/'manifest.json',m)
     compile_setup(bundle,work/'compile')
     for p in [REPO/'LICENSE',REPO/'FONT-NOTICE.txt',REPO/'THIRD-PARTY-NOTICES.txt',REPO/'dubbing/AI-DUB-NOTICE.txt',HERE/'README.md',HERE/'README.en.md',HERE/'SIGNING.md']:shutil.copyfile(p,bundle/p.name)

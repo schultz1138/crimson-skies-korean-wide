@@ -45,7 +45,7 @@ def main():
         else:b=('synthetic guard: '+g['path']).encode()
         guards[g['path']]=b;g.update(bytes=len(b),sha256=hashlib.sha256(b).hexdigest())
     save(bundle/'manifest.json',m)
-    for name in ['Engine.cs','Settings.cs']:shutil.copyfile(REPO/'unified/source'/name,compile_dir/name)
+    for name in ['Engine.cs','Settings.cs','GameCache.cs']:shutil.copyfile(REPO/'unified/source'/name,compile_dir/name)
     for name,src in [('VoiceCache.cs','dubbing/audio/VoiceCache.cs'),('Resolution.cs','source/SelectionMigration.cs')]:
         (compile_dir/name).write_text((REPO/src).read_text('utf-8').replace('namespace CrimsonSkiesKoreanPatch','namespace CrimsonSkiesUnified'),encoding='utf-8')
     (compile_dir/'Pins.cs').write_text('namespace CrimsonSkiesUnified {public static class Pins {public const string Manifest="'+sha(bundle/'manifest.json')+'";public const string ReleaseId="'+m['releaseId']+'";}}')
@@ -100,6 +100,6 @@ def main():
     for ident in ['full-dub','dub-captions','k0-w1-d0-off']:
         root=case('unowned-'+ident,ident);call(root,'--apply',expected=1);state(root,ident);need(not (root/'backups').exists(),'Unowned patched state cannot acquire restore ownership')
     root=case('receipt-binding');call(root,'--apply');q=next((root/'backups').rglob('receipt.json'));before=q.read_bytes();v=json.loads(before);v['root']+='other';save(q,v);call(root,'--restore',expected=1);state(root,'k1-w1-d1-dub');q.write_bytes(before);call(root,'--restore');state(root,'stock')
-    report=dict(schema=1,status='PASS_SYNTHETIC_TRANSACTION_GRAPH',assertions=checks,profiles=len(m['profiles']),operations=operations,gameDataIncluded=False,installedGameWrites=0,sourceFiles={x:sha(REPO/x) for x in ['unified/source/Engine.cs','unified/source/Settings.cs','dubbing/audio/VoiceCache.cs']})
+    report=dict(schema=1,status='PASS_SYNTHETIC_TRANSACTION_GRAPH',assertions=checks,profiles=len(m['profiles']),operations=operations,gameDataIncluded=False,installedGameWrites=0,sourceFiles={x:sha(REPO/x) for x in ['unified/source/Engine.cs','unified/source/Settings.cs','unified/source/GameCache.cs','dubbing/audio/VoiceCache.cs']})
     save(out/'report.json',report);print(json.dumps(dict(status=report['status'],assertions=checks,operations=len(operations),profiles=report['profiles'])))
 if __name__=='__main__':main()

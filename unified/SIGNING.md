@@ -2,9 +2,10 @@
 
 **Normal fan-patch distribution is an unsigned ZIP. Signing is optional.**
 SignPath enrollment and certificates are not prerequisites for packaging this
-community patch. The owner is preparing an installer-only SignPath application;
-it has not been submitted or approved. The installer and upstream xdelta are
-currently unsigned. The test PC's SAC protection remains enabled.
+community patch. The installer-only SignPath application is on hold at draft
+stage; it has not been submitted or approved. The installer and upstream xdelta
+are currently unsigned. The owner manually disabled SAC on the test PC before
+installation/gameplay tests. This is not a SAC-enabled compatibility test.
 
 A second-PC test reproduced a Code Integrity block with Smart App Control
 enabled. Package checksums do not grant Windows execution permission. These
@@ -23,11 +24,11 @@ No provider attribution is claimed before acceptance.
 ## Normal ZIP packaging
 
 From the exact public Alpha 1 bundle, rebuild the installer from source and
-keep the existing verified game-target/delta graph:
+add the verified caption-off deltas and owned-asset cache fingerprints:
 
 ```powershell
-python unified/release.py prepare --bundle D:\download\CrimsonSkies-Unified-0.14.0-alpha.1 --out D:\alpha2-build
-python unified/release.py finalize --bundle D:\alpha2-build\CrimsonSkies-Unified-0.14.0-alpha.2 --preparation D:\alpha2-build\preparation.json --out D:\alpha2-build\release
+python unified/release.py prepare --bundle D:\download\CrimsonSkies-Unified-0.14.0-alpha.1 --out D:\beta1-build
+python unified/release.py finalize --bundle D:\beta1-build\CrimsonSkies-Unified-0.14.0-beta.1 --preparation D:\beta1-build\preparation.json --out D:\beta1-build\release
 ```
 
 Use new output directories outside the source and input bundle. Preparation
@@ -45,11 +46,11 @@ The old published Alpha 1 cannot be repackaged by these commands.
 Full source game builds (`unified/build.py`) produce the same normal ZIP in
 their `release` subdirectory. `--prepare-only` stages files without a ZIP.
 Keep the old installer/backups for existing Alpha 1 installations and restore
-with that version before moving to Alpha 2; receipt ownership is version-bound.
+with that version before moving to Beta 1; receipt ownership is version-bound.
 
-## Current application: installer-only signing
+## Optional future application: installer-only signing
 
-The current request covers **CrimsonSkiesSetup.exe only**, built from our C#
+The unsubmitted draft covers **CrimsonSkiesSetup.exe only**, built from our C#
 source by a GitHub-hosted Windows job. It does not request a signature for the
 unchanged upstream xdelta, game files, deltas, voices or fonts.
 
@@ -62,7 +63,7 @@ unchanged upstream xdelta, game files, deltas, voices or fonts.
    version metadata. All decoder/delta/file hashes remain enforced.
 
 ```powershell
-python unified/release.py finalize --bundle D:\signed-prep\CrimsonSkies-Unified-0.14.0-alpha.2 --preparation D:\signed-prep\preparation.json --out D:\signed-release --require-installer-signature
+python unified/release.py finalize --bundle D:\signed-prep\CrimsonSkies-Unified-0.14.0-beta.1 --preparation D:\signed-prep\preparation.json --out D:\signed-release --require-installer-signature
 ```
 
 Signature verification requires PowerShell 7 (`pwsh`) and a normal
@@ -74,15 +75,17 @@ is signed or that SAC compatibility/gameplay have been certified.
 
 A separate version-only invocation of the pinned unsigned `xdelta3 -V`
 returned exit code 0 on the test PC on 2026-11-09. The installer was blocked
-by Code Integrity. This distinguishes observations from assumptions: actual
-decoder patch operations, signed-installer execution and game/restore tests
-are still pending. Keep SAC enabled during those later tests.
+by Code Integrity while SAC was enabled. Actual decoder patch operations and
+game/restore tests use the owner's SAC-off test environment. Signed-installer
+execution and SAC-enabled installation remain unverified. A signed installer
+alone also does not establish that every bundled executable will be allowed.
 
 [SignPath Foundation](https://signpath.org/) is one possible free OSS provider,
 subject to [eligibility review](https://signpath.org/terms.html). Its project
 certificate cannot be used to sign unchanged upstream xdelta under our identity.
 The installer-only request respects that restriction. Disclose the game-derived
-delta data and ask whether this scope qualifies; provider approval is pending.
+delta data and ask whether this scope qualifies if the application is resumed.
+No provider review or approval is currently in progress.
 
 The dormant workflow signing job requires manual invocation on `main`, the
 `code-signing` environment and an approved installer signing provider.

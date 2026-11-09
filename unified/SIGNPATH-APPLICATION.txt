@@ -1,4 +1,4 @@
-DRAFT FOR OWNER REVIEW — INSTALLER-ONLY APPLICATION, NOT SUBMITTED.
+DRAFT ON HOLD — INSTALLER-ONLY APPLICATION, NOT SUBMITTED.
 
 Project: Crimson Skies Korean Wide
 Repository: https://github.com/schultz1138/crimson-skies-korean-wide
