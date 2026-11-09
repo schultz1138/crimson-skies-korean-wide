@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "baseManifestSha256": "5c7c84d7cc31444ef1b9d54a2bf14d50f8f3de749c3743314ea93fb4484a03cd",
+  "fileIndex": 8,
+  "nodes": [
+    {
+      "sha256": "4a0aa13e85434ed0ead11e3ee142741f5758a3b5a95bf356668a55cb2083f0e9",
+      "bytes": 170459136
+    },
+    {
+      "sha256": "56ec942d5e948133a9392bc1065aea900155ad4060a541a3d75df2f6dd4d3c63",
+      "bytes": 170459136
+    }
+  ],
+  "edges": [
+    {
+      "source": "68317f440ba24f74a832346f9ddf400f6a3076a743cd8e80b67be62aa5484e31",
+      "target": "4a0aa13e85434ed0ead11e3ee142741f5758a3b5a95bf356668a55cb2083f0e9",
+      "path": "patches/051.vcdiff",
+      "bytes": 13220,
+      "sha256": "a83d2e9520a5d75a06fbdb9b1e5187ff528190537a86ce55e282fdc4061841b8"
+    },
+    {
+      "source": "4a0aa13e85434ed0ead11e3ee142741f5758a3b5a95bf356668a55cb2083f0e9",
+      "target": "68317f440ba24f74a832346f9ddf400f6a3076a743cd8e80b67be62aa5484e31",
+      "path": "patches/052.vcdiff",
+      "bytes": 8686,
+      "sha256": "c553ee109ce44b04349d37816f9394142def299f01e8a4582aca266c5cd50785"
+    },
+    {
+      "source": "e24a1398a97f79dfe65e20aff9ebaef7587fd823bdf9e8554d4fec2e67442cb5",
+      "target": "56ec942d5e948133a9392bc1065aea900155ad4060a541a3d75df2f6dd4d3c63",
+      "path": "patches/053.vcdiff",
+      "bytes": 13220,
+      "sha256": "aeb35d3cb52b3bd54d1085a9cbb6d1d9d83fdbaccfcda3318fff7aa7fcc5fd1c"
+    },
+    {
+      "source": "56ec942d5e948133a9392bc1065aea900155ad4060a541a3d75df2f6dd4d3c63",
+      "target": "e24a1398a97f79dfe65e20aff9ebaef7587fd823bdf9e8554d4fec2e67442cb5",
+      "path": "patches/054.vcdiff",
+      "bytes": 8686,
+      "sha256": "7f5461f8f64e16872e83835bb317f1f06c3becca2ef59eebbadc4cd5d8c57b62"
+    }
+  ],
+  "profileUpdates": [
+    {
+      "id": "k1-w0-d0-off",
+      "before": "68317f440ba24f74a832346f9ddf400f6a3076a743cd8e80b67be62aa5484e31",
+      "after": "4a0aa13e85434ed0ead11e3ee142741f5758a3b5a95bf356668a55cb2083f0e9"
+    },
+    {
+      "id": "k1-w1-d0-off",
+      "before": "68317f440ba24f74a832346f9ddf400f6a3076a743cd8e80b67be62aa5484e31",
+      "after": "4a0aa13e85434ed0ead11e3ee142741f5758a3b5a95bf356668a55cb2083f0e9"
+    },
+    {
+      "id": "k1-w0-d1-off",
+      "before": "e24a1398a97f79dfe65e20aff9ebaef7587fd823bdf9e8554d4fec2e67442cb5",
+      "after": "56ec942d5e948133a9392bc1065aea900155ad4060a541a3d75df2f6dd4d3c63"
+    },
+    {
+      "id": "k1-w1-d1-off",
+      "before": "e24a1398a97f79dfe65e20aff9ebaef7587fd823bdf9e8554d4fec2e67442cb5",
+      "after": "56ec942d5e948133a9392bc1065aea900155ad4060a541a3d75df2f6dd4d3c63"
+    }
+  ],
+  "proofs": [
+    {
+      "variant": "foundation",
+      "changedMember": "ca/res/sh_tutorial.sdb",
+      "restoredScriptSha256": "8838dd3f46bd64f14aa6453d8ad487a3cb23e67b0b7a870ce66753fb2fefe18c",
+      "archiveBytes": 15113239,
+      "archiveSha256": "e2e89a5162a15970bf23179094a7d7bd40173bcaeee747e5ede3633416c55fe6",
+      "path": "Game/DefaultPackage.data/Data0005",
+      "sha256": "4a0aa13e85434ed0ead11e3ee142741f5758a3b5a95bf356668a55cb2083f0e9",
+      "bytes": 170459136,
+      "data0000Unchanged": true
+    },
+    {
+      "variant": "full-dub",
+      "changedMember": "ca/res/sh_tutorial.sdb",
+      "restoredScriptSha256": "8838dd3f46bd64f14aa6453d8ad487a3cb23e67b0b7a870ce66753fb2fefe18c",
+      "archiveBytes": 15113239,
+      "archiveSha256": "e2e89a5162a15970bf23179094a7d7bd40173bcaeee747e5ede3633416c55fe6",
+      "path": "Game/DefaultPackage.data/Data0005",
+      "sha256": "56ec942d5e948133a9392bc1065aea900155ad4060a541a3d75df2f6dd4d3c63",
+      "bytes": 170459136,
+      "data0000Unchanged": true
+    }
+  ]
+}

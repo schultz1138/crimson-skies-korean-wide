@@ -6,13 +6,13 @@ Extract the entire ZIP, close the game and original Play window, then run
 and open the original launcher. No earlier patch installation or API key is
 needed when starting from exact stock files.
 
-[Download on GitHub](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-alpha.1) · [한국어](README.md)
-The installer ZIP is `CrimsonSkies-Unified-0.14.0-alpha.1.zip`; the source ZIP is separate.
+[Download on GitHub](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-beta.1) · [한국어](README.md)
+The installer ZIP is `CrimsonSkies-Unified-0.14.0-beta.1.zip`; the source ZIP is separate.
 
 ## Code signing policy
 
-The public Alpha 1 installer and bundled xdelta are unsigned. An installer
-launch block was reproduced on a PC with Smart App Control enabled. See
+The Beta 1 installer and bundled xdelta are unsigned. A previous installer
+launch was blocked on a PC with Smart App Control enabled. See
 [packaging and optional signing](SIGNING.md). Normal fan-patch ZIP packaging
 does not require SignPath or certificates. Checksums do not grant Windows
 execution permission.
@@ -22,14 +22,13 @@ execution permission.
 > If Smart App Control (SAC) is enabled and blocks this installer, installing this release requires turning SAC off. SAC has no per-app exception.
 > **Disabling SAC reduces app-execution protection for the entire PC. Depending on your Windows environment, you may be unable to turn it back on without resetting or reinstalling Windows.** Re-enabling it after installation is not guaranteed. Read the confirmation shown by Windows before deciding.
 > Proceed only if you understand and accept this change. To keep SAC enabled, postpone installation and wait for a signed update. If SAC is already off, no SAC setting change is needed.
-> The installer does not change security settings automatically. An installer-only free-signing application is being prepared; it has not been submitted or approved, and no signed-release date is confirmed.
+> The installer does not change security settings automatically. The free-signing application is on hold at draft stage; it has not been submitted or approved, and no signed-release date is confirmed.
 >
 > [Microsoft SAC FAQ](https://support.microsoft.com/en-us/windows/security/threat-malware-protection/smart-app-control-frequently-asked-questions) · [Signing status](SIGNING.md)
 
-## Alpha 2 candidate presets
+## Beta 1 presets
 
-The source candidate offers four exclusive voice/caption presets. The public
-Alpha 1 still uses the earlier checkbox UI.
+Choose one of four voice/caption presets and select widescreen independently.
 
 | Preset | Behavior |
 | --- | --- |
@@ -53,12 +52,17 @@ with their own launcher first. For pre-existing Alpha2, restore captions,
 then audio with the old tools before migration. Old backup ownership is
 not adopted. Restore returns to this installer's first installation-before
 state, stock or 0.11; retain all older tools/backups as needed.
+For an older **0.14 unified installer**, use that version's **Restore** before
+installing Beta 1. Backup receipts are version-bound and are not adopted.
 
 Allow about **14GB** extra for the complete dub. Only changing files are
 backed up/staged. All chosen results are verified before atomic file swaps.
 A journal supports rollback/recovery after interruption. Unknown files are
-refused. The targeted Alpha2 movie voice cache refresh preserves checkpoints
-and every unowned cache byte. Resolution/language settings are migrated;
+refused. Known game-asset caches are refreshed to match the selected profile;
+checkpoints and every other cache byte are preserved. Unknown cached payloads
+and insufficient existing allocations are refused. This fixes stale captions
+after switching profiles and added tutorial captions in Voices only mode.
+Resolution/language settings are migrated;
 AA and other settings are preserved. Save profiles are not opened or modified.
 Do not run other installers or the game during installation. Use this tool
 for subsequent component changes rather than mixing older installers.
@@ -85,7 +89,7 @@ the installed game as build output. The dub-caption tree needs only its three
 modified files. Output must be new and separate from all inputs/source.
 
 The ZIP contains only VCDIFFs, managed tools, metadata and notices. Source
-builds create the Alpha 2 bundle, `preparation.json`, and a normal unsigned
+builds create the Beta 1 bundle, `preparation.json`, and a normal unsigned
 ZIP/checksum/report in the `release` subdirectory. `--prepare-only` skips ZIP
 creation. Existing prepared bundles can use `release.py finalize` directly;
 only the optional signed path uses `--require-signatures`. See [SIGNING.md](SIGNING.md).
@@ -93,9 +97,9 @@ only the optional signed path uses `--require-signatures`. See [SIGNING.md](SIGN
 Native composition restores only the source caption compiler's declared
 hooks/dispatch ranges. Disabling wide uses the public pre-wide caption stage,
 stock GPU and stock resolution menu. Default full installation preserves
-Alpha2 Native/volume outputs. Normal gameplay was confirmed after reinstalling
-the default complete selection. Other component combinations and a complete
-campaign playthrough still need verification; this is an alpha. Installer MIT;
+Alpha2 Native/volume outputs. See the release verification record for the scope
+of actual installation/gameplay checks. A complete campaign playthrough and
+4K gameplay have not been verified. Installer MIT;
 font SIL OFL; see bundled notices.
 
 ## Installer tests
@@ -106,8 +110,8 @@ exit/recovery, tampered inputs/deltas/backups and unrelated settings preservatio
 The `UNIFIED_TEST` executable is never shipped.
 
 ```powershell
-python unified/tests/transactions.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-alpha.2 --out D:\unified-synthetic-001
-python unified/tests/owned_roundtrip.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-alpha.2 --stock D:\owned-stock\Content --out D:\unified-owned-test-001
+python unified/tests/transactions.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-beta.1 --out D:\unified-synthetic-001
+python unified/tests/owned_roundtrip.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-beta.1 --stock D:\owned-stock\Content --out D:\unified-owned-test-001
 ```
 
 Both require a fresh scratch directory. The full-size test copies owned stock

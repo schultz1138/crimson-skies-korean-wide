@@ -2,8 +2,8 @@
 
 ## Code signing policy
 
-공개 0.14 Alpha 1 설치기와 xdelta는 미서명이며 Smart App Control 환경에서
-설치기 차단이 확인되었습니다. 일반 팬 패치 ZIP 배포에 SignPath 신청이나 서명은
+0.14 Beta 1 설치기와 xdelta는 미서명입니다. 이전 설치기는 Smart App Control 환경에서
+실행 차단이 확인되었습니다. 일반 팬 패치 ZIP 배포에 SignPath 신청이나 서명은
 필수가 아닙니다. [일반 배포와 선택적 서명 안내](unified/SIGNING.md)를 확인하세요.
 
 > [!WARNING]
@@ -11,19 +11,20 @@
 > Smart App Control(SAC)이 켜져 있고 이 설치기를 차단한다면, 현재 배포본을 설치하려면 SAC를 꺼야 합니다. SAC에는 이 앱만 허용하는 예외 기능이 없습니다.
 > **SAC를 끄면 PC 전체의 앱 실행 보호가 줄어들며, 환경에 따라 다시 켤 수 없고 Windows 초기화 또는 재설치가 필요할 수 있습니다.** ‘설치 후 다시 켜기’를 보장하지 않습니다. 실제 Windows 확인창의 안내를 먼저 확인하세요.
 > 이 영향을 이해하고 동의하는 사용자만 설치를 진행하세요. SAC를 유지하려면 설치를 보류하고 서명된 업데이트를 기다려 주세요. 이미 SAC가 꺼진 PC에서는 SAC 설정을 바꿀 필요가 없습니다.
-> 설치기는 보안 설정을 자동으로 변경하지 않습니다. 설치기만 대상으로 무료 서명 신청을 준비 중이며, 아직 제출·승인되지 않았고 서명본 제공 시점도 확정되지 않았습니다.
+> 설치기는 보안 설정을 자동으로 변경하지 않습니다. 무료 서명 신청은 초안 단계에서 보류했으며 제출·승인되지 않았습니다. 서명본 제공 시점도 확정되지 않았습니다.
 >
 > [Microsoft SAC 안내](https://support.microsoft.com/en-us/windows/security/threat-malware-protection/smart-app-control-frequently-asked-questions) · [서명 준비 현황](unified/SIGNING.md)
 
-## 0.14.0 Alpha 1: 선택형 통합 설치기
+## 0.14.0 Beta 1: 선택형 통합 설치기
 
-**[통합 설치기 다운로드](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-alpha.1)** · [설치·복구·소스 빌드 안내](unified/README.md) · [검증 기록](unified/verification.json)
+**[통합 설치기 다운로드](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-beta.1)** · [설치·복구·소스 빌드 안내](unified/README.md) · [검증 기록](unified/verification-beta1.json)
 
-`CrimsonSkies-Unified-0.14.0-alpha.1.zip` 하나를 풀고 `CrimsonSkiesSetup.exe`를 실행하세요. 원본에서 **한글화·와이드스크린·한국어 더빙·자막 종류**를 한 화면에서 선택하고 설치할 수 있습니다. 별도의 0.11 기반 설치나 API 키가 필요 없습니다. 이후 구성 변경·자동 백업·복구도 같은 도구에서 수행합니다.
+`CrimsonSkies-Unified-0.14.0-beta.1.zip` 하나를 풀고 `CrimsonSkiesSetup.exe`를 실행하세요. **원본 / 영어 음성+한국어 자막 / 한국어 더빙만 / 한국어 더빙+맞춤 자막** 중 하나를 고르고 와이드스크린을 별도로 선택합니다. 별도의 0.11 기반 설치나 API 키가 필요 없습니다. 구성 변경·자동 백업·복구도 같은 도구에서 수행합니다. Beta 1은 ‘더빙만’의 추가 자막과 구성 전환 후 이전 자산이 남는 캐시 문제를 수정합니다.
 
 정확한 원본 또는 공개 0.11 기반 상태를 지원합니다. 기존 0.12 언어팩은 이전 실행기에서 복구하고, 0.13 더빙은 **자막 → 음성 복구** 후 전환하세요. 전체 더빙은 약 14GB의 추가 여유 공간을 권장합니다. 프로필 관리는 기존 별도 런처의 기능입니다.
+이전 0.14 통합 설치기를 사용했다면 **그 버전의 설치 전 복구**를 먼저 실행하세요. 버전별 백업 기록은 인계하지 않습니다.
 
-12가지 구성의 설치기 검사와 실제 크기 파일의 설치·복구 검증을 통과했습니다. **기본 전체 선택으로 재설치한 뒤 정상 플레이도 확인했습니다.** 다른 선택 조합의 실제 화면과 엔딩까지의 전 구간 검증은 진행 중이므로 알파 프리릴리즈입니다.
+12가지 내부 구성의 합성 설치기 검사와 자산 캐시 보존 검사를 통과했습니다. 실제 설치·플레이 검증 범위는 [검증 기록](unified/verification-beta1.json)에 명시합니다. 엔딩까지의 전 구간 플레이와 4K 검증은 완료하지 않은 베타 프리릴리즈입니다.
 
 ## 0.13.0 Alpha 2: 전체 한국어 더빙과 더빙 대사 자막
 

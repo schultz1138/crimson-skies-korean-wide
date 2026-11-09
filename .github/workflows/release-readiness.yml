@@ -31,7 +31,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Release policy tests
-        run: python -m unittest discover -s unified/tests -p test_release.py -v
+        run: python -m unittest discover -s unified/tests -p "test_*.py" -v
       - name: Prepare from pinned public inputs without launching downloaded code
         id: prepare
         shell: pwsh
@@ -60,11 +60,13 @@ jobs:
           "decoder-ready=$decoderReady" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
           "Preparation only. Signed decoder ready: $decoderReady. No release has been published." | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Append -Encoding utf8
       - name: Test actual preset policy and render own UI controls
-        run: python unified/tests/presets.py --package '${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-alpha.2' --out '${{ runner.temp }}/crimson-presets'
+        run: python unified/tests/presets.py --package '${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-beta.1' --out '${{ runner.temp }}/crimson-presets'
       - name: Test install and recovery transactions on synthetic data
-        run: python unified/tests/transactions.py --package '${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-alpha.2' --out '${{ runner.temp }}/crimson-transactions'
+        run: python unified/tests/transactions.py --package '${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-beta.1' --out '${{ runner.temp }}/crimson-transactions'
+      - name: Test checkpoint-preserving asset cache transactions
+        run: python unified/tests/cache_transactions.py --package '${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-beta.1' --out '${{ runner.temp }}/crimson-cache-transactions'
       - name: Build normal unsigned fan-patch ZIP and checksums
-        run: python unified/release.py finalize --bundle '${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-alpha.2' --preparation '${{ runner.temp }}/crimson-signing/prepared/preparation.json' --out '${{ runner.temp }}/crimson-signing/package'
+        run: python unified/release.py finalize --bundle '${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-beta.1' --preparation '${{ runner.temp }}/crimson-signing/prepared/preparation.json' --out '${{ runner.temp }}/crimson-signing/package'
       - name: Preserve fan-patch ZIP and verification reports
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
@@ -72,6 +74,7 @@ jobs:
           path: |
             ${{ runner.temp }}/crimson-signing/package
             ${{ runner.temp }}/crimson-transactions/report.json
+            ${{ runner.temp }}/crimson-cache-transactions/report.json
           if-no-files-found: error
           retention-days: 7
       - name: Preserve preset UI review images and results
@@ -90,7 +93,7 @@ jobs:
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: UNSIGNED-installer-review-only
-          path: ${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-alpha.2/CrimsonSkiesSetup.exe
+          path: ${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-beta.1/CrimsonSkiesSetup.exe
           if-no-files-found: error
           retention-days: 7
       - name: Preserve matching preparation state
@@ -100,7 +103,7 @@ jobs:
           name: preparation-state-not-a-release
           path: |
             ${{ runner.temp }}/crimson-signing/prepared/preparation.json
-            ${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-alpha.2
+            ${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-beta.1
           if-no-files-found: error
           retention-days: 7
 

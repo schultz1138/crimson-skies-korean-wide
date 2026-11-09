@@ -4,13 +4,13 @@
 설치하는 오프라인 시험본입니다. 원본 게임 파일은 포함하지 않습니다.
 더빙 음성은 제작 완료된 차분 데이터로 적용합니다. API 키가 필요 없습니다.
 
-[GitHub 다운로드](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-alpha.1) · [English](README.en.md)
-실행용 ZIP은 `CrimsonSkies-Unified-0.14.0-alpha.1.zip`이며 소스 ZIP은 별도입니다.
+[GitHub 다운로드](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-beta.1) · [English](README.en.md)
+실행용 ZIP은 `CrimsonSkies-Unified-0.14.0-beta.1.zip`이며 소스 ZIP은 별도입니다.
 
 ## Code signing policy
 
-현재 공개 Alpha 1의 설치기와 동봉 xdelta는 미서명 상태이며, Smart App Control이
-켜진 PC에서 설치기 실행 차단을 재현했습니다. 일반 팬 패치는 미서명 ZIP으로
+Beta 1의 설치기와 동봉 xdelta는 미서명 상태입니다. 이전 설치기는 Smart App Control이
+켜진 PC에서 실행 차단을 재현했습니다. 일반 팬 패치는 미서명 ZIP으로
 배포할 수 있으며 SignPath 신청은 선택 사항입니다. [배포와 선택적 서명](SIGNING.md)을
 확인하세요. 체크섬 검증은 Windows의 실행 허용을 의미하지 않습니다.
 
@@ -19,7 +19,7 @@
 > Smart App Control(SAC)이 켜져 있고 이 설치기를 차단한다면, 현재 배포본을 설치하려면 SAC를 꺼야 합니다. SAC에는 이 앱만 허용하는 예외 기능이 없습니다.
 > **SAC를 끄면 PC 전체의 앱 실행 보호가 줄어들며, 환경에 따라 다시 켤 수 없고 Windows 초기화 또는 재설치가 필요할 수 있습니다.** ‘설치 후 다시 켜기’를 보장하지 않습니다. 실제 Windows 확인창의 안내를 먼저 확인하세요.
 > 이 영향을 이해하고 동의하는 사용자만 설치를 진행하세요. SAC를 유지하려면 설치를 보류하고 서명된 업데이트를 기다려 주세요. 이미 SAC가 꺼진 PC에서는 SAC 설정을 바꿀 필요가 없습니다.
-> 설치기는 보안 설정을 자동으로 변경하지 않습니다. 설치기만 대상으로 무료 서명 신청을 준비 중이며, 아직 제출·승인되지 않았고 서명본 제공 시점도 확정되지 않았습니다.
+> 설치기는 보안 설정을 자동으로 변경하지 않습니다. 무료 서명 신청은 초안 단계에서 보류했으며 제출·승인되지 않았습니다. 서명본 제공 시점도 확정되지 않았습니다.
 >
 > [Microsoft SAC 안내](https://support.microsoft.com/en-us/windows/security/threat-malware-protection/smart-app-control-frequently-asked-questions) · [서명 준비 현황](SIGNING.md)
 
@@ -34,10 +34,11 @@
 기존 0.11 기반 패치도 지원합니다. 기존 Alpha2 더빙/자막이나 0.12 언어팩은
 이전 도구로 먼저 복구하세요. Alpha2는 **자막 복구 → 음성 복구** 순서입니다.
 이전 도구의 백업 기록을 통합 설치기의 복구 기록으로 가져오지는 않습니다.
+이전 **0.14 통합 설치기**를 사용했다면 해당 버전의 **설치 전 복구**를 먼저 실행한 뒤
+Beta 1로 설치하세요. 버전별 백업과 복구 기록은 서로 인계하지 않습니다.
 
-## Alpha 2 준비본의 프리셋
+## Beta 1의 프리셋
 
-아래는 개발 중인 Alpha 2의 선택 화면입니다. 공개 Alpha 1은 기존 체크박스 화면을 사용합니다.
 음성·자막 프리셋 중 하나를 고르고, 와이드스크린은 별도로 선택합니다.
 
 | 프리셋 | 동작 |
@@ -60,8 +61,10 @@
 
 전체 더빙은 약 **14GB**의 추가 여유 공간을 권장합니다. 필요한 공간을
 설치 전에 확인하고, 바뀌는 파일만 백업·준비합니다. 파일 전체 SHA-256을
-확인하고 모든 결과를 준비한 뒤 교체합니다. 영상 음성 캐시는 기존 Alpha2와
-동일한 제한된 갱신을 사용하며 다른 캐시 데이터와 체크포인트를 보존합니다.
+확인하고 모든 결과를 준비한 뒤 교체합니다. 알려진 게임 자산 캐시도 선택한
+구성과 일치하도록 갱신합니다. 체크포인트와 그 밖의 캐시 바이트는 그대로 보존하며,
+알 수 없는 캐시 내용이나 부족한 기존 할당 공간은 덮어쓰지 않고 거부합니다.
+이전 구성의 무전 자막이 캐시에 남는 현상과 ‘더빙만’에서 추가 자막이 나타나는 현상을 수정했습니다.
 
 **설치 전 복구**는 이 설치기 첫 실행 직전의 원본 또는 0.11 상태로 돌아갑니다.
 중단 기록이 있으면 **중단 작업 복구**를 먼저 실행하세요. 알 수 없는 변경은
@@ -90,7 +93,7 @@ python unified/build.py --stock D:\owned-stock\Content --foundation D:\source-01
 설치 폴더를 출력으로 사용하지 마세요. `dub-captions`에는 세 변경 파일만 있어도
 됩니다. 새로운 출력 폴더를 사용하세요. 배포 ZIP에는 차분·도구·안내만 들어갑니다.
 
-현재 소스 빌드는 Alpha 2 폴더와 `preparation.json`, `release` 폴더의 일반 미서명
+현재 소스 빌드는 Beta 1 폴더와 `preparation.json`, `release` 폴더의 일반 미서명
 ZIP·SHA-256·검증 보고서를 생성합니다. `--prepare-only`는 ZIP 없이 준비만 합니다.
 이미 준비된 폴더는 `release.py finalize`로 패키징할 수 있습니다. 서명이 필요한
 별도 경로에서만 `--require-signatures`를 사용합니다. [자세한 안내](SIGNING.md).
@@ -98,8 +101,8 @@ ZIP·SHA-256·검증 보고서를 생성합니다. `--prepare-only`는 ZIP 없�
 선택형 Native는 공개 캡션 컴파일러가 선언한 후크와 디스패치 범위만 원본
 명령으로 복구합니다. 와이드스크린을 끄면 공개 0.10 캡션 단계의 Native와
 원본 GPU/해상도 메뉴를 사용합니다. 기본 전체 선택의 Native/게임 볼륨은
-기존 Alpha2와 같습니다. 기본 전체 선택으로 재설치한 뒤 정상 플레이를 확인했습니다.
-다른 선택 조합의 실제 화면과 엔딩까지의 전 구간 검증은 별도로 필요합니다.
+기존 Alpha2와 같습니다. 실제 설치·플레이 검증 범위는 배포의 검증 기록에 명시합니다.
+엔딩까지의 전 구간 플레이와 4K 플레이 검증은 완료하지 않았습니다.
 
 설치 소스 MIT, 글꼴 SIL OFL. 원작 및 AI 음성 고지는 포함한 라이선스를 확인하세요.
 
@@ -111,8 +114,8 @@ ZIP·SHA-256·검증 보고서를 생성합니다. `--prepare-only`는 ZIP 없�
 `UNIFIED_TEST`로 컴파일하는 테스트 실행기는 배포하지 않습니다.
 
 ```powershell
-python unified/tests/transactions.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-alpha.2 --out D:\unified-synthetic-001
-python unified/tests/owned_roundtrip.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-alpha.2 --stock D:\owned-stock\Content --out D:\unified-owned-test-001
+python unified/tests/transactions.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-beta.1 --out D:\unified-synthetic-001
+python unified/tests/owned_roundtrip.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-beta.1 --stock D:\owned-stock\Content --out D:\unified-owned-test-001
 ```
 
 두 검사 모두 새 출력 폴더를 요구합니다. 실제 크기 검사는 원본 입력을 별도로

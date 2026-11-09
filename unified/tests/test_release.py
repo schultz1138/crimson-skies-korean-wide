@@ -61,10 +61,11 @@ class ReleaseTests(unittest.TestCase):
         release.save(self.bundle / 'manifest.json', self.manifest)
 
     def test_version_and_metadata(self):
-        self.assertEqual(release.version(release.NEXT_RELEASE), '0.14.0.2')
+        self.assertEqual(release.version(release.NEXT_RELEASE), '0.14.0.1')
+        self.assertEqual(release.version('CrimsonSkies-Unified-0.14.0-alpha.2'), '0.14.0.2')
         metadata = release.assembly_metadata(release.NEXT_RELEASE)
         self.assertIn('AssemblyProduct("Crimson Skies Korean Wide")', metadata)
-        self.assertIn('AssemblyInformationalVersion("0.14.0-alpha.2")', metadata)
+        self.assertIn('AssemblyInformationalVersion("0.14.0-beta.1")', metadata)
 
     def test_version_rejects_injection_and_overflow(self):
         for value in ['anything', 'CrimsonSkies-Unified-0.14.0-alpha.2"', 'CrimsonSkies-Unified-65535.1.0-alpha.1']:
@@ -156,7 +157,8 @@ class ReleaseTests(unittest.TestCase):
         self.assertFalse(self.out.exists())
 
     def valid_signature(self):
-        return dict(Status='Valid', Accepted=True, ProductName=release.PRODUCT, FileVersion='0.14.0.2')
+        return dict(Status='Valid', Accepted=True, ProductName=release.PRODUCT,
+                    FileVersion=release.version(self.manifest['releaseId']))
 
     def test_finalizer_packs_after_mock_signature_success(self):
         with patch.object(release, 'verify_signature', return_value=self.valid_signature()):
@@ -181,7 +183,7 @@ class ReleaseTests(unittest.TestCase):
 
     def test_rejects_metadata_mismatch(self):
         signature = self.valid_signature()
-        signature['FileVersion'] = '0.14.0.1'
+        signature['FileVersion'] = '9.9.9.9'
         with patch.object(release, 'verify_signature', return_value=signature):
             with self.assertRaisesRegex(ValueError, 'metadata mismatch'):
                 release.finalize(self.bundle, self.preparation, self.out, require_signatures=True)
