@@ -3,8 +3,9 @@
 ## Code signing policy
 
 The public 0.14 Alpha 1 installer and xdelta are unsigned; an installer block
-was reproduced with Smart App Control enabled. See [signing readiness and
-release requirements](unified/SIGNING.md). A signed fix has not been published.
+was reproduced with Smart App Control enabled. Signing/SignPath enrollment is
+optional for normal fan-patch ZIP distribution. See [packaging and optional
+signing](unified/SIGNING.md).
 
 ## 0.14.0 Alpha 1: selective unified setup
 

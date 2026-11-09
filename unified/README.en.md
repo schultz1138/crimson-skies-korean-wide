@@ -13,8 +13,9 @@ The installer ZIP is `CrimsonSkies-Unified-0.14.0-alpha.1.zip`; the source ZIP i
 
 The public Alpha 1 installer and bundled xdelta are unsigned. An installer
 launch block was reproduced on a PC with Smart App Control enabled. See
-[signing preparation and outstanding requirements](SIGNING.md). Alpha 2 is a
-signing candidate, not an already signed compatibility fix.
+[packaging and optional signing](SIGNING.md). Normal fan-patch ZIP packaging
+does not require SignPath or certificates. Checksums do not grant Windows
+execution permission.
 
 ## Alpha 2 candidate presets
 
@@ -75,10 +76,10 @@ the installed game as build output. The dub-caption tree needs only its three
 modified files. Output must be new and separate from all inputs/source.
 
 The ZIP contains only VCDIFFs, managed tools, metadata and notices. Source
-builds now stage Alpha 2 plus `preparation.json` without making a
-release ZIP. Provide the already signed decoder with `--signed-xdelta` before
-manifest compilation; the signature-gated `release.py finalize` creates the
-archive after installer signing. See [SIGNING.md](SIGNING.md) for the order.
+builds create the Alpha 2 bundle, `preparation.json`, and a normal unsigned
+ZIP/checksum/report in the `release` subdirectory. `--prepare-only` skips ZIP
+creation. Existing prepared bundles can use `release.py finalize` directly;
+only the optional signed path uses `--require-signatures`. See [SIGNING.md](SIGNING.md).
 
 Native composition restores only the source caption compiler's declared
 hooks/dispatch ranges. Disabling wide uses the public pre-wide caption stage,

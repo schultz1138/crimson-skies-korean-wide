@@ -1,4 +1,4 @@
-DRAFT ONLY — not submitted. Repository owner must review before use.
+DRAFT ONLY — OPTIONAL / ON HOLD, not submitted. Repository owner must review before use.
 
 Project: Crimson Skies Korean Wide
 Repository: https://github.com/schultz1138/crimson-skies-korean-wide
@@ -34,8 +34,9 @@ Important disclosures for eligibility review:
   keys, account data and saves are not distributed or submitted for signing.
 - The unchanged upstream xdelta3.exe is a separate unsigned dependency. We
   understand that we may not sign it under our project's Foundation identity.
-  Our finalizer will not create a release ZIP until it too has a trusted,
-  timestamped signature from an authorized provider. We have not resolved
+  Our optional signed-release path requires it too to have a trusted,
+  timestamped signature from an authorized provider. Normal unsigned ZIP
+  distribution remains available independently. We have not resolved
   that dependency or claimed full Smart App Control compatibility yet.
 
 Please confirm whether this installer/signing scope can qualify, including

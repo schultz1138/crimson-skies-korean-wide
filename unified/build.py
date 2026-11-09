@@ -42,7 +42,7 @@ def compile_setup(bundle,compile_dir):
 
 def build(a):
     from native_options import compose, NAME
-    from release import check_signed_tool, record_preparation
+    from release import check_signed_tool, record_preparation, finalize
     out=a.out.resolve()
     assert not out.exists(), 'Use a new output directory'
     for p in [a.stock,a.foundation,a.full_dub,a.dub_captions,a.native_work,REPO]:
@@ -140,11 +140,15 @@ def build(a):
     shutil.copytree(REPO/'licenses',bundle/'licenses')
     save(out/'build-report.json',dict(schema=1,releaseId=RELEASE,profiles=len(profiles),edges=edge_id,deltaBytes=sum(e['bytes'] for r in rows for e in r['edges']),manifestSha256=sha(bundle/'manifest.json'),gameWrites=0))
     record_preparation(bundle,out/'preparation.json')
-    print(json.dumps(dict(status='PREPARED_NOT_SIGNED_RELEASE',bundle=str(bundle),next='Sign installer, then run unified/release.py finalize'),ensure_ascii=False),flush=True)
+    if a.prepare_only:
+        print(json.dumps(dict(status='PREPARED',bundle=str(bundle)),ensure_ascii=False),flush=True)
+    else:
+        print(json.dumps(finalize(bundle,out/'preparation.json',out/'release'),ensure_ascii=False),flush=True)
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)
     for flag in ['stock','foundation','full-dub','dub-captions','native-work','xdelta','out']:p.add_argument('--'+flag,required=True,type=Path)
     p.add_argument('--delta-cache',type=Path,help='Optional previous patches directory; every reused delta is decoded and its complete target hash verified')
     p.add_argument('--signed-xdelta',type=Path,help='Already trusted/timestamped signature on the exact pinned xdelta code; must be finalized before manifest compilation')
+    p.add_argument('--prepare-only',action='store_true',help='Stage the bundle without a ZIP, for optional later signing')
     build(p.parse_args())

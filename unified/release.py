@@ -1,4 +1,4 @@
-"""Prepare an installer signing candidate; package only verified signed code.
+"""Build a verified fan-patch ZIP, with optional strict signature verification.
 
 No installed game files are opened. No certificate is installed, no executable
 from the input bundle is launched, and no security policy is changed.
@@ -199,7 +199,7 @@ def source_hashes():
 
 def record_preparation(bundle, report):
     manifest, files = verify_bundle(bundle)
-    save(report, dict(schema=1, status='PREPARED_NOT_A_SIGNED_RELEASE',
+    save(report, dict(schema=1, status='PREPARED',
                      releaseId=manifest['releaseId'], files=files,
                      installerCodeIdentity=pe_code_identity(bundle / 'CrimsonSkiesSetup.exe'),
                      toolCodeIdentity=pe_code_identity(bundle / 'tools/xdelta3.exe'),
@@ -237,7 +237,7 @@ def prepare(bundle, out, signed_xdelta=None, release_id=NEXT_RELEASE):
         text = (HERE / name).read_text('utf-8')
         text = text.replace('0.14.0-alpha.1', release_id.removeprefix('CrimsonSkies-Unified-'))
         text = text.replace('0.14.0 Alpha 1', release_id.removeprefix('CrimsonSkies-Unified-'))
-        (target / name).write_text('> Signing candidate: installation/gameplay on this build is not yet verified.\n\n' + text, encoding='utf-8')
+        (target / name).write_text('> Candidate build: installation/gameplay on this executable is not yet verified.\n\n' + text, encoding='utf-8')
     shutil.copyfile(HERE / 'SIGNING.md', target / 'SIGNING.md')
     # Also work with isolated/embedded Python distributions that omit script dirs.
     if str(HERE) not in sys.path:
@@ -245,15 +245,15 @@ def prepare(bundle, out, signed_xdelta=None, release_id=NEXT_RELEASE):
     from build import compile_setup
     compile_setup(target, out / 'compile')
     record_preparation(target, out / 'preparation.json')
-    return dict(status='PREPARED_NOT_A_SIGNED_RELEASE', bundle=str(target),
+    return dict(status='PREPARED', bundle=str(target),
                 signedDecoderProvided=bool(signed_xdelta), archiveCreated=False)
 
 
-def finalize(bundle, preparation, out):
+def finalize(bundle, preparation, out, require_signatures=False):
     bundle, preparation, out = bundle.resolve(), preparation.resolve(), out.resolve()
-    require_new_output(out, [bundle, preparation.parent])
+    require_new_output(out, [bundle, preparation])
     report = load(preparation)
-    need(report['schema'] == 1 and report['status'] == 'PREPARED_NOT_A_SIGNED_RELEASE', 'Invalid preparation report')
+    need(report['schema'] == 1 and report['status'] in {'PREPARED', 'PREPARED_NOT_A_SIGNED_RELEASE'}, 'Invalid preparation report')
     manifest, files = verify_bundle(bundle)
     need(manifest['releaseId'] == report['releaseId'], 'Release identity changed')
     need(manifest['releaseId'] != 'CrimsonSkies-Unified-0.14.0-alpha.1', 'Keep the published alpha.1 immutable')
@@ -264,10 +264,17 @@ def finalize(bundle, preparation, out):
     need(pe_code_identity(bundle / 'CrimsonSkiesSetup.exe') == report['installerCodeIdentity'],
          'Installer code/resources changed after preparation')
     need(pe_code_identity(bundle / 'tools/xdelta3.exe') == report['toolCodeIdentity'], 'Decoder code changed')
-    signatures = {rel: verify_signature(bundle / rel) for rel in sorted(BINARIES)}
-    installer = signatures['CrimsonSkiesSetup.exe']
-    need(installer['ProductName'] == PRODUCT and installer['FileVersion'] == version(manifest['releaseId']),
-         'Installer product/version metadata mismatch')
+    signatures = {}
+    if require_signatures:
+        signatures = {rel: verify_signature(bundle / rel) for rel in sorted(BINARIES)}
+        installer = signatures['CrimsonSkiesSetup.exe']
+        need(installer['ProductName'] == PRODUCT and installer['FileVersion'] == version(manifest['releaseId']),
+             'Installer product/version metadata mismatch')
+    else:
+        # The normal unsigned path requires every prepared byte to stay exact.
+        # Only the opt-in signed path permits a post-build Authenticode change.
+        need(files['CrimsonSkiesSetup.exe'] == report['files']['CrimsonSkiesSetup.exe'],
+             'Installer file changed after preparation')
     # Validation above must succeed before creating any publishable archive.
     out.mkdir(parents=True)
     archive = out / (manifest['releaseId'] + '.zip')
@@ -288,10 +295,11 @@ def finalize(bundle, preparation, out):
     finally:
         if temporary.exists():
             temporary.unlink()
-    result = dict(schema=1, status='SIGNATURES_VERIFIED_GAMEPLAY_PENDING', releaseId=manifest['releaseId'],
+    result = dict(schema=1, status=('SIGNATURES_VERIFIED_GAMEPLAY_PENDING' if require_signatures else 'PACKAGE_VERIFIED_GAMEPLAY_PENDING'), releaseId=manifest['releaseId'],
                   archive=archive.name, bytes=archive.stat().st_size, sha256=sha(archive),
                   manifestSha256=files['manifest.json'], files=files, signatures=signatures,
                   sourceHashes=report['sourceHashes'], gameplayVerified=False, automaticallyPublished=False)
+    result['signatureVerification'] = 'verified' if require_signatures else 'not-requested'
     save(out / 'release-report.json', result)
     (out / 'SHA256SUMS.txt').write_text(result['sha256'] + '  ' + archive.name + '\n', encoding='utf-8')
     return result
@@ -300,20 +308,21 @@ def finalize(bundle, preparation, out):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest='command', required=True)
-    prep = sub.add_parser('prepare', help='Compile a source-built signing candidate from the pinned public bundle')
+    prep = sub.add_parser('prepare', help='Compile a candidate from the pinned public bundle')
     prep.add_argument('--bundle', required=True, type=Path)
     prep.add_argument('--out', required=True, type=Path)
     prep.add_argument('--signed-xdelta', type=Path)
     prep.add_argument('--release-id', default=NEXT_RELEASE)
-    final = sub.add_parser('finalize', help='Verify both signatures and every pinned file before creating a ZIP')
+    final = sub.add_parser('finalize', help='Verify pinned package files and create the normal fan-patch ZIP')
     final.add_argument('--bundle', required=True, type=Path)
     final.add_argument('--preparation', required=True, type=Path)
     final.add_argument('--out', required=True, type=Path)
+    final.add_argument('--require-signatures', action='store_true', help='Optional: also require trusted timestamped signatures on both EXEs')
     args = parser.parse_args()
     if args.command == 'prepare':
         result = prepare(args.bundle, args.out, args.signed_xdelta, args.release_id)
     else:
-        result = finalize(args.bundle, args.preparation, args.out)
+        result = finalize(args.bundle, args.preparation, args.out, args.require_signatures)
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
 

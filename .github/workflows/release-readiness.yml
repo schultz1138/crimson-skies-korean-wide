@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       request_signing:
-        description: 'Request approved provider signing (requires signed upstream decoder and configured account)'
+        description: 'Optional signing request; not required for the normal fan-patch ZIP'
         required: true
         type: boolean
         default: false
@@ -61,6 +61,19 @@ jobs:
           "Preparation only. Signed decoder ready: $decoderReady. No release has been published." | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Append -Encoding utf8
       - name: Test actual preset policy and render own UI controls
         run: python unified/tests/presets.py --package '${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-alpha.2' --out '${{ runner.temp }}/crimson-presets'
+      - name: Test install and recovery transactions on synthetic data
+        run: python unified/tests/transactions.py --package '${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-alpha.2' --out '${{ runner.temp }}/crimson-transactions'
+      - name: Build normal unsigned fan-patch ZIP and checksums
+        run: python unified/release.py finalize --bundle '${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-alpha.2' --preparation '${{ runner.temp }}/crimson-signing/prepared/preparation.json' --out '${{ runner.temp }}/crimson-signing/package'
+      - name: Preserve fan-patch ZIP and verification reports
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: fan-patch-package-unsigned
+          path: |
+            ${{ runner.temp }}/crimson-signing/package
+            ${{ runner.temp }}/crimson-transactions/report.json
+          if-no-files-found: error
+          retention-days: 7
       - name: Preserve preset UI review images and results
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
@@ -130,7 +143,8 @@ jobs:
           wait-for-completion: true
           output-artifact-directory: ${{ runner.temp }}/signed-installer
       # Final packaging is intentionally a separate maintainer step. Download
-      # preparation-state and the signed installer, verify/finalize, then run
+      # preparation-state and the signed installer, finalize with
+      # --require-signatures, then run
       # SAC-enabled installation/gameplay/restore QA before public publication.
       - name: Verify returned embedded signature
         shell: pwsh

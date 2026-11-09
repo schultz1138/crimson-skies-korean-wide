@@ -3,8 +3,8 @@
 ## Code signing policy
 
 공개 0.14 Alpha 1 설치기와 xdelta는 미서명이며 Smart App Control 환경에서
-설치기 차단이 확인되었습니다. [서명 준비 현황과 배포 조건](unified/SIGNING.md)을
-확인하세요. 서명된 수정 배포본은 아직 공개하지 않았습니다.
+설치기 차단이 확인되었습니다. 일반 팬 패치 ZIP 배포에 SignPath 신청이나 서명은
+필수가 아닙니다. [일반 배포와 선택적 서명 안내](unified/SIGNING.md)를 확인하세요.
 
 ## 0.14.0 Alpha 1: 선택형 통합 설치기
 

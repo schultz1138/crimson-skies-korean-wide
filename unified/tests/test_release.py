@@ -49,7 +49,7 @@ class ReleaseTests(unittest.TestCase):
         self.preparation = self.root / 'preparation.json'
         release.record_preparation(self.bundle, self.preparation)
         self.out = self.root / 'published'
-        # Finalizer requires output outside the preparation tree.
+        # Keep packaging output in a separate scratch directory for each test.
         self.final_temp = tempfile.TemporaryDirectory()
         self.out = Path(self.final_temp.name) / 'published'
 
@@ -143,16 +143,16 @@ class ReleaseTests(unittest.TestCase):
             release.finalize(self.bundle, self.preparation, self.out)
         self.assertFalse(self.out.exists())
 
-    def test_unsigned_does_not_create_archive(self):
+    def test_signed_mode_rejects_unsigned_without_archive(self):
         with patch.object(release, 'verify_signature', side_effect=ValueError('NotSigned')):
             with self.assertRaisesRegex(ValueError, 'NotSigned'):
-                release.finalize(self.bundle, self.preparation, self.out)
+                release.finalize(self.bundle, self.preparation, self.out, require_signatures=True)
         self.assertFalse(self.out.exists())
 
     def test_second_binary_failure_does_not_create_archive(self):
         with patch.object(release, 'verify_signature', side_effect=[self.valid_signature(), ValueError('NotSigned decoder')]):
             with self.assertRaisesRegex(ValueError, 'NotSigned decoder'):
-                release.finalize(self.bundle, self.preparation, self.out)
+                release.finalize(self.bundle, self.preparation, self.out, require_signatures=True)
         self.assertFalse(self.out.exists())
 
     def valid_signature(self):
@@ -160,11 +160,12 @@ class ReleaseTests(unittest.TestCase):
 
     def test_finalizer_packs_after_mock_signature_success(self):
         with patch.object(release, 'verify_signature', return_value=self.valid_signature()):
-            report = release.finalize(self.bundle, self.preparation, self.out)
+            report = release.finalize(self.bundle, self.preparation, self.out, require_signatures=True)
         archive = self.out / report['archive']
         self.assertEqual(release.sha(archive), report['sha256'])
         self.assertFalse(report['gameplayVerified'])
         self.assertFalse(report['automaticallyPublished'])
+        self.assertEqual(report['signatureVerification'], 'verified')
         with zipfile.ZipFile(archive) as packed:
             self.assertEqual(len(packed.namelist()), 4)
             self.assertTrue(all(name.startswith(release.NEXT_RELEASE + '/') for name in packed.namelist()))
@@ -183,7 +184,7 @@ class ReleaseTests(unittest.TestCase):
         signature['FileVersion'] = '0.14.0.1'
         with patch.object(release, 'verify_signature', return_value=signature):
             with self.assertRaisesRegex(ValueError, 'metadata mismatch'):
-                release.finalize(self.bundle, self.preparation, self.out)
+                release.finalize(self.bundle, self.preparation, self.out, require_signatures=True)
         self.assertFalse(self.out.exists())
 
     def test_rejects_modified_manifest_after_preparation(self):
@@ -237,6 +238,37 @@ class ReleaseTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'code differs'):
                 release.check_signed_tool(original, signed)
         verifier.assert_not_called()
+
+    def test_normal_package_does_not_require_signing_service(self):
+        with patch.object(release, 'verify_signature', side_effect=AssertionError('Signature service must not be called')):
+            report = release.finalize(self.bundle, self.preparation, self.out)
+        self.assertTrue((self.out / report['archive']).is_file())
+        self.assertEqual(report['signatureVerification'], 'not-requested')
+        self.assertEqual(report['signatures'], {})
+        self.assertFalse(report['gameplayVerified'])
+
+    def test_normal_package_rejects_post_preparation_certificate_change(self):
+        (self.bundle / 'CrimsonSkiesSetup.exe').write_bytes(pe_bytes(True))
+        with self.assertRaisesRegex(ValueError, 'Installer file changed'):
+            release.finalize(self.bundle, self.preparation, self.out)
+        self.assertFalse(self.out.exists())
+
+    def test_legacy_preparation_can_make_normal_package(self):
+        report = release.load(self.preparation)
+        report['status'] = 'PREPARED_NOT_A_SIGNED_RELEASE'
+        release.save(self.preparation, report)
+        result = release.finalize(self.bundle, self.preparation, self.out)
+        self.assertEqual(result['signatureVerification'], 'not-requested')
+
+    def test_package_output_can_be_sibling_of_bundle(self):
+        result = release.finalize(self.bundle, self.preparation, self.root / 'release')
+        self.assertTrue((self.root / 'release' / result['archive']).is_file())
+
+    def test_normal_package_rejects_tampered_delta(self):
+        (self.bundle / 'patches/000.vcdiff').write_bytes(b'tampered delta')
+        with self.assertRaises(ValueError):
+            release.finalize(self.bundle, self.preparation, self.out)
+        self.assertFalse(self.out.exists())
 
 
 if __name__ == '__main__':

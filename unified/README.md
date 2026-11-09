@@ -10,8 +10,9 @@
 ## Code signing policy
 
 현재 공개 Alpha 1의 설치기와 동봉 xdelta는 미서명 상태이며, Smart App Control이
-켜진 PC에서 설치기 실행 차단을 재현했습니다. [서명 준비와 남은 조건](SIGNING.md)을
-확인하세요. Alpha 2는 서명 준비 후보이며 아직 서명된 수정 배포본이 아닙니다.
+켜진 PC에서 설치기 실행 차단을 재현했습니다. 일반 팬 패치는 미서명 ZIP으로
+배포할 수 있으며 SignPath 신청은 선택 사항입니다. [배포와 선택적 서명](SIGNING.md)을
+확인하세요. 체크섬 검증은 Windows의 실행 허용을 의미하지 않습니다.
 
 ## 설치
 
@@ -80,10 +81,10 @@ python unified/build.py --stock D:\owned-stock\Content --foundation D:\source-01
 설치 폴더를 출력으로 사용하지 마세요. `dub-captions`에는 세 변경 파일만 있어도
 됩니다. 새로운 출력 폴더를 사용하세요. 배포 ZIP에는 차분·도구·안내만 들어갑니다.
 
-현재 소스 빌드는 Alpha 2 서명 준비 폴더와 `preparation.json`까지만 생성합니다.
-공개 ZIP 생성은 두 실행 파일의 신뢰된 서명·타임스탬프를 검사하는
-`release.py finalize` 단계로 옮겼습니다. 도구 서명은 manifest 생성 전에
-`--signed-xdelta`로 제공해야 합니다. 자세한 순서는 [SIGNING.md](SIGNING.md)를 따릅니다.
+현재 소스 빌드는 Alpha 2 폴더와 `preparation.json`, `release` 폴더의 일반 미서명
+ZIP·SHA-256·검증 보고서를 생성합니다. `--prepare-only`는 ZIP 없이 준비만 합니다.
+이미 준비된 폴더는 `release.py finalize`로 패키징할 수 있습니다. 서명이 필요한
+별도 경로에서만 `--require-signatures`를 사용합니다. [자세한 안내](SIGNING.md).
 
 선택형 Native는 공개 캡션 컴파일러가 선언한 후크와 디스패치 범위만 원본
 명령으로 복구합니다. 와이드스크린을 끄면 공개 0.10 캡션 단계의 Native와
