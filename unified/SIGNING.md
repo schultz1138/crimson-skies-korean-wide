@@ -2,12 +2,23 @@
 
 **Normal fan-patch distribution is an unsigned ZIP. Signing is optional.**
 SignPath enrollment and certificates are not prerequisites for packaging this
-community patch. No application has been submitted; optional SignPath setup
-is on hold. The installer and bundled upstream xdelta are currently unsigned.
+community patch. The owner is preparing an installer-only SignPath application;
+it has not been submitted or approved. The installer and upstream xdelta are
+currently unsigned. The test PC's SAC protection remains enabled.
 
 A second-PC test reproduced a Code Integrity block with Smart App Control
 enabled. Package checksums do not grant Windows execution permission. These
 tools do not change Windows protection settings or certificate stores.
+
+## Maintainer roles and privacy
+
+Proposed author, reviewer and signing approver: [schultz1138](https://github.com/schultz1138),
+subject to the provider's requirements for a solo maintainer. The owner will
+confirm GitHub/SignPath MFA and manually approve each signing request.
+The installer sends no user data over the network. The original game/launcher,
+opened only at the user's request, retains its own network/privacy behavior.
+Build downloads and provider signing requests are maintainer-side operations.
+No provider attribution is claimed before acceptance.
 
 ## Normal ZIP packaging
 
@@ -36,39 +47,55 @@ their `release` subdirectory. `--prepare-only` stages files without a ZIP.
 Keep the old installer/backups for existing Alpha 1 installations and restore
 with that version before moving to Alpha 2; receipt ownership is version-bound.
 
-## Optional signed distribution
+## Current application: installer-only signing
 
-If signing is wanted later, the order remains important:
+The current request covers **CrimsonSkiesSetup.exe only**, built from our C#
+source by a GitHub-hosted Windows job. It does not request a signature for the
+unchanged upstream xdelta, game files, deltas, voices or fonts.
 
-1. Obtain an authorized, trusted, timestamped signature on the pinned xdelta code.
-2. Pass `--signed-xdelta` during preparation, so its final hash is in the manifest.
-3. Compile the installer with that manifest hash, then sign the installer.
-4. Finalize with **`--require-signatures`** to verify both embedded signatures,
-   code-signing EKU, timestamps, code identities and installer product/version.
+1. Prepare normally, keeping the exact pinned upstream decoder and its hash.
+2. After provider approval, submit only the GitHub-built installer artifact.
+3. Manually approve the signing request and put the signed installer back in
+   the same prepared bundle.
+4. Finalize with **`--require-installer-signature`**. This checks its trusted
+   embedded signature, code-signing EKU, timestamp, code identity and product/
+   version metadata. All decoder/delta/file hashes remain enforced.
 
 ```powershell
-python unified/release.py finalize --bundle D:\signed-prep\CrimsonSkies-Unified-0.14.0-alpha.2 --preparation D:\signed-prep\preparation.json --out D:\signed-release --require-signatures
+python unified/release.py finalize --bundle D:\signed-prep\CrimsonSkies-Unified-0.14.0-alpha.2 --preparation D:\signed-prep\preparation.json --out D:\signed-release --require-installer-signature
 ```
 
-Strict signature verification requires PowerShell 7 (`pwsh`) and a normal
+Signature verification requires PowerShell 7 (`pwsh`) and a normal
 script policy allowing the checked-in verifier. A denied script is an error;
 no policy changes or bypass flags are used. Only this opt-in mode permits an
-Authenticode-only installer change after preparation. Signing the decoder
-after manifest compilation still invalidates its full-file hash.
+Authenticode-only installer change after preparation. The report explicitly
+states `signatureVerification: installer-only`; it does not imply that xdelta
+is signed or that SAC compatibility/gameplay have been certified.
+
+A separate version-only invocation of the pinned unsigned `xdelta3 -V`
+returned exit code 0 on the test PC on 2026-11-09. The installer was blocked
+by Code Integrity. This distinguishes observations from assumptions: actual
+decoder patch operations, signed-installer execution and game/restore tests
+are still pending. Keep SAC enabled during those later tests.
 
 [SignPath Foundation](https://signpath.org/) is one possible free OSS provider,
 subject to [eligibility review](https://signpath.org/terms.html). Its project
 certificate cannot be used to sign unchanged upstream xdelta under our identity.
-That restriction concerns the optional signed route, not normal ZIP packaging.
-Disclose the game-derived delta data when asking about eligibility. Provider
-approval and the authorized decoder signature are not currently available.
+The installer-only request respects that restriction. Disclose the game-derived
+delta data and ask whether this scope qualifies; provider approval is pending.
 
 The dormant workflow signing job requires manual invocation on `main`, the
-`code-signing` environment, an approved provider and the signed decoder input.
+`code-signing` environment and an approved installer signing provider.
 It does not run for normal packages or publish releases. The normal Windows
 job tests and builds the unsigned package independently. The optional
 application draft at `unified/SIGNPATH-APPLICATION.txt` in the source repository
-has not been sent.
+has not been sent. The owner checklist is `unified/SIGNPATH-STEPS.ko.txt`.
+
+If both executables are signed by authorized providers later,
+`--require-signatures` remains the optional all-binaries verification mode.
+It is mutually exclusive with installer-only verification. Any decoder signing
+must happen before manifest compilation (`--signed-xdelta`), because it changes
+the full-file hash. It is not a prerequisite for the current application.
 
 ## Validation
 

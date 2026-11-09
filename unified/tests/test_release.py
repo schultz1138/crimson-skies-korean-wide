@@ -270,6 +270,37 @@ class ReleaseTests(unittest.TestCase):
             release.finalize(self.bundle, self.preparation, self.out)
         self.assertFalse(self.out.exists())
 
+    def test_installer_only_signing_keeps_unsigned_decoder_pinned(self):
+        (self.bundle / 'CrimsonSkiesSetup.exe').write_bytes(pe_bytes(True))
+        decoder_hash = release.sha(self.bundle / 'tools/xdelta3.exe')
+        with patch.object(release, 'verify_signature', return_value=self.valid_signature()) as verifier:
+            report = release.finalize(self.bundle, self.preparation, self.out, require_installer_signature=True)
+        verifier.assert_called_once_with((self.bundle / 'CrimsonSkiesSetup.exe').resolve())
+        self.assertEqual(report['signatureVerification'], 'installer-only')
+        self.assertEqual(set(report['signatures']), {'CrimsonSkiesSetup.exe'})
+        self.assertEqual(report['files']['tools/xdelta3.exe'], decoder_hash)
+        self.assertFalse(report['gameplayVerified'])
+
+    def test_installer_only_rejects_unsigned_installer(self):
+        with patch.object(release, 'verify_signature', side_effect=ValueError('NotSigned')):
+            with self.assertRaisesRegex(ValueError, 'NotSigned'):
+                release.finalize(self.bundle, self.preparation, self.out, require_installer_signature=True)
+        self.assertFalse(self.out.exists())
+
+    def test_installer_only_rejects_wrong_product(self):
+        signature = self.valid_signature()
+        signature['ProductName'] = 'Unrelated product'
+        with patch.object(release, 'verify_signature', return_value=signature):
+            with self.assertRaisesRegex(ValueError, 'metadata mismatch'):
+                release.finalize(self.bundle, self.preparation, self.out, require_installer_signature=True)
+        self.assertFalse(self.out.exists())
+
+    def test_signature_scopes_are_exclusive(self):
+        with self.assertRaisesRegex(ValueError, 'one signature scope'):
+            release.finalize(self.bundle, self.preparation, self.out,
+                             require_signatures=True, require_installer_signature=True)
+        self.assertFalse(self.out.exists())
+
 
 if __name__ == '__main__':
     unittest.main()

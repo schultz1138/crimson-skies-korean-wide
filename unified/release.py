@@ -249,7 +249,8 @@ def prepare(bundle, out, signed_xdelta=None, release_id=NEXT_RELEASE):
                 signedDecoderProvided=bool(signed_xdelta), archiveCreated=False)
 
 
-def finalize(bundle, preparation, out, require_signatures=False):
+def finalize(bundle, preparation, out, require_signatures=False, require_installer_signature=False):
+    need(not (require_signatures and require_installer_signature), 'Choose one signature scope')
     bundle, preparation, out = bundle.resolve(), preparation.resolve(), out.resolve()
     require_new_output(out, [bundle, preparation])
     report = load(preparation)
@@ -265,8 +266,10 @@ def finalize(bundle, preparation, out, require_signatures=False):
          'Installer code/resources changed after preparation')
     need(pe_code_identity(bundle / 'tools/xdelta3.exe') == report['toolCodeIdentity'], 'Decoder code changed')
     signatures = {}
-    if require_signatures:
-        signatures = {rel: verify_signature(bundle / rel) for rel in sorted(BINARIES)}
+    signed_mode = require_signatures or require_installer_signature
+    if signed_mode:
+        scope = sorted(BINARIES) if require_signatures else ['CrimsonSkiesSetup.exe']
+        signatures = {rel: verify_signature(bundle / rel) for rel in scope}
         installer = signatures['CrimsonSkiesSetup.exe']
         need(installer['ProductName'] == PRODUCT and installer['FileVersion'] == version(manifest['releaseId']),
              'Installer product/version metadata mismatch')
@@ -295,11 +298,15 @@ def finalize(bundle, preparation, out, require_signatures=False):
     finally:
         if temporary.exists():
             temporary.unlink()
-    result = dict(schema=1, status=('SIGNATURES_VERIFIED_GAMEPLAY_PENDING' if require_signatures else 'PACKAGE_VERIFIED_GAMEPLAY_PENDING'), releaseId=manifest['releaseId'],
+    status = ('SIGNATURES_VERIFIED_GAMEPLAY_PENDING' if require_signatures else
+              'INSTALLER_SIGNATURE_VERIFIED_GAMEPLAY_PENDING' if require_installer_signature else
+              'PACKAGE_VERIFIED_GAMEPLAY_PENDING')
+    result = dict(schema=1, status=status, releaseId=manifest['releaseId'],
                   archive=archive.name, bytes=archive.stat().st_size, sha256=sha(archive),
                   manifestSha256=files['manifest.json'], files=files, signatures=signatures,
                   sourceHashes=report['sourceHashes'], gameplayVerified=False, automaticallyPublished=False)
-    result['signatureVerification'] = 'verified' if require_signatures else 'not-requested'
+    result['signatureVerification'] = ('verified' if require_signatures else
+                                       'installer-only' if require_installer_signature else 'not-requested')
     save(out / 'release-report.json', result)
     (out / 'SHA256SUMS.txt').write_text(result['sha256'] + '  ' + archive.name + '\n', encoding='utf-8')
     return result
@@ -317,12 +324,14 @@ def main():
     final.add_argument('--bundle', required=True, type=Path)
     final.add_argument('--preparation', required=True, type=Path)
     final.add_argument('--out', required=True, type=Path)
-    final.add_argument('--require-signatures', action='store_true', help='Optional: also require trusted timestamped signatures on both EXEs')
+    signing = final.add_mutually_exclusive_group()
+    signing.add_argument('--require-signatures', action='store_true', help='Optional: require trusted timestamped signatures on both EXEs')
+    signing.add_argument('--require-installer-signature', action='store_true', help='Verify only the project-owned installer signature; keep decoder hash/code verification')
     args = parser.parse_args()
     if args.command == 'prepare':
         result = prepare(args.bundle, args.out, args.signed_xdelta, args.release_id)
     else:
-        result = finalize(args.bundle, args.preparation, args.out, args.require_signatures)
+        result = finalize(args.bundle, args.preparation, args.out, args.require_signatures, args.require_installer_signature)
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
 

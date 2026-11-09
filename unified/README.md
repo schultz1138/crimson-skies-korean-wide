@@ -14,6 +14,15 @@
 배포할 수 있으며 SignPath 신청은 선택 사항입니다. [배포와 선택적 서명](SIGNING.md)을
 확인하세요. 체크섬 검증은 Windows의 실행 허용을 의미하지 않습니다.
 
+> [!WARNING]
+> **설치 전 확인: 현재 공개 배포본은 미서명입니다.**
+> Smart App Control(SAC)이 켜져 있고 이 설치기를 차단한다면, 현재 배포본을 설치하려면 SAC를 꺼야 합니다. SAC에는 이 앱만 허용하는 예외 기능이 없습니다.
+> **SAC를 끄면 PC 전체의 앱 실행 보호가 줄어들며, 환경에 따라 다시 켤 수 없고 Windows 초기화 또는 재설치가 필요할 수 있습니다.** ‘설치 후 다시 켜기’를 보장하지 않습니다. 실제 Windows 확인창의 안내를 먼저 확인하세요.
+> 이 영향을 이해하고 동의하는 사용자만 설치를 진행하세요. SAC를 유지하려면 설치를 보류하고 서명된 업데이트를 기다려 주세요. 이미 SAC가 꺼진 PC에서는 SAC 설정을 바꿀 필요가 없습니다.
+> 설치기는 보안 설정을 자동으로 변경하지 않습니다. 설치기만 대상으로 무료 서명 신청을 준비 중이며, 아직 제출·승인되지 않았고 서명본 제공 시점도 확정되지 않았습니다.
+>
+> [Microsoft SAC 안내](https://support.microsoft.com/en-us/windows/security/threat-malware-protection/smart-app-control-frequently-asked-questions) · [서명 준비 현황](SIGNING.md)
+
 ## 설치
 
 1. 게임과 `플레이` 창을 종료하고 ZIP 전체를 새 폴더에 풉니다.
