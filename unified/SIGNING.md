@@ -4,12 +4,44 @@
 SignPath enrollment and certificates are not prerequisites for packaging this
 community patch. The installer-only SignPath application is on hold at draft
 stage; it has not been submitted or approved. The installer and upstream xdelta
-are currently unsigned. The owner manually disabled SAC on the test PC before
-installation/gameplay tests. This is not a SAC-enabled compatibility test.
+are currently unsigned. Public Beta 1's eight-configuration installation/gameplay
+recording used SAC off. Later original-DLL/BAT tests with SAC on are a separate,
+narrower experiment; they do not certify the public package.
 
 A second-PC test reproduced a Code Integrity block with Smart App Control
 enabled. Package checksums do not grant Windows execution permission. These
 tools do not change Windows protection settings or certificate stores.
+
+## SAC installation and gameplay scope
+
+On 2026-11-09, SAC blocked public Beta 1's modified `VGPUDX12.dll` during actual
+game launch. Separate diagnostic image loads admitted both installed original
+DLLs but rejected the modified GPU and three Native variants (widescreen,
+4:3 captions and full dub/widescreen), with Win32 error 4551 and CodeIntegrity
+3033/3077 under SAC policy `0283ac0f-fff1-49ae-ada1-8a933130cad6`.
+The diagnostic does not execute DLL entrypoints and is not a game-launch method.
+
+An unpublished BAT candidate using an unchanged PSF-signed embedded Python
+runtime and upstream xdelta installed Korean voices while retaining the original
+Native/GPU file objects and 4:3 presentation. Browser-download provenance remained
+intact through install/restore/reinstall, and first-mission gameplay passed with
+SAC on. This is **not** the public Beta 1 voices-only preset or full-preset SAC
+compatibility. See the [user-facing test scope](README.en.md#smart-app-control-sac).
+
+Recent Windows updates allow SAC to be re-enabled without a clean installation
+on eligible devices. Device/update/configuration restrictions still apply.
+Re-enabling SAC after installation can block the modified game's DLLs again;
+temporary installation-only disabling is not a verified gameplay solution.
+See the [current Microsoft SAC FAQ](https://support.microsoft.com/en-us/windows/security/threat-malware-protection/smart-app-control-frequently-asked-questions).
+
+Signing only the installer does not confer trust on the patched game DLLs.
+[SignPath Foundation's terms](https://signpath.org/terms.html) require own-source
+binaries and exclude proprietary components. Those terms do not fit signing
+the proprietary Microsoft-derived DLL postimages under this project's free
+subscription. Installer-only signing remains a separate eligibility request.
+[Microsoft's file-submission portal](https://www.microsoft.com/en-us/wdsi/filesubmission/?persona=SoftwareDeveloper)
+lists Smart App Control, but review acceptance, turnaround and executable
+admission are not guaranteed. No DLL review has been submitted.
 
 ## Maintainer roles and privacy
 
@@ -73,12 +105,11 @@ Authenticode-only installer change after preparation. The report explicitly
 states `signatureVerification: installer-only`; it does not imply that xdelta
 is signed or that SAC compatibility/gameplay have been certified.
 
-A separate version-only invocation of the pinned unsigned `xdelta3 -V`
-returned exit code 0 on the test PC on 2026-11-09. The installer was blocked
-by Code Integrity while SAC was enabled. Actual decoder patch operations and
-game/restore tests use the owner's SAC-off test environment. Signed-installer
-execution and SAC-enabled installation remain unverified. A signed installer
-alone also does not establish that every bundled executable will be allowed.
+The pinned unsigned `xdelta3 -V` and actual large delta application succeeded
+with SAC on in the later BAT experiment described above. The public installer
+and modified game DLLs have separate execution-trust requirements.
+Signed-installer execution remains unverified. A signed installer alone does
+not establish that every bundled executable or modified game DLL will be allowed.
 
 [SignPath Foundation](https://signpath.org/) is one possible free OSS provider,
 subject to [eligibility review](https://signpath.org/terms.html). Its project

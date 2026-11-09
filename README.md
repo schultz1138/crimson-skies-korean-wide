@@ -7,13 +7,13 @@
 필수가 아닙니다. [일반 배포와 선택적 서명 안내](unified/SIGNING.md)를 확인하세요.
 
 > [!WARNING]
-> **설치 전 확인: 현재 공개 배포본은 미서명입니다.**
-> Smart App Control(SAC)이 켜져 있고 이 설치기를 차단한다면, 현재 배포본을 설치하려면 SAC를 꺼야 합니다. SAC에는 이 앱만 허용하는 예외 기능이 없습니다.
-> **SAC를 끄면 PC 전체의 앱 실행 보호가 줄어들며, 환경에 따라 다시 켤 수 없고 Windows 초기화 또는 재설치가 필요할 수 있습니다.** ‘설치 후 다시 켜기’를 보장하지 않습니다. 실제 Windows 확인창의 안내를 먼저 확인하세요.
-> 이 영향을 이해하고 동의하는 사용자만 설치를 진행하세요. SAC를 유지하려면 설치를 보류하고 서명된 업데이트를 기다려 주세요. 이미 SAC가 꺼진 PC에서는 SAC 설정을 바꿀 필요가 없습니다.
-> 설치기는 보안 설정을 자동으로 변경하지 않습니다. 무료 서명 신청은 초안 단계에서 보류했으며 제출·승인되지 않았습니다. 서명본 제공 시점도 확정되지 않았습니다.
+> **SAC는 설치와 패치된 게임 실행 모두에 영향을 줍니다.** 현재 공개 Beta 1 설치기와 동봉 xdelta는 미서명입니다.
+> **SAC 켬 상태에서 와이드스크린·추가 자막용 수정 DLL의 차단을 확인했습니다. 설치 후 SAC를 다시 켜면 패치된 게임도 차단될 수 있습니다.** 설치할 때만 잠깐 끄는 것으로 플레이 호환성이 확보되지는 않습니다.
+> 최근 Windows 11 업데이트에서는 재설치 없이 SAC를 다시 켤 수 있습니다. 다만 기기·업데이트·설정에 따라 재활성화 조건이 다르므로 해당 PC의 Windows 보안 안내를 확인하세요.
+> SAC를 끄면 PC 전체의 앱 실행 보호가 줄어듭니다. SAC에는 개별 앱만 허용하는 예외가 없으며, 보안 설정 변경 여부는 사용자가 판단해야 합니다. SAC를 유지하려면 수정 DLL을 사용하는 구성의 설치를 보류하세요.
+> 설치기는 보안 설정을 자동으로 변경하지 않습니다. 설치기만 서명해도 수정 게임 DLL의 차단까지 해결되는 것은 아닙니다. 무료 서명 신청은 초안에서 보류했으며 제출·승인되지 않았습니다.
 >
-> [Microsoft SAC 안내](https://support.microsoft.com/en-us/windows/security/threat-malware-protection/smart-app-control-frequently-asked-questions) · [서명 준비 현황](unified/SIGNING.md)
+> [실제 SAC 검증 범위](unified/README.md#smart-app-control-sac) · [Microsoft SAC 안내](https://support.microsoft.com/en-us/windows/security/threat-malware-protection/smart-app-control-frequently-asked-questions) · [서명 준비 현황](unified/SIGNING.md)
 
 ## 0.14.0 Beta 1: 선택형 통합 설치기
 

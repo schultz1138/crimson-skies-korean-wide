@@ -18,13 +18,31 @@ does not require SignPath or certificates. Checksums do not grant Windows
 execution permission.
 
 > [!WARNING]
-> **Before installing: the current public release is unsigned.**
-> If Smart App Control (SAC) is enabled and blocks this installer, installing this release requires turning SAC off. SAC has no per-app exception.
-> **Disabling SAC reduces app-execution protection for the entire PC. Depending on your Windows environment, you may be unable to turn it back on without resetting or reinstalling Windows.** Re-enabling it after installation is not guaranteed. Read the confirmation shown by Windows before deciding.
-> Proceed only if you understand and accept this change. To keep SAC enabled, postpone installation and wait for a signed update. If SAC is already off, no SAC setting change is needed.
-> The installer does not change security settings automatically. The free-signing application is on hold at draft stage; it has not been submitted or approved, and no signed-release date is confirmed.
+> **SAC affects both installation and launching the patched game.** The public Beta 1 installer and bundled xdelta are unsigned.
+> **Modified DLLs used for widescreen and added captions were blocked with SAC on. Re-enabling SAC after installation may block the patched game again.** Temporarily disabling it only for installation does not establish gameplay compatibility.
+> Recent Windows 11 updates allow SAC to be re-enabled without reinstalling Windows. Availability still depends on the device, updates and configuration; check that PC's Windows Security guidance.
+> Disabling SAC reduces app-execution protection for the entire PC. SAC has no per-app exception. Changing that setting is the user's decision; to keep SAC on, postpone installing configurations that modify game DLLs.
+> The installer does not change security settings automatically. Signing only the installer does not resolve trust for modified game DLLs. The free-signing application remains an unsubmitted, unapproved draft on hold.
 >
 > [Microsoft SAC FAQ](https://support.microsoft.com/en-us/windows/security/threat-malware-protection/smart-app-control-frequently-asked-questions) · [Signing status](SIGNING.md)
+
+## Smart App Control (SAC)
+
+Installation and game launch were tested separately on 2026-11-09.
+
+| Configuration | Result on this PC |
+| --- | --- |
+| Modified DLLs for public Beta 1 widescreen/added captions | SAC blocked the modified GPU during actual game launch. Modified widescreen/caption Native DLLs were also blocked in a separate image-load diagnostic |
+| Separate BAT experiment: Korean voices, 4:3, original Native/GPU file objects | Browser-downloaded installation, first-mission gameplay, restore and reinstall passed with SAC on |
+| Original game | Launched with SAC on after official Xbox Verify & Repair |
+
+**The BAT candidate is an unpublished experiment, not the public Beta 1 “Korean voices only” preset.**
+These observations do not establish SAC compatibility for public Beta 1 or every PC.
+The original-DLL candidate retains built-in movie captions and required Korean menu assets.
+
+Being able to re-enable SAC does not authorize modified DLLs. Re-enabling it after installation
+can block the patched game again. Official file review and final-DLL signing/trust routes have
+been investigated, but full-preset SAC compatibility has not been achieved.
 
 ## Beta 1 presets
 
