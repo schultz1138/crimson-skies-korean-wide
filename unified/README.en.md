@@ -1,4 +1,4 @@
-# Crimson Skies Selective Unified Setup — 0.14.0 Alpha 1
+# Crimson Skies Selective Unified Setup
 
 Offline component installer for an owned Windows x64 **2608.3123.1.0** game.
 Extract the entire ZIP, close the game and original Play window, then run
@@ -16,14 +16,27 @@ launch block was reproduced on a PC with Smart App Control enabled. See
 [signing preparation and outstanding requirements](SIGNING.md). Alpha 2 is a
 signing candidate, not an already signed compatibility fix.
 
-## Components
+## Alpha 2 candidate presets
 
-Choose Korean text/fonts, widescreen/high resolutions, Korean voices, and
-original-translation or spoken-dub captions. Widescreen works independently.
-Korean voices/captions select the required Korean foundation automatically.
-“Movies only” disables added radio/in-engine captions and preserves the
-game's movie subtitles. Unchecking all components selects the stock composition.
-Switch components by running this same tool again.
+The source candidate offers four exclusive voice/caption presets. The public
+Alpha 1 still uses the earlier checkbox UI.
+
+| Preset | Behavior |
+| --- | --- |
+| Original voices and captions | English voices and the game's built-in captions |
+| English voices + Korean captions | Original voices, translated Korean captions/menu/fonts |
+| Korean voices only | Korean voices; added radio/in-engine captions off |
+| Korean voices + matched captions | Korean voices and captions matching the spoken dub |
+
+Both dub presets include the required Korean menu/fonts. In “Voices only”,
+built-in movie captions remain. This does not remove all text/movie captions or
+preserve the original menu unchanged. The UI no longer offers Korean voices
+with the older, unmatched translation captions.
+
+Widescreen/high resolutions is a separate checkbox and stays unchanged when
+switching voice presets. Choose Original + widescreen for a screen-only patch,
+or Original without widescreen for stock composition. Switch presets later
+by running this same tool again.
 
 Exact public 0.11 is also a supported initial state. Restore old 0.12 packs
 with their own launcher first. For pre-existing Alpha2, restore captions,

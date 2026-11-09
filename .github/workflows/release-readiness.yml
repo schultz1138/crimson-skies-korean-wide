@@ -59,6 +59,18 @@ jobs:
           if ($LASTEXITCODE -ne 0) { throw 'Candidate preparation failed' }
           "decoder-ready=$decoderReady" | Out-File -FilePath $env:GITHUB_OUTPUT -Append -Encoding utf8
           "Preparation only. Signed decoder ready: $decoderReady. No release has been published." | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Append -Encoding utf8
+      - name: Test actual preset policy and render own UI controls
+        run: python unified/tests/presets.py --package '${{ runner.temp }}/crimson-signing/prepared/CrimsonSkies-Unified-0.14.0-alpha.2' --out '${{ runner.temp }}/crimson-presets'
+      - name: Preserve preset UI review images and results
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: preset-ui-review
+          path: |
+            ${{ runner.temp }}/crimson-presets/screenshots
+            ${{ runner.temp }}/crimson-presets/report.json
+            ${{ runner.temp }}/crimson-presets/results.txt
+          if-no-files-found: error
+          retention-days: 7
       - name: Upload own source-built installer for review
         id: installer
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4

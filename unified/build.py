@@ -28,7 +28,7 @@ def compile_setup(bundle,compile_dir):
     """Compile the shipping UI/engine; fixture defines are never supplied."""
     assert not compile_dir.exists();compile_dir.mkdir(parents=True)
     files=[]
-    for name in ['Engine.cs','Settings.cs','Ui.cs']:
+    for name in ['Engine.cs','Settings.cs','Selection.cs','Ui.cs']:
         p=compile_dir/name;shutil.copyfile(HERE/'source'/name,p);files.append(name)
     for name,source in [('VoiceCache.cs','dubbing/audio/VoiceCache.cs'),('Resolution.cs','source/SelectionMigration.cs')]:
         p=compile_dir/name;p.write_text((REPO/source).read_text('utf-8').replace('namespace CrimsonSkiesKoreanPatch','namespace CrimsonSkiesUnified'),encoding='utf-8');files.append(name)
