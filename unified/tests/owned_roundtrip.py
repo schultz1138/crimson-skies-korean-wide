@@ -26,7 +26,7 @@ def main():
   rel=row['path'];dest=content/rel;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(a.stock/rel,dest)
  initial=b'game-language = English\r\nscaling = 2x - 1280x960\r\nantialiasing = 4x MSAA\r\ncustom-key = retain\r\n'
  (case/'settings.ini').write_bytes(initial);(case/'unrelated-save.txt').write_bytes(b'unchanged checkpoint sentinel')
- for name in ['Engine.cs','Settings.cs','GameCache.cs']:shutil.copyfile(REPO/'unified/source'/name,cd/name)
+ for name in ['Engine.cs','HostManifest.cs','Settings.cs','GameCache.cs']:shutil.copyfile(REPO/'unified/source'/name,cd/name)
  for name,src in [('VoiceCache.cs','dubbing/audio/VoiceCache.cs'),('Resolution.cs','source/SelectionMigration.cs')]:
   (cd/name).write_text((REPO/src).read_text('utf-8').replace('namespace CrimsonSkiesKoreanPatch','namespace CrimsonSkiesUnified'),encoding='utf-8')
  (cd/'Pins.cs').write_text('namespace CrimsonSkiesUnified {public static class Pins {public const string Manifest="'+sha(bundle/'manifest.json')+'";public const string ReleaseId="'+m['releaseId']+'";}}');(cd/'Harness.cs').write_text(HARNESS)

@@ -61,11 +61,11 @@ class ReleaseTests(unittest.TestCase):
         release.save(self.bundle / 'manifest.json', self.manifest)
 
     def test_version_and_metadata(self):
-        self.assertEqual(release.version(release.NEXT_RELEASE), '0.14.0.1')
+        self.assertEqual(release.version(release.NEXT_RELEASE), '0.14.0.2')
         self.assertEqual(release.version('CrimsonSkies-Unified-0.14.0-alpha.2'), '0.14.0.2')
         metadata = release.assembly_metadata(release.NEXT_RELEASE)
         self.assertIn('AssemblyProduct("Crimson Skies Korean Wide")', metadata)
-        self.assertIn('AssemblyInformationalVersion("0.14.0-beta.1")', metadata)
+        self.assertIn('AssemblyInformationalVersion("0.14.0-beta.2")', metadata)
 
     def test_version_rejects_injection_and_overflow(self):
         for value in ['anything', 'CrimsonSkies-Unified-0.14.0-alpha.2"', 'CrimsonSkies-Unified-65535.1.0-alpha.1']:
@@ -206,6 +206,20 @@ class ReleaseTests(unittest.TestCase):
         release.record_preparation(self.bundle, self.preparation)
         with self.assertRaisesRegex(ValueError, 'immutable'):
             release.finalize(self.bundle, self.preparation, self.out)
+
+    def test_published_beta1_cannot_be_repacked(self):
+        self.manifest['releaseId'] = 'CrimsonSkies-Unified-0.14.0-beta.1'
+        self.save_manifest()
+        release.record_preparation(self.bundle, self.preparation)
+        with self.assertRaisesRegex(ValueError, 'immutable'):
+            release.finalize(self.bundle, self.preparation, self.out)
+        self.assertFalse(self.out.exists())
+
+    def test_preparation_rejects_published_release_ids(self):
+        for release_id in release.PUBLISHED_RELEASES:
+            with self.subTest(release_id=release_id), self.assertRaisesRegex(ValueError, 'immutable'):
+                release.prepare(self.bundle, self.out, release_id=release_id)
+        self.assertFalse(self.out.exists())
 
     def test_archive_race_does_not_leave_release_zip(self):
         original_write = zipfile.ZipFile.write

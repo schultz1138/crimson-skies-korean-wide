@@ -9,6 +9,25 @@ needed when starting from exact stock files.
 [Download on GitHub](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-beta.1) · [한국어](README.md)
 The installer ZIP is `CrimsonSkies-Unified-0.14.0-beta.1.zip`; the source ZIP is separate.
 
+## In development: Beta 2 installation metadata compatibility
+
+The public download remains Beta 1. The next source build targets a **0.14.0-beta.2 candidate**.
+Xbox Verify/Repair was observed to leave a different `appxmanifest.xml` for the same supported game
+build, causing Beta 1's host check to stop. The fix accepts only the two observed complete
+SHA-256/size pairs while retaining the game name, version, architecture, Publisher, and every
+other file check. Unknown XML changes and different game builds still fail. It does not rewrite
+game metadata, bypass checks, or change SAC compatibility.
+
+Stop installation if Beta 1 reports this metadata error and check for the corrected version.
+Published ZIPs are not replaced. The next version uses its own backup/restore receipt; restore
+an installed Beta 1 with **Beta 1's own Restore button first**.
+
+Developer check: `python unified/tests/host_metadata.py --package PACKAGE --out NEW_OUTPUT`.
+Repeated `--owned-manifest PATH` arguments additionally verify owned XML snapshots read-only.
+The tests and distributed artifacts do not include the game's XML contents.
+See the [Beta 2 candidate verification record](verification-beta2.json) for the live install,
+first-mission, restore results, and testing limits.
+
 ## Code signing policy
 
 The Beta 1 installer and bundled xdelta are unsigned. A previous installer

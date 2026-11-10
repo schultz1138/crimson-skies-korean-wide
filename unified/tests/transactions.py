@@ -45,7 +45,7 @@ def main():
         else:b=('synthetic guard: '+g['path']).encode()
         guards[g['path']]=b;g.update(bytes=len(b),sha256=hashlib.sha256(b).hexdigest())
     save(bundle/'manifest.json',m)
-    for name in ['Engine.cs','Settings.cs','GameCache.cs']:shutil.copyfile(REPO/'unified/source'/name,compile_dir/name)
+    for name in ['Engine.cs','HostManifest.cs','Settings.cs','GameCache.cs']:shutil.copyfile(REPO/'unified/source'/name,compile_dir/name)
     for name,src in [('VoiceCache.cs','dubbing/audio/VoiceCache.cs'),('Resolution.cs','source/SelectionMigration.cs')]:
         (compile_dir/name).write_text((REPO/src).read_text('utf-8').replace('namespace CrimsonSkiesKoreanPatch','namespace CrimsonSkiesUnified'),encoding='utf-8')
     (compile_dir/'Pins.cs').write_text('namespace CrimsonSkiesUnified {public static class Pins {public const string Manifest="'+sha(bundle/'manifest.json')+'";public const string ReleaseId="'+m['releaseId']+'";}}')

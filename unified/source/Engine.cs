@@ -36,6 +36,7 @@ namespace CrimsonSkiesUnified {
    Need(manifest.inputs!=null&&manifest.inputs.Length==2&&manifest.inputs[0].id=="stock"&&manifest.inputs[1].id=="foundation"&&manifest.knownExternal!=null,"Invalid baselines");var ids=new HashSet<string>();foreach(var v in manifest.inputs.Concat(manifest.knownExternal)){Need(v!=null&&ids.Add(v.id),"Duplicate input");Vector(v.hashes);}
    foreach(var p in manifest.profiles){Need(p!=null&&Regex.IsMatch(p.id??"","^k[01]-w[01]-d[01]-(off|original|dub)$")&&ids.Add(p.id),"Invalid profile");Need(p.id=="k"+(p.korean?1:0)+"-w"+(p.wide?1:0)+"-d"+(p.dub?1:0)+"-"+p.captions,"Profile option mismatch");Need((p.korean||!p.dub&&p.captions=="off")&&(p.captions!="dub"||p.dub),"Invalid dependencies");Vector(p.hashes);}
    Need(manifest.guards!=null&&manifest.guards.Length>=3&&manifest.guards.Length<=16,"Missing guards");foreach(var g in manifest.guards)Need(g!=null&&!paths.Contains(g.path)&&IsHash(g.sha256)&&g.bytes>0&&g.bytes<67108864,"Invalid guard");
+   Need(manifest.guards.Count(g=>g.path=="appxmanifest.xml")==1,"Missing/duplicate host manifest guard");
   }
   void Vector(string[] v){Need(v!=null&&v.Length==29,"Invalid profile vector");for(int i=0;i<29;i++)Need(manifest.files[i].nodes.Any(n=>n.sha256==v[i]),"Profile node missing");}
   static void Need(bool ok,string s){if(!ok)throw new InvalidDataException(s);}
@@ -74,7 +75,10 @@ namespace CrimsonSkiesUnified {
 #endif
   }
   public string Resolve(string selected){Need(!String.IsNullOrWhiteSpace(selected),"게임 폴더를 선택하세요.");string p=Path.GetFullPath(selected);NoReparse(p,true);if(!File.Exists(Path.Combine(p,NativeName)))p=Path.Combine(p,"Content");NoReparse(p,true);return p.TrimEnd('\\','/');}
-  void VerifyHost(string content){foreach(var g in manifest.guards)Verify(Child(content,g.path),g.sha256,g.bytes);var h=manifest.supportedPackage;Need(h!=null&&h.name=="Xbox360BackwardCompatibil.PrimaryCrimsonSkiesHighR"&&h.version=="2608.3123.1.0"&&h.architecture=="x64"&&h.publisher=="CN=92ADE8CC-2A9A-4DF3-9BAF-18AF498CAA12","Unsupported host");var settings=new XmlReaderSettings{DtdProcessing=DtdProcessing.Prohibit,XmlResolver=null,MaxCharactersInDocument=131072};int count=0;using(var r=XmlReader.Create(Child(content,"appxmanifest.xml"),settings))while(r.Read())if(r.NodeType==XmlNodeType.Element&&r.LocalName=="Identity"){count++;Need(r.Depth==1&&r.NamespaceURI=="http://schemas.microsoft.com/appx/manifest/foundation/windows10"&&r.GetAttribute("Name")==h.name&&r.GetAttribute("Version")==h.version&&r.GetAttribute("ProcessorArchitecture")==h.architecture&&r.GetAttribute("Publisher")==h.publisher,"Unsupported identity");}Need(count==1,"Invalid host identity");}
+  void VerifyHost(string content){
+   var h=manifest.supportedPackage;Need(h!=null&&h.name=="Xbox360BackwardCompatibil.PrimaryCrimsonSkiesHighR"&&h.version=="2608.3123.1.0"&&h.architecture=="x64"&&h.publisher=="CN=92ADE8CC-2A9A-4DF3-9BAF-18AF498CAA12","Unsupported host");
+   foreach(var g in manifest.guards){string path=Child(content,g.path);if(g.path=="appxmanifest.xml")HostManifest.Verify(path,g.sha256,g.bytes,h);else Verify(path,g.sha256,g.bytes);}
+  }
   string[] Inspect(string content){var v=new string[29];for(int i=0;i<29;i++){string p=Child(content,manifest.files[i].path);NoReparse(p,false);long n=new FileInfo(p).Length;Need(manifest.files[i].nodes.Any(x=>x.bytes==n),"Unsupported file size: "+manifest.files[i].path);v[i]=HashFile(p);Need(manifest.files[i].nodes.Any(x=>x.sha256==v[i]&&x.bytes==n),"알 수 없는 파일이 있어 중단했습니다. / Unknown modified file: "+manifest.files[i].path);log("검사 / Checked "+(i+1)+"/29: "+manifest.files[i].path);}return v;}
   string[] V(string id){var p=manifest.profiles.SingleOrDefault(x=>x.id==id);if(p!=null)return p.hashes;var s=manifest.inputs.SingleOrDefault(x=>x.id==id);Need(s!=null,"Unknown owned state");return s.hashes;}
   Profile Choice(string id){var p=manifest.profiles.SingleOrDefault(x=>x.id==id);Need(p!=null,"Unknown component selection");return p;}

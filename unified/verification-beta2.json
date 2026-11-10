@@ -1,0 +1,121 @@
+{
+  "schema": 1,
+  "version": "0.14.0-beta.2",
+  "date": "2026-11-10",
+  "status": "PASS_REPAIRED_HOST_INSTALL_FIRST_MISSION_AND_RESTORE",
+  "scope": "Local candidate; not a public release",
+  "shippingExeSha256": "0a9273a8d0b291b54aed535e0945eb39d1e4f25ca192f6d568eef9ed5a2259f2",
+  "manifestSha256": "9ab4e7cb79064491500d977fa0287fc28f7323900e8dbe33d9cd8c1b71b4aecd",
+  "gameBuild": "2608.3123.1.0",
+  "coherentFiles": 29,
+  "readOnlyGuards": 4,
+  "reproduction": {
+    "beta1RepairedHostCheckExit": 1,
+    "beta2SameRepairedHostCheckExit": 0,
+    "readOnlyChecksDidNotChangeGameSavesSettingsOrCache": true
+  },
+  "hostMetadata": {
+    "allowedCompleteIdentities": [
+      {
+        "sha256": "7d9e362e1af1b0c2e7f4b5f6bca9258530fd04a03a21640b1cbeff8049d9ed71",
+        "bytes": 4815
+      },
+      {
+        "sha256": "00e65011722a9efb2ad75a197398cef798311ce5d7f08bde47c8cc96aacf6633",
+        "bytes": 4767
+      }
+    ],
+    "ownedSnapshotsVerifiedReadOnly": 2,
+    "unknownXmlStillRejected": true,
+    "identityFieldsStillChecked": [
+      "Name",
+      "Version",
+      "ProcessorArchitecture",
+      "Publisher"
+    ],
+    "proprietaryXmlDistributed": false
+  },
+  "automated": {
+    "unitTests": 44,
+    "hostMetadataAssertions": 44,
+    "hostMetadataSyntheticOnlyCiAssertions": 34,
+    "presetUiAssertions": 66,
+    "visibleProfiles": 8,
+    "syntheticTransactionAssertions": 213,
+    "syntheticOperations": 74,
+    "syntheticProfiles": 12,
+    "cacheAssertions": 31,
+    "cacheOperations": 7,
+    "checkpointAndUnownedBytesPreserved": true,
+    "scratchRetry": "An initial deeply nested synthetic output exceeded the legacy .NET path limit; all 74 operations passed with a shorter explicit output path. OS path settings were not changed."
+  },
+  "payloadRegression": {
+    "manifestEqualToBeta1ExceptReleaseId": true,
+    "identicalDeltaPayloads": 55,
+    "publishedBeta1ArchiveReplaced": false
+  },
+  "live": {
+    "host": "Registered Xbox installation after official Verify/Repair",
+    "profile": "k1-w1-d1-dub",
+    "installedProfileHashMatch": true,
+    "postInstallCheckExit": 0,
+    "observed": [
+      "1920x1080 resolution selection",
+      "existing profile opened",
+      "first-mission cutscene",
+      "Korean radio captions",
+      "widescreen tutorial flight and HUD",
+      "left-stick and right-trigger input",
+      "Korean pause screen"
+    ],
+    "restore": "GUI Restore completed; CLI check and independent hash snapshot passed",
+    "postRestoreCheckExit": 0,
+    "restoredGameAndGuardHashMismatches": 0,
+    "savesUnchangedByInstall": true,
+    "savesUnchangedByRestoreRelativeToAfterPlay": true,
+    "saveFilesChecked": 17,
+    "unownedSettingsPreservedFromAfterPlay": true,
+    "ownedLanguageAndScalingRestoredToBeforeInstall": true,
+    "metadataUnchangedThroughInstallPlayRestore": true,
+    "finalGameState": "stock",
+    "virtualController": "Stopped and released",
+    "SAC": "Owner had disabled SAC before this test; the fix did not change security settings"
+  },
+  "evidenceSha256": {
+    "Beta2-installed.png": "d60ae47b86ddf26dc9509e78f28159dc4ead6e12eeaf413dcc007916970b97af",
+    "Beta2-resolution.png": "9b7e35649abf652a864333da530bebfbc1afb495379b073f5e929e96c6919b53",
+    "Beta2-first-cutscene.png": "85dfaadbbe7c80466bc4fc5d5e56ce0169bd02c9987262b2109557fa2a22e689",
+    "Beta2-flight-controls.png": "62cd12c45e8a2c76b5ad20a4e3a74392d55ebe4e1b8044f7d2af95487c964a56",
+    "Beta2-pause.png": "1697c5421741052232977b0d9e02c19406824cfc98ee3750ced8b1d2613d82aa",
+    "Beta2-restored.png": "ad58c999963af60bec150d29138df74c6e8d4f1a58a1d13cfc2d0d8109cebf8f",
+    "Beta2-install.mp4": "2bd6847373941b42b946a42ea8f9ce16275399267e406ef65740db49c8704511",
+    "Beta2-restore.mp4": "61933ef619a7823a107fe31cba60121e5058bd85d4500cc0e4481819237bafb2"
+  },
+  "sourceHashes": {
+    "unified/source/Engine.cs": "1b1fc0e823fb9144f8579ce4a7ba17077dfe31d82cf721012a4d39c443bcb4fe",
+    "unified/source/GameCache.cs": "b9ca5c5874068d1bbed4fe65d62adc9358ddc4630f03b788a73503a6a1d7100f",
+    "unified/source/HostManifest.cs": "23a2280dd2e568875a704521c574a7fbdea581d291607261db8d3bb4b920c353",
+    "unified/source/Selection.cs": "b51474a7cc0e592fd4b18a256b26c3290d0ecb0c4c13cc9beec294f511a79a05",
+    "unified/source/Settings.cs": "8021a14dbe45b9681f8495cef214bc8b59927f11bda0adccb92ad2eca1db7833",
+    "unified/source/Ui.cs": "a18cd1cdcc9e2e698d32e2907d45fed058992875aa3037388106d92cf3c576b6",
+    "unified/build.py": "9c0fbca01a738b826882d4eedb1fdb06b41a7a27336b8b37084980d5b39567c7",
+    "unified/release.py": "5ac741cdaa49c47418f0bbf2b55d97da92de2af9cc7029d33ccb96e640b4964f",
+    "unified/voice_only_assets.py": "5c81882413132d06189ffd2f47ab0e83b977d19e839cf3a0acdecfd42b2bd1e6",
+    "unified/caption_off_overlay.py": "2d9b45c5a5869a42d0f5a1c36acc7ecd0393f18cfadb4cf63d4b835429aefde6",
+    "unified/build_caption_off_overlay.py": "24d10ee16e71d5c55d23848e441de012d0b79aa494176466bafd134dbe026fd1",
+    "unified/caption-off-overlay/overlay.json": "36dd766bcfb439e99b90ef0655cb110b8496da1385dce0eb208ae10cdd39bc04",
+    "unified/cache_assets.py": "31ec442b007b73653cfe490d200d977fb90eb4f694815d4979c20832a068f5c3",
+    "unified/build_cache_assets.py": "903d09543ef4a003ce3019c1c848950d286e11149829ef853ca7ae5628f6d2a2",
+    "unified/cache-assets.json": "5ff2a6d93a621821192cef9568db75279e341b4bb340e7573dbdff3450676388",
+    "unified/verify-signature.ps1": "01d1cbcf01997077b19db3e45974df3b082aaa57ecf2e2e4909f4d216510ece8",
+    "dubbing/audio/VoiceCache.cs": "307e604b1a48cc0758a93dbef95bf17cee14635df00312abac562be124bfcd64",
+    "source/SelectionMigration.cs": "c982f0228215768f9147c3ce94c4d0f3315fd1ec840b8f903a7271ef0eae93ba"
+  },
+  "limits": [
+    "One PC and first-mission sample; no full campaign or 4K retest",
+    "Only the full preset was re-playtested for Beta 2; all eight presets were tested previously on Beta 1 and their payload hashes are unchanged",
+    "No new subjective listening review or successful gameplay recording claim",
+    "Unsigned installer and decoder; no SAC-enabled compatibility claim",
+    "Beta 1 receipts are not migrated; restore using the originating version before installing Beta 2"
+  ]
+}
