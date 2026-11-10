@@ -5,6 +5,12 @@ Windows x64 게임 빌드 **2608.3123.1.0**을 별도로 설치해야 합니다.
 
 **[Beta 2 다운로드](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-beta.2)** · **[처음부터 설치하기](unified/README.md)** · [English](README.en.md)
 
+## 소개·설치 영상
+
+**[▶ Beta 2 소개·설치 영상 보기 (YouTube · 4분 46초)](https://www.youtube.com/watch?v=3Psn6lNxDho)**
+
+영어·한국어 더빙 라디오와 컷신 비교, 4:3 → 16:9 화면 전환, Beta 2 다운로드·설치·복구 과정을 영상으로 확인할 수 있습니다.
+
 ## 처음 설치한다면
 
 **시작 전 SAC 안내를 확인하세요.** 이 배포본은 미서명이며 Windows의 Smart App Control(SAC)이 설치기나 패치된 게임을 차단할 수 있습니다. 보호 기능을 끄면 PC 전체의 앱 실행 보호가 줄어들고, 다시 켜도 패치 게임이 차단될 수 있습니다. 재활성화 가능 여부는 PC·Windows 상태에 따라 다릅니다. 설치기는 보안 설정을 바꾸지 않습니다. [차단 알림과 SAC 안내](unified/README.md#smart-app-control-sac)를 읽고 설치 여부를 결정하세요.
