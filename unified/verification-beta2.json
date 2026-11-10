@@ -3,7 +3,7 @@
   "version": "0.14.0-beta.2",
   "date": "2026-11-10",
   "status": "PASS_REPAIRED_HOST_INSTALL_FIRST_MISSION_AND_RESTORE",
-  "scope": "Local candidate; not a public release",
+  "scope": "Beta 2 release uses the exact playtested candidate executable, manifest and delta payloads; documentation updated for publication",
   "shippingExeSha256": "0a9273a8d0b291b54aed535e0945eb39d1e4f25ca192f6d568eef9ed5a2259f2",
   "manifestSha256": "9ab4e7cb79064491500d977fa0287fc28f7323900e8dbe33d9cd8c1b71b4aecd",
   "gameBuild": "2608.3123.1.0",
@@ -117,5 +117,12 @@
     "No new subjective listening review or successful gameplay recording claim",
     "Unsigned installer and decoder; no SAC-enabled compatibility claim",
     "Beta 1 receipts are not migrated; restore using the originating version before installing Beta 2"
-  ]
+  ],
+  "releasePackaging": {
+    "testedExecutablePreserved": true,
+    "candidateManifestPreserved": true,
+    "candidateDeltaPayloadsPreserved": true,
+    "documentationRefreshed": true,
+    "ci": "https://github.com/schultz1138/crimson-skies-korean-wide/actions/runs/42765217463"
+  }
 }

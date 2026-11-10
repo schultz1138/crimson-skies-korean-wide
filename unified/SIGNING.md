@@ -59,8 +59,8 @@ From the exact public Alpha 1 bundle, rebuild the installer from source and
 add the verified caption-off deltas and owned-asset cache fingerprints:
 
 ```powershell
-python unified/release.py prepare --bundle D:\download\CrimsonSkies-Unified-0.14.0-alpha.1 --out D:\beta1-build
-python unified/release.py finalize --bundle D:\beta1-build\CrimsonSkies-Unified-0.14.0-beta.1 --preparation D:\beta1-build\preparation.json --out D:\beta1-build\release
+python unified/release.py prepare --bundle D:\download\CrimsonSkies-Unified-0.14.0-alpha.1 --out D:\beta2-build
+python unified/release.py finalize --bundle D:\beta2-build\CrimsonSkies-Unified-0.14.0-beta.2 --preparation D:\beta2-build\preparation.json --out D:\beta2-build\release
 ```
 
 Use new output directories outside the source and input bundle. Preparation
@@ -78,7 +78,7 @@ The old published Alpha 1 cannot be repackaged by these commands.
 Full source game builds (`unified/build.py`) produce the same normal ZIP in
 their `release` subdirectory. `--prepare-only` stages files without a ZIP.
 Keep the old installer/backups for existing Alpha 1 installations and restore
-with that version before moving to Beta 1; receipt ownership is version-bound.
+with that version before moving to Beta 2; receipt ownership is version-bound.
 
 ## Optional future application: installer-only signing
 
@@ -95,7 +95,7 @@ unchanged upstream xdelta, game files, deltas, voices or fonts.
    version metadata. All decoder/delta/file hashes remain enforced.
 
 ```powershell
-python unified/release.py finalize --bundle D:\signed-prep\CrimsonSkies-Unified-0.14.0-beta.1 --preparation D:\signed-prep\preparation.json --out D:\signed-release --require-installer-signature
+python unified/release.py finalize --bundle D:\signed-prep\CrimsonSkies-Unified-0.14.0-beta.2 --preparation D:\signed-prep\preparation.json --out D:\signed-release --require-installer-signature
 ```
 
 Signature verification requires PowerShell 7 (`pwsh`) and a normal

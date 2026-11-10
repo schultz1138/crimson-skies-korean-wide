@@ -6,38 +6,38 @@ Extract the entire ZIP, close the game and original Play window, then run
 and open the original launcher. No earlier patch installation or API key is
 needed when starting from exact stock files.
 
-[Download on GitHub](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-beta.1) · [한국어](README.md)
-The installer ZIP is `CrimsonSkies-Unified-0.14.0-beta.1.zip`; the source ZIP is separate.
+[Download on GitHub](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-beta.2) · [한국어](README.md)
+The installer ZIP is `CrimsonSkies-Unified-0.14.0-beta.2.zip`; the source ZIP is separate.
 
-## In development: Beta 2 installation metadata compatibility
+## Beta 2: installation metadata compatibility
 
-The public download remains Beta 1. The next source build targets a **0.14.0-beta.2 candidate**.
+**0.14.0-beta.2** fixes the following compatibility issue.
 Xbox Verify/Repair was observed to leave a different `appxmanifest.xml` for the same supported game
 build, causing Beta 1's host check to stop. The fix accepts only the two observed complete
 SHA-256/size pairs while retaining the game name, version, architecture, Publisher, and every
 other file check. Unknown XML changes and different game builds still fail. It does not rewrite
 game metadata, bypass checks, or change SAC compatibility.
 
-Stop installation if Beta 1 reports this metadata error and check for the corrected version.
-Published ZIPs are not replaced. The next version uses its own backup/restore receipt; restore
+If Beta 1 reported this metadata error, extract Beta 2 into a new folder.
+Published ZIPs are not replaced. Beta 2 uses its own backup/restore receipt; restore
 an installed Beta 1 with **Beta 1's own Restore button first**.
 
 Developer check: `python unified/tests/host_metadata.py --package PACKAGE --out NEW_OUTPUT`.
 Repeated `--owned-manifest PATH` arguments additionally verify owned XML snapshots read-only.
 The tests and distributed artifacts do not include the game's XML contents.
-See the [Beta 2 candidate verification record](verification-beta2.json) for the live install,
+See the [Beta 2 verification record](https://github.com/schultz1138/crimson-skies-korean-wide/blob/main/unified/verification-beta2.json) for the live install,
 first-mission, restore results, and testing limits.
 
 ## Code signing policy
 
-The Beta 1 installer and bundled xdelta are unsigned. A previous installer
+The Beta 2 installer and bundled xdelta are unsigned. A previous installer
 launch was blocked on a PC with Smart App Control enabled. See
 [packaging and optional signing](SIGNING.md). Normal fan-patch ZIP packaging
 does not require SignPath or certificates. Checksums do not grant Windows
 execution permission.
 
 > [!WARNING]
-> **SAC affects both installation and launching the patched game.** The public Beta 1 installer and bundled xdelta are unsigned.
+> **SAC affects both installation and launching the patched game.** The public Beta 2 installer and bundled xdelta are unsigned.
 > **Modified DLLs used for widescreen and added captions were blocked with SAC on. Re-enabling SAC after installation may block the patched game again.** Temporarily disabling it only for installation does not establish gameplay compatibility.
 > Recent Windows 11 updates allow SAC to be re-enabled without reinstalling Windows. Availability still depends on the device, updates and configuration; check that PC's Windows Security guidance.
 > Disabling SAC reduces app-execution protection for the entire PC. SAC has no per-app exception. Changing that setting is the user's decision; to keep SAC on, postpone installing configurations that modify game DLLs.
@@ -63,7 +63,9 @@ Being able to re-enable SAC does not authorize modified DLLs. Re-enabling it aft
 can block the patched game again. Official file review and final-DLL signing/trust routes have
 been investigated, but full-preset SAC compatibility has not been achieved.
 
-## Beta 1 presets
+Beta 2 has the same modified-DLL/profile payloads as Beta 1. The metadata fix does not resolve SAC blocking, and no new SAC-enabled Beta 2 execution claim is made.
+
+## Beta 2 presets
 
 Choose one of four voice/caption presets and select widescreen independently.
 
@@ -90,7 +92,7 @@ then audio with the old tools before migration. Old backup ownership is
 not adopted. Restore returns to this installer's first installation-before
 state, stock or 0.11; retain all older tools/backups as needed.
 For an older **0.14 unified installer**, use that version's **Restore** before
-installing Beta 1. Backup receipts are version-bound and are not adopted.
+installing Beta 2. Backup receipts are version-bound and are not adopted.
 
 Allow about **14GB** extra for the complete dub. Only changing files are
 backed up/staged. All chosen results are verified before atomic file swaps.
@@ -126,7 +128,7 @@ the installed game as build output. The dub-caption tree needs only its three
 modified files. Output must be new and separate from all inputs/source.
 
 The ZIP contains only VCDIFFs, managed tools, metadata and notices. Source
-builds create the Beta 1 bundle, `preparation.json`, and a normal unsigned
+builds create the Beta 2 bundle, `preparation.json`, and a normal unsigned
 ZIP/checksum/report in the `release` subdirectory. `--prepare-only` skips ZIP
 creation. Existing prepared bundles can use `release.py finalize` directly;
 only the optional signed path uses `--require-signatures`. See [SIGNING.md](SIGNING.md).
@@ -147,8 +149,8 @@ exit/recovery, tampered inputs/deltas/backups and unrelated settings preservatio
 The `UNIFIED_TEST` executable is never shipped.
 
 ```powershell
-python unified/tests/transactions.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-beta.1 --out D:\unified-synthetic-001
-python unified/tests/owned_roundtrip.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-beta.1 --stock D:\owned-stock\Content --out D:\unified-owned-test-001
+python unified/tests/transactions.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-beta.2 --out D:\unified-synthetic-001
+python unified/tests/owned_roundtrip.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-beta.2 --stock D:\owned-stock\Content --out D:\unified-owned-test-001
 ```
 
 Both require a fresh scratch directory. The full-size test copies owned stock

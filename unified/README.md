@@ -4,36 +4,35 @@
 설치하는 오프라인 시험본입니다. 원본 게임 파일은 포함하지 않습니다.
 더빙 음성은 제작 완료된 차분 데이터로 적용합니다. API 키가 필요 없습니다.
 
-[GitHub 다운로드](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-beta.1) · [English](README.en.md)
-실행용 ZIP은 `CrimsonSkies-Unified-0.14.0-beta.1.zip`이며 소스 ZIP은 별도입니다.
+[GitHub 다운로드](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-beta.2) · [English](README.en.md)
+실행용 ZIP은 `CrimsonSkies-Unified-0.14.0-beta.2.zip`이며 소스 ZIP은 별도입니다.
 
-## 개발 중: Beta 2 설치 메타데이터 호환성 수정
+## Beta 2: 설치 메타데이터 호환성 수정
 
-현재 공개 다운로드는 Beta 1입니다. 이 소스의 다음 빌드 대상은 **0.14.0-beta.2 후보**이며,
-공식 Xbox 확인·복구 뒤 같은 게임 빌드의 `appxmanifest.xml`이 달라져 Beta 1의 상태 검사가
-중단되는 문제를 수정합니다. 확인한 배포 상태와 복구 직후 상태의 **두 전체 해시·크기만**
+**0.14.0-beta.2**는 공식 Xbox 확인·복구 뒤 같은 게임 빌드의 `appxmanifest.xml`이 달라져
+Beta 1의 상태 검사가 중단되는 문제를 수정합니다. 확인한 배포 상태와 복구 직후 상태의 **두 전체 해시·크기만**
 호환 형태로 허용하고, 게임 이름·버전·아키텍처·Publisher 및 나머지 파일 검증은 유지합니다.
 XML이 다른 형태로 수정됐거나 게임 빌드가 다르면 계속 중단합니다. 게임 메타데이터를
 덮어쓰거나 검사를 건너뛸 필요는 없습니다. 이 수정은 SAC 호환성을 바꾸지 않습니다.
 
-Beta 1에서 메타데이터 검사 오류가 나오면 설치를 중단하고 수정 버전 안내를 확인하세요.
-기존 공개 ZIP은 교체하지 않으며, 다음 버전은 독립된 백업·복구 기록을 사용합니다.
+Beta 1에서 메타데이터 검사 오류가 나왔다면 Beta 2를 새 폴더에 풀어 사용하세요.
+기존 공개 ZIP은 교체하지 않으며, Beta 2는 독립된 백업·복구 기록을 사용합니다.
 Beta 1이 설치돼 있다면 **Beta 1의 설치 전 복구부터** 실행하세요.
 
 개발 검증: `python unified/tests/host_metadata.py --package PACKAGE --out NEW_OUTPUT`.
 `--owned-manifest PATH`를 반복 지정하면 본인이 보유한 두 원본 XML도 읽기 전용으로 검증합니다.
 테스트와 배포물에는 게임의 XML 원문을 포함하지 않습니다.
-실제 설치·첫 임무·원본 복구 결과와 검증 범위는 [Beta 2 후보 검증 기록](verification-beta2.json)에 정리했습니다.
+실제 설치·첫 임무·원본 복구 결과와 검증 범위는 [Beta 2 검증 기록](https://github.com/schultz1138/crimson-skies-korean-wide/blob/main/unified/verification-beta2.json)에 정리했습니다.
 
 ## Code signing policy
 
-Beta 1의 설치기와 동봉 xdelta는 미서명 상태입니다. 이전 설치기는 Smart App Control이
+Beta 2의 설치기와 동봉 xdelta는 미서명 상태입니다. 이전 설치기는 Smart App Control이
 켜진 PC에서 실행 차단을 재현했습니다. 일반 팬 패치는 미서명 ZIP으로
 배포할 수 있으며 SignPath 신청은 선택 사항입니다. [배포와 선택적 서명](SIGNING.md)을
 확인하세요. 체크섬 검증은 Windows의 실행 허용을 의미하지 않습니다.
 
 > [!WARNING]
-> **SAC는 설치와 패치된 게임 실행 모두에 영향을 줍니다.** 현재 공개 Beta 1 설치기와 동봉 xdelta는 미서명입니다.
+> **SAC는 설치와 패치된 게임 실행 모두에 영향을 줍니다.** 현재 공개 Beta 2 설치기와 동봉 xdelta는 미서명입니다.
 > **SAC 켬 상태에서 와이드스크린·추가 자막용 수정 DLL의 차단을 확인했습니다. 설치 후 SAC를 다시 켜면 패치된 게임도 차단될 수 있습니다.** 설치할 때만 잠깐 끄는 것으로 플레이 호환성이 확보되지는 않습니다.
 > 최근 Windows 11 업데이트에서는 재설치 없이 SAC를 다시 켤 수 있습니다. 다만 기기·업데이트·설정에 따라 재활성화 조건이 다르므로 해당 PC의 Windows 보안 안내를 확인하세요.
 > SAC를 끄면 PC 전체의 앱 실행 보호가 줄어듭니다. SAC에는 개별 앱만 허용하는 예외가 없으며, 보안 설정 변경 여부는 사용자가 판단해야 합니다. SAC를 유지하려면 수정 DLL을 사용하는 구성의 설치를 보류하세요.
@@ -59,6 +58,8 @@ SAC를 다시 켤 수 있는 환경에서도 수정 DLL의 실행 허용은 별�
 따라서 ‘설치 후 SAC를 다시 켜면 전체 패치를 계속 플레이할 수 있다’고 안내하지 않습니다.
 공식 파일 검토와 최종 DLL의 신뢰·서명 경로를 조사했지만, 전체 구성의 SAC 호환 해법은 아직 확보하지 못했습니다.
 
+Beta 2의 수정 DLL·프로필 차분은 Beta 1과 동일합니다. 이번 메타데이터 수정은 SAC 차단을 해결하지 않으며, Beta 2의 SAC 켬 실행을 새로 인증한 것이 아닙니다.
+
 ## 설치
 
 1. 게임과 `플레이` 창을 종료하고 ZIP 전체를 새 폴더에 풉니다.
@@ -71,9 +72,9 @@ SAC를 다시 켤 수 있는 환경에서도 수정 DLL의 실행 허용은 별�
 이전 도구로 먼저 복구하세요. Alpha2는 **자막 복구 → 음성 복구** 순서입니다.
 이전 도구의 백업 기록을 통합 설치기의 복구 기록으로 가져오지는 않습니다.
 이전 **0.14 통합 설치기**를 사용했다면 해당 버전의 **설치 전 복구**를 먼저 실행한 뒤
-Beta 1로 설치하세요. 버전별 백업과 복구 기록은 서로 인계하지 않습니다.
+Beta 2로 설치하세요. 버전별 백업과 복구 기록은 서로 인계하지 않습니다.
 
-## Beta 1의 프리셋
+## Beta 2의 프리셋
 
 음성·자막 프리셋 중 하나를 고르고, 와이드스크린은 별도로 선택합니다.
 
@@ -150,8 +151,8 @@ ZIP·SHA-256·검증 보고서를 생성합니다. `--prepare-only`는 ZIP 없�
 `UNIFIED_TEST`로 컴파일하는 테스트 실행기는 배포하지 않습니다.
 
 ```powershell
-python unified/tests/transactions.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-beta.1 --out D:\unified-synthetic-001
-python unified/tests/owned_roundtrip.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-beta.1 --stock D:\owned-stock\Content --out D:\unified-owned-test-001
+python unified/tests/transactions.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-beta.2 --out D:\unified-synthetic-001
+python unified/tests/owned_roundtrip.py --package D:\unified-014-build\CrimsonSkies-Unified-0.14.0-beta.2 --stock D:\owned-stock\Content --out D:\unified-owned-test-001
 ```
 
 두 검사 모두 새 출력 폴더를 요구합니다. 실제 크기 검사는 원본 입력을 별도로

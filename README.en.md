@@ -2,13 +2,13 @@
 
 ## Code signing policy
 
-The public 0.14 Beta 1 installer and xdelta are unsigned; an installer block
+The public 0.14 Beta 2 installer and xdelta are unsigned; an installer block
 was reproduced with Smart App Control enabled. Signing/SignPath enrollment is
 optional for normal fan-patch ZIP distribution. See [packaging and optional
 signing](unified/SIGNING.md).
 
 > [!WARNING]
-> **SAC affects both installation and launching the patched game.** The public Beta 1 installer and bundled xdelta are unsigned.
+> **SAC affects both installation and launching the patched game.** The public Beta 2 installer and bundled xdelta are unsigned.
 > **Modified DLLs used for widescreen and added captions were blocked with SAC on. Re-enabling SAC after installation may block the patched game again.** Temporarily disabling it only for installation does not establish gameplay compatibility.
 > Recent Windows 11 updates allow SAC to be re-enabled without reinstalling Windows. Availability still depends on the device, updates and configuration; check that PC's Windows Security guidance.
 > Disabling SAC reduces app-execution protection for the entire PC. SAC has no per-app exception. Changing that setting is the user's decision; to keep SAC on, postpone installing configurations that modify game DLLs.
@@ -16,15 +16,15 @@ signing](unified/SIGNING.md).
 >
 > [Actual SAC test scope](unified/README.en.md#smart-app-control-sac) · [Microsoft SAC FAQ](https://support.microsoft.com/en-us/windows/security/threat-malware-protection/smart-app-control-frequently-asked-questions) · [Signing status](unified/SIGNING.md)
 
-## 0.14.0 Beta 1: selective unified setup
+## 0.14.0 Beta 2: selective unified setup
 
-**[Download unified setup](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-beta.1)** · [Install, restore and source builds](unified/README.en.md) · [Verification record](unified/verification-beta1.json)
+**[Download unified setup](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-beta.2)** · [Install, restore and source builds](unified/README.en.md) · [Verification record](unified/verification-beta2.json)
 
-Extract **`CrimsonSkies-Unified-0.14.0-beta.1.zip`** and run `CrimsonSkiesSetup.exe`. Choose Original, English voices + Korean captions, Korean voices only, or Korean voices + matched captions, with widescreen selected separately. No separate 0.11 installation or API key is needed. The same tool switches components, creates backups and restores them. Beta 1 fixes caption-off behavior and stale cached assets after preset changes.
+Extract **`CrimsonSkies-Unified-0.14.0-beta.2.zip`** and run `CrimsonSkiesSetup.exe`. Choose Original, English voices + Korean captions, Korean voices only, or Korean voices + matched captions, with widescreen selected separately. No separate 0.11 installation or API key is needed. The same tool switches components, creates backups and restores them. Beta 2 fixes rejection of supported Xbox installations after Verify/Repair, and retains Beta 1’s caption-off and asset-cache fixes.
 
 Supports exact stock or the public 0.11 foundation. Restore existing 0.12 packs with their old launcher first. For 0.13 dubbing, restore **captions → audio** before migrating. Allow about 14GB extra for the complete dub. Profile management remains in the older separate launcher.
 
-Synthetic installer and cache-preservation checks passed. Eight preset/aspect combinations were installed and recorded in first-mission samples with SAC off; see the verification record for scope. A complete campaign playthrough and 4K gameplay remain unverified; this is a beta prerelease.
+Synthetic installer and cache-preservation checks passed. Beta 1’s eight preset/aspect combinations were recorded with SAC off; Beta 2’s unchanged payloads and full-preset live install, first-mission play and restore were verified again. Restore an older 0.14 installation with its own installer before upgrading; see the verification record for scope. A complete campaign playthrough and 4K gameplay remain unverified; this is a beta prerelease.
 
 ## 0.13.0 Alpha 2: Korean dubbing and matching captions
 
