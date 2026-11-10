@@ -7,6 +7,24 @@
 [GitHub 다운로드](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-beta.1) · [English](README.en.md)
 실행용 ZIP은 `CrimsonSkies-Unified-0.14.0-beta.1.zip`이며 소스 ZIP은 별도입니다.
 
+## 개발 중: Beta 2 설치 메타데이터 호환성 수정
+
+현재 공개 다운로드는 Beta 1입니다. 이 소스의 다음 빌드 대상은 **0.14.0-beta.2 후보**이며,
+공식 Xbox 확인·복구 뒤 같은 게임 빌드의 `appxmanifest.xml`이 달라져 Beta 1의 상태 검사가
+중단되는 문제를 수정합니다. 확인한 배포 상태와 복구 직후 상태의 **두 전체 해시·크기만**
+호환 형태로 허용하고, 게임 이름·버전·아키텍처·Publisher 및 나머지 파일 검증은 유지합니다.
+XML이 다른 형태로 수정됐거나 게임 빌드가 다르면 계속 중단합니다. 게임 메타데이터를
+덮어쓰거나 검사를 건너뛸 필요는 없습니다. 이 수정은 SAC 호환성을 바꾸지 않습니다.
+
+Beta 1에서 메타데이터 검사 오류가 나오면 설치를 중단하고 수정 버전 안내를 확인하세요.
+기존 공개 ZIP은 교체하지 않으며, 다음 버전은 독립된 백업·복구 기록을 사용합니다.
+Beta 1이 설치돼 있다면 **Beta 1의 설치 전 복구부터** 실행하세요.
+
+개발 검증: `python unified/tests/host_metadata.py --package PACKAGE --out NEW_OUTPUT`.
+`--owned-manifest PATH`를 반복 지정하면 본인이 보유한 두 원본 XML도 읽기 전용으로 검증합니다.
+테스트와 배포물에는 게임의 XML 원문을 포함하지 않습니다.
+실제 설치·첫 임무·원본 복구 결과와 검증 범위는 [Beta 2 후보 검증 기록](verification-beta2.json)에 정리했습니다.
+
 ## Code signing policy
 
 Beta 1의 설치기와 동봉 xdelta는 미서명 상태입니다. 이전 설치기는 Smart App Control이

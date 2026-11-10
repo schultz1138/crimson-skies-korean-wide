@@ -18,7 +18,8 @@ import zipfile
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parent
 PRODUCT = 'Crimson Skies Korean Wide'
-NEXT_RELEASE = 'CrimsonSkies-Unified-0.14.0-beta.1'
+NEXT_RELEASE = 'CrimsonSkies-Unified-0.14.0-beta.2'
+PUBLISHED_RELEASES = {'CrimsonSkies-Unified-0.14.0-alpha.1', 'CrimsonSkies-Unified-0.14.0-beta.1'}
 BASE_MANIFEST = '5c7c84d7cc31444ef1b9d54a2bf14d50f8f3de749c3743314ea93fb4484a03cd'
 BASE_SETUP = '383a5b8c2e0b8922859e788c18d2b895a2e891e939b77188c72c8673ec1cf886'
 BASE_TOOL = '732980d52f9220dc81817ccdd0c295eadce8a0048a24c2a771a73f791ac824e9'
@@ -219,7 +220,7 @@ def require_new_output(out, inputs):
 def prepare(bundle, out, signed_xdelta=None, release_id=NEXT_RELEASE):
     """Rebuild only the installer from pinned public deltas; never decode them."""
     version(release_id)
-    need(release_id != 'CrimsonSkies-Unified-0.14.0-alpha.1', 'Keep the published alpha.1 immutable')
+    need(release_id not in PUBLISHED_RELEASES, 'Keep published releases immutable; use a new release ID')
     bundle, out = bundle.resolve(), out.resolve()
     require_new_output(out, [bundle])
     need(sha(bundle / 'manifest.json') == BASE_MANIFEST and sha(bundle / 'CrimsonSkiesSetup.exe') == BASE_SETUP,
@@ -267,7 +268,7 @@ def finalize(bundle, preparation, out, require_signatures=False, require_install
     need(report['schema'] == 1 and report['status'] in {'PREPARED', 'PREPARED_NOT_A_SIGNED_RELEASE'}, 'Invalid preparation report')
     manifest, files = verify_bundle(bundle)
     need(manifest['releaseId'] == report['releaseId'], 'Release identity changed')
-    need(manifest['releaseId'] != 'CrimsonSkies-Unified-0.14.0-alpha.1', 'Keep the published alpha.1 immutable')
+    need(manifest['releaseId'] not in PUBLISHED_RELEASES, 'Keep published releases immutable; use a new release ID')
     need(set(files) == set(report['files']), 'Package inventory changed after preparation')
     for rel, digest in files.items():
         if rel != 'CrimsonSkiesSetup.exe':

@@ -76,7 +76,7 @@ def main():
         (compile_dir / 'Pins.cs').write_text('namespace CrimsonSkiesUnified {public static class Pins {public const string Manifest="' +
                                            sha((package / 'manifest.json').read_bytes()) + '";public const string ReleaseId="' + value['releaseId'] + '";}}')
     save_manifest(manifest)
-    for name in ('Engine.cs', 'Settings.cs', 'Selection.cs', 'GameCache.cs'):
+    for name in ('Engine.cs', 'HostManifest.cs', 'Settings.cs', 'Selection.cs', 'GameCache.cs'):
         shutil.copyfile(REPO / 'unified/source' / name, compile_dir / name)
     for name, source in (('VoiceCache.cs', 'dubbing/audio/VoiceCache.cs'), ('Resolution.cs', 'source/SelectionMigration.cs')):
         (compile_dir / name).write_text((REPO / source).read_text('utf-8').replace('namespace CrimsonSkiesKoreanPatch', 'namespace CrimsonSkiesUnified'), encoding='utf-8')

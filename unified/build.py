@@ -10,7 +10,7 @@ HERE=Path(__file__).resolve().parent
 if str(HERE) not in sys.path:sys.path.insert(0,str(HERE))
 REPO=HERE.parent
 TOOL_SHA='732980d52f9220dc81817ccdd0c295eadce8a0048a24c2a771a73f791ac824e9'
-RELEASE='CrimsonSkies-Unified-0.14.0-beta.1'
+RELEASE='CrimsonSkies-Unified-0.14.0-beta.2'
 
 def sha(p):
     h=hashlib.sha256()
@@ -28,7 +28,7 @@ def compile_setup(bundle,compile_dir):
     """Compile the shipping UI/engine; fixture defines are never supplied."""
     assert not compile_dir.exists();compile_dir.mkdir(parents=True)
     files=[]
-    for name in ['Engine.cs','Settings.cs','Selection.cs','Ui.cs','GameCache.cs']:
+    for name in ['Engine.cs','HostManifest.cs','Settings.cs','Selection.cs','Ui.cs','GameCache.cs']:
         p=compile_dir/name;shutil.copyfile(HERE/'source'/name,p);files.append(name)
     for name,source in [('VoiceCache.cs','dubbing/audio/VoiceCache.cs'),('Resolution.cs','source/SelectionMigration.cs')]:
         p=compile_dir/name;p.write_text((REPO/source).read_text('utf-8').replace('namespace CrimsonSkiesKoreanPatch','namespace CrimsonSkiesUnified'),encoding='utf-8');files.append(name)
