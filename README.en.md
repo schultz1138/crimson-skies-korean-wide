@@ -1,186 +1,57 @@
 # Crimson Skies Korean & Widescreen Patch
 
-## Code signing policy
+An unofficial fan patch for **Crimson Skies: High Road to Revenge**, with Korean captions, AI Korean voices and optional widescreen.
+You need an owned installation of the **Windows x64 game build 2608.3123.1.0**.
 
-The public 0.14 Beta 2 installer and xdelta are unsigned; an installer block
-was reproduced with Smart App Control enabled. Signing/SignPath enrollment is
-optional for normal fan-patch ZIP distribution. See [packaging and optional
-signing](unified/SIGNING.md).
+**[Download Beta 2](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-beta.2)** · **[Step-by-step installation](unified/README.en.md)** · [한국어](README.md)
 
-> [!WARNING]
-> **SAC affects both installation and launching the patched game.** The public Beta 2 installer and bundled xdelta are unsigned.
-> **Modified DLLs used for widescreen and added captions were blocked with SAC on. Re-enabling SAC after installation may block the patched game again.** Temporarily disabling it only for installation does not establish gameplay compatibility.
-> Recent Windows 11 updates allow SAC to be re-enabled without reinstalling Windows. Availability still depends on the device, updates and configuration; check that PC's Windows Security guidance.
-> Disabling SAC reduces app-execution protection for the entire PC. SAC has no per-app exception. Changing that setting is the user's decision; to keep SAC on, postpone installing configurations that modify game DLLs.
-> The installer does not change security settings automatically. Signing only the installer does not resolve trust for modified game DLLs. The free-signing application remains an unsubmitted, unapproved draft on hold.
->
-> [Actual SAC test scope](unified/README.en.md#smart-app-control-sac) · [Microsoft SAC FAQ](https://support.microsoft.com/en-us/windows/security/threat-malware-protection/smart-app-control-frequently-asked-questions) · [Signing status](unified/SIGNING.md)
+## First installation
 
-## 0.14.0 Beta 2: selective unified setup
+**Read the SAC notice before starting.** This package is unsigned, and Windows Smart App Control (SAC) can block the installer or patched game. Disabling it reduces app-execution protection across the PC; re-enabling it can block the game again. Re-enabling availability depends on the PC and Windows configuration. The installer does not change security settings. Read the [blocking/SAC guidance](unified/README.en.md#smart-app-control-sac) before deciding to install.
 
-**[Download unified setup](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-beta.2)** · [Install, restore and source builds](unified/README.en.md) · [Verification record](unified/verification-beta2.json)
+1. Open **Download Beta 2**, expand **Assets**, and download `CrimsonSkies-Unified-0.14.0-beta.2.zip`. GitHub's `Source code` archives are for developers.
+2. Confirm the original game runs, then close both the game and its **Play window**.
+3. Extract the whole ZIP into a new folder and run `CrimsonSkiesSetup.exe` inside it.
+4. **Choose the game folder → choose a voice/caption preset → select optional widescreen → Check → Install selected.**
+5. Wait for the completion message, then choose **Open game**. For widescreen, select a **16:9 resolution such as 1920×1080** in the launcher.
 
-Extract **`CrimsonSkies-Unified-0.14.0-beta.2.zip`** and run `CrimsonSkiesSetup.exe`. Choose Original, English voices + Korean captions, Korean voices only, or Korean voices + matched captions, with widescreen selected separately. No separate 0.11 installation or API key is needed. The same tool switches components, creates backups and restores them. Beta 2 fixes rejection of supported Xbox installations after Verify/Repair, and retains Beta 1’s caption-off and asset-cache fixes.
+Already using a patch? Start with the [upgrade table](unified/README.en.md#if-you-already-use-a-patch). Restore an older 0.14 installation with **that version's Restore button first**.
 
-Supports exact stock or the public 0.11 foundation. Restore existing 0.12 packs with their old launcher first. For 0.13 dubbing, restore **captions → audio** before migrating. Allow about 14GB extra for the complete dub. Profile management remains in the older separate launcher.
+## Which options do I choose?
 
-Synthetic installer and cache-preservation checks passed. Beta 1’s eight preset/aspect combinations were recorded with SAC off; Beta 2’s unchanged payloads and full-preset live install, first-mission play and restore were verified again. Restore an older 0.14 installation with its own installer before upgrading; see the verification record for scope. A complete campaign playthrough and 4K gameplay remain unverified; this is a beta prerelease.
+Choose one voice/caption preset, then turn widescreen on or off separately.
 
-## 0.13.0 Alpha 2: Korean dubbing and matching captions
-
-**[Download Alpha 2](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.13.0-alpha.2)** · [Install/restore guide](docs/DUBBING.en.md) · [Source builds](dubbing/README.en.md)
-
-Adds finalized AI Korean dialogue for 1,847 WAVs and 56 movies, a caption style matching the spoken script, and a movie-caption cache fix. Install the **0.11 foundation → audio ZIP's `KoreanDubInstaller.exe` → caption ZIP's `PrepareSubtitleLauncher.exe`**, then select **한국어 — 더빙 대사 자막**. Players need no API key or TTS generation.
-
-Restore active 0.12 subtitle packs with their own launcher before installing. To return to English audio, restore the original translation captions first, then restore the audio installer. Profile management remains available. Complete campaign playtesting is still in progress, so this is a prerelease.
-
-## 0.12.2 alpha 1: profile backup, deletion and restoration
-
-**[Download 0.12.2 alpha](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.12.2-alpha.1)** · [Profile Manager guide](docs/PROFILE_MANAGER.en.md)
-
-Back up one selected profile to ZIP, delete it after backup verification and confirmation, or restore a missing profile from its backup. Existing profiles are never overwritten; other profiles and shared title data are verified. Interrupted-operation recovery is included. Supports Windows x64 **2608.3123.1.0** and the backup's original account/save-store context.
-
-Subtitle language packs require the installed **0.11.0 beta 1 foundation**. Existing 0.12 users can close the game and Play window and extract this bundle into a new folder. The language catalog and recovery identity remain unchanged. [512 synthetic assertions and separate provider observations](docs/profile-manager-verification.json) · [Run the public tests](multilingual/tests/profile_manager/README.md).
-
-[한국어](README.md) | **English**
-
-An unofficial community patch for **Crimson Skies: High Road to Revenge**:
-native bottom-screen Korean subtitles, widescreen resolutions, HUD alignment,
-and a fix that preserves AA at 4K.
-
-**[Download 0.11.0 beta 1](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.11.0-beta.1)** ·
-[Build from source](docs/REPRODUCING.en.md) ·
-[Contribute another language](docs/MULTILINGUAL.en.md)
-
-New: [0.12 multilingual alpha](docs/MULTILINGUAL.en.md), a separately versioned
-add-on with declarative language packs and launcher selection. English/Spanish
-are partial contributor examples.
-
-> Supports the exact **Windows x64 packaged build 2608.3123.1.0**.
-> You must provide your own game. Full campaign playthrough verification is
-> still incomplete, so the patch is released as a beta.
-
-## Features
-
-- Built-in bottom-screen Korean radio and in-engine cinematic subtitles, with line breaks.
-- Movie and credits subtitle data, plus CS Korean Sans derived from Noto Sans CJK KR Bold.
-- Eleven internal render resolutions, from 640×480 to 3840×2160, with automatic 4:3/16:9 selection.
-- Alignment fixes for the radar map, rocket count, enemy health bars, and pause-menu objective box.
-- Preservation of the selected AA option at 4K.
-- SHA-256 input verification, installation-before backups, resume/recovery, and restoration.
-
-Resolution choices control **internal rendering**. The final presentation follows
-the game window and monitor; selecting 4K on a 1080p display downscales the result.
-
-## Install or restore
-
-1. Download **`CrimsonSkies-KO-Wide-0.11.0-beta.1.zip`** from the release page.
-   GitHub's automatically generated `Source code` archives are not installers.
-2. Save your progress, close the game and the launcher containing the Play button,
-   and extract the entire ZIP.
-3. Run `KoreanWidePatchInstaller.exe`, select the game folder or its `Content`
-   folder, check its state, and install the integrated patch.
-4. Launch the game normally and select **한국어 (Korean)** as the game language.
-   No separate subtitle program or system-wide font installation is required.
-
-The current installer UI is Korean:
-
-| Button | Meaning |
+| What you want | Select in the installer |
 | --- | --- |
-| 폴더 선택 | Select folder |
-| 상태 검사 | Check installation state |
-| 통합 패치 설치 | Install integrated patch |
-| 설치 전 상태로 복구 | Restore the state before this version was installed |
+| English voices with Korean captions | **English voices + Korean captions** |
+| Korean voices without added dialogue captions | **Korean voices only (no added captions)** |
+| Korean voices with matching captions | **Korean voices + matched captions** |
+| Widescreen only | **Original voices and captions** + **Widescreen & high resolutions** checked |
 
-Supported starting states are the exact stock files or the public Korean beta
-`0.10.0-beta.1`. Unknown mixtures, other builds and unrelated modifications are
-rejected. Installation/recovery recommends about 2GB of combined extra free space
-on the game and backup drives. Per-user backups are stored under
-`%LOCALAPPDATA%\CrimsonSkiesKoreanPatch\Backups`.
+Voices only retains built-in movie captions and required Korean menu/fonts. Allow about **14GB extra space** for the full dub. Voices are already generated; no API key is required. You can start directly from supported stock files.
 
-Restoration returns to the **installation-before state**: stock if installed from
-stock, or the older Korean beta if upgraded from that beta. Keep older installers
-and their backups if you also want to undo the older patch. Save files are not
-read or changed. An already-matching installation without this installer's own
-backup cannot acquire a stock restore history merely by running it again.
+## Install, change options, restore
 
-## Complete source build
+- [Download through first launch](unified/README.en.md)
+- [Upgrade from an existing patch](unified/README.en.md#if-you-already-use-a-patch)
+- [Change options or restore](unified/README.en.md#change-options-or-restore)
+- [Troubleshooting](unified/README.en.md#troubleshooting)
 
-The public pipeline builds the game targets from authored text, timing tables,
-font configuration, assembly and PE generators. Previously released VCDIFFs and
-finished DLLs are not reconstruction inputs.
+## Beta 2 and testing scope
 
-| Location | Purpose |
-| --- | --- |
-| `pipeline/assets/` | Extract owned inputs; edit subtitle/UI data; rasterize fonts; rebuild Data0000/Data0005 |
-| `pipeline/assets/localization/` | Editable Korean text, timing and semantic database edit recipes |
-| `pipeline/native/` | Radio AOT, bottom captions, HUD, resolutions, GPU/4K AA and PE generation |
-| `source/` | Complete C# installer/recovery source |
-| `pipeline/package_release.py` | Generate six deltas, compile the installer and reproduce the release ZIP |
-| `pipeline/requirements-win-cp312.txt` | Hash-locked Windows x64 / CPython3.12 dependencies |
-| `licenses/` | Font, installer, xdelta and bundled dependency notices |
+Beta 2 fixes supported installations being rejected after Xbox **Verify/Repair**. Caption, voice and widescreen content is unchanged from Beta 1. **This update does not resolve SAC blocking.**
 
-After preparing the environment in the [English build guide](docs/REPRODUCING.en.md):
+First-mission install/play/restore, file hashes and save preservation were checked. Full-campaign playthrough, 4K gameplay and final listening review of all dialogue remain pending; this is a **beta prerelease**. [Beta 2 verification](unified/verification-beta2.json) · [Earlier eight-configuration verification](unified/verification-beta1.json)
 
-```powershell
-.\.venv\Scripts\python.exe pipeline\build.py --input-content D:\CrimsonSkies-original\Content --dependencies .deps --out D:\CrimsonSkies-build-001
-```
+## Older versions and developer resources
 
-Use an unmodified owned input copy and a new, separate output directory.
-`--game-only` skips installer/ZIP packaging; it still enforces the canonical
-Korean output hashes. It is not a custom-language mode.
+Use the unified installer above for a first installation. These resources support older installations or development.
 
-The immutable `source-v0.11.0-beta.1-r1` snapshot is the original verified source
-release. The `source-v0.11.0-beta.1-r2` snapshot adds English documentation and
-localization guidance with the same build inputs. Download the named source ZIP
-from the release page or clone this repository. `hooks/` contains earlier
-reference listings; the complete authoring pipeline is in `pipeline/`.
+- [Older 0.13 dub/caption tools](docs/DUBBING.en.md)
+- [0.12 language packs](docs/MULTILINGUAL.en.md) · [Older profile manager](docs/PROFILE_MANAGER.en.md)
+- [0.11-specific installation (Korean)](읽어주세요.txt)
+- [Unified source builds](unified/README.en.md#for-developers-source-builds) · [0.11 reproduction](docs/REPRODUCING.en.md)
+- [Archived README](https://github.com/schultz1138/crimson-skies-korean-wide/blob/v0.14.0-beta.2/README.en.md)
+- [Contributing](CONTRIBUTING.en.md) · [Packaging/signing status](unified/SIGNING.md)
 
-## Other languages and contributions
-
-Translations, subtitle timing reviews, font coverage work, reproducible bug
-reports and code improvements are welcome. See [CONTRIBUTING.en.md](CONTRIBUTING.en.md)
-and the [localization porting guide](docs/LOCALIZATION.en.md).
-
-The current release contains **Korean subtitles**. Its runtime and release recipe
-are tied to the Korean resource slot and canonical Korean hashes. The source can
-serve as a starting point for a language port, but adding another language requires
-reviewed data/font changes and a separately versioned build. Those limits describe the immutable 0.11 release.
-
-The new [0.12 multilingual alpha](docs/MULTILINGUAL.en.md) adds declarative pack
-discovery and a patch-launcher language selector on top of that foundation.
-It includes Korean plus explicitly partial English/Spanish examples.
-The existing 0.11 build remains unchanged.
-
-## Verification and known limits
-
-The installer passed 191 independent controls and two full-size stock/older-beta
-install→restore roundtrips. Source reconstruction reproduced the five final game
-files, source-built older-beta Native, three fonts, six deltas, installer and all
-28 release members. The complete installer ZIP is byte-identical to the accepted
-beta. See the [independent source-reproduction record](docs/source-reproduction.json).
-
-Tutorial subtitles, the Sea Haven boss cinematic and a subsequent mission, HUD
-alignment, and final 4K/4x MSAA gameplay received user confirmation. Remaining limits:
-
-- Every scene through the ending has not been verified in actual play.
-- Four short foreign-language shouts still need their exact original wording identified.
-- The final 4K report did not record the exact mission or play duration.
-- Physical 4K-monitor presentation and long sessions across different PCs need further testing.
-- The source audit used Python-level access tracing, source review and pinned tools;
-  it was not an OS security sandbox or a trace of every native-library I/O operation.
-
-Installer ZIP SHA-256:
-
-```text
-a53382986c5e78aa189a8936249d9771bed7d357019e31c8b219c904f304dc42
-```
-
-## Licensing
-
-The installer and directly authored source are [MIT-licensed](LICENSE).
-The converted fonts use SIL OFL 1.1; xdelta3 3.2.2 and its bundled dependencies
-retain their own licenses. Read [FONT-NOTICE.txt](FONT-NOTICE.txt),
-[THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt), and `licenses/` before redistributing.
-The MIT license does not grant rights to the original game, audio, video or trademarks.
-This project is not affiliated with Microsoft or the original developers.
+Installer source is [MIT](LICENSE); fonts/tools retain their [bundled licenses](THIRD-PARTY-NOTICES.txt). Original game files are not included. This is not an official Microsoft/Xbox project. Original game assets, trademarks, voices and video retain their respective owners' rights.

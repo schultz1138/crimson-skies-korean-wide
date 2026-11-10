@@ -1,3 +1,5 @@
+> **Older 0.13 tools.** For a first Beta 2 installation, use the [unified guide](../unified/README.en.md). The older restore procedures are preserved below.
+
 # 0.13.0 Alpha 2 — Korean dubbing and matching captions
 
 This unofficial AI Korean dub covers 1,847 dialogue WAVs (1,943 speech parts) and 56 movies. Final Gemini TTS performances include duration fitting, level adjustments and radio processing. **Players do not need a Google account, API key or TTS generation.**
