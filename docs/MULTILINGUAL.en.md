@@ -1,3 +1,5 @@
+> **Older 0.12 language packs.** For a first Beta 2 installation, use the [unified guide](../unified/README.en.md). The older restore procedures are preserved below.
+
 # Subtitle language packs — 0.12 alpha
 
 > The 0.12.2 alpha release adds selected backup-ZIP restoration to [Profile Manager](PROFILE_MANAGER.en.md), refusing existing-profile conflicts. Its distribution version changes, while the 0.12.0 catalog bytes/recovery namespace remain compatible. Historical verification hashes in `multilingual-verification.json` describe the original 0.12 release.
