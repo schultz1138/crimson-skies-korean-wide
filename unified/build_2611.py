@@ -10,7 +10,7 @@ from port_2611_gpu import GPU_SHA, port_gpu
 from port_2611_native import NEW_NATIVE, OLD_NATIVE, port_native, require
 from release import finalize, record_preparation, require_new_output, verify_bundle
 
-RELEASE = 'CrimsonSkies-Unified-0.14.1-alpha.1'
+RELEASE = 'CrimsonSkies-Unified-0.14.1-beta.1'
 BASE_MANIFEST = '9ab4e7cb79064491500d977fa0287fc28f7323900e8dbe33d9cd8c1b71b4aecd'
 BUILD = '2611.323.502.0'
 NATIVE = 'xefu_2ae70168_ceb51ba7_9b9c95a0_541622e1_d1689465.dll'
@@ -129,6 +129,8 @@ def build(stock, previous_native, beta, out):
     docs = Path(__file__).resolve().parent
     for doc in ['README.2611.ko.md','README.2611.en.md']:
         shutil.copyfile(docs/doc,bundle/doc)
+    for source, name in [('README.2611.ko.md', 'README.md'), ('README.2611.en.md', 'README.en.md')]:
+        shutil.copyfile(docs/source,bundle/name)
     evidence = dict(status='OFFLINE_2611_RECONSTRUCTION',gameBuild=BUILD,
                     dataVolumesReused=26,previousBeta2AssetDeltaCount=sum(len(f['edges']) for f in manifest['files'][2:]),
                     nativeVariants=proof,gpu=diff,gameplayVerified=False)

@@ -1,21 +1,26 @@
 # Crimson Skies Korean & Widescreen Patch
 
 An unofficial fan patch for **Crimson Skies: High Road to Revenge**, with Korean captions, AI Korean voices and optional widescreen.
-You need an owned installation of the **Windows x64 game build 2608.3123.1.0**.
+Own the Windows PC game separately and choose the patch matching your installed game build.
 
-**[Download Beta 2](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-beta.2)** · **[Step-by-step installation](unified/README.en.md)** · [한국어](README.md)
+| Installed game build | Download | Installation and recovery |
+| --- | --- | --- |
+| **2611.323.502.0** | **[0.14.1 Beta 1](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.1-beta.1)** | **[2611 guide](unified/README.2611.en.md)** |
+| **2608.3123.1.0** | [0.14.0 Beta 2](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-beta.2) | [2608 guide](unified/README.en.md) |
+
+**Never restore a 2608 backup over an updated 2611 game.** The new patch starts from stock 2611 files; use Xbox Verify and Repair if Check fails. [한국어](README.md)
 
 ## First installation
 
 **Read the SAC notice before starting.** This package is unsigned, and Windows Smart App Control (SAC) can block the installer or patched game. Disabling it reduces app-execution protection across the PC; re-enabling it can block the game again. Re-enabling availability depends on the PC and Windows configuration. The installer does not change security settings. Read the [blocking/SAC guidance](unified/README.en.md#smart-app-control-sac) before deciding to install.
 
-1. Open **Download Beta 2**, expand **Assets**, and download `CrimsonSkies-Unified-0.14.0-beta.2.zip`. GitHub's `Source code` archives are for developers.
+1. Choose the download matching your game build above, expand **Assets**, and download the `CrimsonSkies-Unified-VERSION.zip`. GitHub's `Source code` archives are for developers.
 2. Confirm the original game runs, then close both the game and its **Play window**.
 3. Extract the whole ZIP into a new folder and run `CrimsonSkiesSetup.exe` inside it.
 4. **Choose the game folder → choose a voice/caption preset → select optional widescreen → Check → Install selected.**
 5. Wait for the completion message, then choose **Open game**. For widescreen, select a **16:9 resolution such as 1920×1080** in the launcher.
 
-Already using a patch? Start with the [upgrade table](unified/README.en.md#if-you-already-use-a-patch). Restore an older 0.14 installation with **that version's Restore button first**.
+Already using a patch? Read the [2611 update guide](unified/README.2611.en.md#before-installing). Restore with the old installer's own Restore button **before** the game update. If already updated, do not restore a backup from another game build.
 
 ## Which options do I choose?
 
@@ -32,12 +37,17 @@ Voices only retains built-in movie captions and required Korean menu/fonts. Allo
 
 ## Install, change options, restore
 
-- [Download through first launch](unified/README.en.md)
+- [2611 installation, options and recovery](unified/README.2611.en.md)
+- [2608 download through first launch](unified/README.en.md)
 - [Upgrade from an existing patch](unified/README.en.md#if-you-already-use-a-patch)
 - [Change options or restore](unified/README.en.md#change-options-or-restore)
 - [Troubleshooting](unified/README.en.md#troubleshooting)
 
-## Beta 2 and testing scope
+## 2611 compatibility and testing scope
+
+0.14.1 Beta 1 targets **2611.323.502.0**. It adapts the Native/GPU hooks and host identity checks used by radio captions, HUD and resolution presets. See the [2611 verification record](unified/verification-2611-beta1.json) for actual coverage. Full-campaign and final listening review of every dubbed line remain incomplete. **This does not resolve SAC blocking.**
+
+### Earlier Beta 2 for 2608
 
 Beta 2 fixes supported installations being rejected after Xbox **Verify/Repair**. Caption, voice and widescreen content is unchanged from Beta 1. **This update does not resolve SAC blocking.**
 

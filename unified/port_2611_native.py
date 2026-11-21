@@ -7,6 +7,7 @@ from pathlib import Path
 import pefile
 from capstone import Cs, CS_ARCH_X86, CS_MODE_64, CS_GRP_CALL, CS_GRP_JUMP, CS_GRP_RET
 from capstone.x86_const import X86_OP_IMM, X86_OP_MEM, X86_REG_RIP
+from port_2611_host import retarget_native_decoder
 
 NEW_NATIVE = 'b59891070df50f50219a458fa541e05f4fac93b63eb67dca5ced00d38314a0e3'
 OLD_NATIVE = 'd49d36bd5e6beb6bcc2198dd92d1d3c9116fa0b6584b0291e0a581e28faed86d'
@@ -203,5 +204,6 @@ def port_native(previous_stock, current_stock, previous_variant):
             if instruction.group(CS_GRP_RET) or instruction.mnemonic in ('jmp','int3','ud2'):
                 break
             at += instruction.size
-    return finish(target), {'detours': len(hooks), 'dispatchEntries': changed_entries,
+    host_decoder = retarget_native_decoder(target, target_pe) if any(s.Name.rstrip(b'\0') == b'.wideui' for s in variant_pe.sections) else None
+    return finish(target), {'hostDecoder': host_decoder, 'detours': len(hooks), 'dispatchEntries': changed_entries,
                             'relocatedBranches': relocated, 'verifiedInstructions': len(visited)}

@@ -10,6 +10,7 @@ from capstone import CS_GRP_CALL
 from capstone.x86_const import X86_OP_IMM, X86_OP_MEM, X86_REG_RIP
 
 from port_2611_native import add_sections, align, decoder, digest, finish, import_address, require
+from port_2611_host import HOST_2611
 
 GPU_SHA = 'b4190ad13cfee52e814c20086705179970cd9c2268c243fd6b9345925745a8ca'
 STAGES = Path(__file__).resolve().parents[1] / 'pipeline/native/stages'
@@ -94,7 +95,7 @@ def port_gpu(path):
     put(leaf_at, leaf.emit(base+leaf_at, base+0x86f9c)[0])
     proxy, _, proxy_meta = blit.emit(base+blit_at, base+parser_at, base+table, base+rw, base+0x80a10)
     put(blit_at, proxy)
-    parse, parse_meta = parser.emit(base+parser_at, base+rw+0x100)
+    parse, parse_meta = parser.emit(base+parser_at, base+rw+0x100, HOST_2611)
     put(parser_at, parse)
     dpi_code, _, dpi_meta = dpi.emit_dpi(base+dpi_at, base+parser_at, base+rw+0x200, base+get_rect, base+rw+0x80)
     put(dpi_at, dpi_code)

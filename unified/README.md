@@ -1,5 +1,7 @@
 # Beta 2 설치·복구 안내
 
+> 이 문서는 **게임 빌드 2608.3123.1.0**용입니다. **2611.323.502.0으로 업데이트했다면 [0.14.1 Beta 1 안내](README.2611.ko.md)**를 사용하세요. 업데이트한 게임에 2608 백업을 덮어쓰지 마세요.
+
 **[Beta 2 다운로드](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-beta.2)** · [English](README.en.md)
 
 `CrimsonSkies-Unified-0.14.0-beta.2.zip`의 **CrimsonSkiesSetup.exe**를 위한 안내입니다.
