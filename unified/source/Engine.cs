@@ -17,6 +17,7 @@ namespace CrimsonSkiesUnified {
  public sealed partial class PatchEngine {
   public const string ReleaseId=Pins.ReleaseId;
   public const string ManifestDigest=Pins.Manifest;
+  public string SupportedBuild { get { return manifest.supportedPackage.version; } }
   public const string NativeName="xefu_2ae70168_ceb51ba7_9b9c95a0_541622e1_d1689465.dll";
   static readonly UTF8Encoding Utf8=new UTF8Encoding(false,true);
   readonly JavaScriptSerializer serializer=new JavaScriptSerializer{MaxJsonLength=4194304};
@@ -33,7 +34,10 @@ namespace CrimsonSkiesUnified {
    foreach(var cache in manifest.cacheFiles){Need(cache!=null&&Regex.IsMatch(cache.name??"","^[A-Za-z0-9_ .-]{1,42}$")&&cacheNames.Add(cache.name)&&cache.nodes!=null&&cache.nodes.Length>0&&cache.nodes.Length<=16&&cache.nodes.All(n=>n!=null&&IsHash(n.sha256)&&n.bytes>0&&n.bytes<=268435456)&&cache.hashes!=null&&cache.hashes.Count==cacheStates.Count&&cache.hashes.All(kv=>cacheStates.Contains(kv.Key)&&cache.nodes.Any(n=>n.sha256==kv.Value)),"Invalid asset cache metadata");}
    Need(manifest.tool!=null&&manifest.tool.path=="tools/xdelta3.exe"&&IsHash(manifest.tool.sha256),"Invalid tool");var paths=new HashSet<string>(StringComparer.OrdinalIgnoreCase);
    for(int i=0;i<29;i++){var f=manifest.files[i];string expected=i==0?NativeName:i==1?"VGPUDX12.dll":i==2?"EmuMenu/Assets/TitleMenuData.json":"Game/DefaultPackage.data/Data"+(i-3).ToString("D4");Need(f!=null&&f.path==expected&&paths.Add(f.path)&&f.nodes!=null&&f.nodes.Length>0&&f.nodes.Length<=32&&f.edges!=null&&f.edges.Length<=128,"Invalid file nodes");Need(f.nodes.All(n=>n!=null&&IsHash(n.sha256)&&n.bytes>0&&n.bytes<=8589934592L)&&f.nodes.Select(n=>n.sha256).Distinct().Count()==f.nodes.Length,"Invalid node identity");foreach(var e in f.edges)Need(e!=null&&f.nodes.Any(n=>n.sha256==e.source)&&f.nodes.Any(n=>n.sha256==e.target)&&e.source!=e.target&&Regex.IsMatch(e.path??"","^patches/[0-9]{3}[.]vcdiff$")&&IsHash(e.sha256)&&e.bytes>0&&e.bytes<8589934592L,"Invalid delta edge");}
-   Need(manifest.inputs!=null&&manifest.inputs.Length==2&&manifest.inputs[0].id=="stock"&&manifest.inputs[1].id=="foundation"&&manifest.knownExternal!=null,"Invalid baselines");var ids=new HashSet<string>();foreach(var v in manifest.inputs.Concat(manifest.knownExternal)){Need(v!=null&&ids.Add(v.id),"Duplicate input");Vector(v.hashes);}
+   Need(manifest.inputs!=null&&manifest.inputs[0].id=="stock"&&manifest.knownExternal!=null&&
+    (manifest.supportedPackage.version=="2611.323.502.0" ? manifest.inputs.Length==1 :
+     manifest.inputs.Length==2&&manifest.inputs[1].id=="foundation"),"Invalid baselines");
+   var ids=new HashSet<string>();foreach(var v in manifest.inputs.Concat(manifest.knownExternal)){Need(v!=null&&ids.Add(v.id),"Duplicate input");Vector(v.hashes);}
    foreach(var p in manifest.profiles){Need(p!=null&&Regex.IsMatch(p.id??"","^k[01]-w[01]-d[01]-(off|original|dub)$")&&ids.Add(p.id),"Invalid profile");Need(p.id=="k"+(p.korean?1:0)+"-w"+(p.wide?1:0)+"-d"+(p.dub?1:0)+"-"+p.captions,"Profile option mismatch");Need((p.korean||!p.dub&&p.captions=="off")&&(p.captions!="dub"||p.dub),"Invalid dependencies");Vector(p.hashes);}
    Need(manifest.guards!=null&&manifest.guards.Length>=3&&manifest.guards.Length<=16,"Missing guards");foreach(var g in manifest.guards)Need(g!=null&&!paths.Contains(g.path)&&IsHash(g.sha256)&&g.bytes>0&&g.bytes<67108864,"Invalid guard");
    Need(manifest.guards.Count(g=>g.path=="appxmanifest.xml")==1,"Missing/duplicate host manifest guard");
@@ -76,7 +80,9 @@ namespace CrimsonSkiesUnified {
   }
   public string Resolve(string selected){Need(!String.IsNullOrWhiteSpace(selected),"게임 폴더를 선택하세요.");string p=Path.GetFullPath(selected);NoReparse(p,true);if(!File.Exists(Path.Combine(p,NativeName)))p=Path.Combine(p,"Content");NoReparse(p,true);return p.TrimEnd('\\','/');}
   void VerifyHost(string content){
-   var h=manifest.supportedPackage;Need(h!=null&&h.name=="Xbox360BackwardCompatibil.PrimaryCrimsonSkiesHighR"&&h.version=="2608.3123.1.0"&&h.architecture=="x64"&&h.publisher=="CN=92ADE8CC-2A9A-4DF3-9BAF-18AF498CAA12","Unsupported host");
+   var h=manifest.supportedPackage;Need(h!=null&&h.name=="Xbox360BackwardCompatibil.PrimaryCrimsonSkiesHighR"&&
+    (h.version=="2608.3123.1.0"||h.version=="2611.323.502.0")&&h.architecture=="x64"&&
+    h.publisher=="CN=92ADE8CC-2A9A-4DF3-9BAF-18AF498CAA12","Unsupported host");
    foreach(var g in manifest.guards){string path=Child(content,g.path);if(g.path=="appxmanifest.xml")HostManifest.Verify(path,g.sha256,g.bytes,h);else Verify(path,g.sha256,g.bytes);}
   }
   string[] Inspect(string content){var v=new string[29];for(int i=0;i<29;i++){string p=Child(content,manifest.files[i].path);NoReparse(p,false);long n=new FileInfo(p).Length;Need(manifest.files[i].nodes.Any(x=>x.bytes==n),"Unsupported file size: "+manifest.files[i].path);v[i]=HashFile(p);Need(manifest.files[i].nodes.Any(x=>x.sha256==v[i]&&x.bytes==n),"알 수 없는 파일이 있어 중단했습니다. / Unknown modified file: "+manifest.files[i].path);log("검사 / Checked "+(i+1)+"/29: "+manifest.files[i].path);}return v;}

@@ -1,9 +1,14 @@
 # Crimson Skies 한국어·와이드스크린 패치
 
 **Crimson Skies: High Road to Revenge**를 한국어 자막·AI 한국어 더빙과 와이드스크린으로 즐기는 비공식 팬 패치입니다.
-Windows x64 게임 빌드 **2608.3123.1.0**을 별도로 설치해야 합니다.
+Windows PC에 게임을 별도로 설치하고 **게임 빌드에 맞는 패치**를 선택하세요.
 
-**[Beta 2 다운로드](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-beta.2)** · **[처음부터 설치하기](unified/README.md)** · [English](README.en.md)
+| 설치된 게임 빌드 | 다운로드 | 설치·업데이트·복구 안내 |
+| --- | --- | --- |
+| **2611.323.502.0** | **[0.14.1 Beta 1](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.1-beta.1)** | **[2611 안내](unified/README.2611.ko.md)** |
+| **2608.3123.1.0** | [0.14.0 Beta 2](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-beta.2) | [2608 안내](unified/README.md) |
+
+**2611 업데이트 후에는 2608 백업을 덮어쓰지 마세요.** 새 패치는 2611 원본에서 시작합니다. 검사 실패 시 Xbox 앱의 검사 및 복구로 해당 빌드 원본을 준비하세요. [English](README.en.md)
 
 ## 소개·설치 영상
 
@@ -15,13 +20,13 @@ Windows x64 게임 빌드 **2608.3123.1.0**을 별도로 설치해야 합니다.
 
 **시작 전 SAC 안내를 확인하세요.** 이 배포본은 미서명이며 Windows의 Smart App Control(SAC)이 설치기나 패치된 게임을 차단할 수 있습니다. 보호 기능을 끄면 PC 전체의 앱 실행 보호가 줄어들고, 다시 켜도 패치 게임이 차단될 수 있습니다. 재활성화 가능 여부는 PC·Windows 상태에 따라 다릅니다. 설치기는 보안 설정을 바꾸지 않습니다. [차단 알림과 SAC 안내](unified/README.md#smart-app-control-sac)를 읽고 설치 여부를 결정하세요.
 
-1. 위 **Beta 2 다운로드**에서 **Assets**를 펼치고 `CrimsonSkies-Unified-0.14.0-beta.2.zip`을 받습니다. GitHub의 `Source code`는 개발용 소스입니다.
+1. 위 표에서 **게임 빌드에 맞는 다운로드**의 **Assets**를 펼치고 `CrimsonSkies-Unified-버전.zip`을 받습니다. GitHub의 `Source code`는 개발용 소스입니다.
 2. 원본 게임이 실행되는지 확인한 뒤 게임과 **플레이 창**을 모두 닫습니다.
 3. ZIP 전체를 새 폴더에 풉니다. 그 안의 `CrimsonSkiesSetup.exe`를 실행합니다.
 4. **게임 폴더 선택 → 음성·자막 선택 → 와이드 선택 → 상태 검사 → 선택 항목 설치** 순서로 진행합니다.
 5. 설치 완료 메시지를 확인하고 **플레이 창 열기**를 누릅니다. 와이드를 적용했다면 런처에서 **1920×1080 등 16:9 해상도**를 선택합니다.
 
-이전 패치를 사용했다면 **[기존 사용자 안내](unified/README.md#기존-패치를-사용하고-있다면)**부터 확인하세요. 이전 0.14는 **그 버전의 설치 전 복구**를 먼저 사용합니다.
+이전 패치를 사용했다면 **[업데이트 안내](unified/README.2611.ko.md#업데이트-후-처음-적용한다면)**부터 확인하세요. 게임 업데이트 전에는 **그 버전의 설치 전 복구**를 사용합니다. 이미 게임이 업데이트됐다면 다른 빌드 백업으로 복구하지 마세요.
 
 ## 무엇을 선택하면 되나요?
 
@@ -38,12 +43,17 @@ Windows x64 게임 빌드 **2608.3123.1.0**을 별도로 설치해야 합니다.
 
 ## 설치·변경·복구 안내
 
-- [다운로드부터 첫 실행까지](unified/README.md)
+- [2611 다운로드부터 첫 실행·옵션 변경·복구까지](unified/README.2611.ko.md)
+- [2608 다운로드부터 첫 실행까지](unified/README.md)
 - [기존 패치에서 Beta 2로 옮기기](unified/README.md#기존-패치를-사용하고-있다면)
 - [설치 옵션 바꾸기와 설치 전 복구](unified/README.md#옵션-변경과-복구)
 - [오류가 났을 때](unified/README.md#문제가-생겼을-때)
 
-## Beta 2와 검증 범위
+## 2611 호환 버전과 검증 범위
+
+0.14.1 Beta 1은 게임 빌드 **2611.323.502.0**용입니다. 업데이트로 바뀐 Native/GPU 위치와 실행 파일 식별값에 맞춰 무전 자막·HUD·해상도 프리셋 인식을 수정했습니다. [2611 실제 검증 기록](unified/verification-2611-beta1.json)을 확인하세요. 전체 캠페인과 모든 더빙 대사의 최종 청취 검수는 남아 있습니다. **SAC 차단을 해결하는 업데이트는 아닙니다.**
+
+### 이전 2608용 Beta 2
 
 Beta 2는 Xbox 앱의 **검사 및 복구** 후 정상 게임이 거부되던 설치 검사 문제를 수정합니다. 자막·더빙·와이드 콘텐츠는 Beta 1과 같습니다. **SAC 차단을 해결하는 업데이트는 아닙니다.**
 

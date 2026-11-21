@@ -8,6 +8,7 @@ from keystone import Ks,KS_ARCH_X86,KS_MODE_64
 from capstone import Cs,CS_ARCH_X86,CS_MODE_64
 CONTRACT_PATH=HERE/'preset-contract-v1.json'
 SETTER=bytes.fromhex('488b15359c0d00488bca480fbae909480fbaf20984c0480f45d14889151b9c0d00')
+HOST_2608=dict(timestamp=0x6a8fb94a,imageSize=0xd98000,setterRva=0x4662c,setter=SETTER,commandLineIat=0xa52f0)
 FRAME=0x1c8;BUFFER=0x1a0;RESULT=0x190
 GPRS=['rbx','rcx','rdx','rbp','rsi','rdi','r8','r9','r10','r11','r12','r13','r14','r15']
 SLOTS={n:0x120+8*i for i,n in enumerate(GPRS)}
@@ -20,7 +21,9 @@ def _flush(prefix):
 def _append(prefix):
  return ['cmp r12d,32',f'jae {prefix}_full','mov byte ptr [r10+r12],r11b','inc r12d',f'jmp {prefix}_done',f'{prefix}_full:','mov r12d,33',f'{prefix}_done:']
 
-def emit(code_base,cache_address):
+def emit(code_base,cache_address,host=None):
+ host=HOST_2608 if host is None else host
+ setter=host['setter'];assert len(setter)==33
  assert cache_address%4==0
  raw=CONTRACT_PATH.read_bytes();contract=json.loads(raw);rows=contract['presets'];assert [x['id']for x in rows]==list(range(1,12))
  ks=Ks(KS_ARCH_X86,KS_MODE_64);md=Cs(CS_ARCH_X86,CS_MODE_64);md.detail=True
@@ -40,9 +43,9 @@ def emit(code_base,cache_address):
  body += ['xor eax,eax','mov rcx,qword ptr gs:[rax+0x60]','test rcx,rcx','je invalid_host','mov rcx,[rcx+0x10]','test rcx,rcx','je invalid_host',
   'cmp word ptr [rcx],0x5a4d','jne invalid_host','mov edx,[rcx+0x3c]','cmp edx,0x40','jb invalid_host','cmp edx,0x800','ja invalid_host',
   'cmp dword ptr [rcx+rdx],0x4550','jne invalid_host','cmp word ptr [rcx+rdx+4],0x8664','jne invalid_host','cmp word ptr [rcx+rdx+0x18],0x20b','jne invalid_host',
-  'cmp dword ptr [rcx+rdx+8],0x6a8fb94a','jne invalid_host','cmp dword ptr [rcx+rdx+0x50],0xd98000','jne invalid_host']
- for i in range(0,32,4):body += [f'cmp dword ptr [rcx+{0x4662c+i}],{int.from_bytes(SETTER[i:i+4],"little")}','jne invalid_host']
- body += [f'cmp byte ptr [rcx+{0x4662c+32}],{SETTER[32]}','jne invalid_host','mov rax,[rcx+0xa52f0]','test rax,rax','je invalid_host','call rax','test rax,rax','je invalid_host',
+  f'cmp dword ptr [rcx+rdx+8],{host["timestamp"]}','jne invalid_host',f'cmp dword ptr [rcx+rdx+0x50],{host["imageSize"]}','jne invalid_host']
+ for i in range(0,32,4):body += [f'cmp dword ptr [rcx+{host["setterRva"]+i}],{int.from_bytes(setter[i:i+4],"little")}','jne invalid_host']
+ body += [f'cmp byte ptr [rcx+{host["setterRva"]+32}],{setter[32]}','jne invalid_host',f'mov rax,[rcx+{host["commandLineIat"]}]','test rax,rax','je invalid_host','call rax','test rax,rax','je invalid_host',
   'mov rsi,rax','xor ebx,ebx','xor ebp,ebp','xor edi,edi','xor r12d,r12d','xor r13d,r13d','xor r14d,r14d','xor r15d,r15d',f'lea r10,[rsp+{BUFFER}]',
   'read_next:','cmp edi,4096','jae partial','movzx r11d,byte ptr [rsi]','inc rsi','inc edi','test r11b,r11b','je end_string',
   'cmp r11b,92','je slash','cmp r11b,34','je quote','mov edx,r14d']
@@ -92,7 +95,7 @@ def emit(code_base,cache_address):
  ui=bytes([1,len(pro_bytes),len(codes)//2,0])+codes;ui+=bytes((-len(ui))%4)
  meta=dict(schema='cs-native-visible-pixels-decoder-v1',entryVA=code_base,parseVA=parse_base,codeBytes=len(blob),codeSha256=hashlib.sha256(blob).hexdigest(),cacheVA=cache_address,cacheBytes=4,
   contractSha256=hashlib.sha256(raw).hexdigest(),unwindFunctions=[dict(beginVA=parse_base,endVA=parse_base+len(parser),unwindHex=ui.hex(),prologueBytes=len(pro_bytes),frameBytes=FRAME)],links=links,
-  abi=dict(output='EAX0..11',preserve='allotherGPR/all16XMM/RSP',flags='clobbered',entryStackAlignment=8,onlyExternalCall='validatedEmuIAT+a52f0 GetCommandLineA'),
+  abi=dict(output='EAX0..11',preserve='allotherGPR/all16XMM/RSP',flags='clobbered',entryStackAlignment=8,onlyExternalCall=f'validatedEmuIAT+{host["commandLineIat"]:x} GetCommandLineA'),
   bounds=dict(commandBytes=4096,tokenBytes=32),cacheRule='ID+1 only after terminatingNUL; partial/invalidhost never cached',
   assembly=cache_asm+'\n; PARSER\n'+'\n'.join(pro)+'\n'+body_asm)
  return bytes(blob),meta

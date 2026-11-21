@@ -197,7 +197,11 @@ def source_hashes():
              HERE / 'build_caption_off_overlay.py', HERE / 'caption-off-overlay/overlay.json',
              HERE / 'cache_assets.py', HERE / 'build_cache_assets.py', HERE / 'cache-assets.json',
              HERE / 'verify-signature.ps1', REPO / 'dubbing/audio/VoiceCache.cs',
-             REPO / 'source/SelectionMigration.cs']
+             REPO / 'source/SelectionMigration.cs', HERE / 'build_2611.py',
+             HERE / 'port_2611_native.py', HERE / 'port_2611_gpu.py', HERE / 'port_2611_host.py',
+             REPO / 'pipeline/native/stages/resolution-analysis/shared/preset_decoder.py',
+             REPO / 'pipeline/native/stages/resolution-analysis/shared/preset-contract-v1.json',
+             REPO / 'pipeline/native/stages/resolution-analysis/aspect/4k-aa-source-v1/shadow_heap_budget_v5.py']
     return {path.relative_to(REPO).as_posix(): sha(path) for path in paths}
 
 

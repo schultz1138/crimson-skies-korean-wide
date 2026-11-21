@@ -7,28 +7,31 @@ sys.path.insert(0,str(ROOT/'resolution-analysis/gpu'))
 from aa_override_proxy_v4 import emit_aa,IMAGE_BASE,Ks,KS_ARCH_X86,KS_MODE_64,Cs,CS_ARCH_X86,CS_MODE_64,X86_OP_MEM
 ENTRY_RVA=0x763c00;UW_RVA=0x741520;DIAG_RVA=0x767300
 FRAME=0x38
-def aa_preserved():
- code,asm,meta=emit_aa();code=bytearray(code);md=Cs(CS_ARCH_X86,CS_MODE_64);md.detail=True
- ins=list(md.disasm(code,IMAGE_BASE+0x763800));matches=[]
+def aa_preserved(entry=IMAGE_BASE+0x763800,decoder=IMAGE_BASE+0x740000,diag=IMAGE_BASE+0x767120):
+ code,asm,meta=emit_aa(entry,decoder,diag);code=bytearray(code);md=Cs(CS_ARCH_X86,CS_MODE_64);md.detail=True
+ ins=list(md.disasm(code,entry));matches=[]
  for n,i in enumerate(ins[:-1]):
   if i.mnemonic=='cmp'and i.op_str=='dword ptr [r10 + 0x10], 0xb':
    j=ins[n+1];assert j.mnemonic=='jne'and j.size==2 and j.bytes[0]==0x75
-   at=j.address-IMAGE_BASE-0x763800;matches.append(at)
+   at=j.address-entry;matches.append(at)
  assert len(matches)==1
  at=matches[0];before=bytes(code[at:at+2]);code[at]=0xeb
- return bytes(code),dict(branchRva=hex(0x763800+at),before=before.hex(),after=bytes(code[at:at+2]).hex(),policy='All supported IDs retain original per-run AA option; existing validation and diagnostics preserved.')
+ return bytes(code),dict(branchRva=hex(entry-IMAGE_BASE+at),before=before.hex(),after=bytes(code[at:at+2]).hex(),policy='All supported IDs retain original per-run AA option; existing validation and diagnostics preserved.')
 
-def emit(entry=IMAGE_BASE+ENTRY_RVA,diag=IMAGE_BASE+DIAG_RVA):
+def emit(entry=IMAGE_BASE+ENTRY_RVA,diag=IMAGE_BASE+DIAG_RVA,cache=None,config=None,pool='esi'):
  a=[];fix={}
  def add(*s):a.extend(s)
  def rip(reg,target,marker):fix[marker]=target;add(f'lea {reg},[rip+{marker}]')
  def pointer(reg,label,span=0):
   add(f'cmp {reg},0x10000',f'jb {label}',f'test {reg},7',f'jnz {label}',f'mov rax,{reg}','shr rax,47',f'jnz {label}')
   if span:add(f'mov rax,{0x7fffffffffff-span}',f'cmp {reg},rax',f'ja {label}')
+ assert pool in ('esi','saved-rbp')
+ pool_value='esi' if pool=='esi' else 'dword ptr [rbp]'
  add('push rbp','sub rsp,0x30','lea rbp,[rsp+0x30]','mov [rsp],rcx','mov [rsp+8],rdx','mov [rsp+0x10],r10','mov [rsp+0x18],r11','mov [rsp+0x20],rax',
-     'cmp esi,10','jne restore')
+     f'cmp {pool_value},10','jne restore')
  rip('r10',diag,0x13610000)
- add('lock inc qword ptr [r10+8]','mov dword ptr [r10+0x10],2','mov dword ptr [r10+0x14],0','mov [r10+0x18],esi',
+ pool_record=['mov [r10+0x18],esi'] if pool=='esi' else ['mov dword ptr [r10+0x18],10']
+ add('lock inc qword ptr [r10+8]','mov dword ptr [r10+0x10],2','mov dword ptr [r10+0x14],0',*pool_record,
      'mov dword ptr [r10+0x1c],0','mov qword ptr [r10+0x20],0','mov [r10+0x28],rax','mov [r10+0x30],rax',
      'cmp rax,0x18000000','jne restore')
  rip('r11',IMAGE_BASE+0x767100,0x13620000)
@@ -53,7 +56,9 @@ def emit(entry=IMAGE_BASE+ENTRY_RVA,diag=IMAGE_BASE+DIAG_RVA):
   for op in i.operands:
    if op.type==X86_OP_MEM and i.reg_name(op.mem.base)=='rip'and op.mem.disp in fix:
     # Module-relative targets relocate with the code and image.
-    target=fix[op.mem.disp]+(entry-(IMAGE_BASE+ENTRY_RVA))
+    overrides={0x13610000:diag,0x13620000:cache,0x13630000:config}
+    target=overrides[op.mem.disp]
+    if target is None: target=fix[op.mem.disp]+(entry-(IMAGE_BASE+ENTRY_RVA))
     struct.pack_into('<i',code,i.address-entry+i.disp_offset,target-(i.address+i.size))
  assert code[:10].hex()=='554883ec30488d6c2430'and len(code)<=0x400
  return bytes(code),asm,dict(entryVA=entry,codeBytes=len(code),frameBytes=FRAME,frameAllocationBytes=0x30,frameRegister='RBP',frameRegisterOffsetBytes=0x30,prologueBytes=10,unwindHex='010a03350a03055201500000',unwindRva=UW_RVA,

@@ -1,0 +1,303 @@
+{
+  "schema": 1,
+  "version": "0.14.1-beta.1",
+  "date": "2026-11-21",
+  "status": "PASS_SCOPED_GAMEPLAY_AND_RESTORE",
+  "gameBuild": "2611.323.502.0",
+  "shippingExeSha256": "8ac19a00b2180ea15abedcf9e72b481ac3302656fe9d494bd11b7a28c1c6987e",
+  "manifestSha256": "ff1ded3674f12fe8171e9ffacee53ac1712865f0a625fff5e0f7e4ee585be0d5",
+  "scope": "Registered game: opening cutscene and first-mission tutorial flight, not mission completion or full campaign. Exact shipping executable, manifest and deltas tested; final packaging adds verification only.",
+  "coherentFiles": 29,
+  "readOnlyGuards": 4,
+  "host": {
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "sacStateDuringTest": "Off, already configured by owner; unchanged by this work",
+    "capture": [
+      1280,
+      720
+    ],
+    "physical4KOutputVerified": false
+  },
+  "regression": {
+    "before": "PR head 0b0a500: decoder returned ID 0 because 2608 host guards did not match 2611",
+    "after": "GPU and Native decode IDs 9 and 11 with pinned 2611 timestamp, image size, setter bytes and GetCommandLineA import",
+    "hostGuard": {
+      "timestamp": "0x6aeab07e",
+      "sizeOfImage": "0xda3000",
+      "sections": [
+        [
+          ".text",
+          704323,
+          4096
+        ],
+        [
+          ".rdata",
+          511084,
+          708608
+        ],
+        [
+          ".data",
+          12995320,
+          1220608
+        ],
+        [
+          ".pdata",
+          32208,
+          14217216
+        ],
+        [
+          "FLASH",
+          17424,
+          14249984
+        ],
+        [
+          ".xbld",
+          452,
+          14270464
+        ],
+        [
+          ".rsrc",
+          968,
+          14274560
+        ],
+        [
+          ".reloc",
+          18820,
+          14278656
+        ]
+      ],
+      "getCommandLineA": [
+        {
+          "dll": "KERNEL32.dll",
+          "iatRva": "0xad338"
+        }
+      ],
+      "setter": [
+        {
+          "exact": null,
+          "candidates": [
+            {
+              "rva": "0x5298c",
+              "bytes": "488b1505790d00488bca480fbae909480fbaf20984c0480f45d1488915eb780d00"
+            }
+          ],
+          "oldLocation": "304188096685d275dbe9e3000000660f1f4400000fb6c849ffc980e10180c13066"
+        }
+      ]
+    },
+    "unknownHostsStillFallBack": true,
+    "originalEmuExecutableModified": false
+  },
+  "automated": {
+    "unitTests": 46,
+    "syntheticTransactionAssertions": 194,
+    "syntheticOperations": 69,
+    "syntheticProfiles": 12,
+    "deltaReconstruction": "All generated forward/reverse Native and GPU deltas reconstructed and hash checked"
+  },
+  "live": {
+    "installedProfile": "k1-w1-d1-dub",
+    "switchToEnglishProfile": "k1-w1-d0-original",
+    "observed": [
+      "Korean opening cutscene and built-in movie captions",
+      "Added Korean radio captions matching Korean voices",
+      "English audio restored after switching presets, with added Korean radio captions",
+      "HUD health/radar/crosshair/target indicators and tutorial messages",
+      "Left-stick steering and right-trigger firing at 1080p and 4K",
+      "Pause and mission restart"
+    ],
+    "render1080": {
+      "signature": "CSRG",
+      "calls": 10280,
+      "lastPresetId": 9,
+      "status": 17,
+      "source": [
+        1920,
+        1440
+      ],
+      "destination": [
+        1280,
+        720
+      ],
+      "selected": [
+        1920,
+        1080
+      ],
+      "cropUv": [
+        0.9999999403953552,
+        0.7500000596046448,
+        2.3283064365386963e-10,
+        0.1250000149011612
+      ],
+      "logical": [
+        636,
+        478
+      ],
+      "cachedIdPlusOne": 10,
+      "aa": {
+        "calls": 1,
+        "lastId": 9,
+        "status": 2,
+        "original": 1,
+        "final": 1,
+        "originalN": 3
+      },
+      "budget": {
+        "calls": 1,
+        "status": 32,
+        "cachedIdPlusOne": 10,
+        "pool": 10,
+        "N": 0,
+        "AA": 0,
+        "before": 402653184,
+        "after": 402653184
+      },
+      "configScaling": [
+        3,
+        3
+      ]
+    },
+    "render4K": {
+      "signature": "CSRG",
+      "calls": 3552,
+      "lastPresetId": 11,
+      "status": 17,
+      "source": [
+        3840,
+        2880
+      ],
+      "destination": [
+        1280,
+        720
+      ],
+      "selected": [
+        3840,
+        2160
+      ],
+      "cropUv": [
+        0.9999999403953552,
+        0.7500000596046448,
+        2.3283064365386963e-10,
+        0.1250000149011612
+      ],
+      "logical": [
+        636,
+        478
+      ],
+      "cachedIdPlusOne": 12,
+      "aa": {
+        "calls": 1,
+        "lastId": 11,
+        "status": 2,
+        "original": 1,
+        "final": 1,
+        "originalN": 6
+      },
+      "budget": {
+        "calls": 1,
+        "status": 2,
+        "cachedIdPlusOne": 0,
+        "pool": 10,
+        "N": 0,
+        "AA": 0,
+        "before": 805306368,
+        "after": 805306368
+      },
+      "configScaling": [
+        6,
+        6
+      ]
+    },
+    "native1080": {
+      "stateRva": "0x2861000",
+      "cachedIdPlusOne": 10,
+      "slots": [
+        {
+          "slot": 0,
+          "thread": 31216,
+          "mode": 0,
+          "scopeDepth": 0,
+          "scopeOverflow": 0,
+          "quadDepth": 0,
+          "quadOverflow": 0
+        }
+      ]
+    },
+    "native4K": {
+      "stateRva": "0x2861000",
+      "cachedIdPlusOne": 12,
+      "slots": [
+        {
+          "slot": 0,
+          "thread": 31100,
+          "mode": 0,
+          "scopeDepth": 0,
+          "scopeOverflow": 0,
+          "quadDepth": 0,
+          "quadOverflow": 0
+        }
+      ]
+    },
+    "diagnosticInterpretation": "Status 17 = native-density crop applied (1) plus selected/output-size mismatch (16), expected with selected 1080p/4K rendered to a 1280x720 remote destination. This does not prove physical 4K output or frame rate.",
+    "audio": {
+      "method": "Local WASAPI speaker loopback and offline ASR; no microphone or external upload",
+      "korean1080": {
+        "language": "ko",
+        "probability": 0.9875432252883911,
+        "cutsceneAndRadioSpeechDetected": true
+      },
+      "korean4K": {
+        "language": "ko",
+        "probability": 0.9768400192260742,
+        "radioSpeechDetected": true
+      },
+      "englishAfterSwitch": {
+        "language": "en",
+        "probability": 0.9887270927429199,
+        "cutsceneAndRadioSpeechDetected": true
+      },
+      "limitation": "Sampled language/content verification, not a final human listening review. 4K loopback reported capture discontinuities; no audio continuity benchmark is claimed."
+    },
+    "restoreExit": 0,
+    "restoredOriginalAndGuardHashMismatches": 0,
+    "savesUnchangedByInstall": true,
+    "savesUnchangedByRestoreRelativeToAfterPlay": true,
+    "savedFilesPreserved": 17,
+    "ownedSettingsRestored": true,
+    "cache": "Installer successfully refreshed registered 2611 asset cache; its transaction verifies checkpoints and every unowned byte. Existing save profiles preserved."
+  },
+  "screenshots": [
+    {
+      "path": "docs/verification/2611-beta1/1080p-radio.png",
+      "sha256": "d4e395dddc0d5a05f30507391109a6d0b5af3ac9e6911315c15af42ecfcec17b",
+      "capture": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/verification/2611-beta1/4k-internal-radio.png",
+      "sha256": "916cc0117d001d736bcdeff1160032a930bebba1212f4e274b00162756e0126c",
+      "capture": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "docs/verification/2611-beta1/english-radio.png",
+      "sha256": "3dbc9ec02b7866dd9d9390c21bf016735d5ec5257e2baa5187621e7dcc53b91e",
+      "capture": [
+        1280,
+        720
+      ]
+    }
+  ],
+  "limitations": [
+    "First-mission tutorial flight only; mission completion and full campaign untested",
+    "Internal 4K render verified, remote display/capture 1280x720; physical 4K monitor and FPS benchmark untested",
+    "2x MSAA selected; all AA/GPU combinations untested",
+    "Voice-only and widescreen-only presets covered by synthetic graph and exact reconstruction, not separately replayed in this session",
+    "Every dubbed line and subjective voice quality have not received final human listening review",
+    "SAC was already Off; no signed build or SAC-enabled compatibility claim"
+  ]
+}

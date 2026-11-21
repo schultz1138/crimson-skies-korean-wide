@@ -12,7 +12,8 @@ namespace CrimsonSkiesUnified {
   public SetupForm(string initial){
    Text="Crimson Skies 통합 설치기 / Unified Setup — "+PatchEngine.ReleaseId.Substring("CrimsonSkies-Unified-".Length);Font=new Font("맑은 고딕",10);Width=1000;Height=790;MinimumSize=new Size(900,710);StartPosition=FormStartPosition.CenterScreen;AutoScaleMode=AutoScaleMode.Dpi;
    var layout=new TableLayoutPanel{Dock=DockStyle.Fill,ColumnCount=1,RowCount=7,Padding=new Padding(16)};layout.RowStyles.Add(new RowStyle(SizeType.Absolute,55));layout.RowStyles.Add(new RowStyle(SizeType.Absolute,36));layout.RowStyles.Add(new RowStyle(SizeType.Absolute,195));layout.RowStyles.Add(new RowStyle(SizeType.Absolute,95));layout.RowStyles.Add(new RowStyle(SizeType.Absolute,80));layout.RowStyles.Add(new RowStyle(SizeType.Percent,100));layout.RowStyles.Add(new RowStyle(SizeType.Absolute,45));
-   layout.Controls.Add(new Label{Dock=DockStyle.Fill,Text="원하는 음성·자막 구성을 선택하세요. 와이드스크린은 별도로 적용할 수 있습니다.\r\n지원 빌드 / Build: Windows x64 2608.3123.1.0 · 설치 전 게임과 플레이 창을 종료하세요."},0,0);
+   string build=new PatchEngine(AppDomain.CurrentDomain.BaseDirectory,null).SupportedBuild;
+   layout.Controls.Add(new Label{Dock=DockStyle.Fill,Text="원하는 음성·자막 구성을 선택하세요. 와이드스크린은 별도로 적용할 수 있습니다.\r\n지원 빌드 / Build: Windows x64 "+build+" · 설치 전 게임과 플레이 창을 종료하세요."},0,0);
    var path=new TableLayoutPanel{Dock=DockStyle.Fill,ColumnCount=2};path.ColumnStyles.Add(new ColumnStyle(SizeType.Percent,100));path.ColumnStyles.Add(new ColumnStyle(SizeType.AutoSize));path.Controls.Add(root,0,0);path.Controls.Add(browse,1,0);layout.Controls.Add(path,0,1);root.AccessibleName="게임 폴더 / Game folder";root.Text=initial??@"C:\XboxGames\Crimson Skies- High Road to Revenge\Content";
    var group=new GroupBox{Dock=DockStyle.Fill,Text="음성·자막 프리셋 / Voice and caption preset"};
    var options=new TableLayoutPanel{Dock=DockStyle.Fill,ColumnCount=1,RowCount=5,Padding=new Padding(10)};

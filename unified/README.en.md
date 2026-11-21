@@ -1,5 +1,7 @@
 # Beta 2 installation and restore guide
 
+> This guide is for **game build 2608.3123.1.0**. For **2611.323.502.0**, use the [0.14.1 Beta 1 guide](README.2611.en.md). Never restore a 2608 backup over an updated 2611 game.
+
 **[Download Beta 2](https://github.com/schultz1138/crimson-skies-korean-wide/releases/tag/v0.14.0-beta.2)** · [한국어](README.md)
 
 This guide covers **CrimsonSkiesSetup.exe** in `CrimsonSkies-Unified-0.14.0-beta.2.zip`.
