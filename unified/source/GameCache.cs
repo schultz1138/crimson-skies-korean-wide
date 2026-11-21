@@ -21,7 +21,7 @@ namespace CrimsonSkiesUnified {
 #if UNIFIED_TEST
     if(GameCacheFixturePath!=null){raw=GameCacheFixturePath;return;}
 #endif
-    if(!VoiceCacheTransaction.RegisteredTree(content)){owner.log("Copied/unregistered game tree: title asset cache left untouched.");return;}
+    if(!VoiceCacheTransaction.RegisteredTree(content,owner.SupportedBuild)){owner.log("Copied/unregistered game tree: title asset cache left untouched.");return;}
     raw=Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),@"Packages\Xbox360BackwardCompatibil.PrimaryCrimsonSkiesHighR_ksqcvrsvwz2jp\LocalCache\Local\VirtualDrive\Harddisk\Cache1\RawPartition");
    }
    static void Check(bool ok,string message){if(!ok)throw new InvalidDataException("Asset cache: "+message);}

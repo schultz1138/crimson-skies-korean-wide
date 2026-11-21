@@ -84,7 +84,8 @@ def main():
         call(root,'--apply',v['id']);state(root,v['id']);call(root,'--check')
     call(root,'--apply');state(root,'k1-w1-d1-dub');call(root,'--apply');state(root,'k1-w1-d1-dub')
     call(root,'--restore');state(root,'stock');need((root/'settings.ini').read_bytes()==initial,'Exact initial owned keys restored')
-    root=case('foundation','foundation');call(root,'--apply');call(root,'--apply','k0-w1-d0-off');state(root,'k0-w1-d0-off');call(root,'--restore');state(root,'foundation')
+    if any(v['id']=='foundation' for v in m['inputs']):
+        root=case('foundation','foundation');call(root,'--apply');call(root,'--apply','k0-w1-d0-off');state(root,'k0-w1-d0-off');call(root,'--restore');state(root,'foundation')
     for fault in ['prepared','file-0','cache','settings']:
         root=case('rollback-'+fault);call(root,'--apply',fault=fault,expected=1);state(root,'stock');need((root/'settings.ini').read_bytes()==initial,'Failure settings rollback');call(root,'--check')
     default=vector('k1-w1-d1-dub');stock=vector('stock');last=max(i for i in range(29) if default[i]!=stock[i])
@@ -97,7 +98,7 @@ def main():
     root=case('backup-corrupt');call(root,'--apply');q=next((root/'backups').rglob('original-00.bin'));before=q.read_bytes();q.write_bytes(before+b'bad');call(root,'--restore',expected=1);state(root,'k1-w1-d1-dub');q.write_bytes(before);call(root,'--restore');state(root,'stock')
     root=case('duplicate-settings');(root/'settings.ini').write_bytes(initial+b'GAME-LANGUAGE = English\r\n');call(root,'--apply',expected=1);state(root,'stock')
     root=case('unknown-guard');q=root/'Content/appxmanifest.xml';q.write_bytes(q.read_bytes()+b' ');call(root,'--apply',expected=1);state(root,'stock')
-    for ident in ['full-dub','dub-captions','k0-w1-d0-off']:
+    for ident in [*(v['id'] for v in m['knownExternal']),'k0-w1-d0-off']:
         root=case('unowned-'+ident,ident);call(root,'--apply',expected=1);state(root,ident);need(not (root/'backups').exists(),'Unowned patched state cannot acquire restore ownership')
     root=case('receipt-binding');call(root,'--apply');q=next((root/'backups').rglob('receipt.json'));before=q.read_bytes();v=json.loads(before);v['root']+='other';save(q,v);call(root,'--restore',expected=1);state(root,'k1-w1-d1-dub');q.write_bytes(before);call(root,'--restore');state(root,'stock')
     report=dict(schema=1,status='PASS_SYNTHETIC_TRANSACTION_GRAPH',assertions=checks,profiles=len(m['profiles']),operations=operations,gameDataIncluded=False,installedGameWrites=0,sourceFiles={x:sha(REPO/x) for x in ['unified/source/Engine.cs','unified/source/Settings.cs','unified/source/GameCache.cs','dubbing/audio/VoiceCache.cs']})
